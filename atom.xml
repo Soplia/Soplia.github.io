@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-23T18:46:38.917Z</updated>
+  <updated>2018-12-23T19:21:02.451Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,61 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MacBookPro-10.13.3-修改管理员名称后变为普通用户</title>
+    <link href="http://yoursite.com/2018/12/23/MacBookPro-10-13-3-%E4%BF%AE%E6%94%B9%E7%AE%A1%E7%90%86%E5%91%98%E5%90%8D%E7%A7%B0%E5%90%8E%E5%8F%98%E4%B8%BA%E6%99%AE%E9%80%9A%E7%94%A8%E6%88%B7/"/>
+    <id>http://yoursite.com/2018/12/23/MacBookPro-10-13-3-修改管理员名称后变为普通用户/</id>
+    <published>2018-12-23T19:19:22.000Z</published>
+    <updated>2018-12-23T19:21:02.451Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;已有方法&quot;&gt;&lt;a href=&quot;#已有方法&quot; class=&quot;headerlink&quot; title=&quot;已有方法&quot;&gt;&lt;/a&gt;已有方法&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="MacBook" scheme="http://yoursite.com/categories/MacBook/"/>
+    
+    
+      <category term="MacBook" scheme="http://yoursite.com/tags/MacBook/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MacbookPro-Terminal-GPG-看不到公钥用户ID</title>
+    <link href="http://yoursite.com/2018/12/23/MacbookPro-Terminal-GPG-%E7%9C%8B%E4%B8%8D%E5%88%B0%E5%85%AC%E9%92%A5%E7%94%A8%E6%88%B7ID/"/>
+    <id>http://yoursite.com/2018/12/23/MacbookPro-Terminal-GPG-看不到公钥用户ID/</id>
+    <published>2018-12-23T19:16:14.000Z</published>
+    <updated>2018-12-23T19:18:52.273Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot; title=&quot;问题描述&quot;&gt;&lt;/a&gt;问题描述&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;在MacBookPro10.13.6 Terminal安装GPG导入公钥后看不到用户ID&lt;/p&gt;
+&lt;h3
+        
+      
+    
+    </summary>
+    
+      <category term="GPG" scheme="http://yoursite.com/categories/GPG/"/>
+    
+    
+      <category term="Macbook-GPG" scheme="http://yoursite.com/tags/Macbook-GPG/"/>
+    
+  </entry>
   
   <entry>
     <title>HEXO免密提交.md</title>
