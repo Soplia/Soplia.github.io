@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-29T11:52:25.893Z</updated>
+  <updated>2018-12-29T11:55:15.629Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2018/12/29/MOOC_%E5%A9%9A%E5%A7%BB%E7%88%B1%E6%83%85/"/>
+    <id>http://yoursite.com/2018/12/29/MOOC_婚姻爱情/</id>
+    <published>2018-12-29T11:55:15.503Z</published>
+    <updated>2018-12-29T11:55:15.629Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;ol&gt;
+&lt;li&gt;诚不我欺  或 
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>COURSE_多传感器融合技术</title>
@@ -40,9 +63,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="多传感器融合技术" scheme="http://yoursite.com/tags/%E5%A4%9A%E4%BC%A0%E6%84%9F%E5%99%A8%E8%9E%8D%E5%90%88%E6%8A%80%E6%9C%AF/"/>
-    
       <category term="COURSE" scheme="http://yoursite.com/tags/COURSE/"/>
+    
+      <category term="多传感器融合技术" scheme="http://yoursite.com/tags/%E5%A4%9A%E4%BC%A0%E6%84%9F%E5%99%A8%E8%9E%8D%E5%90%88%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
@@ -171,9 +194,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="COURSE" scheme="http://yoursite.com/tags/COURSE/"/>
-    
       <category term="AdvanceDB" scheme="http://yoursite.com/tags/AdvanceDB/"/>
+    
+      <category term="COURSE" scheme="http://yoursite.com/tags/COURSE/"/>
     
   </entry>
   
@@ -616,37 +639,6 @@
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
       <category term="NS2" scheme="http://yoursite.com/tags/NS2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CODE_GITHUB</title>
-    <link href="http://yoursite.com/2018/12/29/CODE-GITHUB/"/>
-    <id>http://yoursite.com/2018/12/29/CODE-GITHUB/</id>
-    <published>2018-12-29T11:24:29.000Z</published>
-    <updated>2018-12-29T11:24:59.916Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;GitHub简介。&quot;&gt;&lt;a href=&quot;#GitHub简介。&quot; class=&quot;headerlink&quot; title=&quot;GitHub简介。&quot;&gt;&lt;/a&gt;GitHub简介。&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;Git是由Linux之父 Linus
-        
-      
-    
-    </summary>
-    
-      <category term="学习札记-CODE" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0-CODE/"/>
-    
-    
-      <category term="CODE" scheme="http://yoursite.com/tags/CODE/"/>
-    
-      <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
-    
-      <category term="GITHUB" scheme="http://yoursite.com/tags/GITHUB/"/>
     
   </entry>
   

@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title></title>
+    <url>%2F2018%2F12%2F29%2FMOOC_%E5%A9%9A%E5%A7%BB%E7%88%B1%E6%83%85%2F</url>
+    <content type="text"><![CDATA[诚不我欺 或 古人诚不我欺。意思是：古人的话确实并没有欺骗我呀，也就是古人说的对极了。 蒸不烂、煮不熟、锤不扁、炒不爆的铜豌豆。 我不是完美小孩。 生年不满百，常怀千岁忧。 其身正不令而行，其身不正虽令不从。 不完美 等价于 我叫不高兴。 水至清则无鱼。 欣赏高标准，赞美严要求。高标准美，严要求赞。 从不说不的交情，才是最好的交情。 忍无可忍，从头再忍。 挖个坑 练 皇帝长着兔耳朵。]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[COURSE_多传感器融合技术]]></title>
     <url>%2F2018%2F12%2F29%2FCOURSE-%E5%A4%9A%E4%BC%A0%E6%84%9F%E5%99%A8%E8%9E%8D%E5%90%88%E6%8A%80%E6%9C%AF%2F</url>
     <content type="text"><![CDATA[2月28号提纲 常用融合方法 加权平均 卡尔曼滤波器 贝叶斯 证据理论 具有置信因子的产生式规则 模糊逻辑 小波分析 发展期望 人工智能——神经网络——模糊理论]]></content>
@@ -9,8 +14,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>多传感器融合技术</tag>
         <tag>COURSE</tag>
+        <tag>多传感器融合技术</tag>
       </tags>
   </entry>
   <entry>
@@ -61,8 +66,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>COURSE</tag>
         <tag>AdvanceDB</tag>
+        <tag>COURSE</tag>
       </tags>
   </entry>
   <entry>
