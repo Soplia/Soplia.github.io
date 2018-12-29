@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-23T19:21:02.451Z</updated>
+  <updated>2018-12-29T10:35:04.826Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>CODE_C1</title>
+    <link href="http://yoursite.com/2018/12/29/CODE-C1/"/>
+    <id>http://yoursite.com/2018/12/29/CODE-C1/</id>
+    <published>2018-12-29T10:26:41.000Z</published>
+    <updated>2018-12-29T10:35:04.826Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;要写纯粹的，脱离低级趣味的-函数！&quot;&gt;&lt;a href=&quot;#要写纯粹的，脱离低级趣味的-函数！&quot; class=&quot;headerlink&quot; title=&quot;要写纯粹的，脱离低级趣味的 函数！&quot;&gt;&lt;/a&gt;要写纯粹的，脱离低级趣味的 函数！&lt;/h3&gt;&lt;h3
+        
+      
+    
+    </summary>
+    
+      <category term="学习札记-CODE" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0-CODE/"/>
+    
+    
+      <category term="C" scheme="http://yoursite.com/tags/C/"/>
+    
+      <category term="学习笔记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>MacBookPro-10.13.3-修改管理员名称后变为普通用户</title>
     <link href="http://yoursite.com/2018/12/23/MacBookPro-10-13-3-%E4%BF%AE%E6%94%B9%E7%AE%A1%E7%90%86%E5%91%98%E5%90%8D%E7%A7%B0%E5%90%8E%E5%8F%98%E4%B8%BA%E6%99%AE%E9%80%9A%E7%94%A8%E6%88%B7/"/>
     <id>http://yoursite.com/2018/12/23/MacBookPro-10-13-3-修改管理员名称后变为普通用户/</id>
     <published>2018-12-23T19:19:22.000Z</published>
-    <updated>2018-12-23T19:21:02.451Z</updated>
+    <updated>2018-12-29T10:28:37.678Z</updated>
     
     <summary type="html">
     
@@ -39,7 +67,7 @@
       <category term="MacBook" scheme="http://yoursite.com/categories/MacBook/"/>
     
     
-      <category term="MacBook" scheme="http://yoursite.com/tags/MacBook/"/>
+      <category term="MacBook-丢失管理账户" scheme="http://yoursite.com/tags/MacBook-%E4%B8%A2%E5%A4%B1%E7%AE%A1%E7%90%86%E8%B4%A6%E6%88%B7/"/>
     
   </entry>
   
@@ -48,7 +76,7 @@
     <link href="http://yoursite.com/2018/12/23/MacbookPro-Terminal-GPG-%E7%9C%8B%E4%B8%8D%E5%88%B0%E5%85%AC%E9%92%A5%E7%94%A8%E6%88%B7ID/"/>
     <id>http://yoursite.com/2018/12/23/MacbookPro-Terminal-GPG-看不到公钥用户ID/</id>
     <published>2018-12-23T19:16:14.000Z</published>
-    <updated>2018-12-23T19:18:52.273Z</updated>
+    <updated>2018-12-29T10:29:31.212Z</updated>
     
     <summary type="html">
     
@@ -67,7 +95,7 @@
       <category term="GPG" scheme="http://yoursite.com/categories/GPG/"/>
     
     
-      <category term="Macbook-GPG" scheme="http://yoursite.com/tags/Macbook-GPG/"/>
+      <category term="GPG-用户ID" scheme="http://yoursite.com/tags/GPG-%E7%94%A8%E6%88%B7ID/"/>
     
   </entry>
   
@@ -76,7 +104,7 @@
     <link href="http://yoursite.com/2018/12/23/HEXO%E5%85%8D%E5%AF%86%E6%8F%90%E4%BA%A4/"/>
     <id>http://yoursite.com/2018/12/23/HEXO免密提交/</id>
     <published>2018-12-23T18:03:35.000Z</published>
-    <updated>2018-12-23T18:46:38.917Z</updated>
+    <updated>2018-12-29T10:29:53.208Z</updated>
     
     <summary type="html">
     
@@ -93,10 +121,10 @@
     
     </summary>
     
-      <category term="HEXO使用" scheme="http://yoursite.com/categories/HEXO%E4%BD%BF%E7%94%A8/"/>
+      <category term="HEXO" scheme="http://yoursite.com/categories/HEXO/"/>
     
     
-      <category term="HEXO" scheme="http://yoursite.com/tags/HEXO/"/>
+      <category term="HEXO-免密提交" scheme="http://yoursite.com/tags/HEXO-%E5%85%8D%E5%AF%86%E6%8F%90%E4%BA%A4/"/>
     
   </entry>
   
