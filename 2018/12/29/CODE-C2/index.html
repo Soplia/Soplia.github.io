@@ -1,0 +1,1430 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=6.6.0" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/jerome.png?v=6.6.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/jerome.png?v=6.6.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/jerome.png?v=6.6.0">
+
+
+
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '6.6.0',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+
+  <meta name="description" content="函数内联 函数内联，其目的是为了提高函数的执行效率。 关键字Inline必须与函数体放在一起才能够使函数成为内联，仅将inline放在函数声明前面不起任何作用。 //错误  inline void Foo(int a,int b); //正确  void Foo(int a,int b); inline void Foo(int a,int b) {  } //内联，不提倡  class A {">
+<meta name="keywords" content="CODE,学习札记,C">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CODE_C2">
+<meta property="og:url" content="http://yoursite.com/2018/12/29/CODE-C2/index.html">
+<meta property="og:site_name" content="JrXIE BLOG">
+<meta property="og:description" content="函数内联 函数内联，其目的是为了提高函数的执行效率。 关键字Inline必须与函数体放在一起才能够使函数成为内联，仅将inline放在函数声明前面不起任何作用。 //错误  inline void Foo(int a,int b); //正确  void Foo(int a,int b); inline void Foo(int a,int b) {  } //内联，不提倡  class A {">
+<meta property="og:locale" content="default">
+<meta property="og:image" content="g:/normal.jpg">
+<meta property="og:image" content="g:/unnormal.png">
+<meta property="og:updated_time" content="2018-12-29T11:19:54.812Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="CODE_C2">
+<meta name="twitter:description" content="函数内联 函数内联，其目的是为了提高函数的执行效率。 关键字Inline必须与函数体放在一起才能够使函数成为内联，仅将inline放在函数声明前面不起任何作用。 //错误  inline void Foo(int a,int b); //正确  void Foo(int a,int b); inline void Foo(int a,int b) {  } //内联，不提倡  class A {">
+<meta name="twitter:image" content="g:/normal.jpg">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="JrXIE BLOG" type="application/atom+xml">
+
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2018/12/29/CODE-C2/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>CODE_C2 | JrXIE BLOG</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion .logo-line-before i { left: initial; }
+    .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope="" itemtype="http://schema.org/WebPage" lang="default">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">JrXIE BLOG</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="Toggle navigation bar">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Home</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>Tags</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>Categories</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archives</a>
+
+  </li>
+
+      
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>Search</a>
+        </li>
+      
+    </ul>
+  
+
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="Searching..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/29/CODE-C2/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="JrXIE">
+      <meta itemprop="description" content="IN A MOMENT PASSES SORROW">
+      <meta itemprop="image" content="/images/modi.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="JrXIE BLOG">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">CODE_C2
+
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2018-12-29 11:46:19 / Modified: 12:19:54" itemprop="dateCreated datePublished" datetime="2018-12-29T11:46:19+01:00">2018-12-29</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/学习札记-CODE/" itemprop="url" rel="index"><span itemprop="name">学习札记-CODE</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h3 id="函数内联"><a href="#函数内联" class="headerlink" title="函数内联"></a>函数内联</h3><ol>
+<li>函数内联，其目的是为了提高函数的执行效率。</li>
+<li>关键字Inline必须与函数体放在一起才能够使函数成为内联，仅将inline放在函数声明前面不起任何作用。</li>
+<li><pre><code>//错误 
+inline void Foo(int a,int b);
+//正确 
+void Foo(int a,int b);
+inline void Foo(int a,int b)
+{
+
+}
+//内联，不提倡 
+class A
+{
+ public :
+     void Foo(int a)
+     {
+     }
+};
+//内联，提倡 
+class A
+{
+ public :
+     void Foo(int a);
+}
+inline void A::Foo(int a)
+{
+}
+</code></pre></li>
+<li>慎用内联，内联是以代码膨胀为代价的，仅仅省去了函数调用的开销</li>
+<li>内联的工作方式。对于任何内联函数，编译器在符号表中放入函数的名称、返回值、参数等。如果内联函数没有错误，整个函数体也会被放到符号表中。在进行内联函数的调用时，编译器首先会检查调用是否安全，如果安全的话，内联函数的代码就会直接替换为函数调用，从而省去了函数调用的开销。</li>
+<li><p>不宜使用内联的情况</p>
+<ul>
+<li>函数体内的代码过长。</li>
+<li><p>函数体内出现循环</p>
+<h3 id="编程是多费了一些心思，少了一些痛快，这才是编程的艺术。"><a href="#编程是多费了一些心思，少了一些痛快，这才是编程的艺术。" class="headerlink" title="编程是多费了一些心思，少了一些痛快，这才是编程的艺术。"></a>编程是多费了一些心思，少了一些痛快，这才是编程的艺术。</h3><h3 id="构造、析构、拷贝、赋值"><a href="#构造、析构、拷贝、赋值" class="headerlink" title="构造、析构、拷贝、赋值"></a>构造、析构、拷贝、赋值</h3><pre><code>#include &lt;iostream&gt;
+</code></pre><p>  #include <cstring><br>  using namespace std;</cstring></p>
+<p>  class String<br>  {<br>   public:</p>
+<pre><code>String(char *str=NULL);
+String(const String &amp;other);
+String&amp; operator =(const String &amp;other);
+~String(void);
+</code></pre><p>   private:</p>
+<pre><code>char *m_Data;
+</code></pre><p>  };</p>
+<p>  String::String(char *str)<br>  {</p>
+<pre><code>if(str==NULL)
+{
+    m_Data=new char[1] ;
+    *m_Data=&apos;\0&apos;;
+} 
+else
+{
+    m_Data=new char[strlen(str)+1];
+    strcpy(m_Data,str);
+}
+</code></pre><p>  }<br>  String::String(const String &amp;other)<br>  {    </p>
+<pre><code>m_Data=new char[strlen(other.m_Data)+1];
+strcpy(m_Data,other.m_Data);
+</code></pre><p>  }</p>
+<p>  String&amp; String::operator =(const String &amp;other)<br>  {</p>
+<pre><code>if(this==&amp;other)
+    return *this;
+delete [] m_Data;
+m_Data=new char[strlen(other.m_Data)+1];
+strcpy(m_Data,other.m_Data);
+return *this;
+</code></pre><p>  }<br>  String::~String()<br>  {</p>
+<pre><code>delete [] m_Data;
+</code></pre><p>  }</p>
+<p>  int main()<br>  {</p>
+<pre><code>return 0;
+</code></pre><p>  }</p>
+<h3 id="对于任意一个类，C-编译器会自动为类产生四个缺省的函数：构造函数、析构函数、拷贝函数、赋值函数。"><a href="#对于任意一个类，C-编译器会自动为类产生四个缺省的函数：构造函数、析构函数、拷贝函数、赋值函数。" class="headerlink" title="对于任意一个类，C++编译器会自动为类产生四个缺省的函数：构造函数、析构函数、拷贝函数、赋值函数。"></a>对于任意一个类，C++编译器会自动为类产生四个缺省的函数：构造函数、析构函数、拷贝函数、赋值函数。</h3><h3 id="一只公鸡使劲地追赶一只刚刚下蛋的母鸡，因为母鸡下了鸭蛋。"><a href="#一只公鸡使劲地追赶一只刚刚下蛋的母鸡，因为母鸡下了鸭蛋。" class="headerlink" title="一只公鸡使劲地追赶一只刚刚下蛋的母鸡，因为母鸡下了鸭蛋。"></a>一只公鸡使劲地追赶一只刚刚下蛋的母鸡，因为母鸡下了鸭蛋。</h3><h3 id="h-gch文件"><a href="#h-gch文件" class="headerlink" title=".h .gch文件"></a>.h .gch文件</h3></li>
+</ul>
+</li>
+<li>概念<br>gch即预编译头，将头文件预编译为二进制代码后后续编译使用。当多个源文件包含一个头文件，正常流程是将其在每个源文件中解析一遍，造成重复浪费。使用gch，将头文件作预编译头形成中间处理的二进制代码，然后再包含进源文件中。</li>
+<li>适用<br>gch适用于被多个源文件包含的头文件，且头文件不会经常做修改。</li>
+<li>注意<br>gch提高了编译速度，但需要注意在默认情况下gch不会因为头文件的更新而更新，从而在编译过程中形成一个不容易发现的坑。需要将头文件和gch设置为依赖关系。<h3 id="C工程"><a href="#C工程" class="headerlink" title="C工程"></a>C工程</h3></li>
+<li>.h文件叫做头文件，不能够被编译。”#include”叫做编译预处理指令，可以简单理解成，在1.cpp中的”#include 1.h”指令把1.h中的代码在编译前添加在了1.cpp的头部。</li>
+<li>每个.cpp文件都会被编译，生成一个.obj文件，然后所有的.obj文件链接所有的.obj文件链接起来，可执行文件就生成了。</li>
+<li>c语言和c++都是这样的，声明和定义要分开。要想使用的话需要使用extern<h3 id="pragma-once-与-ifndef"><a href="#pragma-once-与-ifndef" class="headerlink" title="pragma once 与 ifndef"></a>pragma once 与 ifndef</h3></li>
+<li>pragma once 是新兴的防止头文件被重复包含的语句。两者区别见<a href="https://blog.csdn.net/slimfox/article/details/1565950" target="_blank" rel="noopener">pragma once 与 ifndef的区别</a></li>
+<li>if 与 else 匹配问题<br><img src="G:/normal.jpg" alt="" title="normal">与<img src="G:/unnormal.png" alt="" title="normal">是完全不同的两个运行结果。原因是作用域的问题。</li>
+<li><p>为什么使用using namespace std;</p>
+<pre><code>#include &lt;iostream.h&gt;非标准输入输出流
+#include &lt;iostream&gt;标准输入输出流
+
+C++中为了避免名字定义冲突，特别引入了“名字空间的定义”，即namespace。
+当代码中用&lt;iostream.h&gt;时，输出可直接引用cout&lt;&lt;x;//&lt;iostream.h&gt;继承C语言的标准库文件，未引入名字空间定义，所以可直接使用。
+当代码中引入&lt;iostream&gt;时，输出需要引用std::cout&lt;&lt;x;如果还是按原来的方法就会有错。
+使用&lt;iostream&gt;时，引入std::有以下方法：
+
+1.
+using namespace std;
+cout&lt;&lt;x;
+2.
+using std::cout;
+cout&lt;&lt;x;
+3.
+最基本的std::cout&lt;&lt;x;
+
+这回你该知道为什么通常用#include &lt;iostream&gt;时，
+要用using namespace std;了吧。如果你不用这个，就要在使用cout时，用后两种方法了。
+其他头文件也是同样的道理。
+（有“.h”的就是非标准的，C的标准库函数，无“.h”的，就要用到命令空间，是C++的。还有一部分不完全是有“.h”和没“.h”的差别。例如：math.h和cmath）
+</code></pre></li>
+<li><p>为什么在c++程序里可以直接用printf 和scanf</p>
+<ul>
+<li>iostream是没有包含C语言中的输入输出函数的，这个头文件是C++中输入输出流的，你那种情况一般是编译环境默认连接了stdio.h造成的。那是不是要用c的输入输出加上&lt;stdio.h&gt;比较安全？是不是所有编译器都支持这种连接呢？应该是的，头文件的默认添加可以在编译环境中设置。不过原则上是应该加上相应的头文件的，一般还加上头文件比较好。</li>
+</ul>
+</li>
+</ol>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div></div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>Donate</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechat.png" alt="JrXIE WeChat Pay">
+        <p>WeChat Pay</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay.jpg" alt="JrXIE Alipay">
+        <p>Alipay</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/CODE/" rel="tag"># CODE</a>
+          
+            <a href="/tags/学习札记/" rel="tag"># 学习札记</a>
+          
+            <a href="/tags/C/" rel="tag"># C</a>
+          
+        </div>
+      
+
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/12/29/CODE-C1/" rel="next" title="CODE_C1">
+                <i class="fa fa-chevron-left"></i> CODE_C1
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/12/29/CODE-JAVA/" rel="prev" title="CODE_JAVA">
+                CODE_JAVA <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+
+	<div>    
+ 
+ 
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+      <strong>Author: </strong>JrXIE
+  </li>
+  <li class="post-copyright-link">
+    <strong>Link: </strong>
+    <a href="/2018/12/29/CODE-C2/" title="CODE_C2">2018/12/29/CODE-C2/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Copyright: </strong>
+    Adopt <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0 CN</a> license agreement, please do not use it for commercial purposes, please indicate the source!
+  </li>
+</ul>
+
+</div>
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+  </div>
+
+
+          </div>
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/images/modi.png" alt="JrXIE">
+            
+              <p class="site-author-name" itemprop="name">JrXIE</p>
+              <p class="site-description motion-element" itemprop="description">IN A MOMENT PASSES SORROW</p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">22</span>
+                    <span class="site-state-item-name">posts</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  <a href="/categories/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">4</span>
+                    <span class="site-state-item-name">categories</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/tags/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">23</span>
+                    <span class="site-state-item-name">tags</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://github.com/Soplia" title="GitHub &rarr; https://github.com/Soplia" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="mailto:jrxhit@qq.com" title="E-Mail &rarr; mailto:jrxhit@qq.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                </span>
+              
+            </div>
+          
+
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </div>
+
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#函数内联"><span class="nav-text">函数内联</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#编程是多费了一些心思，少了一些痛快，这才是编程的艺术。"><span class="nav-text">编程是多费了一些心思，少了一些痛快，这才是编程的艺术。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#构造、析构、拷贝、赋值"><span class="nav-text">构造、析构、拷贝、赋值</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#对于任意一个类，C-编译器会自动为类产生四个缺省的函数：构造函数、析构函数、拷贝函数、赋值函数。"><span class="nav-text">对于任意一个类，C++编译器会自动为类产生四个缺省的函数：构造函数、析构函数、拷贝函数、赋值函数。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#一只公鸡使劲地追赶一只刚刚下蛋的母鸡，因为母鸡下了鸭蛋。"><span class="nav-text">一只公鸡使劲地追赶一只刚刚下蛋的母鸡，因为母鸡下了鸭蛋。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#h-gch文件"><span class="nav-text">.h .gch文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#C工程"><span class="nav-text">C工程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#pragma-once-与-ifndef"><span class="nav-text">pragma once 与 ifndef</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">JrXIE</span>
+
+  
+
+  
+</div>
+
+
+<div class="powered-by">Powered by <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.8.0</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> v6.6.0
+</div>
+<span class="post-meta-divider">|</span>
+
+
+ <span id="busuanzi_container_site_uv">
+    VisitorNumber <span id="busuanzi_value_site_uv"></span>
+ </span>
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+    
+
+    
+  </div>
+
+  
+
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+
+  
+
+
+  <script src="/js/src/utils.js?v=6.6.0"></script>
+
+  <script src="/js/src/motion.js?v=6.6.0"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/src/affix.js?v=6.6.0"></script>
+
+  <script src="/js/src/schemes/pisces.js?v=6.6.0"></script>
+
+
+
+  
+  <script src="/js/src/scrollspy.js?v=6.6.0"></script>
+<script src="/js/src/post-details.js?v=6.6.0"></script>
+
+
+
+  
+
+
+  <script src="/js/src/bootstrap.js?v=6.6.0"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script>
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
