@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-29T11:35:10.449Z</updated>
+  <updated>2018-12-29T11:52:25.893Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,229 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>COURSE_多传感器融合技术</title>
+    <link href="http://yoursite.com/2018/12/29/COURSE-%E5%A4%9A%E4%BC%A0%E6%84%9F%E5%99%A8%E8%9E%8D%E5%90%88%E6%8A%80%E6%9C%AF/"/>
+    <id>http://yoursite.com/2018/12/29/COURSE-多传感器融合技术/</id>
+    <published>2018-12-29T11:52:00.000Z</published>
+    <updated>2018-12-29T11:52:25.893Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;2月28号&quot;&gt;&lt;a href=&quot;#2月28号&quot; class=&quot;headerlink&quot; title=&quot;2月28号&quot;&gt;&lt;/a&gt;2月28号&lt;/h3&gt;&lt;h4 id=&quot;提纲&quot;&gt;&lt;a href=&quot;#提纲&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="学习札记-COURSE" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0-COURSE/"/>
+    
+    
+      <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
+    
+      <category term="多传感器融合技术" scheme="http://yoursite.com/tags/%E5%A4%9A%E4%BC%A0%E6%84%9F%E5%99%A8%E8%9E%8D%E5%90%88%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="COURSE" scheme="http://yoursite.com/tags/COURSE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>COURSE_算法设计与分析</title>
+    <link href="http://yoursite.com/2018/12/29/COURSE-%E7%AE%97%E6%B3%95%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%88%86%E6%9E%90/"/>
+    <id>http://yoursite.com/2018/12/29/COURSE-算法设计与分析/</id>
+    <published>2018-12-29T11:51:11.000Z</published>
+    <updated>2018-12-29T11:51:34.588Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;ol&gt;
+&lt;li&gt;老师办公地点：综合楼815。老师电子邮件：&lt;a href=&quot;mailto:csy@hit.edu.cn&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;csy@hit.edu.cn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;助教地址：综合楼815
+        
+      
+    
+    </summary>
+    
+      <category term="学习札记-COURSE" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0-COURSE/"/>
+    
+    
+      <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
+    
+      <category term="COURSE" scheme="http://yoursite.com/tags/COURSE/"/>
+    
+      <category term="算法设计与分析" scheme="http://yoursite.com/tags/%E7%AE%97%E6%B3%95%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%88%86%E6%9E%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>COURSE_计算机系统性能评测</title>
+    <link href="http://yoursite.com/2018/12/29/COURSE-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E6%80%A7%E8%83%BD%E8%AF%84%E6%B5%8B/"/>
+    <id>http://yoursite.com/2018/12/29/COURSE-计算机系统性能评测/</id>
+    <published>2018-12-29T11:49:50.000Z</published>
+    <updated>2018-12-29T11:50:16.033Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;ol&gt;
+&lt;li&gt;联系方式&lt;ul&gt;
+&lt;li&gt;综合楼506&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;mailto:zuodc@hit.edu.cn&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="学习札记-COURSE" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0-COURSE/"/>
+    
+    
+      <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
+    
+      <category term="COURSE" scheme="http://yoursite.com/tags/COURSE/"/>
+    
+      <category term="计算机系统性能评测" scheme="http://yoursite.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E6%80%A7%E8%83%BD%E8%AF%84%E6%B5%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>COURSE_大数据管理与分析</title>
+    <link href="http://yoursite.com/2018/12/29/COURSE-%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%AE%A1%E7%90%86%E4%B8%8E%E5%88%86%E6%9E%90/"/>
+    <id>http://yoursite.com/2018/12/29/COURSE-大数据管理与分析/</id>
+    <published>2018-12-29T11:49:01.000Z</published>
+    <updated>2018-12-29T11:49:25.420Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;Mesos-Zeppelin-Spark-构建可视化-spark-SQL-查询平台&quot;&gt;&lt;a href=&quot;#Mesos-Zeppelin-Spark-构建可视化-spark-SQL-查询平台&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="学习札记-COURSE" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0-COURSE/"/>
+    
+    
+      <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
+    
+      <category term="COURSE" scheme="http://yoursite.com/tags/COURSE/"/>
+    
+      <category term="大数据管理与分析" scheme="http://yoursite.com/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%AE%A1%E7%90%86%E4%B8%8E%E5%88%86%E6%9E%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>COUESE_AdvanceDB</title>
+    <link href="http://yoursite.com/2018/12/29/COUESE-AdvanceDB/"/>
+    <id>http://yoursite.com/2018/12/29/COUESE-AdvanceDB/</id>
+    <published>2018-12-29T11:47:46.000Z</published>
+    <updated>2018-12-29T11:48:16.427Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;ol&gt;
+&lt;li&gt;元组之间可以相互链接。&lt;/li&gt;
+&lt;li&gt;多级索引。&lt;/li&gt;
+&lt;li&gt;bucket。（其实也就是个多级索引）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&quot;考试后发现的问题&quot;&gt;&lt;a href=&quot;#考试后发现的问题&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="学习札记-COURSE" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0-COURSE/"/>
+    
+    
+      <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
+    
+      <category term="COURSE" scheme="http://yoursite.com/tags/COURSE/"/>
+    
+      <category term="AdvanceDB" scheme="http://yoursite.com/tags/AdvanceDB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>COURSE_并行处理与体系结构</title>
+    <link href="http://yoursite.com/2018/12/29/COURSE-%E5%B9%B6%E8%A1%8C%E5%A4%84%E7%90%86%E4%B8%8E%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/"/>
+    <id>http://yoursite.com/2018/12/29/COURSE-并行处理与体系结构/</id>
+    <published>2018-12-29T11:46:50.000Z</published>
+    <updated>2018-12-29T11:47:23.100Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;2月28日&quot;&gt;&lt;a href=&quot;#2月28日&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="学习札记-COURSE" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0-COURSE/"/>
+    
+    
+      <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
+    
+      <category term="COURSE" scheme="http://yoursite.com/tags/COURSE/"/>
+    
+      <category term="并行处理与体系结构" scheme="http://yoursite.com/tags/%E5%B9%B6%E8%A1%8C%E5%A4%84%E7%90%86%E4%B8%8E%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>COURSE_嵌入式编程</title>
+    <link href="http://yoursite.com/2018/12/29/COURSE-%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%BC%96%E7%A8%8B/"/>
+    <id>http://yoursite.com/2018/12/29/COURSE-嵌入式编程/</id>
+    <published>2018-12-29T11:45:33.000Z</published>
+    <updated>2018-12-29T11:46:31.852Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;ol&gt;
+&lt;li&gt;读论文，制作PPT&lt;ul&gt;
+&lt;li&gt;论文题目：Michael Wolf and Monica Lam,”A data locality optimizing algorightm” in Proceedings,SIGPLAN ‘91 Conference
+        
+      
+    
+    </summary>
+    
+      <category term="学习札记-COURSE" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0-COURSE/"/>
+    
+    
+      <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
+    
+      <category term="COURSE" scheme="http://yoursite.com/tags/COURSE/"/>
+    
+      <category term="嵌入式编程" scheme="http://yoursite.com/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%BC%96%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>CODE_经验</title>
@@ -424,218 +647,6 @@
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
       <category term="GITHUB" scheme="http://yoursite.com/tags/GITHUB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CODE_ANDROID</title>
-    <link href="http://yoursite.com/2018/12/29/CODE-ANDROID/"/>
-    <id>http://yoursite.com/2018/12/29/CODE-ANDROID/</id>
-    <published>2018-12-29T11:23:24.000Z</published>
-    <updated>2018-12-29T11:24:12.163Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;android-项目各个文件夹的含义&quot;&gt;&lt;a href=&quot;#android-项目各个文件夹的含义&quot; class=&quot;headerlink&quot; title=&quot;android 项目各个文件夹的含义&quot;&gt;&lt;/a&gt;android
-        
-      
-    
-    </summary>
-    
-      <category term="学习札记-CODE" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0-CODE/"/>
-    
-    
-      <category term="ADNROID" scheme="http://yoursite.com/tags/ADNROID/"/>
-    
-      <category term="CODE" scheme="http://yoursite.com/tags/CODE/"/>
-    
-      <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CODE_MATLAB</title>
-    <link href="http://yoursite.com/2018/12/29/CODE-MATLAB/"/>
-    <id>http://yoursite.com/2018/12/29/CODE-MATLAB/</id>
-    <published>2018-12-29T11:22:39.000Z</published>
-    <updated>2018-12-29T11:23:05.686Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;ol&gt;
-&lt;li&gt;都是使用矩阵进行计算。&lt;/li&gt;
-&lt;li&gt;调用函数。.m调用.m&lt;/li&gt;
-&lt;li&gt;MATLAB中可以看到中间变量的值。&lt;/li&gt;
-&lt;li&gt;见招拆招。&lt;/li&gt;
-&lt;li&gt;安装包:&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="学习札记-CODE" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0-CODE/"/>
-    
-    
-      <category term="CODE" scheme="http://yoursite.com/tags/CODE/"/>
-    
-      <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
-    
-      <category term="MATLAB" scheme="http://yoursite.com/tags/MATLAB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CODE_强弱动态静态类型</title>
-    <link href="http://yoursite.com/2018/12/29/CODE-%E5%BC%BA%E5%BC%B1%E5%8A%A8%E6%80%81%E9%9D%99%E6%80%81%E7%B1%BB%E5%9E%8B/"/>
-    <id>http://yoursite.com/2018/12/29/CODE-强弱动态静态类型/</id>
-    <published>2018-12-29T11:21:11.000Z</published>
-    <updated>2018-12-29T11:22:03.306Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;弱-强类型&quot;&gt;&lt;a href=&quot;#弱-强类型&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="学习札记-CODE" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0-CODE/"/>
-    
-    
-      <category term="CODE" scheme="http://yoursite.com/tags/CODE/"/>
-    
-      <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
-    
-      <category term="静态类型" scheme="http://yoursite.com/tags/%E9%9D%99%E6%80%81%E7%B1%BB%E5%9E%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CODE_JAVA</title>
-    <link href="http://yoursite.com/2018/12/29/CODE-JAVA/"/>
-    <id>http://yoursite.com/2018/12/29/CODE-JAVA/</id>
-    <published>2018-12-29T11:18:55.000Z</published>
-    <updated>2018-12-29T11:20:32.751Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;线程&quot;&gt;&lt;a href=&quot;#线程&quot; class=&quot;headerlink&quot; title=&quot;线程&quot;&gt;&lt;/a&gt;线程&lt;/h2&gt;&lt;h3 id=&quot;线程的状态&quot;&gt;&lt;a href=&quot;#线程的状态&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="学习札记-CODE" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0-CODE/"/>
-    
-    
-      <category term="CODE" scheme="http://yoursite.com/tags/CODE/"/>
-    
-      <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
-    
-      <category term="JAVA" scheme="http://yoursite.com/tags/JAVA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CODE_C2</title>
-    <link href="http://yoursite.com/2018/12/29/CODE-C2/"/>
-    <id>http://yoursite.com/2018/12/29/CODE-C2/</id>
-    <published>2018-12-29T10:46:19.000Z</published>
-    <updated>2018-12-29T11:19:54.812Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;函数内联&quot;&gt;&lt;a href=&quot;#函数内联&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="学习札记-CODE" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0-CODE/"/>
-    
-    
-      <category term="CODE" scheme="http://yoursite.com/tags/CODE/"/>
-    
-      <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
-    
-      <category term="C" scheme="http://yoursite.com/tags/C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CODE_C1</title>
-    <link href="http://yoursite.com/2018/12/29/CODE-C1/"/>
-    <id>http://yoursite.com/2018/12/29/CODE-C1/</id>
-    <published>2018-12-29T10:26:41.000Z</published>
-    <updated>2018-12-29T11:19:46.439Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;要写纯粹的，脱离低级趣味的-函数！&quot;&gt;&lt;a href=&quot;#要写纯粹的，脱离低级趣味的-函数！&quot; class=&quot;headerlink&quot; title=&quot;要写纯粹的，脱离低级趣味的 函数！&quot;&gt;&lt;/a&gt;要写纯粹的，脱离低级趣味的 函数！&lt;/h3&gt;&lt;h3
-        
-      
-    
-    </summary>
-    
-      <category term="学习札记-CODE" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0-CODE/"/>
-    
-    
-      <category term="CODE" scheme="http://yoursite.com/tags/CODE/"/>
-    
-      <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
-    
-      <category term="C" scheme="http://yoursite.com/tags/C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>MacBookPro-10.13.3-修改管理员名称后变为普通用户</title>
-    <link href="http://yoursite.com/2018/12/23/MacBookPro-10-13-3-%E4%BF%AE%E6%94%B9%E7%AE%A1%E7%90%86%E5%91%98%E5%90%8D%E7%A7%B0%E5%90%8E%E5%8F%98%E4%B8%BA%E6%99%AE%E9%80%9A%E7%94%A8%E6%88%B7/"/>
-    <id>http://yoursite.com/2018/12/23/MacBookPro-10-13-3-修改管理员名称后变为普通用户/</id>
-    <published>2018-12-23T19:19:22.000Z</published>
-    <updated>2018-12-29T10:28:37.678Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;已有方法&quot;&gt;&lt;a href=&quot;#已有方法&quot; class=&quot;headerlink&quot; title=&quot;已有方法&quot;&gt;&lt;/a&gt;已有方法&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="MacBook" scheme="http://yoursite.com/categories/MacBook/"/>
-    
-    
-      <category term="MacBook-丢失管理账户" scheme="http://yoursite.com/tags/MacBook-%E4%B8%A2%E5%A4%B1%E7%AE%A1%E7%90%86%E8%B4%A6%E6%88%B7/"/>
     
   </entry>
   

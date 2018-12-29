@@ -1,6 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[COURSE_多传感器融合技术]]></title>
+    <url>%2F2018%2F12%2F29%2FCOURSE-%E5%A4%9A%E4%BC%A0%E6%84%9F%E5%99%A8%E8%9E%8D%E5%90%88%E6%8A%80%E6%9C%AF%2F</url>
+    <content type="text"><![CDATA[2月28号提纲 常用融合方法 加权平均 卡尔曼滤波器 贝叶斯 证据理论 具有置信因子的产生式规则 模糊逻辑 小波分析 发展期望 人工智能——神经网络——模糊理论]]></content>
+      <categories>
+        <category>学习札记-COURSE</category>
+      </categories>
+      <tags>
+        <tag>学习札记</tag>
+        <tag>多传感器融合技术</tag>
+        <tag>COURSE</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[COURSE_算法设计与分析]]></title>
+    <url>%2F2018%2F12%2F29%2FCOURSE-%E7%AE%97%E6%B3%95%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%88%86%E6%9E%90%2F</url>
+    <content type="text"><![CDATA[老师办公地点：综合楼815。老师电子邮件：csy@hit.edu.cn 助教地址：综合楼815 。助教电子邮件：kunyichenghit@126.com 、 zhutongxinhit@126.com 提交作业的电子邮件地址：algorithmhit2018@163.com 考核方式：作业+考试 80% 、 实验 20%。课后自己做。2月27号 三个证明问题没有搞明白。2月28号 同阶、低级、高阶、严格低级、严格高阶 向上取整、向下取整3月4日 分治算法的设计分为两步：设计+分析。 分治算法的耗时主要在两个方面：子问题的个数 + 合并方式3月11日 问题1 1是状态转移函数，表示在q状态下遇到a时，进入状态q’,写下符号b，然后读写头向左活或向右移动一个位置 2表示图灵机，Turing machine蚁群算法 蚁群算法是一种用来寻找优化路径的概率型算法。 蚁群算法的优势在哪里？ 在数学领域，根据问题本身的复杂度是有分类的。简单来说，问题分为P问题，NP问题，NPC问题，NP-hard问题。P是多项式这个单词的首写字母，即Polynomial，[这里指多项式时间]P问题意为 总能找到相应的经典算法 在多项式时间 里面得出最优解。NP问题意为 不能确定是否能找到相应算法 能够在多项式时间内 得出最优解。NPC问题可以理解成NP问题中最难（复杂度最高）的问题，也就是说很难找到相应算法 能够在多项式时间内得出最优解。NP-hard问题可以简单理解成找不到相应算法 能够在多项式时间内得出最优解。所有对NP问题的研究都集中在一个问题上，即究竟是否有P=NP？通常所谓的“NP问题”，其实就一句话：证明或推翻P=NP。 简单来说就是，传统的经典算法能够解决P类问题，而NP问题，特别是NPC问题，则束手无策，于是科学家们开始想办法了，既然不能在多项式时间里得出一个最优解，那么咱们得一个较优解吧，用先验的经验知识作为启发算子，于是启发式算法诞生了，但启发式算法只能针对特定问题（比如，prime算法和kruskal算法都是经典启发式算法，在最小生成树领域比较好的效果），启发式算法不适合跨领域，但NP问题又如此之多，怎么办，于是各种仿生学理论开始引入计算机的算法领域，诞生了所谓的蚁群，粒子群，遗传，神经网络算法这些统称智能优化算法（元启发式算法）的东东来求较优解。 最短路径的时候，用蚁群算法和用prime算法、克鲁斯卡尔算法相比有哪些优势呢？感觉蚁群算法开销不算小，而且还容易不收敛或者陷入局部最优。说道这个问题，就得提到启发式算法和元启发式算法的巨大区别。启发式算法针对的是特定领域的特定问题，效果良好，但一旦跨领域，效果锐减。元启发式算法则具有更明显的跨领域能力，能咋相当多的领域有漂亮的效果。简单来说，prime算法、克鲁斯卡尔算法等等都是启发式算法，启发算子是：贪心策略，即是对特定问题（最小生成树）的可能有较优解法，也就是说仅适用于这一类问题。P问题只是很少的一部分，我们大部分真实场景遇到的都是NP问题，在NP问题没有彻底解决的时候，如果不想死磕—非要找到一个能在多项式时间内得出最优解的算法，我们就只能假设P！=NP，我们就能用启发式算法了，然而，启发式算法本质是某个领域特定的经验总结，一旦跨领域就失效了，所以，现在求较优解的时候，如果没有特定的好的启发式算法，我们就用智能优化算法（即元启发式算法），比如蚁群算法。这就是元启发式算法的优势，也就是蚁群算法的优势。最后说说智能优化吧，这玩意儿本质上就是掷骰子，猜，不同智能优化，就是不同的猜的规则。个人感觉蚁群算法特别吃参数，这需要慢慢调。 第一章算法性能分析 As a rule of thumb, if the body of a loop is in O(na) then the whole loop is in O(na+1). Theexception is if you can show that the loop exits after a constant number of iterations. If aloop runs k times regardless of n, then the loop is in O(na), even for large k.]]></content>
+      <categories>
+        <category>学习札记-COURSE</category>
+      </categories>
+      <tags>
+        <tag>学习札记</tag>
+        <tag>COURSE</tag>
+        <tag>算法设计与分析</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[COURSE_计算机系统性能评测]]></title>
+    <url>%2F2018%2F12%2F29%2FCOURSE-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E6%80%A7%E8%83%BD%E8%AF%84%E6%B5%8B%2F</url>
+    <content type="text"><![CDATA[联系方式 综合楼506 zuodc@hit.edu.cn 开卷考试 评测内容 知道系统能力 在知道需求的前提下如何使用最小的代价将系统搭建起来 美特卡夫定律 网络价值以用户数量平方的速度增长。 贝尔定理 计算机每10年产生新的一代，其设备或用户数增加10倍。 IaaS/Paas/Saas ICT 是information、communication、technology的缩写 SuperPI Super PI是一个计算圆周率精确到小数点以后的指定数位（最大3200万）的计算机程序。 Super PI被许多超频玩家用以测试电脑的性能及稳定性。 Super PI采用单线程，因此其作为目前多核心处理器性能指标的测试工具的意义迅速降低。 并行的两大定律 阿姆达尔定律 定义了串行系统并行化后的加速比的计算公式和理论上限。 古斯塔夫森定律 表明了处理器个数、并行比例和加速比之间的关系。增加负载。 主要内容 能力、成本、应用 选择、改进、设计]]></content>
+      <categories>
+        <category>学习札记-COURSE</category>
+      </categories>
+      <tags>
+        <tag>学习札记</tag>
+        <tag>COURSE</tag>
+        <tag>计算机系统性能评测</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[COURSE_大数据管理与分析]]></title>
+    <url>%2F2018%2F12%2F29%2FCOURSE-%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%AE%A1%E7%90%86%E4%B8%8E%E5%88%86%E6%9E%90%2F</url>
+    <content type="text"><![CDATA[Mesos+Zeppelin+Spark 构建可视化 spark SQL 查询平台Mesos Mesos是Apache下的开源分布式资源管理框架，它被称为分布式系统的内核。 Mesos管理着Twitter超过300000台服务器上的应用部署。 失败之鲸——fail whale。Twitter宕机时的标志画面。Zeppelin Zepplin是一个让交互式数据分析变得可行的基于网页的笔记本。Zeppelin提供了数据可视化的框架。方便你做出可数据驱动的、可交互可协作的精美文档，并且支持多种语言。Spark Apache专门为大柜么数据处理而设计的快速通用的计算引擎。 并行框架。 不同于Hadoop的是job中间输出结果可以保存在内存中，从而不需要读写HDFS。 更适合于数据挖掘和机器学习等需要迭代的MapReduce的算法。 经验 第一如果需要权限的话需要使用sudo，如果一下方法不好使的话，需要加上sudo。]]></content>
+      <categories>
+        <category>学习札记-COURSE</category>
+      </categories>
+      <tags>
+        <tag>学习札记</tag>
+        <tag>COURSE</tag>
+        <tag>大数据管理与分析</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[COUESE_AdvanceDB]]></title>
+    <url>%2F2018%2F12%2F29%2FCOUESE-AdvanceDB%2F</url>
+    <content type="text"><![CDATA[元组之间可以相互链接。 多级索引。 bucket。（其实也就是个多级索引） 考试后发现的问题 parse、logic、physical Tree bitmap的压缩 每一个零完了之后，都写上一个“1” 计算各个比例的那个题目 two pass algorithm 线性可扩张索引 使用后面几位进行扩展 当使用的slot/总的slot大于阈值的时候进行分裂，分裂的同时进行数据重组。]]></content>
+      <categories>
+        <category>学习札记-COURSE</category>
+      </categories>
+      <tags>
+        <tag>学习札记</tag>
+        <tag>COURSE</tag>
+        <tag>AdvanceDB</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[COURSE_并行处理与体系结构]]></title>
+    <url>%2F2018%2F12%2F29%2FCOURSE-%E5%B9%B6%E8%A1%8C%E5%A4%84%E7%90%86%E4%B8%8E%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%2F</url>
+    <content type="text"><![CDATA[2月28日 大庆 并行计算机是一组能够相互通信、相互协作以快速求解大型问题的处理器单元。 先行控制方式的原理 采用二次重叠执行方式必须解决两个问题： 有独立的取指令部件、指令分析部件和指令执行部件 把一个集中的指令控制器，分解成三个独立的控制器：存储控制器、指令控制器、运算控制器 要解决访问主存储器的冲突问题 取指令、分析指令、执行指令都可 能要访问存储器，可以采用先行控制技术解决存储器冲突。采用先行控制技术的关键是缓冲技术和预处理技术。 缓冲技术通–在工作速度不固定的两个功能部件之间设置缓冲栈，用以平滑功能部件之间的工作速度。 预处理技术–将进入运算器的指令均处理成RR型指令，而某些栈为其提供所需的操作数（先行读数栈、后续写数栈），这样运算器在进行预算时无需访问存储器，从而加快速度。 在采用了缓冲技术和预处理技术之后，运算器能够专心于数据的运算，从而大幅度提高程序的执行速度。 脉动阵列 SIMD 协程 不是进程或者是线程 不带返回值的函数调用 协程是用来模拟多任务并发的。但是因为它是非抢占式的，导致多任务时间片不能够公平分享，所以后来全部废弃了协程改成抢占式的线程。 协程的好处 foo bar 它们没有什么意义，就像是某某的意思，仅仅起到站位的作用。 原语 操所系统或计算机网络用于范畴 由一组指令构成，用于完成特定的功能 具有不可分割性 LinPack LINPACK是线性系统软件包(Linear system package) 的缩写.]]></content>
+      <categories>
+        <category>学习札记-COURSE</category>
+      </categories>
+      <tags>
+        <tag>学习札记</tag>
+        <tag>COURSE</tag>
+        <tag>并行处理与体系结构</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[COURSE_嵌入式编程]]></title>
+    <url>%2F2018%2F12%2F29%2FCOURSE-%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%BC%96%E7%A8%8B%2F</url>
+    <content type="text"><![CDATA[读论文，制作PPT 论文题目：Michael Wolf and Monica Lam,”A data locality optimizing algorightm” in Proceedings,SIGPLAN ‘91 Conference on Programming Language Design and Implementation ,ACM,1991,pp.30-44’。 NOR的特点是芯片内执行（XIP, eXecute In Place），这样应用程序可以直接在flash 闪存内运行，不必再把代码读到系统RAM中。NOR的传输效率很高，在1～4MB的小容量时具有很高的成本效益，但是很低的写入和擦除 速度大大影响了它的性能。 NAND结构能提供极高的单元密度，可以达到高存储密度，并且写入和擦除的速度也很快。应用NAND的困难在于flash的管理需要特殊的系统接口。 NOR和NAND都是flash存储芯片的一种。 ScratchpadMemory（便筏存储器） SPM与主存进行统一编址 SPM不具有用于存储Tag的部件和地址比较部件，其面积一般为cache的65%。 体积小、功耗低、速度快，程序员可以进行灵活的控制。]]></content>
+      <categories>
+        <category>学习札记-COURSE</category>
+      </categories>
+      <tags>
+        <tag>学习札记</tag>
+        <tag>COURSE</tag>
+        <tag>嵌入式编程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[CODE_经验]]></title>
     <url>%2F2018%2F12%2F29%2FCODE-%E7%BB%8F%E9%AA%8C%2F</url>
     <content type="text"><![CDATA[无论如何, 一定要想办法能单步跟踪; 无论如何, 一定要有很方便的测试数据; 对于引用同一个名字的UserControl, 它们很可能不是同一个文件！！！ 对于看着很奇怪的问题， 应该把它写下来， 把前提和结果都详细写下来， 再仔细看前提。 大部分奇怪的结果是因为你错误的前提造成的——你的前提之中， 就有了一部分是由于粗心而弄错的， 它们实际上并不是你想象的样子 对于人名, 如果用户保存时包含了单引号或者双引号, 会引起意想不到的错误, 应该禁止; 如果一个业务功能，逻辑相当之复杂，以致于要写很多代码来完成，而且易于出错。应试首先试着想：是否能从业务的角度来简化，而不是死盯技术。]]></content>
