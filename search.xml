@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[CentOS-YUM-Update]]></title>
     <url>%2F2018%2F12%2F30%2FCentOS-YUM-Update%2F</url>
-    <content type="text"><![CDATA[问题描述 安装的是CentOS-7.15 gnome, 在使用yum update 重启电脑后gnome 崩溃如图2，搜索一通后发现是内核有问题，按照一些方法改正后更新了内核，进入后启动图形界面失败如图3，使用 startx 失败如图4，尝试yum groupinstall GNOME Desktop 与 “KDE Plasma Workspaces”后仍然失败. 解决方法z 直接禁用yum update]]></content>
+    <content type="text"><![CDATA[问题描述 安装的是CentOS-7.15 gnome, 在使用yum update 重启电脑后gnome 崩溃如图2，搜索一通后发现是内核有问题，按照一些方法改正后更新了内核，进入后启动图形界面失败如图3，使用 startx 失败如图4，尝试yum groupinstall GNOME Desktop 与 “KDE Plasma Workspaces”后仍然失败. 解决方法 直接禁用yum update]]></content>
       <categories>
         <category>CentOS</category>
       </categories>
@@ -21,8 +21,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>POWER</tag>
         <tag>积累学习_FIRST</tag>
+        <tag>POWER</tag>
       </tags>
   </entry>
   <entry>
@@ -34,8 +34,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>积累学习_TWO</tag>
         <tag>POWER</tag>
+        <tag>积累学习_TWO</tag>
       </tags>
   </entry>
   <entry>
@@ -47,8 +47,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>POWER</tag>
         <tag>积累学习_FIRST</tag>
+        <tag>POWER</tag>
       </tags>
   </entry>
   <entry>
@@ -216,8 +216,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>大数据管理与分析</tag>
         <tag>COURSE</tag>
+        <tag>大数据管理与分析</tag>
       </tags>
   </entry>
   <entry>
@@ -229,8 +229,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>COURSE</tag>
         <tag>AdvanceDB</tag>
+        <tag>COURSE</tag>
       </tags>
   </entry>
   <entry>
