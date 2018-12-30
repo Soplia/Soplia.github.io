@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-29T12:10:32.879Z</updated>
+  <updated>2018-12-30T09:40:21.301Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CentOS-YUM-Update</title>
+    <link href="http://yoursite.com/2018/12/30/CentOS-YUM-Update/"/>
+    <id>http://yoursite.com/2018/12/30/CentOS-YUM-Update/</id>
+    <published>2018-12-30T08:48:49.000Z</published>
+    <updated>2018-12-30T09:40:21.301Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot; title=&quot;问题描述&quot;&gt;&lt;/a&gt;问题描述&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;安装的是CentOS-7.15 gnome, 在使用yum update 重启电脑后gnome
+        
+      
+    
+    </summary>
+    
+      <category term="CentOS" scheme="http://yoursite.com/categories/CentOS/"/>
+    
+    
+      <category term="CentOS" scheme="http://yoursite.com/tags/CentOS/"/>
+    
+      <category term="Yum" scheme="http://yoursite.com/tags/Yum/"/>
+    
+  </entry>
   
   <entry>
     <title>POWER_积累学习_THIRD</title>
@@ -41,9 +70,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="积累学习_FIRST" scheme="http://yoursite.com/tags/%E7%A7%AF%E7%B4%AF%E5%AD%A6%E4%B9%A0-FIRST/"/>
-    
       <category term="POWER" scheme="http://yoursite.com/tags/POWER/"/>
+    
+      <category term="积累学习_FIRST" scheme="http://yoursite.com/tags/%E7%A7%AF%E7%B4%AF%E5%AD%A6%E4%B9%A0-FIRST/"/>
     
   </entry>
   
@@ -73,9 +102,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="POWER" scheme="http://yoursite.com/tags/POWER/"/>
-    
       <category term="积累学习_TWO" scheme="http://yoursite.com/tags/%E7%A7%AF%E7%B4%AF%E5%AD%A6%E4%B9%A0-TWO/"/>
+    
+      <category term="POWER" scheme="http://yoursite.com/tags/POWER/"/>
     
   </entry>
   
@@ -104,9 +133,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="积累学习_FIRST" scheme="http://yoursite.com/tags/%E7%A7%AF%E7%B4%AF%E5%AD%A6%E4%B9%A0-FIRST/"/>
-    
       <category term="POWER" scheme="http://yoursite.com/tags/POWER/"/>
+    
+      <category term="积累学习_FIRST" scheme="http://yoursite.com/tags/%E7%A7%AF%E7%B4%AF%E5%AD%A6%E4%B9%A0-FIRST/"/>
     
   </entry>
   
@@ -171,9 +200,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="孙子兵法" scheme="http://yoursite.com/tags/%E5%AD%99%E5%AD%90%E5%85%B5%E6%B3%95/"/>
-    
       <category term="MOOD" scheme="http://yoursite.com/tags/MOOD/"/>
+    
+      <category term="孙子兵法" scheme="http://yoursite.com/tags/%E5%AD%99%E5%AD%90%E5%85%B5%E6%B3%95/"/>
     
   </entry>
   
@@ -363,9 +392,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="MOOD" scheme="http://yoursite.com/tags/MOOD/"/>
-    
       <category term="仪表礼仪" scheme="http://yoursite.com/tags/%E4%BB%AA%E8%A1%A8%E7%A4%BC%E4%BB%AA/"/>
+    
+      <category term="MOOD" scheme="http://yoursite.com/tags/MOOD/"/>
     
   </entry>
   
@@ -620,40 +649,6 @@
       <category term="COURSE" scheme="http://yoursite.com/tags/COURSE/"/>
     
       <category term="嵌入式编程" scheme="http://yoursite.com/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%BC%96%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CODE_经验</title>
-    <link href="http://yoursite.com/2018/12/29/CODE-%E7%BB%8F%E9%AA%8C/"/>
-    <id>http://yoursite.com/2018/12/29/CODE-经验/</id>
-    <published>2018-12-29T11:34:39.000Z</published>
-    <updated>2018-12-29T11:35:10.449Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;ol&gt;
-&lt;li&gt;无论如何, 一定要想办法能单步跟踪;&lt;/li&gt;
-&lt;li&gt;无论如何, 一定要有很方便的测试数据;&lt;/li&gt;
-&lt;li&gt;对于引用同一个名字的UserControl, 它们很可能不是同一个文件！！！&lt;/li&gt;
-&lt;li&gt;对于看着很奇怪的问题， 应该把它写下来，
-        
-      
-    
-    </summary>
-    
-      <category term="学习札记-CODE" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0-CODE/"/>
-    
-    
-      <category term="CODE" scheme="http://yoursite.com/tags/CODE/"/>
-    
-      <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
-    
-      <category term="经验" scheme="http://yoursite.com/tags/%E7%BB%8F%E9%AA%8C/"/>
     
   </entry>
   
