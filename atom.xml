@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-30T10:02:57.468Z</updated>
+  <updated>2018-12-31T19:51:20.811Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Language-French1</title>
+    <link href="http://yoursite.com/2018/12/31/Language-French1/"/>
+    <id>http://yoursite.com/2018/12/31/Language-French1/</id>
+    <published>2018-12-31T19:31:00.000Z</published>
+    <updated>2018-12-31T19:51:20.811Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;26个字母发音&quot;&gt;&lt;a href=&quot;#26个字母发音&quot; class=&quot;headerlink&quot; title=&quot;26个字母发音&quot;&gt;&lt;/a&gt;26个字母发音&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="学习札记-Language" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0-Language/"/>
+    
+    
+      <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
+    
+      <category term="French" scheme="http://yoursite.com/tags/French/"/>
+    
+      <category term="Language" scheme="http://yoursite.com/tags/Language/"/>
+    
+  </entry>
   
   <entry>
     <title>CentOS-YUM-Update</title>
@@ -70,9 +101,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="积累学习_FIRST" scheme="http://yoursite.com/tags/%E7%A7%AF%E7%B4%AF%E5%AD%A6%E4%B9%A0-FIRST/"/>
-    
       <category term="POWER" scheme="http://yoursite.com/tags/POWER/"/>
+    
+      <category term="积累学习_FIRST" scheme="http://yoursite.com/tags/%E7%A7%AF%E7%B4%AF%E5%AD%A6%E4%B9%A0-FIRST/"/>
     
   </entry>
   
@@ -102,9 +133,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="POWER" scheme="http://yoursite.com/tags/POWER/"/>
-    
       <category term="积累学习_TWO" scheme="http://yoursite.com/tags/%E7%A7%AF%E7%B4%AF%E5%AD%A6%E4%B9%A0-TWO/"/>
+    
+      <category term="POWER" scheme="http://yoursite.com/tags/POWER/"/>
     
   </entry>
   
@@ -133,9 +164,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="积累学习_FIRST" scheme="http://yoursite.com/tags/%E7%A7%AF%E7%B4%AF%E5%AD%A6%E4%B9%A0-FIRST/"/>
-    
       <category term="POWER" scheme="http://yoursite.com/tags/POWER/"/>
+    
+      <category term="积累学习_FIRST" scheme="http://yoursite.com/tags/%E7%A7%AF%E7%B4%AF%E5%AD%A6%E4%B9%A0-FIRST/"/>
     
   </entry>
   
@@ -617,38 +648,6 @@
       <category term="COURSE" scheme="http://yoursite.com/tags/COURSE/"/>
     
       <category term="并行处理与体系结构" scheme="http://yoursite.com/tags/%E5%B9%B6%E8%A1%8C%E5%A4%84%E7%90%86%E4%B8%8E%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>COURSE_嵌入式编程</title>
-    <link href="http://yoursite.com/2018/12/29/COURSE-%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%BC%96%E7%A8%8B/"/>
-    <id>http://yoursite.com/2018/12/29/COURSE-嵌入式编程/</id>
-    <published>2018-12-29T11:45:33.000Z</published>
-    <updated>2018-12-29T11:46:31.852Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;ol&gt;
-&lt;li&gt;读论文，制作PPT&lt;ul&gt;
-&lt;li&gt;论文题目：Michael Wolf and Monica Lam,”A data locality optimizing algorightm” in Proceedings,SIGPLAN ‘91 Conference
-        
-      
-    
-    </summary>
-    
-      <category term="学习札记-COURSE" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0-COURSE/"/>
-    
-    
-      <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
-    
-      <category term="COURSE" scheme="http://yoursite.com/tags/COURSE/"/>
-    
-      <category term="嵌入式编程" scheme="http://yoursite.com/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%BC%96%E7%A8%8B/"/>
     
   </entry>
   
