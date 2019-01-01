@@ -231,9 +231,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="孙子兵法" scheme="http://yoursite.com/tags/%E5%AD%99%E5%AD%90%E5%85%B5%E6%B3%95/"/>
-    
       <category term="MOOD" scheme="http://yoursite.com/tags/MOOD/"/>
+    
+      <category term="孙子兵法" scheme="http://yoursite.com/tags/%E5%AD%99%E5%AD%90%E5%85%B5%E6%B3%95/"/>
     
   </entry>
   
@@ -423,9 +423,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="MOOD" scheme="http://yoursite.com/tags/MOOD/"/>
-    
       <category term="仪表礼仪" scheme="http://yoursite.com/tags/%E4%BB%AA%E8%A1%A8%E7%A4%BC%E4%BB%AA/"/>
+    
+      <category term="MOOD" scheme="http://yoursite.com/tags/MOOD/"/>
     
   </entry>
   
@@ -484,9 +484,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="多传感器融合技术" scheme="http://yoursite.com/tags/%E5%A4%9A%E4%BC%A0%E6%84%9F%E5%99%A8%E8%9E%8D%E5%90%88%E6%8A%80%E6%9C%AF/"/>
-    
       <category term="COURSE" scheme="http://yoursite.com/tags/COURSE/"/>
+    
+      <category term="多传感器融合技术" scheme="http://yoursite.com/tags/%E5%A4%9A%E4%BC%A0%E6%84%9F%E5%99%A8%E8%9E%8D%E5%90%88%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
@@ -615,9 +615,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="COURSE" scheme="http://yoursite.com/tags/COURSE/"/>
-    
       <category term="AdvanceDB" scheme="http://yoursite.com/tags/AdvanceDB/"/>
+    
+      <category term="COURSE" scheme="http://yoursite.com/tags/COURSE/"/>
     
   </entry>
   
