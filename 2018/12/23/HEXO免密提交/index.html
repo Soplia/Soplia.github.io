@@ -111,7 +111,7 @@
 <meta property="og:site_name" content="JrXIE BLOG">
 <meta property="og:description" content="问题描述 按照网上教程进行GitHub与HEXO关联以期实现免密部署，但是未成功….  解决方案 首先确定本地是否生成ssh密钥对，MacBookPro10.13.6 中没有.ssh目录(反正我是没有找到..)   是，继续进行 否，自主生成   SSH测试   ssh -T git@github.com   设置权限   根据2中提示向 /etc/hosts 添加类似如下文字：192.30.25">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-01-08T09:54:53.713Z">
+<meta property="og:updated_time" content="2019-01-08T22:06:34.338Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="HEXO免密提交.md">
 <meta name="twitter:description" content="问题描述 按照网上教程进行GitHub与HEXO关联以期实现免密部署，但是未成功….  解决方案 首先确定本地是否生成ssh密钥对，MacBookPro10.13.6 中没有.ssh目录(反正我是没有找到..)   是，继续进行 否，自主生成   SSH测试   ssh -T git@github.com   设置权限   根据2中提示向 /etc/hosts 添加类似如下文字：192.30.25">
@@ -421,7 +421,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2019-01-08 10:54:53" itemprop="dateModified" datetime="2019-01-08T10:54:53+01:00">2019-01-08</time>
+                <time title="Modified: 2019-01-08 23:06:34" itemprop="dateModified" datetime="2019-01-08T23:06:34+01:00">2019-01-08</time>
               
             
           </span>
@@ -495,10 +495,14 @@
 <li><p>根据2中提示向 /etc/hosts 添加类似如下文字：<code>192.30.252.128　　github.com</code></p>
 </li>
 <li><p>加入Agent，命令如下：</p>
+<ul>
+<li><p><code>ssh-agent -s</code></p>
+</li>
+<li><p><code>ssh-add ssh-key的路径/ssh-key私钥文件名</code></p>
 </li>
 </ul>
-<p><code>ssh-agent -s</code></p>
-<p><code>ssh-add ssh-key的路径/ssh-key私钥文件名</code></p>
+</li>
+</ul>
 <ol start="4">
 <li>更改GitHub中对应博客的仓库为use-ssh</li>
 </ol>
@@ -508,11 +512,13 @@
 <li>更改为 “Use SSH”</li>
 </ul>
 <ol start="5">
-<li><p>更改<strong>站点</strong>配置文件中的deploy的GitHub地址为使用ssh后的地址</p>
-</li>
-<li><p>重新部署即可免密提交</p>
-</li>
+<li>更改<strong>站点</strong>配置文件中的deploy的GitHub地址为使用ssh后的地址</li>
+<li>重新部署即可免密提交</li>
 </ol>
+<hr>
+<h4 id="PS"><a href="#PS" class="headerlink" title="PS"></a>PS</h4><ul>
+<li><a href="https://help.github.com/articles/error-permission-denied-publickey/" target="_blank" rel="noopener">Error: Permission denied (publickey)</a></li>
+</ul>
 
       
     </div>
@@ -892,7 +898,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#问题描述"><span class="nav-text">问题描述</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#解决方案"><span class="nav-text">解决方案</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#问题描述"><span class="nav-text">问题描述</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#解决方案"><span class="nav-text">解决方案</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#PS"><span class="nav-text">PS</span></a></li></ol></li></ol></div>
             
 
           </div>
