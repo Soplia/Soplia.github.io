@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-31T19:51:20.811Z</updated>
+  <updated>2019-01-08T09:51:32.557Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>GitHub-已有公开仓库变私有</title>
+    <link href="http://yoursite.com/2019/01/08/GitHub-%E5%B7%B2%E6%9C%89%E5%85%AC%E5%BC%80%E4%BB%93%E5%BA%93%E5%8F%98%E7%A7%81%E6%9C%89/"/>
+    <id>http://yoursite.com/2019/01/08/GitHub-已有公开仓库变私有/</id>
+    <published>2019-01-08T09:42:46.000Z</published>
+    <updated>2019-01-08T09:51:32.557Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot; title=&quot;问题描述&quot;&gt;&lt;/a&gt;问题描述&lt;/h3&gt;&lt;p&gt;今天Github个人私有仓库免费使用，如何将已公开的仓库变为私有？&lt;/p&gt;
+&lt;h3 id=&quot;问题解决&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="GitHub" scheme="http://yoursite.com/categories/GitHub/"/>
+    
+    
+      <category term="GitHub" scheme="http://yoursite.com/tags/GitHub/"/>
+    
+      <category term="已有公开仓库变私有" scheme="http://yoursite.com/tags/%E5%B7%B2%E6%9C%89%E5%85%AC%E5%BC%80%E4%BB%93%E5%BA%93%E5%8F%98%E7%A7%81%E6%9C%89/"/>
+    
+  </entry>
   
   <entry>
     <title>Language-French1</title>
@@ -618,36 +647,6 @@
       <category term="AdvanceDB" scheme="http://yoursite.com/tags/AdvanceDB/"/>
     
       <category term="COURSE" scheme="http://yoursite.com/tags/COURSE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>COURSE_并行处理与体系结构</title>
-    <link href="http://yoursite.com/2018/12/29/COURSE-%E5%B9%B6%E8%A1%8C%E5%A4%84%E7%90%86%E4%B8%8E%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/"/>
-    <id>http://yoursite.com/2018/12/29/COURSE-并行处理与体系结构/</id>
-    <published>2018-12-29T11:46:50.000Z</published>
-    <updated>2018-12-29T11:47:23.100Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;2月28日&quot;&gt;&lt;a href=&quot;#2月28日&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="学习札记-COURSE" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0-COURSE/"/>
-    
-    
-      <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
-    
-      <category term="COURSE" scheme="http://yoursite.com/tags/COURSE/"/>
-    
-      <category term="并行处理与体系结构" scheme="http://yoursite.com/tags/%E5%B9%B6%E8%A1%8C%E5%A4%84%E7%90%86%E4%B8%8E%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/"/>
     
   </entry>
   
