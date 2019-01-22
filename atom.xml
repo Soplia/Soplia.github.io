@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-01-22T17:02:05.499Z</updated>
+  <updated>2019-01-22T17:10:36.400Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,45 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>3D打印-总结</title>
+    <link href="http://yoursite.com/2019/01/22/3D%E6%89%93%E5%8D%B0-%E6%80%BB%E7%BB%93/"/>
+    <id>http://yoursite.com/2019/01/22/3D打印-总结/</id>
+    <published>2019-01-22T17:09:15.000Z</published>
+    <updated>2019-01-22T17:10:36.400Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;ol&gt;
+&lt;li&gt;在设计板子的外壳的时候需要注意的事情&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;板子需要插接导线，所以需要预先留出缺口；&lt;/p&gt;
+&lt;p&gt;外壳倒角。防止被割伤、使板子不至于太过于脆弱；&lt;/p&gt;
+&lt;p&gt;需要注意板子外壳的插接结构；&lt;/p&gt;
+&lt;p&gt;需要注意开发板的散热问题；&lt;/p&gt;
+        
+      
+    
+    </summary>
+    
+      <category term="3D打印" scheme="http://yoursite.com/categories/3D%E6%89%93%E5%8D%B0/"/>
+    
+    
+      <category term="3D打印" scheme="http://yoursite.com/tags/3D%E6%89%93%E5%8D%B0/"/>
+    
+      <category term="总结" scheme="http://yoursite.com/tags/%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
+  
+  <entry>
     <title>素养-段子</title>
     <link href="http://yoursite.com/2019/01/22/%E7%B4%A0%E5%85%BB-%E6%AE%B5%E5%AD%90/"/>
     <id>http://yoursite.com/2019/01/22/素养-段子/</id>
     <published>2019-01-22T16:56:14.000Z</published>
-    <updated>2019-01-22T17:02:05.499Z</updated>
+    <updated>2019-01-22T17:04:15.274Z</updated>
     
     <summary type="html">
     
@@ -41,7 +75,7 @@
       <category term="素养" scheme="http://yoursite.com/categories/%E7%B4%A0%E5%85%BB/"/>
     
     
-      <category term="情书" scheme="http://yoursite.com/tags/%E6%83%85%E4%B9%A6/"/>
+      <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
     
       <category term="段子" scheme="http://yoursite.com/tags/%E6%AE%B5%E5%AD%90/"/>
     
@@ -69,9 +103,9 @@
       <category term="素养" scheme="http://yoursite.com/categories/%E7%B4%A0%E5%85%BB/"/>
     
     
-      <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
-    
       <category term="好字" scheme="http://yoursite.com/tags/%E5%A5%BD%E5%AD%97/"/>
+    
+      <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
     
   </entry>
   
@@ -80,7 +114,7 @@
     <link href="http://yoursite.com/2019/01/22/%E7%B4%A0%E5%85%BB-%E6%83%85%E4%B9%A6/"/>
     <id>http://yoursite.com/2019/01/22/素养-情书/</id>
     <published>2019-01-22T16:55:56.000Z</published>
-    <updated>2019-01-22T16:59:43.634Z</updated>
+    <updated>2019-01-22T17:04:08.403Z</updated>
     
     <summary type="html">
     
@@ -97,7 +131,7 @@
       <category term="素养" scheme="http://yoursite.com/categories/%E7%B4%A0%E5%85%BB/"/>
     
     
-      <category term="句子" scheme="http://yoursite.com/tags/%E5%8F%A5%E5%AD%90/"/>
+      <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
     
       <category term="情书" scheme="http://yoursite.com/tags/%E6%83%85%E4%B9%A6/"/>
     
@@ -153,9 +187,9 @@
       <category term="素养" scheme="http://yoursite.com/categories/%E7%B4%A0%E5%85%BB/"/>
     
     
-      <category term="句子" scheme="http://yoursite.com/tags/%E5%8F%A5%E5%AD%90/"/>
-    
       <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
+    
+      <category term="句子" scheme="http://yoursite.com/tags/%E5%8F%A5%E5%AD%90/"/>
     
   </entry>
   
@@ -362,9 +396,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="积累学习_FIRST" scheme="http://yoursite.com/tags/%E7%A7%AF%E7%B4%AF%E5%AD%A6%E4%B9%A0-FIRST/"/>
-    
       <category term="POWER" scheme="http://yoursite.com/tags/POWER/"/>
+    
+      <category term="积累学习_FIRST" scheme="http://yoursite.com/tags/%E7%A7%AF%E7%B4%AF%E5%AD%A6%E4%B9%A0-FIRST/"/>
     
   </entry>
   
@@ -394,9 +428,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="POWER" scheme="http://yoursite.com/tags/POWER/"/>
-    
       <category term="积累学习_TWO" scheme="http://yoursite.com/tags/%E7%A7%AF%E7%B4%AF%E5%AD%A6%E4%B9%A0-TWO/"/>
+    
+      <category term="POWER" scheme="http://yoursite.com/tags/POWER/"/>
     
   </entry>
   
@@ -425,9 +459,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="积累学习_FIRST" scheme="http://yoursite.com/tags/%E7%A7%AF%E7%B4%AF%E5%AD%A6%E4%B9%A0-FIRST/"/>
-    
       <category term="POWER" scheme="http://yoursite.com/tags/POWER/"/>
+    
+      <category term="积累学习_FIRST" scheme="http://yoursite.com/tags/%E7%A7%AF%E7%B4%AF%E5%AD%A6%E4%B9%A0-FIRST/"/>
     
   </entry>
   
@@ -590,39 +624,6 @@
       <category term="MOOD" scheme="http://yoursite.com/tags/MOOD/"/>
     
       <category term="道德经" scheme="http://yoursite.com/tags/%E9%81%93%E5%BE%B7%E7%BB%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>MOOC_心理学</title>
-    <link href="http://yoursite.com/2018/12/29/MOOC-%E5%BF%83%E7%90%86%E5%AD%A6/"/>
-    <id>http://yoursite.com/2018/12/29/MOOC-心理学/</id>
-    <published>2018-12-29T12:03:46.000Z</published>
-    <updated>2018-12-29T12:04:17.428Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;1&gt;心理学是研究心理和行为的科学。目标是：描述、解释、预测、控制。&lt;/1&gt;&lt;/p&gt;
-&lt;p&gt;&lt;2&gt;有人的地方就有心理学。&lt;/2&gt;&lt;/p&gt;
-&lt;p&gt;&lt;3&gt;旁观者效应。责任分担。&lt;/3&gt;&lt;/p&gt;
-&lt;p&gt;&lt;4&gt;无论这个世界有多么的虚伪，都有我在你的身边为你撑出一片碧海蓝天。&lt;/4&gt;
-        
-      
-    
-    </summary>
-    
-      <category term="学习札记-MOOD" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0-MOOD/"/>
-    
-    
-      <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
-    
-      <category term="MOOD" scheme="http://yoursite.com/tags/MOOD/"/>
-    
-      <category term="心理学" scheme="http://yoursite.com/tags/%E5%BF%83%E7%90%86%E5%AD%A6/"/>
     
   </entry>
   

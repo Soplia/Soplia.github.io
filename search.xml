@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[3D打印-总结]]></title>
+    <url>%2F2019%2F01%2F22%2F3D%E6%89%93%E5%8D%B0-%E6%80%BB%E7%BB%93%2F</url>
+    <content type="text"><![CDATA[在设计板子的外壳的时候需要注意的事情 板子需要插接导线，所以需要预先留出缺口； 外壳倒角。防止被割伤、使板子不至于太过于脆弱； 需要注意板子外壳的插接结构； 需要注意开发板的散热问题； 要给自己制作的外壳留下一个logo； 3D打印的格式现在最流行的是.stl格式，只要是能够保存成.stl文件的建模工具都可以进行 3D打印。在保存文档的时候需要选用二进制的文档。原因是这样的文件的大小非常小。 单位必须选择mm。这个是标准，不能够改变。 画图时的优秀素材网站 Thingiverse； GrabCad 。需要在搜索框中进行搜查。这个非常的高大上，有很多的资源 可以进行搜索。 格式转换、修复软件 OpenSCAD. STL下载。 MashLab，用于格式的转换非常的方便。 Meshmixer。用它进行纠错，用它打开，然后重新另存为一下就好了。 这个是专门用于修复stl格式文件的。 Accutrans。几乎所有的软件格式都能够进行转换。 在将自己的设计发送给其它公司进行出产品的时候，需要注意。 需将文件另存为stp、sgs格式，这样的话别人无法盗用你的东西。]]></content>
+      <categories>
+        <category>3D打印</category>
+      </categories>
+      <tags>
+        <tag>3D打印</tag>
+        <tag>总结</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[素养-段子]]></title>
     <url>%2F2019%2F01%2F22%2F%E7%B4%A0%E5%85%BB-%E6%AE%B5%E5%AD%90%2F</url>
     <content type="text"><![CDATA[姑娘们啊！哪有那麽多白马啊？找个驴凑合得了，别等到有一天驴都被抢没了，剩一堆骡子… 所谓美女，三分长相七分打扮、所谓气质，三分才气七分装蒜、所谓温柔，三分忍让七分压抑。 下辇子要做筷子，就不孤单了！ 你的话，我连标点符号都不信。 陪我一起数星星吧，你智商低你就数月亮吧！ 我太佩服我自己了，有时候照镜子的时候都给自己磕头！ 想你想得饭都吃不下，真是太恶心了！ 为什麽我一直感觉不幸福，难道是当幸福来敲门的时候，我不在家? 别和我谈理想，戒了！ 跌倒了，爬起来再哭~~~ 低调！才是最牛B的炫耀！ 我能抵抗一切，除了诱惑……… 不是你不笑，一笑粉就掉！ 活着的时候开心点，因为我们要死很久。 我这人从不记仇，一般有仇当场我就报了。 没什么事不要找我，有事更不用找我！ 我又不是人民币，怎么能让人人都喜欢我？ 问：你喜欢我哪一点？答：我喜欢你离我远一点！ 诸葛亮出山前，也没带过兵！凭啥我就要工作经验？ 珍惜生活——上帝还让你活着，就肯定有他的安排。 雷锋做了好事不留名，但是每一件事情都记到日记里面。 自己选择45°仰视别人，就休怪他人135°俯视着看你。 我允许你走进我的世界，但绝不允许你在我的世界里走来走去。 一分钟有多长？这要看你是蹲在厕所里面，还是等在厕所外面…… 铁饭碗的真实含义不是在一个地方吃一辈子饭，而是一辈子到哪儿都有饭吃。 就算是一坨屎，也有遇见屎壳郎的那天。所以你大可不必为今天的自己有太多担忧。 “恋”是个很强悍的字。它的上半部取自“变态”的“变”，下半部取自“变态”的“态”。 同志们：别炒股，风险太大了，还是做豆腐最安全！做硬了是豆腐干，做稀了是豆腐脑，做薄了是豆腐皮，做没了是豆浆，放臭了是臭豆腐！稳赚不亏呀！]]></content>
@@ -8,7 +20,7 @@
         <category>素养</category>
       </categories>
       <tags>
-        <tag>情书</tag>
+        <tag>素养</tag>
         <tag>段子</tag>
       </tags>
   </entry>
@@ -20,8 +32,8 @@
         <category>素养</category>
       </categories>
       <tags>
-        <tag>素养</tag>
         <tag>好字</tag>
+        <tag>素养</tag>
       </tags>
   </entry>
   <entry>
@@ -32,7 +44,7 @@
         <category>素养</category>
       </categories>
       <tags>
-        <tag>句子</tag>
+        <tag>素养</tag>
         <tag>情书</tag>
       </tags>
   </entry>
@@ -56,8 +68,8 @@
         <category>素养</category>
       </categories>
       <tags>
-        <tag>句子</tag>
         <tag>素养</tag>
+        <tag>句子</tag>
       </tags>
   </entry>
   <entry>
@@ -144,8 +156,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>积累学习_FIRST</tag>
         <tag>POWER</tag>
+        <tag>积累学习_FIRST</tag>
       </tags>
   </entry>
   <entry>
@@ -157,8 +169,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>POWER</tag>
         <tag>积累学习_TWO</tag>
+        <tag>POWER</tag>
       </tags>
   </entry>
   <entry>
@@ -170,8 +182,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>积累学习_FIRST</tag>
         <tag>POWER</tag>
+        <tag>积累学习_FIRST</tag>
       </tags>
   </entry>
   <entry>
@@ -411,7 +423,7 @@
   <entry>
     <title><![CDATA[CODE_STM32]]></title>
     <url>%2F2018%2F12%2F29%2FCODE-STM32%2F</url>
-    <content type="text"><![CDATA[搭建环境 安装jlink驱动器。如果能够在设备管理器中看到，jlinkdrive说明jlink的驱动安装成功了。 安装keil5，但是需要安装连个legacy support，这个可以根据keil5的提示到给出的链接上下载，把那两个都下载下来，然后安装。 按照操作步骤将程序下载到开发板上即可。GPIO General Purpose Input Output.称为总线扩展器。如果外设有n只脚的话，那么gpio占了1/n.而好处是，能够通过软件编程设置gpio的高低电压，进而控制外设。 stm32中共有7个gpio，每个gpio有16个引脚。 在编程中如果要使用gpio的话。 创建gpio结构体变量。 在板子上需要要控制的外设的引脚，然后看到对面，如果是A11，那么代表着该外设是GPIOA的11号管脚。那么就要使用GPIO_Init(GPIOA, &amp;GPIO_InitStructure);进行初始化。使用GPIO_SetBits(GPIOA, GPIO_Pin_11);对该gpio的11号引脚进行赋值。注意 使用jlink调试的时候需要将boot调节到flash上即可。 使用串口调试的时候，方式是不同的。 板子需要进行供电，使用USB TO UART口进行供电就行，另一端直接连接在电源上即可。 跨文件引用的函数不要使用static进行修饰 尚未理解的代码 ///这段代码适合等头脑清醒的时候进行阅读 #define LED1_TOGGLE digitalToggle(GPIOB,GPIO_Pin_0) #define LED1_OFF digitalHi(GPIOB,GPIO_Pin_0) #define LED1_ON digitalLo(GPIOB,GPIO_Pin_0) #define digitalHi(p,i) {p-&gt;BSRR=i;} #define digitalLo(p,i) {p-&gt;BRR=i;} #define digitalToggle(p,i) {p-&gt;ODR^=i; 尚需掌握的技能 调试中断 NVIC(Nest Vectored Interrupt Controller内嵌向量中断控制器)。 EXTI（外部中断） 将gpio作为中断的处理流程 GPIO初始化 将gpio脚连接到extiline上。 exti初始化 nvic初始化 当中断到来后 清除gpio寄存器中的信号量。 清除exti上的信号量。头文件 头文件是要书写的，相应的.c文件需要引用的头文件全部包含在.h头文件中，在.c文件中只需要包含响应的.h文件即可，这样的话，在编译相应的.c文件的时候.h文件已经进行了编译。当在main函数中进行包含的时候不会再次进行编译，但是已经告诉main函数，要把这个文件包含进来，而这个文件中有响应函数的声明。SysTick 所有基于Cortex_M3处理器的微控制器都可以由这个定时器获得一定的时间间隔。常用术语 微控制单元(Microcontroller Unit；MCU) 需要解决的问题 通过串口未能成功将文件下载到开发板上。ADC 参考电压：测量物体的长度要用卷尺，精确测量要用游标卡尺，同理，ADC 测量电压也要有标准电压做基准。如八位并行比较型 ADC ，把参考电压均分为 256 层，就好像卷尺的刻度，输入的待测电压与哪一个分层相等，数值就知道了。经验 下一次在进行32的编程的时候，直接把头文件中的结构体的数据成员复制过来，这样简直就是太方便了，因为每个数据成员都有相应的十分详细的解释。与C语言不同之处 C语言中的unsigned long的个格式化输出占位符是lu;但是在stm32中编译环境是Keil中的时候就变成了ul。这是自己不能够理解的地方。]]></content>
+    <content type="text"><![CDATA[如何学习 学前准备 入门级视频教程：鑫鑫stm32 初学者视频教程。最好先下个keil uvision4安装上。 第一节：http://video.tudou.com/v/XMjE5NTM1MjE4OA==.html 第二节：http://video.tudou.com/v/XMTc4OTcyNjI5Mg==.html 第三节：http://video.tudou.com/v/XMTc4Nzc3NDUzNg==.html 第四节：http://video.tudou.com/v/XMjE5NzU2MzU1Mg==.html 第五节：http://video.tudou.com/v/XMjE5ODU4MTUzMg==.html 第六节：http://video.tudou.com/v/XMjIwMjQ3ODg3Mg==.html 进阶级视频教程：刘洋老师边讲边写stm32。 编程前还需要一本stm32库函数手册。 然后就可以开始学了。没有开发板也没事，IDE里面有仿真器，但最好有一个开发板。因为只有软件，不会接线配电平什么的也不行 学习套路 首先，把片上外设学一遍，就ok了。 其次，通过做项目练习综合使用。 最后，进阶的话可以看看寄存器级的开发，以及内部储存空间的分配（可以试着写写iap）。 一开始不着急，可以先把程序整明白。 就是学会怎么启动以及配置各个外设就行了。官方的库函数都已经封装好了，多数情况下都不需要直接操作底层的寄存器。 如果官方的库里没有这个功能的代码，就只能自己通过设置对应寄存器解决。 教程不针对某一块特定的开发板 可以的，教程不针对特定型号的开发板 因为说白了单片机就是一芯片 开发板无非就是把片上外设的引脚印出来接了LED神马的东西，自己也能做的。 学的时候记得看电路图。如果你想做开发板上的实验的话，一定要有对应的电路图，因为不同板子GPIO的引脚配置不一样。 资料整理 刚刚给你的手册既有库函数的，也有寄存器的。你可以直接从库函数开发学起，但一定要有寄存器的概念。 XCOM是烧写片上程序的时候用的。 因为现在的板子大多用usb口，都不是Jlink的，所以就用XCOM往板子上烧写。 缺点就是没法实时调试。一个Jlink正版仿真器成本有点高，你一开始也未必用得上。 首要做的事情 所以先从最基本的写程序开始吧。小的程序IDE里调试过了上板子基本就不会有问题 等你把片上外设都学完了会用了之后再跟你说我做的那个IAP实验吧，那个作为进阶练习，可以让你对单片机理解更深一层。 细节 加油，别放弃。看教程的时候耐心点，多总结，多记笔记，有好处。 视频有点长，开始的时候可以边讲边写，后来有了基础后建议你看清楚外设的使用流程后自己写，不懂的地方再回头对照。 主要就是使用流程、配置参数这些环节记准了就没问题，一些小细节不必深究。千万别亦步亦趋只跟着抄代码，那样看完视频也学不会的。 多查手册，多查手册，多查手册 ###搭建环境 安装jlink驱动器。如果能够在设备管理器中看到，jlinkdrive说明jlink的驱动安装成功了。 安装keil5，但是需要安装连个legacy support，这个可以根据keil5的提示到给出的链接上下载，把那两个都下载下来，然后安装。 按照操作步骤将程序下载到开发板上即可。GPIO General Purpose Input Output.称为总线扩展器。如果外设有n只脚的话，那么gpio占了1/n.而好处是，能够通过软件编程设置gpio的高低电压，进而控制外设。 stm32中共有7个gpio，每个gpio有16个引脚。 在编程中如果要使用gpio的话。 创建gpio结构体变量。 在板子上需要要控制的外设的引脚，然后看到对面，如果是A11，那么代表着该外设是GPIOA的11号管脚。那么就要使用GPIO_Init(GPIOA, &amp;GPIO_InitStructure);进行初始化。使用GPIO_SetBits(GPIOA, GPIO_Pin_11);对该gpio的11号引脚进行赋值。注意 使用jlink调试的时候需要将boot调节到flash上即可。 使用串口调试的时候，方式是不同的。 板子需要进行供电，使用USB TO UART口进行供电就行，另一端直接连接在电源上即可。 跨文件引用的函数不要使用static进行修饰 尚未理解的代码 ///这段代码适合等头脑清醒的时候进行阅读 #define LED1_TOGGLE digitalToggle(GPIOB,GPIO_Pin_0) #define LED1_OFF digitalHi(GPIOB,GPIO_Pin_0) #define LED1_ON digitalLo(GPIOB,GPIO_Pin_0) #define digitalHi(p,i) {p-&gt;BSRR=i;} #define digitalLo(p,i) {p-&gt;BRR=i;} #define digitalToggle(p,i) {p-&gt;ODR^=i; 尚需掌握的技能 调试中断 NVIC(Nest Vectored Interrupt Controller内嵌向量中断控制器)。 EXTI（外部中断） 将gpio作为中断的处理流程 GPIO初始化 将gpio脚连接到extiline上。 exti初始化 nvic初始化 当中断到来后 清除gpio寄存器中的信号量。 清除exti上的信号量。头文件 头文件是要书写的，相应的.c文件需要引用的头文件全部包含在.h头文件中，在.c文件中只需要包含响应的.h文件即可，这样的话，在编译相应的.c文件的时候.h文件已经进行了编译。当在main函数中进行包含的时候不会再次进行编译，但是已经告诉main函数，要把这个文件包含进来，而这个文件中有响应函数的声明。SysTick 所有基于Cortex_M3处理器的微控制器都可以由这个定时器获得一定的时间间隔。常用术语 微控制单元(Microcontroller Unit；MCU) 需要解决的问题 通过串口未能成功将文件下载到开发板上。ADC 参考电压：测量物体的长度要用卷尺，精确测量要用游标卡尺，同理，ADC 测量电压也要有标准电压做基准。如八位并行比较型 ADC ，把参考电压均分为 256 层，就好像卷尺的刻度，输入的待测电压与哪一个分层相等，数值就知道了。经验 下一次在进行32的编程的时候，直接把头文件中的结构体的数据成员复制过来，这样简直就是太方便了，因为每个数据成员都有相应的十分详细的解释。与C语言不同之处 C语言中的unsigned long的个格式化输出占位符是lu;但是在stm32中编译环境是Keil中的时候就变成了ul。这是自己不能够理解的地方。]]></content>
       <categories>
         <category>学习札记-CODE</category>
       </categories>
