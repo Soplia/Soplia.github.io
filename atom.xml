@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-01-24T19:43:54.344Z</updated>
+  <updated>2019-01-24T19:45:00.517Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2019/01/24/0CODE-JfF/"/>
     <id>http://yoursite.com/2019/01/24/0CODE-JfF/</id>
     <published>2019-01-24T19:11:10.000Z</published>
-    <updated>2019-01-24T19:43:54.344Z</updated>
+    <updated>2019-01-24T19:45:00.517Z</updated>
     
     <summary type="html">
     
@@ -48,9 +48,17 @@
     <link href="http://yoursite.com/2019/01/24/0CODE-PROJECT/"/>
     <id>http://yoursite.com/2019/01/24/0CODE-PROJECT/</id>
     <published>2019-01-24T19:10:59.000Z</published>
-    <updated>2019-01-24T19:13:52.716Z</updated>
+    <updated>2019-01-24T20:09:08.740Z</updated>
     
     <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;PROJECT&quot;&gt;&lt;a href=&quot;#PROJECT&quot; class=&quot;headerlink&quot; title=&quot;PROJECT&quot;&gt;&lt;/a&gt;PROJECT&lt;/h3&gt;&lt;h4 id=&quot;COURSE-DESIGN-B&quot;&gt;&lt;a href=&quot;#COURSE-DESIGN-B&quot;
+        
+      
     
     </summary>
     
@@ -502,9 +510,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="POWER" scheme="http://yoursite.com/tags/POWER/"/>
-    
       <category term="积累学习_FIRST" scheme="http://yoursite.com/tags/%E7%A7%AF%E7%B4%AF%E5%AD%A6%E4%B9%A0-FIRST/"/>
+    
+      <category term="POWER" scheme="http://yoursite.com/tags/POWER/"/>
     
   </entry>
   
@@ -534,9 +542,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="积累学习_TWO" scheme="http://yoursite.com/tags/%E7%A7%AF%E7%B4%AF%E5%AD%A6%E4%B9%A0-TWO/"/>
-    
       <category term="POWER" scheme="http://yoursite.com/tags/POWER/"/>
+    
+      <category term="积累学习_TWO" scheme="http://yoursite.com/tags/%E7%A7%AF%E7%B4%AF%E5%AD%A6%E4%B9%A0-TWO/"/>
     
   </entry>
   
@@ -565,9 +573,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="POWER" scheme="http://yoursite.com/tags/POWER/"/>
-    
       <category term="积累学习_FIRST" scheme="http://yoursite.com/tags/%E7%A7%AF%E7%B4%AF%E5%AD%A6%E4%B9%A0-FIRST/"/>
+    
+      <category term="POWER" scheme="http://yoursite.com/tags/POWER/"/>
     
   </entry>
   
