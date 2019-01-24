@@ -56,8 +56,8 @@
         <category>素养</category>
       </categories>
       <tags>
-        <tag>好字</tag>
         <tag>素养</tag>
+        <tag>好字</tag>
       </tags>
   </entry>
   <entry>
@@ -92,8 +92,8 @@
         <category>素养</category>
       </categories>
       <tags>
-        <tag>素养</tag>
         <tag>句子</tag>
+        <tag>素养</tag>
       </tags>
   </entry>
   <entry>
@@ -180,8 +180,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>积累学习_FIRST</tag>
         <tag>POWER</tag>
+        <tag>积累学习_FIRST</tag>
       </tags>
   </entry>
   <entry>
@@ -193,8 +193,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>POWER</tag>
         <tag>积累学习_TWO</tag>
+        <tag>POWER</tag>
       </tags>
   </entry>
   <entry>
@@ -206,8 +206,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>积累学习_FIRST</tag>
         <tag>POWER</tag>
+        <tag>积累学习_FIRST</tag>
       </tags>
   </entry>
   <entry>
@@ -423,10 +423,10 @@
     <url>%2F2018%2F12%2F29%2FCODE-%E7%BB%8F%E9%AA%8C%2F</url>
     <content type="text"><![CDATA[无论如何, 一定要想办法能单步跟踪; 无论如何, 一定要有很方便的测试数据; 对于引用同一个名字的UserControl, 它们很可能不是同一个文件！！！ 对于看着很奇怪的问题， 应该把它写下来， 把前提和结果都详细写下来， 再仔细看前提。 大部分奇怪的结果是因为你错误的前提造成的——你的前提之中， 就有了一部分是由于粗心而弄错的， 它们实际上并不是你想象的样子 对于人名, 如果用户保存时包含了单引号或者双引号, 会引起意想不到的错误, 应该禁止; 如果一个业务功能，逻辑相当之复杂，以致于要写很多代码来完成，而且易于出错。应试首先试着想：是否能从业务的角度来简化，而不是死盯技术。]]></content>
       <categories>
-        <category>学习札记-CODE</category>
+        <category>学习札记-CODING</category>
       </categories>
       <tags>
-        <tag>CODE</tag>
+        <tag>CODING</tag>
         <tag>学习札记</tag>
         <tag>经验</tag>
       </tags>
@@ -436,10 +436,10 @@
     <url>%2F2018%2F12%2F29%2FCODE-MARKDOWN%2F</url>
     <content type="text"><![CDATA[MarkDowns是一个非常简单、非常容易学习的语法。仅为写作而生。在Mac上使用 Mon,在web上使用简书。简书上切换markdown的方式 图床一般是指储存图片的服务器. MarkDown2注册秘钥邮箱：Soar360@live.com授权秘钥：GBPduHjWfJU1mZqcPM3BikjYKF6xKhlKIys3i1MU2eJHqWGImDHzWdD6xhMNLGVpbP2M5SN6bnxn2kSE8qHqNY5QaaRxmO3YSMHxlv2EYpjdwLcPwfeTG7kUdnhKE0vVy4RidP6Y2wZ0q74f47fzsZo45JE2hfQBFi2O9Jldjp1mW8HUpTtLA2a5/sQytXJUQl/QKO0jUQY4pa5CCx20sV1ClOTZtAGngSOJtIOFXK599sBr5aIEFyH0K7H4BoNMiiDMnxt1rD8Vb/ikJdhGMMQr0R4B+L3nWU97eaVPTRKfWGDE8/eAgKzpGwrQQoDh+nzX1xoVQ8NAuH+s4UcSeQ== 火狐添加微博图床https://addons.mozilla.org/zh-CN/firefox/addon/%E5%BE%AE%E5%8D%9A%E5%9B%BE%E5%BA%8A/ 连接 Markdown入门指南，扫盲 中文语法书 英文语法书 经验 在使用代码的时候如果一ciTAB不好用，那么就两次。]]></content>
       <categories>
-        <category>学习札记-CODE</category>
+        <category>学习札记-CODING</category>
       </categories>
       <tags>
-        <tag>CODE</tag>
+        <tag>CODING</tag>
         <tag>学习札记</tag>
         <tag>MARKDOWN</tag>
       </tags>
@@ -449,10 +449,10 @@
     <url>%2F2018%2F12%2F29%2FCODE-STM32%2F</url>
     <content type="text"><![CDATA[如何学习 学前准备 入门级视频教程：鑫鑫stm32 初学者视频教程。最好先下个keil uvision4安装上。 第一节：http://video.tudou.com/v/XMjE5NTM1MjE4OA==.html 第二节：http://video.tudou.com/v/XMTc4OTcyNjI5Mg==.html 第三节：http://video.tudou.com/v/XMTc4Nzc3NDUzNg==.html 第四节：http://video.tudou.com/v/XMjE5NzU2MzU1Mg==.html 第五节：http://video.tudou.com/v/XMjE5ODU4MTUzMg==.html 第六节：http://video.tudou.com/v/XMjIwMjQ3ODg3Mg==.html 进阶级视频教程：刘洋老师边讲边写stm32。 编程前还需要一本stm32库函数手册。 然后就可以开始学了。没有开发板也没事，IDE里面有仿真器，但最好有一个开发板。因为只有软件，不会接线配电平什么的也不行 学习套路 首先，把片上外设学一遍，就ok了。 其次，通过做项目练习综合使用。 最后，进阶的话可以看看寄存器级的开发，以及内部储存空间的分配（可以试着写写iap）。 一开始不着急，可以先把程序整明白。 就是学会怎么启动以及配置各个外设就行了。官方的库函数都已经封装好了，多数情况下都不需要直接操作底层的寄存器。 如果官方的库里没有这个功能的代码，就只能自己通过设置对应寄存器解决。 教程不针对某一块特定的开发板 可以的，教程不针对特定型号的开发板 因为说白了单片机就是一芯片 开发板无非就是把片上外设的引脚印出来接了LED神马的东西，自己也能做的。 学的时候记得看电路图。如果你想做开发板上的实验的话，一定要有对应的电路图，因为不同板子GPIO的引脚配置不一样。 资料整理 刚刚给你的手册既有库函数的，也有寄存器的。你可以直接从库函数开发学起，但一定要有寄存器的概念。 XCOM是烧写片上程序的时候用的。 因为现在的板子大多用usb口，都不是Jlink的，所以就用XCOM往板子上烧写。 缺点就是没法实时调试。一个Jlink正版仿真器成本有点高，你一开始也未必用得上。 首要做的事情 所以先从最基本的写程序开始吧。小的程序IDE里调试过了上板子基本就不会有问题 等你把片上外设都学完了会用了之后再跟你说我做的那个IAP实验吧，那个作为进阶练习，可以让你对单片机理解更深一层。 细节 加油，别放弃。看教程的时候耐心点，多总结，多记笔记，有好处。 视频有点长，开始的时候可以边讲边写，后来有了基础后建议你看清楚外设的使用流程后自己写，不懂的地方再回头对照。 主要就是使用流程、配置参数这些环节记准了就没问题，一些小细节不必深究。千万别亦步亦趋只跟着抄代码，那样看完视频也学不会的。 多查手册，多查手册，多查手册 ###搭建环境 安装jlink驱动器。如果能够在设备管理器中看到，jlinkdrive说明jlink的驱动安装成功了。 安装keil5，但是需要安装连个legacy support，这个可以根据keil5的提示到给出的链接上下载，把那两个都下载下来，然后安装。 按照操作步骤将程序下载到开发板上即可。GPIO General Purpose Input Output.称为总线扩展器。如果外设有n只脚的话，那么gpio占了1/n.而好处是，能够通过软件编程设置gpio的高低电压，进而控制外设。 stm32中共有7个gpio，每个gpio有16个引脚。 在编程中如果要使用gpio的话。 创建gpio结构体变量。 在板子上需要要控制的外设的引脚，然后看到对面，如果是A11，那么代表着该外设是GPIOA的11号管脚。那么就要使用GPIO_Init(GPIOA, &amp;GPIO_InitStructure);进行初始化。使用GPIO_SetBits(GPIOA, GPIO_Pin_11);对该gpio的11号引脚进行赋值。注意 使用jlink调试的时候需要将boot调节到flash上即可。 使用串口调试的时候，方式是不同的。 板子需要进行供电，使用USB TO UART口进行供电就行，另一端直接连接在电源上即可。 跨文件引用的函数不要使用static进行修饰 尚未理解的代码 ///这段代码适合等头脑清醒的时候进行阅读 #define LED1_TOGGLE digitalToggle(GPIOB,GPIO_Pin_0) #define LED1_OFF digitalHi(GPIOB,GPIO_Pin_0) #define LED1_ON digitalLo(GPIOB,GPIO_Pin_0) #define digitalHi(p,i) {p-&gt;BSRR=i;} #define digitalLo(p,i) {p-&gt;BRR=i;} #define digitalToggle(p,i) {p-&gt;ODR^=i; 尚需掌握的技能 调试中断 NVIC(Nest Vectored Interrupt Controller内嵌向量中断控制器)。 EXTI（外部中断） 将gpio作为中断的处理流程 GPIO初始化 将gpio脚连接到extiline上。 exti初始化 nvic初始化 当中断到来后 清除gpio寄存器中的信号量。 清除exti上的信号量。头文件 头文件是要书写的，相应的.c文件需要引用的头文件全部包含在.h头文件中，在.c文件中只需要包含响应的.h文件即可，这样的话，在编译相应的.c文件的时候.h文件已经进行了编译。当在main函数中进行包含的时候不会再次进行编译，但是已经告诉main函数，要把这个文件包含进来，而这个文件中有响应函数的声明。SysTick 所有基于Cortex_M3处理器的微控制器都可以由这个定时器获得一定的时间间隔。常用术语 微控制单元(Microcontroller Unit；MCU) 需要解决的问题 通过串口未能成功将文件下载到开发板上。ADC 参考电压：测量物体的长度要用卷尺，精确测量要用游标卡尺，同理，ADC 测量电压也要有标准电压做基准。如八位并行比较型 ADC ，把参考电压均分为 256 层，就好像卷尺的刻度，输入的待测电压与哪一个分层相等，数值就知道了。经验 下一次在进行32的编程的时候，直接把头文件中的结构体的数据成员复制过来，这样简直就是太方便了，因为每个数据成员都有相应的十分详细的解释。与C语言不同之处 C语言中的unsigned long的个格式化输出占位符是lu;但是在stm32中编译环境是Keil中的时候就变成了ul。这是自己不能够理解的地方。]]></content>
       <categories>
-        <category>学习札记-CODE</category>
+        <category>学习札记-CODING</category>
       </categories>
       <tags>
-        <tag>CODE</tag>
+        <tag>CODING</tag>
         <tag>学习札记</tag>
         <tag>STM32</tag>
       </tags>
@@ -462,10 +462,10 @@
     <url>%2F2018%2F12%2F29%2FCODE-SUPERSOCKE2%2F</url>
     <content type="text"><![CDATA[命令和命令加载器实例 Command类 public class ADD : CommandBase&lt;GameSession, GameRequestInfo&gt; { string TAG = &quot;ADD:&quot;; public override void ExecuteCommand(GameSession session, GameRequestInfo requestInfo) { Console.WriteLine(TAG+&quot;Hello World&quot;); session.Send(requestInfo.ToString()); } //这个地方开不开启很重要 public override string Name { get { return &quot;01&quot;; } } } Filter class TerReceiveFilter : TerminatorReceiveFilter&lt;GameRequestInfo&gt; { string TAG = &quot;TerReceiveFilter:&quot;; public TerReceiveFilter() : base(Encoding.Default.GetBytes(&quot;##&quot;)) //传入固定的请求大小 { } //只是进行测试并没有进行解析 protected override GameRequestInfo ProcessMatchedRequest(byte[] data, int offset, int length) { Console.WriteLine(TAG + &quot;ProcessMatchedRequest&quot;); ///使用一个变量之前必须给它分配相应的内存空间 GameRequestInfo info = new GameRequestInfo(); //如果自己的过滤器重写了Name，那么Name的优先级大于command类的名字 //所以在给Key赋值的时候需要使用Name进行赋值，而不是使用command类的名字 //进行赋值。 info.Key = &quot;01&quot;; return info; } } Server class GameServer : AppServer&lt;GameSession, GameRequestInfo&gt; { string TAG = &quot;GameServer:&quot;; public GameServer() : base(new DefaultReceiveFilterFactory&lt;TerReceiveFilter, GameRequestInfo&gt;()) { //使用命令之后不需要注册这两个事件 //NewSessionConnected += GameServer_NewSessionConnected; //NewRequestReceived += GameServer_NewRequestReceived; } private void GameServer_NewRequestReceived(GameSession session, GameRequestInfo requestInfo) { Console.WriteLine(requestInfo.ToString()); } private void GameServer_NewSessionConnected(GameSession session) { Console.WriteLine(TAG + &quot;GameServer_NewSessionConnected&quot;); } } 命令过滤器 CommandFilter class GameCommandFilter:CommandFilterAttribute { ​ public override void OnCommandExecuted(CommandExecutingContext commandContext) ​ { ​ commandContext.Session.Items[“StartTime”] = DateTime.Now; ​ } ​ public override void OnCommandExecuting(CommandExecutingContext commandContext) ​ { ​ var session = commandContext.Session; ​ session.Logger.InfoFormat(“A command ‘{0}’ took {1} seconds!”, commandContext.CurrentCommand.Name, DateTime.Now.ToString()); ​ } } Command //为此命令应用命令过滤器 [GameCommandFilter] public class ADD : CommandBase&lt;GameSession, GameRequestInfo&gt; { ​ string TAG = “ADD:”; ​ public override void ExecuteCommand(GameSession session, GameRequestInfo requestInfo) ​ { ​ Console.WriteLine(TAG+”Hello World”); ​ session.Send(requestInfo.ToString()); ​ } ​ //这个地方开不开启很重要 ​ public override string Name ​ { ​ get ​ { ​ return “01”; ​ } ​ } } 配置文件app.config中标签的属性写错了之后，没有影响。 健康的蛀牙 多个服务器实例之间的交互，可以使用socket通信完成 将一个.exe打包到C#输出文件中。 右键项目 在第一个项目生成中选择类库 在调试中选择相应的.exe程序 右键项目选择重新生成 重新生成项目 清理项目 在资源管理器中查看该项目 昨天的那个问题是因为需要把x86CPU换成AnyCPU才行。因为x86和那个 SuperSocket.SocketService 不一致 在VS2015中需要使用sku=”.NETFramework,Version=v4.5.2。同时需要在属性中进行设置。]]></content>
       <categories>
-        <category>学习札记-CODE</category>
+        <category>学习札记-CODING</category>
       </categories>
       <tags>
-        <tag>CODE</tag>
+        <tag>CODING</tag>
         <tag>学习札记</tag>
         <tag>SUPERCODE</tag>
       </tags>
@@ -475,10 +475,10 @@
     <url>%2F2018%2F12%2F29%2FCODE-SUPERSOCKE1%2F</url>
     <content type="text"><![CDATA[新建项目步骤 在vs中创建一个空白解决方案，选择好路径。 在解决方案下创建项目。VisualC#→Windows→控制台应用程序. 右键项目→ 属性→ 应用程序→ 目标框架→ .NET Framework 4. 右键引用→浏览添加supersocket需要的.dll文件。 右键项目新建文件夹Config，添加现有文件log4net.config和log4net.unix.config。这两个文件的属性按照要求进行设置即可。 调试运行出现错误。 右键引用→ .NET 添加错误提示中需要的.dll文件。测试指令 Telnet测试指令 telnet 127.0.0.1 2017问题 当一个类显示没有被包含进来的时候，需要根据API手册，找到相应的类。 当在使用Command时，调用自己写的APPSession和APPServer的时候出现了访问类型不一致的问题。原因是：自定义的AppSession的类的访问权限应该使用public进行限制。经验 在AppServer中OnStartup方法已经过时了(obsolete)，替代的方法是OnStarted方法。 在相对位置不同的类中引用其它路径下的类的时候，需要首先需要使用这个类的命名空间。 一个配置文件实例 &lt;?xml version=&quot;1.0&quot;?&gt; &lt;configuration&gt; &lt;configSections&gt; &lt;section name=&quot;superSocket&quot; type=&quot;SuperSocket.SocketEngine.Configuration.SocketServiceConfig, SuperSocket.SocketEngine&quot; /&gt; &lt;/configSections&gt; &lt;appSettings&gt; &lt;add key=&quot;ServiceName&quot; value=&quot;SupperSocketService&quot; /&gt; &lt;/appSettings&gt; &lt;!--开启匹配功能--&gt; &lt;superSocket xmlns=&quot;http://schema.supersocket.net/supersocket&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://schema.supersocket.net/supersocket http://schema.supersocket.net/v1-6/supersocket.xsd&quot;&gt; &lt;servers&gt; &lt;server name=&quot;GameServer&quot; logFactory=&quot;ConsoleLogFactory&quot; serverTypeName=&quot;GameServer&quot; ip=&quot;Any&quot; port=&quot;2017&quot; &gt; &lt;/server&gt; &lt;/servers&gt; &lt;!--type的第一个参数是服务器类的具体路径，第二个参数是项目名(是程序集名，而不是类的命名空间)--&gt; &lt;serverTypes&gt; &lt;add name=&quot;GameServer&quot; type=&quot;SuperSocketServer.Server1.GameServer, SuperSocketServer&quot;/&gt; &lt;/serverTypes&gt; &lt;!--为该服务器添加日志，生成的日志文件在bin/Debug/logs中进行查看；同时由于开启了日志功能，控制台也会打印相关的信息--&gt; &lt;logFactories&gt; &lt;add name=&quot;ConsoleLogFactory&quot; type=&quot;SuperSocket.SocketBase.Logging.ConsoleLogFactory, SuperSocket.SocketBase&quot; /&gt; &lt;/logFactories&gt; &lt;/superSocket&gt; &lt;startup&gt; &lt;supportedRuntime version=&quot;v4.0&quot; sku=&quot;.NETFramework,Version=v4.0&quot; /&gt; &lt;/startup&gt; &lt;/configuration&gt; Command运行不稳定啊啊啊 使用自定义RequestInfo，AppSession的固定数量分隔符协议 public CounterReceiveFilter() : base((byte)&apos;#&apos;, 11) { } ​ public MyAppServer() ​ : base(new DefaultReceiveFilterFactory&lt; CounterReceiveFilter, RequestInfo&gt;()) ​ { ​ } 使用自定义RequestInfo，AppSession的结束符协议协议​ class TerReceiveFilter : TerminatorReceiveFilter&lt;RequestInfoFirst&gt; { public TerReceiveFilter() : base(Encoding.Default.GetBytes(&quot;##&quot;)) //传入固定的请求大小 { } protected override RequestInfoFirst ProcessMatchedRequest(byte[] data, int offset, int length) { ///使用一个变量之前必须给它分配相应的内存空间 RequestInfoFirst info=new RequestInfoFirst(); info.totalCmd_App = &quot;Hello World&quot;; return info; } } class GameServer:AppServer&lt;GameSession,RequestInfoFirst&gt; { string TAG = &quot;GameServer:&quot;; /// &lt;summary&gt; /// AppServer only has two constructors /// &lt;/summary&gt; public GameServer() : base(new DefaultReceiveFilterFactory&lt;TerReceiveFilter, RequestInfoFirst&gt;()) { NewSessionConnected += GameServer_NewSessionConnected; NewRequestReceived += GameServer_NewRequestReceived; } private void GameServer_NewRequestReceived(GameSession session, RequestInfoFirst requestInfo) { Console.WriteLine(requestInfo.totalCmd_App); } private void GameServer_NewSessionConnected(GameSession session) { Console.WriteLine(TAG + &quot;GameServer_NewSessionConnected&quot;); } } 当错误提示为“是否缺少using指令或程序集引用”时，可以采取以下办法： 去API中找相应出错方法的命名空间。 在IDE中找到出错方法的定义处，寻找相应的命名空间。 百度寻找相应方法的命名空间。 ASCII 表对照 使用自定义RequestInfo，AppSession的头部格式固定且包含内容长度的协议 class FixedReceiveFilter: FixedHeaderReceiveFilter&lt;BinaryRequestInfo&gt; { public FixedReceiveFilter() : base(6) { } //只要输入完了长度，这个函数就会自动被触发 protected override int GetBodyLengthFromHeader(byte[] header, int offset, int length) { //这个地方计算的请求体的长度不对。 int lengthOfBody= (header[offset + 4] -48)*10 + header[offset + 5]-48; Console.WriteLine(&quot;header[offset + 4]:&quot;+header[offset + 4]+&quot;;header[offset + 5]:&quot;+header[offset + 5]+&quot;；lengthOfBody：&quot; + lengthOfBody); return lengthOfBody; } protected override BinaryRequestInfo ResolveRequestInfo(ArraySegment&lt;byte&gt; header, byte[] bodyBuffer, int offset, int length) { //因为BinaryRequestInfo中的数据成员都是只读的 //所以需要在构造这个对象的时候，给给它进行赋值。 return new BinaryRequestInfo(Encoding.UTF8.GetString(header.Array, header.Offset, 4), bodyBuffer.CloneRange(offset, length)); } } class GameServer : AppServer&lt;GameSession, BinaryRequestInfo&gt; { string TAG = &quot;GameServer:&quot;; public GameServer() : base(new DefaultReceiveFilterFactory&lt;FixedReceiveFilter, BinaryRequestInfo&gt;()) { NewSessionConnected += GameServer_NewSessionConnected; NewRequestReceived += GameServer_NewRequestReceived; } private void GameServer_NewRequestReceived(GameSession session, BinaryRequestInfo requestInfo) { Console.WriteLine(requestInfo.Key+&quot;:&quot;+requestInfo.Body); } private void GameServer_NewSessionConnected(GameSession session) { Console.WriteLine(TAG + &quot;GameServer_NewSessionConnected&quot;); } } 特别注意session、server、command的定义方法： public class GameSession : AppSession&lt;GameSession, BinaryRequestInfo&gt;{} public class GameServer : AppServer&lt;GameSession, BinaryRequestInfo&gt;{} public class RESTART : CommandBase&lt;GameSession, BinaryRequestInfo&gt;{}从上面不难看出只要是使用的session的地方不论是server还是command，他们的另外一个RequestInfo参数必须是和Session中的RequestInfo的参数是一样的，否则会出现参数类型不匹配的错误。 C#中实现接口https://www.cnblogs.com/ben-zhang/archive/2012/12/18/2823455.html SuperSocket实现接口举例 接口 // 摘要: // Receive filter interface // // 类型参数: // TRequestInfo: // The type of the request info. public interface IReceiveFilter&lt;TRequestInfo&gt; where TRequestInfo : global::SuperSocket.SocketBase.Protocol.IRequestInfo { // 摘要: // Gets the size of the rest buffer. int LeftBufferSize { get; } // // 摘要: // Gets the next Receive filter. IReceiveFilter&lt;TRequestInfo&gt; NextReceiveFilter { get; } // // 摘要: // Gets the filter state. FilterState State { get; } // 摘要: // Filters received data of the specific session into request info. // // 参数: // readBuffer: // The read buffer. // // offset: // The offset of the current received data in this read buffer. // // length: // The length of the current received data. // // toBeCopied: // if set to true [to be copied]. // // rest: // The rest, the length of the data which hasn&apos;t been parsed. TRequestInfo Filter(byte[] readBuffer, int offset, int length, bool toBeCopied, out int rest); // // 摘要: // Resets this instance to initial state. void Reset(); } 实现接口的类 class XieReceiveFilter:IReceiveFilter&lt;GameRequestInfo&gt; { public int LeftBufferSize { //必须要实现get方法。 get { return 1; } } public IReceiveFilter&lt;GameRequestInfo&gt; NextReceiveFilter { //如果不实现get方法，就会报错，就会报没有实现接口的错。 get； } public FilterState State { get { throw new NotImplementedException(); } } public GameRequestInfo Filter(byte[] readBuffer, int offset, int length, bool toBeCopied, out int rest) { throw new NotImplementedException(); } public void Reset() { throw new NotImplementedException(); } } 既然要实现接口，那么接口的返回值和函数名一节形参都是不能够改变的。 为服务器应用自己的过滤器工厂 RequestInfo public class GameRequestInfo:IRequestInfo { public string Key { get;set;} } Session ​ public class GameSession : AppSession&lt;GameSession, GameRequestInfo&gt; ​ { ​ protected override void OnSessionStarted() ​ { ​ this.Send(“Welcome to SuperSocket Telnet Server”); ​ } ​ protected override void HandleUnknownRequest(GameRequestInfo requestInfo) { this.Send(&quot;Unknow request&quot;); } protected override void HandleException(Exception e) { this.Send(&quot;Application error: {0}&quot;, e.Message); } protected override void OnSessionClosed(CloseReason reason) { //add you logics which will be executed after the session is closed base.OnSessionClosed(reason); } } Filter class XieReceiveFilter:IReceiveFilter&lt;GameRequestInfo&gt; { public int LeftBufferSize { get { throw new NotImplementedException(); } } public IReceiveFilter&lt; GameRequestInfo&gt; NextReceiveFilter { get { throw new NotImplementedException(); } } public FilterState State { get { throw new NotImplementedException(); } } public GameRequestInfo Filter(byte[] readBuffer, int offset, int length, bool toBeCopied, out int rest) { throw new NotImplementedException(); } public void Reset() { throw new NotImplementedException(); } } FilterFactory class XieReceiveFilterFactory : IReceiveFilterFactory&lt;GameRequestInfo&gt; { public IReceiveFilter&lt;GameRequestInfo&gt; CreateFilter(IAppServer appServer, IAppSession appSession, IPEndPoint remoteEndPoint) { throw new NotImplementedException(); } } Server class GameServer : AppServer&lt;GameSession, GameRequestInfo&gt; { string TAG = &quot;GameServer:&quot;; public GameServer() : base(new XieReceiveFilterFactory()) { NewSessionConnected += GameServer_NewSessionConnected; NewRequestReceived += GameServer_NewRequestReceived; } private void GameServer_NewRequestReceived(GameSession session, GameRequestInfo requestInfo) { Console.WriteLine(requestInfo.ToString()); } private void GameServer_NewSessionConnected(GameSession session) { Console.WriteLine(TAG + &quot;GameServer_NewSessionConnected&quot;); } }]]></content>
       <categories>
-        <category>学习札记-CODE</category>
+        <category>学习札记-CODING</category>
       </categories>
       <tags>
-        <tag>CODE</tag>
+        <tag>CODING</tag>
         <tag>学习札记</tag>
         <tag>SUPERSOCK</tag>
       </tags>
@@ -488,10 +488,10 @@
     <url>%2F2018%2F12%2F29%2FCODE-PYTHON%2F</url>
     <content type="text"><![CDATA[Python简介 python语法简洁清晰，特色之一是强制用空白符作为语句缩进。 Python具有非常丰富和强大的库。被称为胶水语言，能够把用其它语言制作的各种模块很轻松地连接在一起。 Python是完全面向对象的语言。 Python采用动态类型系统。在编译的时候，Python不会检查对象是否拥有被调用的方法或者属性，而是直至运行时，才做出检查。所以操作对象时可能会抛出异常。不过，虽然Python采用动态类型系统，它同时也是强类型的。 导入模块 import math from math import * form math import pi 在编写Python的时候尽量不要使用Tab键进行空格。 如果使用文本编辑器编辑Python的时候需要及时进行保存。 推荐的图书：《Introduction to the Theory of Computation》 在进行递归程序编程的时候不应该顺着程序进行递归调用，应该假设我已经获得了n-1的阶乘，能否通过现有的算法获得n的阶乘。 Python中对于实例的属性的定义绝对是个很奇葩的方式。]]></content>
       <categories>
-        <category>学习札记-CODE</category>
+        <category>学习札记-CODING</category>
       </categories>
       <tags>
-        <tag>CODE</tag>
+        <tag>CODING</tag>
         <tag>学习札记</tag>
         <tag>PYTHON</tag>
       </tags>
@@ -501,10 +501,10 @@
     <url>%2F2018%2F12%2F29%2FCODE-FPGA-CPLD%2F</url>
     <content type="text"><![CDATA[FPGA(Feild Programmable Gate Array)现场可编程门列阵。属于可编程逻辑器件的一种。到目前为止已经成为实现数字系统的主流平台之一。 PLD(Programmable Logic Device)可编程逻辑器件。它的主要特点就是允许用户通过软件对其进行配置和编程，从而完成某种特定功能，且可以反复进行擦写。 在修改和升级PLD时根本不用重置PCB电路板，仅仅需要在计算机上重新书写PLD程序。 FPGA为易失性器件，掉电后配置数据会失去，因此每次上电后需要重新进行配置。 将典型的单元电路封装起来构成固定的单元电路。 设计人员应该考虑如何将可组装的软件包和软件库搭建出满足需求的功能模块甚至完整的系统。 EDK(Electronic Design Automation)工业设计自动化 由于FPGA需要反复的被烧写，所以不能够使用固定的与非门，查找表是一种很好的实现方式。 通过烧写文件改变查找表，实现对于FPGA的反复配置。实现了在相同电路情况下实现了不同的逻辑功能。 查找表本质上就是一个RAM。自己理解：综合器根据用户输入的HDL语言，将相应的逻辑电路转化为真值表，输入作为地址，然后查找真值表，将相应的内容输出即可。 可编程输入输出单元IOB，是芯片与外界电路的接口部分，完成不同电气特性下对输入输出信号的驱动与匹配要求。 CLB是FPGA内的基本逻辑单元。 软核在EDA设计领域指的是寄存器传输级模型。在FPGA设计中指的是对电路的听见描述语言，包括逻辑描述、网表和帮助文档等。 HDL是以文本形式来描述数字系统硬件结构和行为的语言。 FPGA 器件基于SRAM结构来实现可编程特性，具有集成度高、逻辑功能强等特点，但掉电后编程信息会立即丢失，芯片在每次上电之后都需要重新下载设计文件所生成的的配置数据。 如何快速高效的将配置文件写入目标器件，如果在掉电再上电后能够自动可靠的恢复配置文件，是整个系统的关键。 ISE以工程为单位对设计输入进行管理，因此首先需要建立ISE工程，然后再新建HDL文件输入HDL代码，或者新建并在HDL文件中实例化IP核。 所谓综合就是将HDL语言、原理图等输入设计翻译成与或非门和RAM触发器等基本逻辑单元的逻辑连接，并根据目标和约束条件优化所生成的逻辑连接，生成EDF文件。 Very High Speed Integrated Circuit.Hardware.Description.Language.(VHDL) VHDL打破了软硬件的壁垒。是电子系统设计者和EDA工具之间的界面。 C、C++代替汇编等语言。VHDL代替了原理图、状态转换图。 RegisterTranslateLevel(RTL) VHDL包括基本的四样：实体、结构体、配置文件、库，程序包。 实体：描述了设计单元的输入输出。是设计实体经过封装之后对外界的一个通信界面。 结构体：定义了设计单元的具体功能，描述了设计电源的行为、元件和内部的连接关系。 VHDL中有常量、变量、信号、文件自中类型。 如果实体内部需要反馈输出信号，则需要将信号定义为buffer而不是out。一个实体可以对应多个结构体，同一时刻只能有一个结构体起作用。通过configuration决定使用那个结构体进行仿真或综合实验。 在结构体中的执行是同时进行的，执行顺序与书写顺序无关。 进程语句定义顺序语句模块，用于将从外部获得的信号或内部的运算数据向其它信号进行赋值。 进程本身是并行的，但是内部的语句是顺序的。进程只有在特定的时刻才能够被激活，比如敏感信号被触发的时候。 元件例化语句 元件例化引入一种连接关系，将预先设计好的实体定义为元件，并将此元件与当前设计实体中的端口相连接，从而为当前设计实体，引入一个新的低一级的设计层次。 在结构体中的执行是同时进行的，执行顺序与书写顺序无关。 进程语句定义顺序语句模块，用于将外部获得的信号值或内部的运算数据向其它的信号进行赋值。 假定主存可以在一个时钟周期内完成一次存取操作，而且可以和CPU同步工作。系统使用同一个主存单元。指令读取和数据访问都使用同一组存储器。]]></content>
       <categories>
-        <category>学习札记-CODE</category>
+        <category>学习札记-CODING</category>
       </categories>
       <tags>
-        <tag>CODE</tag>
+        <tag>CODING</tag>
         <tag>学习札记</tag>
         <tag>FPGA</tag>
       </tags>
@@ -514,10 +514,10 @@
     <url>%2F2018%2F12%2F29%2FCODE-%E4%B8%80%E6%AD%A5%E6%AD%A5%E7%BC%96%E5%86%99%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%2F</url>
     <content type="text"><![CDATA[在琳琅坂木的ARM编译器中挑选一款用来编译源程序就成了必须首先要解决的问题。 嵌入式开发时，通常都是在PC上对源代码进行编译，当生成可执行代码后下载到目标ARM平台上，人们将这种编译过程称为交叉编译或跨平台编译，而将一整套用于交叉编译的工具称为交叉编译工具链。 名为arm-linux-gcc、arm-elf-gcc的编译器的含义：开头的arm代表编译结束后将生成arm体系结构机器码。中间的Linux代表该编译器在编译时对Linux系统做了特定的优化、elf代表更适合生成通常的可执行程序。 编译生成的目标代码是arm体系结构的机器码，我们无法将其在我们的机器上运行，道理是很明显的。解决方法是购买一块arm开发平台、另一种方法就是使用类似于Android虚拟机似的一个东西，而这个东西就叫做虚拟机，Skyeye是其中一款。 SkyEye是一个开源项目，目标是在Linux或Windows上实现一个传软件集成开发环境，模拟常见的计算机系统。是一个指令集模拟器。能进行源码级的分析与测试。]]></content>
       <categories>
-        <category>学习札记-CODE</category>
+        <category>学习札记-CODING</category>
       </categories>
       <tags>
-        <tag>CODE</tag>
+        <tag>CODING</tag>
         <tag>学习札记</tag>
         <tag>嵌入式</tag>
       </tags>
@@ -527,10 +527,10 @@
     <url>%2F2018%2F12%2F29%2FCODE-DATABASE%2F</url>
     <content type="text"><![CDATA[sqlyog中不显示创建的数据库的原因解释 在打开sqlyog的时候，需要配置ip地址，用户名和密码，当然下面还有天数据库名称的，如果你填了一个，当然这sqlyog里面只能看到你填过的这个数据库啦，如果你这一栏空白不填的话，sqlyog里面会显示所有的你创建的数据库名啦。 当然，还有一种情况时，就是有可能你创建的这个数据库在另一个帐号下面创建的，在这个账号上面当然看不到！ 无法打开物理文件 XXX.mdf”。操作系统错误 5:”5(拒绝访问。)”的解决办法 解决方案 一：数据库使用windows验证，将被附加的数据库移植到根目录下，即MSSQL的DATA目录下。 解决方案二：将要附加的.mdf文件和.ldf文件更改权限，选中.mdf文件—-&gt;右击—–&gt;属性—–&gt;安全——&gt; Authenticated Users—-&gt;编辑—-&gt;安全控制允许，按照同样的方法，更改日志文件，然后附加数据库既可。]]></content>
       <categories>
-        <category>学习札记-CODE</category>
+        <category>学习札记-CODING</category>
       </categories>
       <tags>
-        <tag>CODE</tag>
+        <tag>CODING</tag>
         <tag>学习札记</tag>
         <tag>DATABASE</tag>
       </tags>
@@ -540,10 +540,10 @@
     <url>%2F2018%2F12%2F29%2FCODE-MAKEFILE%2F</url>
     <content type="text"><![CDATA[编译器 cc、gcc、g++、CC 的区别 只要写好了Makefile，只需要一个make命令，整个工程完全自动编译。 make能够进行编译、链接 gcc -c xcxcx.c ： -c 编译C代码，生成该文件的obj文件gcc xcxcx.o -o dest ： -o 链接各个obj文件，生成目标执行程序]]></content>
       <categories>
-        <category>学习札记-CODE</category>
+        <category>学习札记-CODING</category>
       </categories>
       <tags>
-        <tag>CODE</tag>
+        <tag>CODING</tag>
         <tag>学习札记</tag>
         <tag>MAKEFILE</tag>
       </tags>
@@ -553,10 +553,10 @@
     <url>%2F2018%2F12%2F29%2FCODE-JSON%2F</url>
     <content type="text"><![CDATA[JSON官网 json成为理想的数据交换语言 json构建于两种结构 名称/值 对集合。不同的语言中被理解为不同的东西，比如：对象、记录、结构。 值得有序列表。大多数语言中，被理解为数组。 一种数据格式在同样基于这些结构的编程语言之间交换成为可能。]]></content>
       <categories>
-        <category>学习札记-CODE</category>
+        <category>学习札记-CODING</category>
       </categories>
       <tags>
-        <tag>CODE</tag>
+        <tag>CODING</tag>
         <tag>学习札记</tag>
         <tag>JSON</tag>
       </tags>
@@ -566,10 +566,10 @@
     <url>%2F2018%2F12%2F29%2FCODE-NS2%2F</url>
     <content type="text"><![CDATA[ns2的默认文件是在 /ns-2.35/tcl/lib/ns-default.tcl中进行定义的 DropTail 是NS2中的一种队列模型，丢弃尾部队列，以获得更好的QoS服务]]></content>
       <categories>
-        <category>学习札记-CODE</category>
+        <category>学习札记-CODING</category>
       </categories>
       <tags>
-        <tag>CODE</tag>
+        <tag>CODING</tag>
         <tag>学习札记</tag>
         <tag>NS2</tag>
       </tags>
@@ -579,10 +579,10 @@
     <url>%2F2018%2F12%2F29%2FCODE-GITHUB%2F</url>
     <content type="text"><![CDATA[GitHub简介。 Git是由Linux之父 Linus Tovalds为了更好地管理Linux内核开发而创立的分布式版本控制/软件配置管理软件。 Git是一个管理你的“代码的历史记录”的工具。正是GitHub，让社会化编程称为现实。github是一个基于git的代码托管平台，付费用户可以建私人仓库，我们一般的免费用户只能使用公共仓库，也就是代码要公开。 教程网址： GIT基本教程 GIT下载使用GitHub的网址GitHub的使用 GitHub学习地址 Git下载链接 tortoisegit的下载链接 Git详解之一 Git起步 Git详解之二 Git基础 Git详解之三 Git分支 Git详解之四 服务器上的Git Git详解之五 分布式Git Git详解之六 Git工具 Git详解之七 自定义Git Git详解之八 Git与其他系统 Git详解之九 Git内部原理 git支持中文 起步版本控制版本控制(VersionControlSystem)是一种记录若干文件内容变化，以便将来查阅特定版本修订情况的系统。 Git基础 在保存到Git之前，所有数据都要进行内容的检验和计算，并将该结果作为数据的唯一标识和索引。Git的工作完全依赖于这类指纹字符串。所有保存到Git数据库中的东西都是用此哈希值来做索引的，而不是靠文件名。 Git提供了一个叫做git config的工具，专门用来配置或读取相应的工作环境变量。正是由于环境变量，决定了各个环节的具体工作方式和行为。基础获取项目的Git仓库 在现存的目录下，通过导入所有文件来创建新的Git仓库。 从已有的Git仓库克隆出一个新的镜像仓库。命令git config :专门用了配置或读取相应的工作环境变量 git init 已经完成了初始化 Git的分支模型称为“必杀技特性”。Git保存的不是文件差异或者变化量，而只是一些列文件快照。分支其实就是从某个提交对象往回看历史。在不同的分支之间进行文件的修改，是互不影响的。在某个分支中没有提交的修改会阻止你切换分支。 分支 进行合并时，如果顺着一个分支走下去能够到达另一个分支的话，那么Git在合并两者时，智慧简单地把指针右移，因为这种单线的历史分支不存在任何需要解决的分歧，所以这种合并方式称为快进。正是由于分支管理的快捷，才衍生出了这类典型的工作模式，可以根据项目的实际情况选择一种用用看。 一旦分支中的提交对象发布到公共仓库，就千万不要对该分支进行衍合操作。 如果你遵循这条金科玉律，就不会出差错。否则，人民群众会仇恨你，你的朋友和家人也会嘲笑你，唾弃你。 Git服务器 一个大家都可以访问的共享仓库，从那里推送和拉去数据。我们把这个仓库称为Git服务器。 Git可以使用四中主要的协议来传输数据：本地传输、ssh协议、Git协议和HTTP协议。除了HTTP协议之外其他的协议都需要在服务器端安装并运行Git。问题 初始化之后看不到.git目录。但是能够从GitHub上进行拷贝 知识点译注：其实git add 的潜台词就是把目标文件快照放入暂存区域，也就是 add file into staged area，同时未曾跟踪过的文件标记为需要跟踪。这样就好理解后续 add 操作的实际意义了。 Git 基本命令 git config (1.5) git help (1.6) git init (2.1) git add (2.1) git clone (2.1) git status (2.1) cat touch (2.1) 忽略某些文件 git diff (2.3) git diff –cached (2.3) git commit (2.4) git rm 如果GitBash卡了，可以使用Ctrl+C强制退出。 git mv (2.4) git log git commit –amend git reset HEAD git checkout – git remote git fetch git pull git tag git别名第三章 在Linux中能够使用的那一套命令，在GitBash中一样使用。 git branch git checkout git merge git branch -d git branch -v]]></content>
       <categories>
-        <category>学习札记-CODE</category>
+        <category>学习札记-CODING</category>
       </categories>
       <tags>
-        <tag>CODE</tag>
+        <tag>CODING</tag>
         <tag>学习札记</tag>
         <tag>GITHUB</tag>
       </tags>
@@ -592,11 +592,11 @@
     <url>%2F2018%2F12%2F29%2FCODE-ANDROID%2F</url>
     <content type="text"><![CDATA[android 项目各个文件夹的含义 https://www.cnblogs.com/laoyimou/p/6640277.htmlLOOPER http://blog.csdn.net/sd19871122/article/details/51352220 http://blog.csdn.net/heng615975867/article/details/9194219Android更改应用程序图标 activity和application里都可以设置android:label标签，activity的优先级高于application，也就是说两者都设置这个标签的话，activity的值覆盖application。 应该在入口activity中也进行应用图标的设置。 当图标设置完成之后需要重新rebuild项目，才可以。小米手机 小米手机关于内存读写权限的问题，不仅需要在配置文件中打开读写权限，而且还需要自己，手动开启读写权限。 众多手机在进行Android调试的时候，需要在开发者选项中开启一个强制允许调试的选项，多少会有以下帮助的。]]></content>
       <categories>
-        <category>学习札记-CODE</category>
+        <category>学习札记-CODING</category>
       </categories>
       <tags>
         <tag>ADNROID</tag>
-        <tag>CODE</tag>
+        <tag>CODING</tag>
         <tag>学习札记</tag>
       </tags>
   </entry>
@@ -605,10 +605,10 @@
     <url>%2F2018%2F12%2F29%2FCODE-MATLAB%2F</url>
     <content type="text"><![CDATA[都是使用矩阵进行计算。 调用函数。.m调用.m MATLAB中可以看到中间变量的值。 见招拆招。 安装包:https://pan.baidu.com/s/1nuDdb3j密码：f4rg]]></content>
       <categories>
-        <category>学习札记-CODE</category>
+        <category>学习札记-CODING</category>
       </categories>
       <tags>
-        <tag>CODE</tag>
+        <tag>CODING</tag>
         <tag>学习札记</tag>
         <tag>MATLAB</tag>
       </tags>
@@ -618,10 +618,10 @@
     <url>%2F2018%2F12%2F29%2FCODE-%E5%BC%BA%E5%BC%B1%E5%8A%A8%E6%80%81%E9%9D%99%E6%80%81%E7%B1%BB%E5%9E%8B%2F</url>
     <content type="text"><![CDATA[弱/强类型指的是语言类型系统的类型检查的严格程度。弱类型相对于强类型来说类型检查更不严格，比如说允许变量类型的隐式转换，允许强制类型转换等等。强类型语言一般不允许这么做。这篇wiki上有例子 动/静态类型指的是变量与类型的绑定方法。静态类型指的是编译器在compile time执行类型检查，动态类型指的是编译器（虚拟机）在runtime执行类型检查。简单地说，在声明了一个变量之后，不能改变它的类型的语言，是静态语言；能够随时改变它的类型的语言，是动态语言。因为动态语言的特性，一般需要运行时虚拟机支持。https://en.wikipedia.org/wiki/Type_system 例子 无类型： 汇编 弱类型、静态类型 ： C/C++ 弱类型、动态类型检查： Perl/PHP 强类型、静态类型检查 ：Java/C# 强类型、动态类型检查 ：Python, Scheme 静态显式类型 ：Java/C 静态隐式类型 ：Ocaml, Haskell 讲解]]></content>
       <categories>
-        <category>学习札记-CODE</category>
+        <category>学习札记-CODING</category>
       </categories>
       <tags>
-        <tag>CODE</tag>
+        <tag>CODING</tag>
         <tag>学习札记</tag>
         <tag>静态类型</tag>
       </tags>
@@ -631,10 +631,10 @@
     <url>%2F2018%2F12%2F29%2FCODE-JAVA%2F</url>
     <content type="text"><![CDATA[线程线程的状态 创建状态：调用new方法产生一个线程对象后、调用start方法前所处的状态。当线程处于创建状态时，可以使用start方法进入可运行状态，也可以使用stop方法进停止状态。 运行状态：进入该状态说明线程具有了可以运行的条件，但线程不一定处于运行状态。在但处理器系统中运行多线程程序时，一个时间点只能运行一个线程。 不可运行状态：线程被挂起或者发生阻塞。 退出状态：一个线程可以从任何一个状态中调用stop方法进入退出状态。线程一旦进入退出状态就不存在了，不能再返回到其它状态。除此之外当一个线程执行完run方法，也会进入退出状态。 在每一个特定的时间点上，每一个系统处理器只能运行一个线程。 如果线程进入不可执行状态，需要通过resume、notify等方法返回到可执行状态。 suspend和resume方法的替代方法是wait和sleep。线程的退出通常是采用自然终止的方法，建议不要人工调用stop方法。 join。从字面上来看就是让这个线程加入进来。如果没有参数的话需要等到该线程执行完毕才会向下执行。如果是有参数的话，就不管你有没有执行完毕我都会向下执行，我都仅仅是等待你那些时间而已。http://blog.csdn.net/dwood01/article/details/8133769 在Java中，CPU的使用通常是抢占式调度模式不需要时间片分配进程。抢占调度模式是指许多线程同时处于可运行状态，但只有一个线程正在运行。当线程一直运行到结束、进入不可执行状态、更高优先级的线程变成可运行状态，它将会让出CPU。 Java中通过消息实现通信，wait()、notify()、notifyAll()方法可完成线程间的消息传递。 将方法声明为同步；对于同步块，只有该方法获得对象的锁时才能够执行。 当两个并发线程访问同一个对象的synchronized(o)同步代码块的时，一段时间内只能有一个线程在运行。另外的线程必须等到当前线程执行完同步代码块释放锁后，获得所得线程才能够执行同步代码块。对方法中的局部变量进行同步是没有任何效果的。 Java中同一个文件中如果想写多个类的话，只能有一个类被声明为public。 异常什么是异常JAVA中的异常是一个对象，描述了代码中出现异常的情况。在代码运行异常时，在有异常的方法中创建并抛出一个表示异常的对象，然后在相应的异常吹了模块中进行处理 分类RunTimeException主要用来描述编程产生的错误。对于Exception类中的异常，除了RuntimeException以外其它的类在程序中出现是必须被处理的，而不像RuntimeException中的异常会由系统自己处理。 THROW 语句抛出异常 语句抛出Exception的时候需要在方法体上使用Throws抛出异常才可以。 语句抛出其它的异常的使用，不用再方法体上使用Throw是抛出异常就可以。 ​ Exception var=new Exception(String message); var.getMessage(); //首先构造一个带有信息的异常，然后使用getMessage获得到这个异常的信息。 THROWS 方法头使用，抛出异常 系统自动抛出异常 注意 如果是捕捉IO输入输出流中的异常，一定要在try{…}catch{…}后加finally{…}把输入输出流关闭； 如果在函数体内用throw抛出了某种异常，最好要在函数名中加throws抛异常声明，然后交给调用它的上层函数进行处理； 在捕捉异常的try{…}语句块中，如果出现了异常，则该语句(出现异常的语句)后的程序语句都不执行，而是跳到catch{…}语句块中执行异常的处理。 如果一个函数没有用throws进行抛异常，在调用该函数的方法也同样可以捕捉异常。 查看字节码 节码使用javap -verbose -private xxxx输出查看。 写一个方法，这个方法又抛出异常的可能性，最好的办法就是把对异常的处理留给方法的调用者。throws是隐式抛出异常。throw使用异常的再次抛出。异常的再次抛出是指当捕获到异常的时候并不对他进行直接处理而是把它抛出，留给上一层进行处理。 RuntimeException类的子类通常指一些运行时错误引起的异常，多以可以不处理它，同时Error错误是无法处理的。所以把它们统称为未检查异常。而剩下的异常类则被称为检查异常。对于未检查异常在使用throw抛出时不需要使用Throws进行声明，但是对于检查异常需要使用throws进行声明。 绘制图形注 单独的一个组件无法显示出来，只有添加到容器中才能够显示出来。 为了实现容器中跨平台的特性、组件的大小改变、位置转移等动态特性，Java提供了布局管理器处理机制。布局管理器可以实现容器内部组件的排列顺序、大小、位置、以及窗口大小变化。 容器中组件的大小和位置都是委托给布局管理器进行管理的，程序员无法设置这些属性。如果已经设置布局管理器在容器中，使用Java语言提供的setocation()、setSize()、、setBounds()等方法不会起到任何作用。 如果用户必须设置组件的大小和位置。则必须设置容器布局管理器为空，方法为：setLayout(null)； 句柄 HANDLE含义 句柄是一种特殊的智能指针。 整个Windows编程的基础。一个句柄是指使用的一个唯一的整数值，即一个4字节长的数值，来标识应用程序中的不同对象和同类中不同的实例。 句柄的本质：一个唯一的整数，作为对象的身份id，区分不同的对象，和同类中的不同实例。程序可以通过句柄访问对象的部分信息。句柄不代表对象的内存地址。句柄简单例子&nbsp;&nbsp;&nbsp;&nbsp; 每种编程语言都有自己的数据处理方式。有些时候，程序员必须时刻留意准备处理的是什么类型。您曾利用一些特殊语法直接操作过对象，或处理过一些间接表示的对象吗（C 或C++里的指针）？所有这些在Java 里都得到了简化，任何东西都可看作对象。注意，尽管将一切都“看作”对象，但操纵的标识符实际是指向一个对象的“句柄”（Handle）。还可看到有的人将其称作一个“引用”，甚至一个“指针”。可将这一情形想象成用遥控板（句柄）操纵电视机（对象）。只要握住这个遥控板，就相当于掌握了与电视机连接的通道。但一旦需要“换频道”或者“关小声音”，我们实际操纵的是遥控板（句柄），再由遥控板自己操纵电视机（对象）。如果要在房间里四处走走，并想保持对电视机的控制，那么手上拿着的是遥控板，而非电视机。此外，即使没有电视机，遥控板亦可独立存在。也就是说，只是由于拥有一个句柄，并不表示必须有一个对象同它连接。所以如果想容纳一个词或句子，可创建一个String 句柄：String s;但这里创建的只是句柄，并不是对象。若此时向s 发送一条消息，就会获得一个错误（运行期）。这是由于s 实际并未与任何东西连接（即“没有电视机”）。因此，一种更安全的做法是：创建一个句柄时，记住无论如何都进行初始化：String s = “asdf”;然而，这里采用的是一种特殊类型：字串可用加引号的文字初始化。通常，必须为对象使用一种更通用的初始化类型。]]></content>
       <categories>
-        <category>学习札记-CODE</category>
+        <category>学习札记-CODING</category>
       </categories>
       <tags>
-        <tag>CODE</tag>
+        <tag>CODING</tag>
         <tag>学习札记</tag>
         <tag>JAVA</tag>
       </tags>
@@ -644,10 +644,10 @@
     <url>%2F2018%2F12%2F29%2FCODE-C2%2F</url>
     <content type="text"><![CDATA[函数内联 函数内联，其目的是为了提高函数的执行效率。 关键字Inline必须与函数体放在一起才能够使函数成为内联，仅将inline放在函数声明前面不起任何作用。 //错误 inline void Foo(int a,int b); //正确 void Foo(int a,int b); inline void Foo(int a,int b) { } //内联，不提倡 class A { public : void Foo(int a) { } }; //内联，提倡 class A { public : void Foo(int a); } inline void A::Foo(int a) { } 慎用内联，内联是以代码膨胀为代价的，仅仅省去了函数调用的开销 内联的工作方式。对于任何内联函数，编译器在符号表中放入函数的名称、返回值、参数等。如果内联函数没有错误，整个函数体也会被放到符号表中。在进行内联函数的调用时，编译器首先会检查调用是否安全，如果安全的话，内联函数的代码就会直接替换为函数调用，从而省去了函数调用的开销。 不宜使用内联的情况 函数体内的代码过长。 函数体内出现循环 编程是多费了一些心思，少了一些痛快，这才是编程的艺术。构造、析构、拷贝、赋值#include &lt;iostream&gt; #include using namespace std; class String { public: String(char *str=NULL); String(const String &amp;other); String&amp; operator =(const String &amp;other); ~String(void); private: char *m_Data; }; String::String(char *str) { if(str==NULL) { m_Data=new char[1] ; *m_Data=&apos;\0&apos;; } else { m_Data=new char[strlen(str)+1]; strcpy(m_Data,str); } } String::String(const String &amp;other) { m_Data=new char[strlen(other.m_Data)+1]; strcpy(m_Data,other.m_Data); } String&amp; String::operator =(const String &amp;other) { if(this==&amp;other) return *this; delete [] m_Data; m_Data=new char[strlen(other.m_Data)+1]; strcpy(m_Data,other.m_Data); return *this; } String::~String() { delete [] m_Data; } int main() { return 0; } 对于任意一个类，C++编译器会自动为类产生四个缺省的函数：构造函数、析构函数、拷贝函数、赋值函数。一只公鸡使劲地追赶一只刚刚下蛋的母鸡，因为母鸡下了鸭蛋。.h .gch文件 概念gch即预编译头，将头文件预编译为二进制代码后后续编译使用。当多个源文件包含一个头文件，正常流程是将其在每个源文件中解析一遍，造成重复浪费。使用gch，将头文件作预编译头形成中间处理的二进制代码，然后再包含进源文件中。 适用gch适用于被多个源文件包含的头文件，且头文件不会经常做修改。 注意gch提高了编译速度，但需要注意在默认情况下gch不会因为头文件的更新而更新，从而在编译过程中形成一个不容易发现的坑。需要将头文件和gch设置为依赖关系。C工程 .h文件叫做头文件，不能够被编译。”#include”叫做编译预处理指令，可以简单理解成，在1.cpp中的”#include 1.h”指令把1.h中的代码在编译前添加在了1.cpp的头部。 每个.cpp文件都会被编译，生成一个.obj文件，然后所有的.obj文件链接所有的.obj文件链接起来，可执行文件就生成了。 c语言和c++都是这样的，声明和定义要分开。要想使用的话需要使用externpragma once 与 ifndef pragma once 是新兴的防止头文件被重复包含的语句。两者区别见pragma once 与 ifndef的区别 if 与 else 匹配问题与是完全不同的两个运行结果。原因是作用域的问题。 为什么使用using namespace std; #include &lt;iostream.h&gt;非标准输入输出流 #include &lt;iostream&gt;标准输入输出流 C++中为了避免名字定义冲突，特别引入了“名字空间的定义”，即namespace。 当代码中用&lt;iostream.h&gt;时，输出可直接引用cout&lt;&lt;x;//&lt;iostream.h&gt;继承C语言的标准库文件，未引入名字空间定义，所以可直接使用。 当代码中引入&lt;iostream&gt;时，输出需要引用std::cout&lt;&lt;x;如果还是按原来的方法就会有错。 使用&lt;iostream&gt;时，引入std::有以下方法： 1. using namespace std; cout&lt;&lt;x; 2. using std::cout; cout&lt;&lt;x; 3. 最基本的std::cout&lt;&lt;x; 这回你该知道为什么通常用#include &lt;iostream&gt;时， 要用using namespace std;了吧。如果你不用这个，就要在使用cout时，用后两种方法了。 其他头文件也是同样的道理。 （有“.h”的就是非标准的，C的标准库函数，无“.h”的，就要用到命令空间，是C++的。还有一部分不完全是有“.h”和没“.h”的差别。例如：math.h和cmath） 为什么在c++程序里可以直接用printf 和scanf iostream是没有包含C语言中的输入输出函数的，这个头文件是C++中输入输出流的，你那种情况一般是编译环境默认连接了stdio.h造成的。那是不是要用c的输入输出加上&lt;stdio.h&gt;比较安全？是不是所有编译器都支持这种连接呢？应该是的，头文件的默认添加可以在编译环境中设置。不过原则上是应该加上相应的头文件的，一般还加上头文件比较好。]]></content>
       <categories>
-        <category>学习札记-CODE</category>
+        <category>学习札记-CODING</category>
       </categories>
       <tags>
-        <tag>CODE</tag>
+        <tag>CODING</tag>
         <tag>学习札记</tag>
         <tag>C</tag>
       </tags>
@@ -657,10 +657,10 @@
     <url>%2F2018%2F12%2F29%2FCODE-C1%2F</url>
     <content type="text"><![CDATA[要写纯粹的，脱离低级趣味的 函数！GNU(GNU’s Not Unix)GNU操作系统是一种由自由软件构成的类Unix操作系统，该系统基于 Linux 内核，目标在于建立一个完全相容于UNIX的自由软件环境。GNU工程创始于1984年，旨在开发一个完整 GNU系统，GNU这个名字是 “GNU’s Not Unix!”的递归首字母缩写词，”GNU” 的发音为g’noo，只有一个音节，发音很像“grew”，但需要把其中的 r 音替换为n音，系统的名称，GNU是一个递归的缩写，意为GNU不是Unix的一种致敬Unix的技术思路，而在同一时间说GNU是不同的东西。 CONST CONST定义的是变量，是不可改变的变量。因为是不可改变的所以需要在定义的时候就进行初始化，因为如果现在不进行初始化，等到后来也就没有办法进行初始化了。 在C语言中如果使用变量（包含const）声明数组的大小在编译的时候可以通过，但是根本就没有办法运行。但是在C++中是可以运行的。定义一个数组必须指定数组元素的个数。C与C++中对const的含义是不同的，在C++中对const的含义做了扩充。 编译器扩展：编译器，太智能了。c不允许变量赋值给数组，编译器允许。这就是个例子。 .c与.cpp文件的区别 .c文件只能够书写C语言代码。.cpp既可以书写C语言程序也可书写C++程序。 gcc认为.c的为C程序，.cpp的为C++程序； g++认为.c的为C++程序，.cpp的为C++程序； VC++的编译器cl认为.c的为C程序，.cpp的为C++程序； C程序与C++程序中同样的函数在编译后的obj文件中的symbol是不同的，所以以C方式编译的obj文件与以C++方式编译的obj文件无法成功链接。const volatile int a=10; 需要使用codeblock进行调试，查看寄存器的值 const 表示在本段程序中不能对a做修改，任何修改都是非法的。 volatile 表示另一个程序段则完全有可能修改，因此编译器最好不要做太激进的优化。 const 的含义是“请作为常量使用”，而并非“放心吧，那肯定是常量” volatile 的含义是“请不要做没谱的优化，这个值可能变掉的”，而并非“你可以修改那个值。 因此const 与 volatile 本来就不矛盾。注： const修饰的变量不允许在这里修改不代表不允许别处修改。 对于非指针非引用的变量，const volatile同时修饰的意义确实不大。 两者同时修饰一个对象的典型情况，是用于驱动访问外部设备的只读寄存器。 大端与小端定义 大端：数据的高字节存储在内存空间的低地址上，数据的低字节存储在内存空间的高地址上。 小端：数据的高字节存储在内存空间的高地址上，数据的低字节存储在内存空间的低地址上。如何判断一个系统是大端还是小端 #include &lt;stdio.h&gt; bool isSystemLittleDian() {union test { int i; char a; }u; u.i=1; return u.a==1; } int main() {if(isSystemLittleDian()) printf(&quot;该系统是小端&quot;); else printf(&quot;该系统是大端&quot;); return 0; }链接网址 大端小端练习题1 大端小端练习题2 符号 编译器的确会将注释剔除，但是不是简单的剔除，而是使用空格代替原来的注释。 注释不能够出现在C语言的任何地方。 C语言轻松一刻 汇编程序的注释，是以;开头的。贝多芬于1827年去世，而1827的十六进制正是723.注释：R.I.P.V.B.)的意思是：(Rest In Peace,Ludwing Van Neethoven，安息吧，路德维希.凡.贝多芬) 大师们把代码写成这样是经典，你把代码写成这样是垃圾。 预处理#define 试图使用宏开始或结束一段注释是不行的。 想要很好的使用宏那就不要吝啬括号。 空格在宏定义的时候是有效的，在使用宏函数的时候会被编译器忽略掉。 整数常量后面接UL表示类型，606024365UL 等价于 ((unsignedlong)606024365) 宏的声明周期从#define 开始,到 #undef结束 条件编译对于程序的移植和调试是很有用的。 #include的路径也有点需要进行说明：include支持相对路径，格式如蚁迹寻踪(.代表当前目录..代表上层目录) 如何通过定义宏来控制源代码的版本？ 内存对齐指正加减运算int main() { int a[5]={1,2,3,4,5}; int *ptr=(int*)(&amp;a+1); printf(&quot;%d,%d\n&quot;,*(a+1),*(ptr-1)); return 0; } &amp;a+1 即 &amp;a+5*size(int);一个类型为T的指针的移动，是以sizeof(T)为单位进行移动的。 指针与数组 C语言中，当一维数组作为函数参数的时候，编译器总会把它解析成一个指向首元素首地址的指针。 函数本身是没有类型的，只有函数的返回值才有类型。 实际传递第数组大小与函数形参指定的数组大小没有关系。 main函数内的变量不是全局变量而是局部变量，只不过器声明周期和全局变量一样长而已。全局变量一定是定义在函数外部的。C语言中的内存区域： 静态区：保存自动全局变量和static变量。 栈：保存局部变量。 堆：由malloc系列函数或new操作符分配的内存。 只有字符串常量才有结束标志符。下面这种写法就没有结束标志符: char a[7]={&apos;a&apos;,&apos;b&apos;,&apos;c&apos;,&apos;d&apos;,&apos;e&apos;,&apos;f&apos;}; 会产生泄漏的内存就是堆上的内存（这里不讨论资源或者是句柄的泄漏）也就是说由malloc系列函数或new操作符分配的内存。如果用完之后没有及时free或delete，这块内存就无法释放，知道整个程序终止。 free(p)之后必须进行p=NULL;否则p就变成了一条野狗。 void whenEnd() { free(p); p=NULL; } 函数就是一些语句的集合。 C语言中，函数的static局部变量是函数的记忆存储器。建议精良少用static局部变量。 有的时候函数不需要返回值，但是为了增加灵活性如支持链式表达，可以附加返回值。如：strcpy函数 int len=strlen(strcpy(strDest,strSource)); ASSERT 函数声明 void assert( int expression ); assert的作用是现计算表达式 expression ，如果其值为假（即为0），那么它先向stderr打印一条出错信息，然后通过调用 abort 来终止程序运行。 在调试结束后，可以通过在包含#include &lt;assert.h&gt;的#ifdef NDEBUG语句之前插入 #define NDEBUG 来禁用assert调用即可。 比较好的在程序中使用assert的地方： 空指针检查。例如，针对一个函数的参数进行空指针检查。你可以这样使用：assert (pointer != NULL);，产生的错误会像这样：Assertion ‘pointer != ((void *)0)’ failed。这样，当出现空指针时，你的程序就会退出，并很好的给出错误信息。 检查函数参数的值。例如，如果一个函数只能在它的一个参数foo为正值的时候被调用，你可以在函数开始时这样写:assert (foo &gt; 0);，这将帮助你检测函数的错误使用，这也给源代码阅读者很清晰的印象，那就是在这里对函数的参数值有限制。 使用原则 每个assert只检验一个条件，因为同时检验多个条件时，如果断言失败，无法直观的判断是哪个条件失败。 //不好 assert(nOffset&gt;=0 &amp;&amp; nOffset+nSize&lt;=m_nInfomationSize); //好 assert(nOffset &gt;= 0); assert(nOffset+nSize &lt;= m_nInfomationSize); 排序 10W个数据进行排序，冒泡46.44S，快排0.8S。 1000W个数据进行快排， 别看free和delete的名字恶狠狠，其实它们人很好的，它们只是切断了指针和内存之间的联系，并没有把指针干掉。(但是同时让指针成为了野指针)。指针有一些“似是而非”的特征： 指针消亡了，并不表示它所指向的内存会被自动释放。 内存释放了，并不表示指针会消失或者变成NULL指针。 我就认为程序终止了运行，一切指针都会消亡动态内存会被操作系统回收。既然如此，在程序临终前，就可以不必释放内存、不必将指针设置成NULL了。终于可以偷懒而不会发生错误了。这种想法是错误的，如果别人把那段程序取出来用到其它的地方怎么办？malloc、free与new、delete 使用new为int等内部类型分配一个空间。 int *p=new int[length]; 使用new为对象数组分配空间,此时只能够使用无参数的构造函数进行分配，不能够使用有参数的构造函数进行分配。 Obj *object=new Obj[100]; 使用delete释放new分配的对象数组时，不要丢掉[].4 delete [] object; malloc、free 与 new、 delete的区别见课本P52讲的太好了。 函数重载 如果两个函数的函数名相同不同的仅仅是返回值类型，那么这个函数有的时候能够重载有的时候不能够重载，例如下面的两个函数 void Function(void); int Function(void); 如果使用： int a=Function();来进行调用则能够实现重载。如果使用： Function(); 来进行调用，则无法实现重载。 如何在C++中调用已经编译好的C程序。 需要使用 extern “C” { void foo(int x,int y); } 重载、覆盖于隐藏 隐藏 如果派生类和基类的函数名相同，但是函数的参数不同。那么不管基类函数有没有virtual，那么基类函数将被隐藏。 如果派生了和基类的函数名相同，但是函数的参数也相同。那么如果基类函数没有viritual，那么基类函数将被隐藏。 重载 相同的范围（在一个相同的类中） 函数名字相同 参数不同 virtual关键字可有可无 覆盖 不同的范围（基类和派生类） 函数名字相同 参数相同 基类必须具有virtual关键字参数值的缺省 参数值的缺省只能够出现在函数的声明中，不能够出现在函数的定义中。 //正确 void Func(int a,int b=1); //错误 void Func(int a,int b=1) { } 如果函数有多个参数那么缺省只能够从后向前缺省。 不合理的使用缺省值将导致重载函数的二义性。 #include &lt;iostream&gt; using namespace std; void Output(int a); //缺省参数值，将导致函数重载 void Output(int a,float b=1.1); int main() { Output(1); Output(1,1.4); return 0; } void Output(int a) { cout&lt;&lt;&quot;Output_Int &quot;&lt;&lt;a&lt;&lt;endl; } void Output(int a,float b) { cout&lt;&lt;&quot;Output_Float &quot;&lt;&lt;a&lt;&lt;&quot; , &quot;&lt;&lt;b&lt;&lt;endl; } ​​ 运算符重载 如果运算符被重载为全局函数，那么只有一个参数的运算符叫做一元运算符，有两个参数的运算符叫做二元运算符。 如果运算符被重载为类的成员函数，那么一元运算符没有参数，二元运算符只有一个右侧参数，因为对象自己成了左侧参数。 不能够重载的运算符 不能改变C++内部数据类型（如int,float等）的运算符 不能重载 “*” 运算符 不能重载目前C++运算符集合中没有的符号。 对于已经存在的运算符进行重载时，不能改变优先级规则，否则将引起混乱。]]></content>
       <categories>
-        <category>学习札记-CODE</category>
+        <category>学习札记-CODING</category>
       </categories>
       <tags>
-        <tag>CODE</tag>
+        <tag>CODING</tag>
         <tag>学习札记</tag>
         <tag>C</tag>
       </tags>
