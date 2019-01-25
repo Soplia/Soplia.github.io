@@ -120,7 +120,7 @@
 <meta property="og:image" content="https://ws2.sinaimg.cn/large/006tNc79gy1fzjkbi1oloj30gw08a0sx.jpg">
 <meta property="og:image" content="https://ws3.sinaimg.cn/large/006tNc79gy1fzjkbq5hjoj30h109idg9.jpg">
 <meta property="og:image" content="https://ws3.sinaimg.cn/large/006tNc79gy1fzjkbwi8clj30iy099mxh.jpg">
-<meta property="og:updated_time" content="2019-01-25T22:04:09.547Z">
+<meta property="og:updated_time" content="2019-01-25T22:09:38.094Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="0CODE-CDesign">
 <meta name="twitter:description" content="COURSE-DESIGN-BDatabase Sample Codes 123456789101112131415161718192021222324252627282930313233343536373839create trigger proSecond	on ZhangDang_Liang	after update,insert	as 	begin	  declare @t_shuiLia">
@@ -414,7 +414,7 @@
                 
               
 
-              <time title="Created: 2019-01-25 10:40:44 / Modified: 23:04:09" itemprop="dateCreated datePublished" datetime="2019-01-25T10:40:44+01:00">2019-01-25</time>
+              <time title="Created: 2019-01-25 10:40:44 / Modified: 23:09:38" itemprop="dateCreated datePublished" datetime="2019-01-25T10:40:44+01:00">2019-01-25</time>
             
 
             
@@ -560,6 +560,7 @@
 </ul>
 </li>
 </ol>
+<hr>
 <h4 id="COURSE-DESIGN-M-HIT"><a href="#COURSE-DESIGN-M-HIT" class="headerlink" title="COURSE-DESIGN-M-HIT"></a>COURSE-DESIGN-M-HIT</h4><h5 id="ConvexHull"><a href="#ConvexHull" class="headerlink" title="ConvexHull"></a>ConvexHull</h5><ol>
 <li>实验内容<ul>
 <li>实现基于枚举方法的凸包求解算法</li>
@@ -567,13 +568,16 @@
 <li>实现基于分治思想的凸包求解算法</li>
 <li>实现基于贪心策略的近似算法</li>
 <li>实现基于线性规划的近似算法</li>
-<li>测试算法性能<h5 id="Machine-Learning"><a href="#Machine-Learning" class="headerlink" title="Machine Learning"></a>Machine Learning</h5></li>
+<li>测试算法性能</li>
 </ul>
 </li>
+</ol>
+<h5 id="Machine-Learning"><a href="#Machine-Learning" class="headerlink" title="Machine Learning"></a>Machine Learning</h5><ol>
 <li>根据GS算法步骤，利用C++编程实现，IDE为Dev-cpp</li>
 <li>Sample Codes</li>
 </ol>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">///获得覆盖正例最多，且反例最少的位置下标 </span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">GetMostPosLessNeg</span><span class="params">(<span class="keyword">int</span> &amp;row,<span class="keyword">int</span> &amp;col)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	row=col=<span class="number">0</span>;</span><br><span class="line">	<span class="keyword">int</span> tempPos=PosInsNum[row][col];</span><br><span class="line">	<span class="keyword">int</span> tempNeg=NegInsNum[row][col];</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;MAXATTNUM;i++)</span><br><span class="line">		<span class="keyword">if</span>(AttBeUsed[i])<span class="comment">//如果这个属性能够被使用，就加入统计中，如果不能够被使用就不加入统计中 </span></span><br><span class="line">			<span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">0</span>;j&lt;MAXATTVALUENUM;j++)</span><br><span class="line">			&#123;</span><br><span class="line">				<span class="comment">//如果正例数大于上一个 </span></span><br><span class="line">				<span class="keyword">if</span>(PosInsNum[i][j]&gt;tempPos)</span><br><span class="line">				&#123;</span><br><span class="line">					tempPos=PosInsNum[i][j];</span><br><span class="line">					tempNeg=NegInsNum[i][j];</span><br><span class="line">					row=i;</span><br><span class="line">					col=j;</span><br><span class="line">				&#125;</span><br><span class="line">				<span class="comment">//如果正例数相同，但是反例数少 </span></span><br><span class="line">				<span class="keyword">else</span> <span class="keyword">if</span>(PosInsNum[i][j]==tempPos&amp;&amp;NegInsNum[i][j]&lt;tempNeg)</span><br><span class="line">				&#123;</span><br><span class="line">					tempNeg=NegInsNum[i][j];</span><br><span class="line">					row=i;</span><br><span class="line">					col=j;</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<hr>
 <h4 id="COURSE-DESIGN-M-UCA"><a href="#COURSE-DESIGN-M-UCA" class="headerlink" title="COURSE-DESIGN-M-UCA"></a>COURSE-DESIGN-M-UCA</h4><h5 id="Calcul-haute-Performance"><a href="#Calcul-haute-Performance" class="headerlink" title="Calcul haute Performance"></a>Calcul haute Performance</h5><h5 id="DataMining"><a href="#DataMining" class="headerlink" title="DataMining"></a>DataMining</h5><h5 id="Stochastic-Simulation"><a href="#Stochastic-Simulation" class="headerlink" title="Stochastic Simulation"></a>Stochastic Simulation</h5><h5 id="Semantic-Web"><a href="#Semantic-Web" class="headerlink" title="Semantic Web"></a>Semantic Web</h5>
       
     </div>
