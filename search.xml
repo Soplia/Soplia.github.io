@@ -25,7 +25,7 @@
   <entry>
     <title><![CDATA[0CODE-PROJECT]]></title>
     <url>%2F2019%2F01%2F24%2F0CODE-PROJECT%2F</url>
-    <content type="text"><![CDATA[####GRADUATION-THESIS-B 1st-Major The app and air conditioner connect to the server at the same time, through the app we can control the air conditioner. Contains three parts: Server Client-App Client-AirConditioner The intensive part of this project is how to develop the server that it can connect the app and air conditionersimultaneously. 2nd-Major My 2nd major is japanese. For the thiese I just transformed the major part of my 1st major thesis. 開発環境の紹介 主にオペレーティングシステムとデータベースシステムとサーバーと言う五つの方面である。 オペレーティングシステム：Windows7中国語版では、Windows Server2016である。 データベースシステム：SQLServer2008 R2である。 サーバー：ECSクラウドサーバーである。 開発環境：ビジュアルStudio2015、Androidのメーカー、IAR Embedded Workbenchを含んでいる。 開発言語やフレームワーク：C、C＃、アンドロイド、SuperSocketフレームワークである。 COMPETITION-BRobocode Robocode is a Java based robotic competitive game. The feature is that many robots competing without user inputs. Example Codes 123456789101112131415161718192021222324252627public void run() &#123; enemy=new Enemy(); //初始化与敌机的距离，以此来寻找敌机。 enemy.distance=1000; //设置坦克的颜色 setColors(Color.blue,Color.green,Color.red); setAdjustGunForRobotTurn(true); setAdjustRadarForGunTurn(true); //让坦克旋转360度，来寻找敌机。 turnRadarRightRadians(2*Math.PI); while(true) &#123; //机器人移动 move(); //设置子弹的能量 setFirePower(); //进行扫描 setRadar(); //预测敌人 setGun(); //坦克开火 setFire(fireOfPower); //与后续程序并行执行 execute(); &#125; &#125; #####QiLu Description: This is a game, use the available thing to keep the balance of seesaw .The more time keep seesaw balance , the more “award” you will get. Responsible: APP Development PROJECT-M-HITTrashCan This app is mainly used to hub and display the data from server. In this project, I charge for the App part. This app provide two main functions: Display the data received from the server. Provide map function. Picture PiRobot The goal of this project is to develop a set of software that can substitute the person to have a look at the house which will rent. With it, we can save significant time and money. In this project, I charge for the App and Server part. Server/APP Development Communication between Raspberry Pi and Server Communication between APP and server Operation of Database Picture PROJECT-M-UCAA Tree Search algorithm for a Combinatorial Game We want to deal here with a combinatorial 2-person positional game, and try to solve it through an Alpha/Beta Artificial Intelligence tree search procedure. Realizing a short bibliographical review on 2-person strategic games. Designing learning devices to be inserted into the tree search process Designing the filtered tree search process Implementing this procedure, and test its performance.]]></content>
+    <content type="text"><![CDATA[####GRADUATION-THESIS-B 1st-Major The app and air conditioner connect to the server at the same time, through the app we can control the air conditioner. Contains three parts: Server Client-App Client-AirConditioner The intensive part of this project is how to develop the server that it can connect the app and air conditionersimultaneously. #####2nd-Major My 2nd major is japanese. For the thiese I just transformed the major part of my 1st major thesis. 開発環境の紹介 主にオペレーティングシステムとデータベースシステムとサーバーと言う五つの方面である。 オペレーティングシステム：Windows7中国語版では、Windows Server2016である。 データベースシステム：SQLServer2008 R2である。 サーバー：ECSクラウドサーバーである。 開発環境：ビジュアルStudio2015、Androidのメーカー、IAR Embedded Workbenchを含んでいる。 開発言語やフレームワーク：C、C＃、アンドロイド、SuperSocketフレームワークである。 COMPETITION-BRobocode Robocode is a Java based robotic competitive game. The feature is that many robots competing without user inputs. Example Codes 123456789101112131415161718192021222324252627public void run() &#123; enemy=new Enemy(); //初始化与敌机的距离，以此来寻找敌机。 enemy.distance=1000; //设置坦克的颜色 setColors(Color.blue,Color.green,Color.red); setAdjustGunForRobotTurn(true); setAdjustRadarForGunTurn(true); //让坦克旋转360度，来寻找敌机。 turnRadarRightRadians(2*Math.PI); while(true) &#123; //机器人移动 move(); //设置子弹的能量 setFirePower(); //进行扫描 setRadar(); //预测敌人 setGun(); //坦克开火 setFire(fireOfPower); //与后续程序并行执行 execute(); &#125; &#125; #####QiLu Description: This is a game, use the available thing to keep the balance of seesaw .The more time keep seesaw balance , the more “award” you will get. Responsible: APP Development PROJECT-M-HITTrashCan This app is mainly used to hub and display the data from server. In this project, I charge for the App part. This app provide two main functions: Display the data received from the server. Provide map function. Picture PiRobot The goal of this project is to develop a set of software that can substitute the person to have a look at the house which will rent. With it, we can save significant time and money. In this project, I charge for the App and Server part. Server/APP Development Communication between Raspberry Pi and Server Communication between APP and server Operation of Database Picture PROJECT-M-UCAA Tree Search algorithm for a Combinatorial Game We want to deal here with a combinatorial 2-person positional game, and try to solve it through an Alpha/Beta Artificial Intelligence tree search procedure. Realizing a short bibliographical review on 2-person strategic games. Designing learning devices to be inserted into the tree search process Designing the filtered tree search process Implementing this procedure, and test its performance.]]></content>
       <categories>
         <category>CODES</category>
       </categories>
@@ -213,8 +213,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>POWER</tag>
         <tag>积累学习_FIRST</tag>
+        <tag>POWER</tag>
       </tags>
   </entry>
   <entry>
@@ -226,8 +226,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>积累学习_TWO</tag>
         <tag>POWER</tag>
+        <tag>积累学习_TWO</tag>
       </tags>
   </entry>
   <entry>
@@ -239,8 +239,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>POWER</tag>
         <tag>积累学习_FIRST</tag>
+        <tag>POWER</tag>
       </tags>
   </entry>
   <entry>
@@ -369,8 +369,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>多传感器融合技术</tag>
         <tag>COURSE</tag>
+        <tag>多传感器融合技术</tag>
       </tags>
   </entry>
   <entry>
@@ -421,8 +421,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>COURSE</tag>
         <tag>AdvanceDB</tag>
+        <tag>COURSE</tag>
       </tags>
   </entry>
   <entry>
