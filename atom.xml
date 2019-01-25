@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-01-24T19:45:00.517Z</updated>
+  <updated>2019-01-25T22:04:09.547Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0CODE-CDesign</title>
+    <link href="http://yoursite.com/2019/01/25/0CODE-CDesign/"/>
+    <id>http://yoursite.com/2019/01/25/0CODE-CDesign/</id>
+    <published>2019-01-25T09:40:44.000Z</published>
+    <updated>2019-01-25T22:04:09.547Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h4 id=&quot;COURSE-DESIGN-B&quot;&gt;&lt;a href=&quot;#COURSE-DESIGN-B&quot; class=&quot;headerlink&quot; title=&quot;COURSE-DESIGN-B&quot;&gt;&lt;/a&gt;COURSE-DESIGN-B&lt;/h4&gt;&lt;h5 id=&quot;Database&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="CODES" scheme="http://yoursite.com/categories/CODES/"/>
+    
+    
+      <category term="COURSE-DESIGN" scheme="http://yoursite.com/tags/COURSE-DESIGN/"/>
+    
+  </entry>
   
   <entry>
     <title>0CODE-JfF</title>
@@ -48,7 +74,7 @@
     <link href="http://yoursite.com/2019/01/24/0CODE-PROJECT/"/>
     <id>http://yoursite.com/2019/01/24/0CODE-PROJECT/</id>
     <published>2019-01-24T19:10:59.000Z</published>
-    <updated>2019-01-24T20:10:11.855Z</updated>
+    <updated>2019-01-25T21:50:05.107Z</updated>
     
     <summary type="html">
     
@@ -56,7 +82,9 @@
       
         
         
-          &lt;h3 id=&quot;PROJECT&quot;&gt;&lt;a href=&quot;#PROJECT&quot; class=&quot;headerlink&quot; title=&quot;PROJECT&quot;&gt;&lt;/a&gt;PROJECT&lt;/h3&gt;&lt;h4 id=&quot;COURSE-DESIGN-B&quot;&gt;&lt;a href=&quot;#COURSE-DESIGN-B&quot;
+          &lt;p&gt;####GRADUATION-THESIS-B&lt;/p&gt;
+&lt;h5 id=&quot;1st-Major&quot;&gt;&lt;a href=&quot;#1st-Major&quot; class=&quot;headerlink&quot; title=&quot;1st-Major&quot;&gt;&lt;/a&gt;1st-Major&lt;/h5&gt;&lt;ol&gt;
+&lt;li&gt;The
         
       
     
@@ -74,7 +102,7 @@
     <link href="http://yoursite.com/2019/01/22/FRUITS-Patents/"/>
     <id>http://yoursite.com/2019/01/22/FRUITS-Patents/</id>
     <published>2019-01-22T18:02:55.000Z</published>
-    <updated>2019-01-22T18:10:22.307Z</updated>
+    <updated>2019-01-25T16:36:20.645Z</updated>
     
     <summary type="html">
     
@@ -331,9 +359,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="Arabic" scheme="http://yoursite.com/tags/Arabic/"/>
-    
       <category term="Language" scheme="http://yoursite.com/tags/Language/"/>
+    
+      <category term="Arabic" scheme="http://yoursite.com/tags/Arabic/"/>
     
   </entry>
   
@@ -361,9 +389,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="Language" scheme="http://yoursite.com/tags/Language/"/>
-    
       <category term="English" scheme="http://yoursite.com/tags/English/"/>
+    
+      <category term="Language" scheme="http://yoursite.com/tags/Language/"/>
     
   </entry>
   
@@ -576,40 +604,6 @@
       <category term="积累学习_FIRST" scheme="http://yoursite.com/tags/%E7%A7%AF%E7%B4%AF%E5%AD%A6%E4%B9%A0-FIRST/"/>
     
       <category term="POWER" scheme="http://yoursite.com/tags/POWER/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>MOOC_茶道</title>
-    <link href="http://yoursite.com/2018/12/29/MOOC-%E8%8C%B6%E9%81%93/"/>
-    <id>http://yoursite.com/2018/12/29/MOOC-茶道/</id>
-    <published>2018-12-29T12:07:50.000Z</published>
-    <updated>2018-12-29T12:08:13.942Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;1&gt;茶，性俭，行俭德之人。–陆羽《茶经》&lt;/1&gt;&lt;/p&gt;
-&lt;p&gt;&lt;2&gt;茶文化特征：洁性不可污、俭德可行道、示礼致和乐。&lt;/2&gt;&lt;/p&gt;
-&lt;p&gt;&lt;3&gt;乘丰壤之滋润、受甘露之霄降。–杜甫&lt;/3&gt;&lt;/p&gt;
-&lt;p&gt;&lt;4&gt;故人气味茶样清、故人风景茶样明。&lt;/4&gt;&lt;/p&gt;
-&lt;p&gt;&lt;5
-        
-      
-    
-    </summary>
-    
-      <category term="学习札记-MOOD" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0-MOOD/"/>
-    
-    
-      <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
-    
-      <category term="MOOD" scheme="http://yoursite.com/tags/MOOD/"/>
-    
-      <category term="茶道" scheme="http://yoursite.com/tags/%E8%8C%B6%E9%81%93/"/>
     
   </entry>
   
