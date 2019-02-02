@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-02-02T22:14:19.243Z</updated>
+  <updated>2019-02-02T23:46:43.863Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2019/02/02/0CODE-ISIMA/"/>
     <id>http://yoursite.com/2019/02/02/0CODE-ISIMA/</id>
     <published>2019-02-02T18:37:44.000Z</published>
-    <updated>2019-02-02T22:14:19.243Z</updated>
+    <updated>2019-02-02T23:46:43.863Z</updated>
     
     <summary type="html">
     
@@ -563,9 +563,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="POWER" scheme="http://yoursite.com/tags/POWER/"/>
-    
       <category term="积累学习_FIRST" scheme="http://yoursite.com/tags/%E7%A7%AF%E7%B4%AF%E5%AD%A6%E4%B9%A0-FIRST/"/>
+    
+      <category term="POWER" scheme="http://yoursite.com/tags/POWER/"/>
     
   </entry>
   
@@ -595,9 +595,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="积累学习_TWO" scheme="http://yoursite.com/tags/%E7%A7%AF%E7%B4%AF%E5%AD%A6%E4%B9%A0-TWO/"/>
-    
       <category term="POWER" scheme="http://yoursite.com/tags/POWER/"/>
+    
+      <category term="积累学习_TWO" scheme="http://yoursite.com/tags/%E7%A7%AF%E7%B4%AF%E5%AD%A6%E4%B9%A0-TWO/"/>
     
   </entry>
   
