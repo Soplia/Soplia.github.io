@@ -15,7 +15,7 @@
   <entry>
     <title><![CDATA[0CODE-CDesign]]></title>
     <url>%2F2019%2F01%2F25%2F0CODE-CDesign%2F</url>
-    <content type="text"><![CDATA[COURSE-DESIGN-BDatabase Sample Codes 123456789101112131415161718192021222324252627282930313233343536373839create trigger proSecond on ZhangDang_Liang after update,insert as begin declare @t_shuiLiang int,@t_dianLiang int declare @t_shuiPrice int,@t_dianPrice int declare @t_shuiMoney int,@t_dianMoney int declare @t_No int, @t_sdate datetime,@t_edate datetime, @t_yezhuno int select @t_shuiPrice=Price_Shui,@t_dianPrice=Price_Dian from price declare curFirst cursor for select ZD_No,ZD_SDate,ZD_EDate,ZD_ShuLang,ZD_DianLang,YeZhuNo from ZhangDang_Liang open curFirst fetch curFirst into @t_No,@t_sdate,@t_edate,@t_shuiLiang, @t_dianLiang,@t_yezhuno while(@@FETCH_STATUS=0) begin set @t_shuiMoney=@t_shuiPrice*@t_shuiLiang set @t_dianMoney=@t_dianPrice*@t_dianLiang update ZhangDan_Money set ZD_SDate=@t_sdate,ZD_EDate=@t_edate ,ZD_ShuFei=@t_shuiMoney,ZD_DianFei=@t_dianMoney ,YeZhuNo=@t_yezhuno where ZD_No=@t_No fetch curFirst into @t_No,@t_sdate,@t_edate,@t_shuiLiang, @t_dianLiang,@t_yezhuno end close curFirst deallocate curFirstend Assembly Flow-Process Diagram Pictures OperationSystem Sample Codes 12345678910111213141516171819#define Free 0 //空闲状态#define MAX_length 100 //最大内存空间为100Mtypedef int Status;int flag;//标志typedef struct freearea//定义一个空闲区说明表结构&#123; int size; //分区大小 int address; //分区地址 int state; //状态&#125;ElemType;//元素类型// 线性表的双向链表存储结构typedef struct DuLNode//结构指针&#123; ElemType data; struct DuLNode *prior; //前趋指针 struct DuLNode *next; //后继指针&#125;DuLNode,*DuLinkList;//指针链表 Pictures Animal Identification Sample Codes 1234567891011121314typedef struct nodeOfCre&#123; int num; float cre; struct nodeOfCre *next;&#125;NodeC;NodeC *createNode(int num,float a)&#123; NodeC *temp=new NodeC(); temp-&gt;num=num; temp-&gt;cre=a; temp-&gt;next=NULL; return temp;&#125; Pictures Digital Circuit Pictures SoftwareEngineer 项目简介 摄影社区为每一位摄影师提供签约华盖创意的机会，网站管理员每天都会关注社区内最新最热图片以及最有前途的摄影师。 社区也为摄影师提供查看图片、提交作品、参加活动等机会； 在摄影社区创建个人主页并分享照片，与全球同仁一起交流与分享，寻找灵感与创意； 不仅可以在社区内点赞收藏关注评论，还能够通过微信、微博、QQ等快速分享给好友们； 社区内的热门作品将有机会通过专用渠道被推送到包括华为、小米、联想等品牌的数亿部手机的屏幕上，享受每天过百万次的展示机会，让更多人享受图片带来的欣喜； 打造属于自己的个人空间和品牌，让更多的人认识您和您的作品。 Pictures Project-01 Pictures Project-02 研究内容 研究并掌握UWP(Universal Windows Platform)开发的相关技术。 学习并掌握无线射频设备接口的开发。 学习并掌握JSON(JavaScript Object Notation)轻量级的数据交换技术。 Pictures COURSE-DESIGN-M-HITConvexHull 实验内容 实现基于枚举方法的凸包求解算法 实现基于Graham-Scan的凸包求解算法 实现基于分治思想的凸包求解算法 实现基于贪心策略的近似算法 实现基于线性规划的近似算法 测试算法性能 Machine Learning 根据GS算法步骤，利用C++编程实现，IDE为Dev-cpp Sample Codes 12345678910111213141516171819202122232425262728///获得覆盖正例最多，且反例最少的位置下标 void GetMostPosLessNeg(int &amp;row,int &amp;col)&#123; row=col=0; int tempPos=PosInsNum[row][col]; int tempNeg=NegInsNum[row][col]; for(int i=0;i&lt;MAXATTNUM;i++) if(AttBeUsed[i])//如果这个属性能够被使用，就加入统计中，如果不能够被使用就不加入统计中 for(int j=0;j&lt;MAXATTVALUENUM;j++) &#123; //如果正例数大于上一个 if(PosInsNum[i][j]&gt;tempPos) &#123; tempPos=PosInsNum[i][j]; tempNeg=NegInsNum[i][j]; row=i; col=j; &#125; //如果正例数相同，但是反例数少 else if(PosInsNum[i][j]==tempPos&amp;&amp;NegInsNum[i][j]&lt;tempNeg) &#123; tempNeg=NegInsNum[i][j]; row=i; col=j; &#125; &#125;&#125; COURSE-DESIGN-M-UCACalcul haute PerformanceDataMiningStochastic SimulationSemantic Web]]></content>
+    <content type="text"><![CDATA[COURSE-DESIGN-BDatabase Sample Codes 123456789101112131415161718192021222324252627282930313233343536373839create trigger proSecond on ZhangDang_Liang after update,insert as begin declare @t_shuiLiang int,@t_dianLiang int declare @t_shuiPrice int,@t_dianPrice int declare @t_shuiMoney int,@t_dianMoney int declare @t_No int, @t_sdate datetime,@t_edate datetime, @t_yezhuno int select @t_shuiPrice=Price_Shui,@t_dianPrice=Price_Dian from price declare curFirst cursor for select ZD_No,ZD_SDate,ZD_EDate,ZD_ShuLang,ZD_DianLang,YeZhuNo from ZhangDang_Liang open curFirst fetch curFirst into @t_No,@t_sdate,@t_edate,@t_shuiLiang, @t_dianLiang,@t_yezhuno while(@@FETCH_STATUS=0) begin set @t_shuiMoney=@t_shuiPrice*@t_shuiLiang set @t_dianMoney=@t_dianPrice*@t_dianLiang update ZhangDan_Money set ZD_SDate=@t_sdate,ZD_EDate=@t_edate ,ZD_ShuFei=@t_shuiMoney,ZD_DianFei=@t_dianMoney ,YeZhuNo=@t_yezhuno where ZD_No=@t_No fetch curFirst into @t_No,@t_sdate,@t_edate,@t_shuiLiang, @t_dianLiang,@t_yezhuno end close curFirst deallocate curFirstend Assembly Flow-Process Diagram Pictures OperationSystem Sample Codes 12345678910111213141516171819#define Free 0 //空闲状态#define MAX_length 100 //最大内存空间为100Mtypedef int Status;int flag;//标志typedef struct freearea//定义一个空闲区说明表结构&#123; int size; //分区大小 int address; //分区地址 int state; //状态&#125;ElemType;//元素类型// 线性表的双向链表存储结构typedef struct DuLNode//结构指针&#123; ElemType data; struct DuLNode *prior; //前趋指针 struct DuLNode *next; //后继指针&#125;DuLNode,*DuLinkList;//指针链表 Pictures Animal Identification Sample Codes 1234567891011121314typedef struct nodeOfCre&#123; int num; float cre; struct nodeOfCre *next;&#125;NodeC;NodeC *createNode(int num,float a)&#123; NodeC *temp=new NodeC(); temp-&gt;num=num; temp-&gt;cre=a; temp-&gt;next=NULL; return temp;&#125; Pictures Digital Circuit Pictures SoftwareEngineer 项目简介 摄影社区为每一位摄影师提供签约华盖创意的机会，网站管理员每天都会关注社区内最新最热图片以及最有前途的摄影师。 社区也为摄影师提供查看图片、提交作品、参加活动等机会； 在摄影社区创建个人主页并分享照片，与全球同仁一起交流与分享，寻找灵感与创意； 不仅可以在社区内点赞收藏关注评论，还能够通过微信、微博、QQ等快速分享给好友们； 社区内的热门作品将有机会通过专用渠道被推送到包括华为、小米、联想等品牌的数亿部手机的屏幕上，享受每天过百万次的展示机会，让更多人享受图片带来的欣喜； 打造属于自己的个人空间和品牌，让更多的人认识您和您的作品。 Pictures Project-01 Pictures Project-02 研究内容 研究并掌握UWP(Universal Windows Platform)开发的相关技术。 学习并掌握无线射频设备接口的开发。 学习并掌握JSON(JavaScript Object Notation)轻量级的数据交换技术。 Pictures COURSE-DESIGN-M-HITConvexHull 实验内容 实现基于枚举方法的凸包求解算法 实现基于Graham-Scan的凸包求解算法 实现基于分治思想的凸包求解算法 实现基于贪心策略的近似算法 实现基于线性规划的近似算法 测试算法性能 Machine Learning 根据GS算法步骤，利用C++编程实现，IDE为Dev-cpp Sample Codes 12345678910111213141516171819202122232425262728///获得覆盖正例最多，且反例最少的位置下标 void GetMostPosLessNeg(int &amp;row,int &amp;col)&#123; row=col=0; int tempPos=PosInsNum[row][col]; int tempNeg=NegInsNum[row][col]; for(int i=0;i&lt;MAXATTNUM;i++) if(AttBeUsed[i])//如果这个属性能够被使用，就加入统计中，如果不能够被使用就不加入统计中 for(int j=0;j&lt;MAXATTVALUENUM;j++) &#123; //如果正例数大于上一个 if(PosInsNum[i][j]&gt;tempPos) &#123; tempPos=PosInsNum[i][j]; tempNeg=NegInsNum[i][j]; row=i; col=j; &#125; //如果正例数相同，但是反例数少 else if(PosInsNum[i][j]==tempPos&amp;&amp;NegInsNum[i][j]&lt;tempNeg) &#123; tempNeg=NegInsNum[i][j]; row=i; col=j; &#125; &#125;&#125;]]></content>
       <categories>
         <category>CODES</category>
       </categories>
@@ -113,8 +113,8 @@
         <category>素养</category>
       </categories>
       <tags>
-        <tag>情书</tag>
         <tag>素养</tag>
+        <tag>情书</tag>
       </tags>
   </entry>
   <entry>
@@ -137,8 +137,8 @@
         <category>素养</category>
       </categories>
       <tags>
-        <tag>素养</tag>
         <tag>句子</tag>
+        <tag>素养</tag>
       </tags>
   </entry>
   <entry>
@@ -225,8 +225,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>POWER</tag>
         <tag>积累学习_FIRST</tag>
+        <tag>POWER</tag>
       </tags>
   </entry>
   <entry>
@@ -238,8 +238,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>积累学习_TWO</tag>
         <tag>POWER</tag>
+        <tag>积累学习_TWO</tag>
       </tags>
   </entry>
   <entry>
@@ -251,8 +251,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>POWER</tag>
         <tag>积累学习_FIRST</tag>
+        <tag>POWER</tag>
       </tags>
   </entry>
   <entry>
@@ -277,8 +277,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>孙子兵法</tag>
         <tag>MOOD</tag>
+        <tag>孙子兵法</tag>
       </tags>
   </entry>
   <entry>
@@ -355,8 +355,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>MOOD</tag>
         <tag>仪表礼仪</tag>
+        <tag>MOOD</tag>
       </tags>
   </entry>
   <entry>
