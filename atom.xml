@@ -270,9 +270,9 @@
       <category term="素养" scheme="http://yoursite.com/categories/%E7%B4%A0%E5%85%BB/"/>
     
     
-      <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
-    
       <category term="好字" scheme="http://yoursite.com/tags/%E5%A5%BD%E5%AD%97/"/>
+    
+      <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
     
   </entry>
   
@@ -309,7 +309,7 @@
     <link href="http://yoursite.com/2019/01/22/%E7%B4%A0%E5%85%BB-%E5%8F%A4%E8%AF%97%E6%96%87/"/>
     <id>http://yoursite.com/2019/01/22/素养-古诗文/</id>
     <published>2019-01-22T16:55:46.000Z</published>
-    <updated>2019-01-22T16:57:38.125Z</updated>
+    <updated>2019-02-27T08:49:42.409Z</updated>
     
     <summary type="html">
     
@@ -337,7 +337,7 @@
     <link href="http://yoursite.com/2019/01/22/%E7%B4%A0%E5%85%BB-%E5%8F%A5%E5%AD%90/"/>
     <id>http://yoursite.com/2019/01/22/素养-句子/</id>
     <published>2019-01-22T16:55:25.000Z</published>
-    <updated>2019-01-26T18:41:32.065Z</updated>
+    <updated>2019-02-27T15:19:01.232Z</updated>
     
     <summary type="html">
     
@@ -354,9 +354,9 @@
       <category term="素养" scheme="http://yoursite.com/categories/%E7%B4%A0%E5%85%BB/"/>
     
     
-      <category term="句子" scheme="http://yoursite.com/tags/%E5%8F%A5%E5%AD%90/"/>
-    
       <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
+    
+      <category term="句子" scheme="http://yoursite.com/tags/%E5%8F%A5%E5%AD%90/"/>
     
   </entry>
   
@@ -384,9 +384,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="Arabic" scheme="http://yoursite.com/tags/Arabic/"/>
-    
       <category term="Language" scheme="http://yoursite.com/tags/Language/"/>
+    
+      <category term="Arabic" scheme="http://yoursite.com/tags/Arabic/"/>
     
   </entry>
   
@@ -414,9 +414,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="Language" scheme="http://yoursite.com/tags/Language/"/>
-    
       <category term="English" scheme="http://yoursite.com/tags/English/"/>
+    
+      <category term="Language" scheme="http://yoursite.com/tags/Language/"/>
     
   </entry>
   
