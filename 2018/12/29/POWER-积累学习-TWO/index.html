@@ -1,0 +1,1573 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=6.6.0" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/jerome.png?v=6.6.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/jerome.png?v=6.6.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/jerome.png?v=6.6.0">
+
+
+
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '6.6.0',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+
+  <meta name="description" content="数学 P.D.F(Probability Desity of Function)概率密度函数。 r.v(Random Variable)随机变量 等号上面加三角形或等号上加 def       表示那是一个定义式三条线等号表示恒等式等号上加点                           表示后面的数值是近似值等号上面的直线改为波浪线           表示后面的表达式是(泰勒)近似式">
+<meta name="keywords" content="学习札记,POWER,积累学习_TWO">
+<meta property="og:type" content="article">
+<meta property="og:title" content="POWER_积累学习_TWO">
+<meta property="og:url" content="http://yoursite.com/2018/12/29/POWER-积累学习-TWO/index.html">
+<meta property="og:site_name" content="JrXIE BLOG">
+<meta property="og:description" content="数学 P.D.F(Probability Desity of Function)概率密度函数。 r.v(Random Variable)随机变量 等号上面加三角形或等号上加 def       表示那是一个定义式三条线等号表示恒等式等号上加点                           表示后面的数值是近似值等号上面的直线改为波浪线           表示后面的表达式是(泰勒)近似式">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2018-12-29T12:10:04.068Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="POWER_积累学习_TWO">
+<meta name="twitter:description" content="数学 P.D.F(Probability Desity of Function)概率密度函数。 r.v(Random Variable)随机变量 等号上面加三角形或等号上加 def       表示那是一个定义式三条线等号表示恒等式等号上加点                           表示后面的数值是近似值等号上面的直线改为波浪线           表示后面的表达式是(泰勒)近似式">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="JrXIE BLOG" type="application/atom+xml">
+
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2018/12/29/POWER-积累学习-TWO/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>POWER_积累学习_TWO | JrXIE BLOG</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion .logo-line-before i { left: initial; }
+    .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope="" itemtype="http://schema.org/WebPage" lang="default">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">JrXIE BLOG</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="Toggle navigation bar">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Home</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>Tags</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>Categories</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archives</a>
+
+  </li>
+
+      
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>Search</a>
+        </li>
+      
+    </ul>
+  
+
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="Searching..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/29/POWER-积累学习-TWO/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="不会笑">
+      <meta itemprop="description" content="IN A MOMENT PASSES SORROW">
+      <meta itemprop="image" content="/images/modi.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="JrXIE BLOG">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">POWER_积累学习_TWO
+
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2018-12-29 13:09:39 / Modified: 13:10:04" itemprop="dateCreated datePublished" datetime="2018-12-29T13:09:39+01:00">2018-12-29</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/学习札记-POWER/" itemprop="url" rel="index"><span itemprop="name">学习札记-POWER</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <hr>
+<h2 id="数学"><a href="#数学" class="headerlink" title="数学"></a>数学</h2><ol>
+<li>P.D.F(Probability Desity of Function)概率密度函数。</li>
+<li>r.v(Random Variable)随机变量</li>
+<li>等号上面加三角形或等号上加 def       表示那是一个定义式<br>三条线等号表示恒等式<br>等号上加点                           表示后面的数值是近似值<br>等号上面的直线改为波浪线           表示后面的表达式是(泰勒)近似式</li>
+<li>复数的共轭，是对虚部变号的运算。即若Z=A+iB.则Z的共轭是A-iB.</li>
+<li>盛金公式<br>用于求解一元三次方程组。</li>
+</ol>
+<hr>
+<h2 id="历史-文化"><a href="#历史-文化" class="headerlink" title="历史+文化"></a>历史+文化</h2><ol>
+<li>北京、西安、南京、洛阳并称为中国四大古都。<br>北京：古称：燕京，因为古代曾是燕国的都城。又称大都、北平<br>顺天。<br>南京：古称：金陵、健康、天京、应天。</li>
+<li>祚：福、赐福；皇位；年；<br>靖：表示平安、使安定，现指恭敬、细小、和善、安静。</li>
+<li>东汉和西汉：因为都城的不同。刘邦建立汉朝定都长安，史称东汉。刘秀建立汉朝定都洛阳史称西汉。</li>
+<li>醪糟 [láo zāo] 。西安人经常喝这个东西。醪糟是一种米酒，又叫酒酿，甜酒，酸酒，旧时叫“醴”，江南地区特色传统小吃。醪糟经糯米（又称江米）发酵而成，可以帮助消化，夏天可以解暑。醪糟的主要原料是糯米，酿制工艺简单，口味香甜醇美，乙醇含量极少，因此深受人们喜爱。但是仍然有很多人认为它是酸的，拒绝食用。在一些菜肴的制作上，糯米酒还常被作为重要的调味料。</li>
+<li>八百里秦川。<br>又称陕西关中平原，指的是秦岭北麓渭河冲积平原,的一个地点。因此又称渭河平原，它南倚秦岭，北界北山，西起宝鸡峡，东至潼关，东西长约360公里，约占全省土地总面积的19%。自古以来，这里风调雨顺，土地肥沃，农业发达，为秦国文明的兴起奠定了强大基础，所以号称“八百里秦川”。是中华文明的发祥地。</li>
+<li>客家米酒。客家米酒是一种汉族传统的米酒。客家人的酿酒业历史悠久，如梅县区和梅江区的客家娘酒、赣州的麦饭石、龙南的酿米酒、龙岩的陈缸烧。米酒在客家又被成为水酒。唐代张九龄这样形容米酒：“玉碗才倾黄玉剖”。（ps:红泥乍擘绿蚁浮，玉碗才倾黄玉剖）</li>
+<li><ul>
+<li>二十  廿niàn</li>
+<li>三十 卅 sà</li>
+<li>四十  卌xì </li>
+<li>五十  圩wéi</li>
+<li>六十 圆 yuán </li>
+<li>七十 进 jìn</li>
+<li>八十 枯 kū</li>
+</ul>
+</li>
+<li>中国四大书院<ul>
+<li>应天书院(位于河南省商丘市睢阳区商丘古城南湖畔)</li>
+<li>岳麓书院(位于湖南省长沙市湘江西岸的岳麓山脚下)</li>
+<li>白鹿洞书院(位于江西省庐山五老峰南麓)</li>
+<li>嵩阳书院(位于河南省登封市嵩山南麓)</li>
+<li>石鼓书院(位于湖南省衡阳市石鼓区石鼓山上)</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="世界各国"><a href="#世界各国" class="headerlink" title="世界各国"></a>世界各国</h2><ol>
+<li>南丁格尔<br>1854年至1856年间，英法联军与沙俄发生激战。在英国一家医院任护士主任的南丁格尔，带领38名护士奔走前线，参加护理伤病员的工作。因当时医疗管理混乱，护理质量很差，伤病员死亡率高达42%。在这种情况下，南丁格尔下定决心<br>潜心改善病室的卫生条件，并加强对病人的护理和营养。半年之后，医院的伤病员死亡率下降到了2.2%。这一事迹传遍全欧。1860年，她在英国伦敦创办了世界上第一所正规护士学校。她的护士工作专著，成了医院管理、护士教育的基<br>础教材。鉴于南丁格尔推动了世界各地护理工作和护士教育的发展，因此被誉为“近代护理创始人”。南丁格尔1910年在睡梦中逝世后，国际护士理事会把她的生日5月12日定为“国际护士节”。1912年，国际护士理事会将南丁格尔的诞生日–5月12日定为国际护士节，旨在激励广大护士继承和发扬护理事业的光荣传统，以“爱心、耐心、细心、责任心”对待每一位病人、做好护理工作。最初称“医院日”，也称“南丁格尔日”，在中国称为“国际护士节”。在这天里，大力宣传护理工作，鼓励护士们学习救死扶伤的人道主义精神，已经成为世界各国护理界的一件盛事。</li>
+<li>韩国所在纬度与山东相同。釜山是韩国的一个城市。韩国属于温带季风气候。韩国四季分明，春、秋两季较短；夏季炎热、潮湿；冬季寒冷、干燥，时而下雪。<br>韩国各地区之间温差较大，平均温度为6℃至16℃。在全年最热的8月份，平均温度为19℃至27℃。而在全年最冷的1月份，平均温度则在零下7℃至8℃。总体来看比山东好点。</li>
+<li>美国国家航空航天局（英语：National Aeronautics and Space Administration，简称NASA），又称美国宇航局、美国太空总署，是美国联邦政府的一个行政性科研机构，负责制定、实施美国的太空计划，并开展航空科学暨太空科学的研究。</li>
+</ol>
+<hr>
+<h2 id="政治"><a href="#政治" class="headerlink" title="政治"></a>政治</h2><ol>
+<li>事业编制是指为国家创造或改善生产条件、增进社会福利，满足人民文化、教育、卫生等需要，其经费一般由国家事业费开支的单位所使用的人员编制。</li>
+<li>公务员：指依法履行公职，纳入行政编制、事业编制、警察编制，由国家负担工资、福利的工作人员。</li>
+</ol>
+<hr>
+<h2 id="科研"><a href="#科研" class="headerlink" title="科研"></a>科研</h2><ol>
+<li>SCI：美国《科学引文索引》（Science Citation Index, 简称 SCI ）于1957 年由美国科学信息研究所（Institute for Scientific Information, 简称 ISI）在美国费城创办，是由美国科学信息研究所（ISI）1961 年创办出版的引文数据库。SCI（科学引文索引）、EI（工程索引）、ISTP（科技会议录索引）是世界著名的三大科技文献检索系统，是国际公认的进行科学统计与科学评价的主要检索工具，其中以 SCI 最为重要。</li>
+<li>SSCI：社会科学引文索引（Social Sciences Citation Index，简称SSCI）.为SCI的姊妹篇，亦由美国科学信息研究所创建，是可以用来对不同国家和地区的社会科学论文的数量进行统计分析的大型检索工具。</li>
+<li>CSSCI：中文社会科学引文索引英文全称为“Chinese Social Sciences Citation Index”，缩写为CSSCI。用来检索中文社会科学领域的论文收录和文献被引用情况。<br>“中文社会科学引文索引”（CSSCI）由南京大学中国社会科学研究评价中心开发研制而成，是国家、教育部重点课题攻关项目。<br>CSSCI数据库已被北京大学、清华大学、中国人民大学、复旦大学、国家图书馆、中科院等100多个单位包库使用，并作为地区、机构、学术、学科、项目及成果评价与评审的重要依据。<br><a href="http://www.360doc.com/content/15/0130/10/241244_444924001.shtml" target="_blank" rel="noopener">http://www.360doc.com/content/15/0130/10/241244_444924001.shtml</a></li>
+</ol>
+<hr>
+<h2 id="原始资料"><a href="#原始资料" class="headerlink" title="原始资料"></a>原始资料</h2><ol>
+<li><a href="http://bt.neu6.edu.cn/" target="_blank" rel="noopener">六维空间</a>于08年9月7日成立，取IPv6中“v6”的谐音，代表新的协议和下载体验，也寓意论坛包容各方优秀资源。目前论坛的各种资源，尤其是高清资源不断丰富，人气不断提升。</li>
+<li><a href="http://tool.oschina.net/apidocs" target="_blank" rel="noopener">在线API文档，还有demo</a></li>
+</ol>
+<hr>
+<h2 id="先贤的智慧"><a href="#先贤的智慧" class="headerlink" title="先贤的智慧"></a>先贤的智慧</h2><ol>
+<li>“惟楚有材，于斯为盛”。楚国真是出人才的地方啊，这里（指岳麓书院）更是英才齐聚之会所。楚国真是出人才的地方啊，这里（指岳麓书院）更是英才齐聚之会所。</li>
+<li>子曰：质胜文则野、文胜质则史。文质彬彬，然后君子。<br>质胜文则野：质，朴，质朴。文，文采，文饰。野，鄙野。 史： 本指宗庙之祝史，或在官府之掌文书者，这些人往往显得虚伪正经，故史意指虚浮，虚伪。彬彬：这里指文和质均匀配合的样子。<br>孔子说：“质朴胜过文采，就显得粗野，文采胜过质朴，就显得虚浮。文采和质朴兼备，然后才 能成为 君子。” 孔子在这则语录里提出了“文质彬彬”的说法，这为后人普遍接受，文采和质朴恰当配合是后来文论家们对诗文写作的要求。</li>
+<li>君子之泽，五世而斩。一个品行高尚、能力出众的君子，辛辛苦苦成就了事业。留给后代的恩惠福禄，经过几代人就消耗殆尽了。</li>
+<li>穷兵黩武：穷：竭尽；黩：随便，任意。竭尽所有的兵力，任意发动战争。</li>
+<li>近取诸身、远取诸物：它的含义是东自己的身体以及周围环境发生的异常<br>变化来取象，用以进行或大或小的形式判断和结果预测。</li>
+<li>多少事，从来急;天地转，光阴迫.一万年太久，只争朝夕。<br>意思：天下的事情，从来都是那样急切；日月轮回，光阴紧迫。要等一万年后才等来胜利，实在是太久，我们要抓紧时间，力求主动，只争朝夕。</li>
+<li>《世说新语-贤媛》”见李在窗梳头，姿貌端丽，徐徐结发，敛手向主，神色闲正，辞甚凄婉。”<br>我见犹怜。</li>
+<li>我见犹怜：我见到了都很喜欢。形容女子容貌美丽动人。</li>
+<li>天若有情天亦老”：老天如果有感情、有喜怒哀乐那么他也会老！李贺用这句表达了他对他所处时代的无奈及悲天悯人的情感。“人间正道是沧桑”：人间，人类社会，人类历史！正道，正确的、正常的发展规律法则！沧桑，沧海桑田也！</li>
+<li>没有第二名；在国外是一个人VS一个人；在国内是一代人VS一代人；《启示录》这个电影可以看。<h3 id="周易"><a href="#周易" class="headerlink" title="周易"></a>周易</h3></li>
+</ol>
+<ul>
+<li>《周易》中，六为阴，九为阳。</li>
+<li>乾为天、坤为地、震为雷、巽为风、坎为水、离为火、艮为山、兑为泽</li>
+<li>天行健，君子以自强不息”（乾卦）、“地势坤，君子以厚德载物”（坤卦）、“随风巽，君子以申命行事”（巽卦）、“洊雷震，君子以恐惧修省”（震卦）、“水洊至，习坎；君子以常德行，习教事”（坎卦）、“明两作，离；大人以继明照于四方”（离卦）、“丽泽，兑；君子以朋友讲习”（兑卦）、“兼山，艮；君子以思不出其位”（艮卦）</li>
+</ul>
+<hr>
+<h2 id="名词"><a href="#名词" class="headerlink" title="名词"></a>名词</h2><p>AE： After Effects。后期特效。</p>
+<h2 id="生活"><a href="#生活" class="headerlink" title="生活"></a>生活</h2><ol>
+<li>钢笔笔尖分明尖和暗尖。</li>
+<li>解酒九法：</li>
+</ol>
+<ul>
+<li>酒后头痛：蜂蜜水</li>
+<li>酒后头昏：西红柿汁</li>
+<li>酒后反胃、恶心：新鲜葡萄</li>
+<li>酒后全身发热：西瓜汁</li>
+<li>酒后口气：柚子</li>
+<li>酒后肠胃不适，颜面发红：芹菜汁</li>
+<li>酒后烦躁：酸奶</li>
+<li>酒后心悸.胸闷：香蕉</li>
+<li>酒后厌食：橄榄</li>
+</ul>
+<ol start="3">
+<li>库达犬（Bully Kutta），属工作犬。身材高大，肌肉发达，骨骼伟岸，脂肪少，皮肤松弛多皱纹，性格自信而沉稳，表象懒惰少动，不易为外物所干扰，且不易驯服，建议多训练。</li>
+<li><a href="http://www.zisha.com/huxing/?ozs=258038-1981" target="_blank" rel="noopener">茶壶网址</a></li>
+<li>关公大刀青龙偃月刀 ，又叫做 冷艳锯</li>
+<li>CV(Curriculum Vitae)是个人简历(履历)的简称。和resume相比较，CV通常更加的详细（一般都要两页纸或以上），涵盖更加全面也比resume更为严格。一般用于申请工作、学术、教育、科研职位或奖学金等时需要。CV的长度由其内容确定，有时可长达十页，年轻专业人的履历一般长度都在2—4页，而老资历的通常也在6—8页。</li>
+<li>A站以游戏为特色，人群比较喜欢高谈阔论，话题比较大；B站以二次元动漫为特色，人群比较呆萌，话题宅基腐</li>
+<li>（华美绝伦的）<strong>芍药</strong>，有个别名叫做：将离。中国古代男女交往，往往以芍药相赠表达惜别之情，送芍药就意味着即将分离。</li>
+<li><strong>芍药种植</strong></li>
+</ol>
+<hr>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div></div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>Donate</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechat.png" alt="不会笑 WeChat Pay">
+        <p>WeChat Pay</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay.jpg" alt="不会笑 Alipay">
+        <p>Alipay</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/学习札记/" rel="tag"># 学习札记</a>
+          
+            <a href="/tags/POWER/" rel="tag"># POWER</a>
+          
+            <a href="/tags/积累学习-TWO/" rel="tag"># 积累学习_TWO</a>
+          
+        </div>
+      
+
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/12/29/POWER-积累学习-FIRST/" rel="next" title="POWER_积累学习_FIRST">
+                <i class="fa fa-chevron-left"></i> POWER_积累学习_FIRST
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/12/29/POWER-积累学习-THIRD/" rel="prev" title="POWER_积累学习_THIRD">
+                POWER_积累学习_THIRD <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+
+	<div>    
+ 
+ 
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+      <strong>Author: </strong>不会笑
+  </li>
+  <li class="post-copyright-link">
+    <strong>Link: </strong>
+    <a href="/2018/12/29/POWER-积累学习-TWO/" title="POWER_积累学习_TWO">2018/12/29/POWER-积累学习-TWO/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Copyright: </strong>
+    Adopt <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0 CN</a> license agreement, please do not use it for commercial purposes, please indicate the source!
+  </li>
+</ul>
+
+</div>
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+  </div>
+
+
+          </div>
+          	
+
+
+  
+    <script>
+      window.livereOptions = {
+        refer: '2018/12/29/POWER-积累学习-TWO/'
+      };
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
+  
+
+
+
+
+
+
+  
+    <div class="comments" id="comments">
+      <div id="lv-container" data-id="city" data-uid="MTAyMC80MzA5My8xOTYzOQ=="></div>
+    </div>
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/images/modi.png" alt="不会笑">
+            
+              <p class="site-author-name" itemprop="name">不会笑</p>
+              <p class="site-description motion-element" itemprop="description">IN A MOMENT PASSES SORROW</p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">59</span>
+                    <span class="site-state-item-name">posts</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  <a href="/categories/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">16</span>
+                    <span class="site-state-item-name">categories</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/tags/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">69</span>
+                    <span class="site-state-item-name">tags</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://github.com/Soplia" title="GitHub &rarr; https://github.com/Soplia" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="mailto:jrxhit@qq.com" title="E-Mail &rarr; mailto:jrxhit@qq.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                </span>
+              
+            </div>
+          
+
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </div>
+
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#数学"><span class="nav-text">数学</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#历史-文化"><span class="nav-text">历史+文化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#世界各国"><span class="nav-text">世界各国</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#政治"><span class="nav-text">政治</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#科研"><span class="nav-text">科研</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#原始资料"><span class="nav-text">原始资料</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#先贤的智慧"><span class="nav-text">先贤的智慧</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#周易"><span class="nav-text">周易</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#名词"><span class="nav-text">名词</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#生活"><span class="nav-text">生活</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">不会笑</span>
+
+  
+
+  
+</div>
+
+
+<div class="powered-by">Powered by <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.8.0</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> v6.6.0
+</div>
+<span class="post-meta-divider">|</span>
+
+
+ <span id="busuanzi_container_site_uv">
+    VisitorNumber <span id="busuanzi_value_site_uv"></span>
+ </span>
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+    
+
+    
+  </div>
+
+  
+
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+
+  
+
+
+  <script src="/js/src/utils.js?v=6.6.0"></script>
+
+  <script src="/js/src/motion.js?v=6.6.0"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/src/affix.js?v=6.6.0"></script>
+
+  <script src="/js/src/schemes/pisces.js?v=6.6.0"></script>
+
+
+
+  
+  <script src="/js/src/scrollspy.js?v=6.6.0"></script>
+<script src="/js/src/post-details.js?v=6.6.0"></script>
+
+
+
+  
+
+
+  <script src="/js/src/bootstrap.js?v=6.6.0"></script>
+
+
+
+  
+
+
+
+  
+    <script>
+      window.livereOptions = {
+        refer: '2018/12/29/POWER-积累学习-TWO/'
+      };
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script>
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>

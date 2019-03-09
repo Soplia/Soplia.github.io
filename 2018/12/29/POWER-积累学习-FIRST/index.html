@@ -1,0 +1,1558 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=6.6.0" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/jerome.png?v=6.6.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/jerome.png?v=6.6.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/jerome.png?v=6.6.0">
+
+
+
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '6.6.0',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+
+  <meta name="description" content="计算机 AMD（Advanced Micro Devices)超威半导体公司.专门为计算机、通信和消费电子行业设计和制造各种创新的微处理器（CPU、GPU、APU、主板芯片组、电视卡芯片等)，以及提供闪存和低功率处理器解决方案，公司成立于1969年。  P、NP、NPC、NPH P类问题：所有可以在多项式时间内求解的问题构成P类问题。 NP类问题：该问题能否在多项式时间内求解是未知的，但确定的是能">
+<meta name="keywords" content="学习札记,积累学习_FIRST,POWER">
+<meta property="og:type" content="article">
+<meta property="og:title" content="POWER_积累学习_FIRST">
+<meta property="og:url" content="http://yoursite.com/2018/12/29/POWER-积累学习-FIRST/index.html">
+<meta property="og:site_name" content="JrXIE BLOG">
+<meta property="og:description" content="计算机 AMD（Advanced Micro Devices)超威半导体公司.专门为计算机、通信和消费电子行业设计和制造各种创新的微处理器（CPU、GPU、APU、主板芯片组、电视卡芯片等)，以及提供闪存和低功率处理器解决方案，公司成立于1969年。  P、NP、NPC、NPH P类问题：所有可以在多项式时间内求解的问题构成P类问题。 NP类问题：该问题能否在多项式时间内求解是未知的，但确定的是能">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2018-12-29T12:09:22.734Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="POWER_积累学习_FIRST">
+<meta name="twitter:description" content="计算机 AMD（Advanced Micro Devices)超威半导体公司.专门为计算机、通信和消费电子行业设计和制造各种创新的微处理器（CPU、GPU、APU、主板芯片组、电视卡芯片等)，以及提供闪存和低功率处理器解决方案，公司成立于1969年。  P、NP、NPC、NPH P类问题：所有可以在多项式时间内求解的问题构成P类问题。 NP类问题：该问题能否在多项式时间内求解是未知的，但确定的是能">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="JrXIE BLOG" type="application/atom+xml">
+
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2018/12/29/POWER-积累学习-FIRST/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>POWER_积累学习_FIRST | JrXIE BLOG</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion .logo-line-before i { left: initial; }
+    .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope="" itemtype="http://schema.org/WebPage" lang="default">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">JrXIE BLOG</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="Toggle navigation bar">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Home</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>Tags</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>Categories</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archives</a>
+
+  </li>
+
+      
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>Search</a>
+        </li>
+      
+    </ul>
+  
+
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="Searching..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/29/POWER-积累学习-FIRST/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="不会笑">
+      <meta itemprop="description" content="IN A MOMENT PASSES SORROW">
+      <meta itemprop="image" content="/images/modi.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="JrXIE BLOG">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">POWER_积累学习_FIRST
+
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2018-12-29 13:09:01 / Modified: 13:09:22" itemprop="dateCreated datePublished" datetime="2018-12-29T13:09:01+01:00">2018-12-29</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/学习札记-POWER/" itemprop="url" rel="index"><span itemprop="name">学习札记-POWER</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="计算机"><a href="#计算机" class="headerlink" title="计算机"></a>计算机</h2><ol>
+<li>AMD（Advanced Micro Devices)超威半导体公司.专门为计算机、通信和消费电子行业设计和制造各种创新的微处理器（CPU、GPU、APU、主板芯片组、电视卡芯片等)，以及提供闪存和低功率处理器解决方案，公司成立于1969年。</li>
+</ol>
+<h3 id="P、NP、NPC、NPH"><a href="#P、NP、NPC、NPH" class="headerlink" title="P、NP、NPC、NPH"></a>P、NP、NPC、NPH</h3><ol>
+<li>P类问题：所有可以<strong>在多项式时间内求解</strong>的问题构成P类问题。</li>
+<li>NP类问题：该问题能否在多项式时间内求解是未知的，但确定的是能够在多项式时间内进行验证。由于不知道能否在多项式时间内对其进行求解，所以不知道NP是否等于P问题。</li>
+<li>NPC问题：NP中的某些问题的复杂性与整个类的复杂性相关联.这些问题中任何一个如果存在多项式时间的算法,那么所有NP问题都是多项式时间可解的.这些问题被称为NP-完全问题(NPC问题)。通俗讲就是将多个NP问题归于到一个问题A，如果问题A有多项式解那么这一类问题都是有解的。但是因为问题A具有这一类问题的公共特性那么其必定是复杂的，所以有多项式解的可能性很小。但是也没有进行具体理论证明。</li>
+<li>NP-hard：问题通俗来说是其解的正确性能够被“很容易检查”的问题，这里“很容易检查”指的是存在一个多项式检查算法。相应的，若NP中所有问题到某一个问题是图灵可归约的，则该问题为NP困难问题。</li>
+<li>多项式时间（Polynomial time）在计算复杂度理论中，指的是一个问题的计算时间m(n)不大于问题大小n的多项式倍数。任何抽象机器都拥有一复杂度类，此类包括可于此机器以多项式时间求解的问题。数学描述为：m(n)= o(n^k)，此k为一常数值（依问题而定）。</li>
+<li>判定问题：判断是否有一种能够解决某一类问题的能行算法。</li>
+<li>非确定性算法：非确定性算法将问题分解成猜测和验证两个阶段。算法的猜测阶段是非确定性的，算法的验证阶段是确定性的，它验证猜测阶段给出解的正确性。设算法A是解一个判定问题Q的非确定性算法，如果A的验证阶段能在多项式时间内完成，则称A是一个多项式时间非确定性算法。有些计算问题是确定性的，例如加减乘除，只要按照公式推导，按部就班一步步来，就可以得到结果。但是，有些问题是无法按部就班直接地计算出来。比如，找大质数的问题。有没有一个公式能推出下一个质数是多少呢？这种问题的答案，是无法直接计算得到的，只能通过间接的“猜算”来得到结果。这也就是非确定性问题。而这些问题的通常有个算法，它不能直接告诉你答案是什么，但可以告诉你，某个可能的结果是正确的答案还是错误的。这个可以告诉你“猜算”的答案正确与否的算法，假如可以在多项式（polynomial）时间内算出来，就叫做多项式非确定性问题。</li>
+<li>在一个周六的晚上，你参加了一个盛大的晚会。由于感到局促不安，你想知道这一大厅中是否有你已经认识的人。你的主人向你提议说，你一定认识那位正在甜点盘附近角落的女士罗丝。不费一秒钟，你就能向那里扫视，并且发现你的主人是正确的。然而，如果没有这样的暗示，你就必须环顾整个大厅，一个个地审视每一个人，看是否有你认识的人。</li>
+</ol>
+<hr>
+<ol>
+<li>ASIC （Application Specific Integrated Circuit） 专用集成电路</li>
+<li>FPGA（Field－Programmable Gate Array）即现场可编程门阵列，它是在PAL、GAL、CPLD等可编程器件的基础上进一步发展的产物。它是作为专用集成电路（ASIC）领域中的一种半定制电路而出现的，既解决了定制电路的不足，又克服了原有可编程器件门电路数有限的缺点。</li>
+<li>CPLD(Complex Programmable Logic Device)复杂可编程逻辑器件，是从PAL和GAL器件发展出来的器件，相对而言规模大，结构复杂，属于大规模集成电路范围。是一种用户根据各自需要而自行构造逻辑功能的数字集成电路。其基本设计方法是借助集成开发软件平台，用原理图、硬件描述语言等方法，生成相应的目标文件，通过下载电缆（“在系统”编程）将代码传送到目标芯片中，实现设计的数字系统。</li>
+<li>Xilinx是全球领先的可编程逻辑完整解决方案的供应商。Xilinx研发、制造并销售范围广泛的高级集成电路、软件设计工具以及作为预定义系统级功能的IP（Intellectual Property）核。</li>
+<li>IP核：全称知识产权核（英语：intellectual property core），是指某一方提供的、形式为逻辑单元、芯片设计的可重用模块。IP核通常已经通过了设计验证，设计人员以IP核为基础进行设计，可以缩短设计所需的周期。[1]IP核可以通过协议由一方提供给另一方，或由一方独自占有。IP核的概念源于产品设计的专利证书和源代码的版权等。设计人员能够以IP核为基础进行专用集成电路或现场可编程逻辑门阵列的逻辑设计，以减少设计周期。</li>
+<li>LUT :look up table 查找表。比较经典的课编程单元的配置是一个寄存器加一个查找表。</li>
+<li>LVDS：Low-Voltage Differential Signaling 低电压差分信号<br>这种技术的核心是采用极低的电压摆幅高速差动传输数据，可以实现点对点或一点对多点的连接，具有低功耗、低误码率、低串扰和低辐射等特点</li>
+<li>SERDES是英文SERializer(串行器)/DESerializer(解串器)的简称。它是一种主流的时分多路复用(TDM)、点对点(P2P)的串行通信技术。即在发送端多路低速并行信号被转换成高速串行信号，经过传输媒体(光缆或铜线)，最后在接收端高速串行信号重新转换成低速并行信号。这种点对点的串行通信技术充分利用传输媒体的信道容量，减少所需的传输信道和器件引脚数目，提升信号的传输速度，从而大大降低通信成本。</li>
+<li>MOS英文全称为Metal-Oxide-Semiconductor。 意思为金属-氧化物-半导体。<br>MOS晶体管有P型MOS管和N型MOS管之分。由MOS管构成的集成电路称为MOS集成电路，由NMOS组成的电路就是NMOS集成电路，由PMOS管组成的电路就是PMOS集成电路，由NMOS和PMOS两种管子组成的互补MOS电路，即CMOS电路。<br>MOS管的优点：<br>1、电压控制；控制方式比较方便。<br>2、体积小，重量轻，寿命长。<br>3、输入电阻高，噪声低，热稳定性好，抗干扰能力强，功耗低。<br>MOS管的缺点：<br>1、熟悉的人比较少；（相比三极管而言）。<br>2、对静电比较敏感，容易被静电击穿。</li>
+<li>FPGA/CPLD中的LAB（logic array block)是什么意思？逻辑阵列块。</li>
+<li>SPARC：RISC微处理器。Scalable Processor ARChitecture（可扩充处理器架构）。<br>最突出的特点就是它的可扩展性。</li>
+<li><p>集群计算：计算机集群将一组松散集成的计算机软件或硬件连接起来高度紧密地协作完成计算工作。</p>
+</li>
+<li><p>CPI: clockcycle pre instruction. 每条指令的时钟周期数。</p>
+</li>
+<li>ISA是IndustryStandardArchitecture的缩写.工业标准体系结构。</li>
+<li>MIPS(Million Instructions Per Second).每秒处理的百万级的机器语言指令数。</li>
+<li>容错：在系统存在故障的情况下，仍能正确地执行给定的算法。为了实现这一点，必须使系统具有故障检测与诊断、功能切换与系统重组(reconfiguration)、系统恢复与重新运行、系统的重构(reintegration)与可扩展等功能，而且这些功能不能影响系统的正常运行或至少不能使系统的性能下降到不能容忍的程度。<br>移动计算：移动计算技术将使计算机或其它信息智能终端设备在无线环境下实现数据传输及资源共享。它的作用是将有用、准确、及时的信息提供给任何时间、任何地点的任何客户。这将极大地改变人们的生活方式和工作方式。</li>
+<li>Blu-ray Disc. 蓝光光碟。简称BD。是DVD之后的下一代光盘格式之一，用于存储高品质<br>的音响以及高容量的数据存储。蓝光光碟的命名是由于其采用<br>波长405纳米（nm）的蓝色激光光束来进行读写操作（DVD采用650纳米波长的<br>红光读写器，CD则是采用780纳米波长）。一个单层的蓝光光碟的容量为25或是27GB，<br>足够录制一个长达4小时的高解析影片。</li>
+<li>CoolerMaster (冷酷至尊)——Make it Yours.CoolerMaster成立的目标是提供业界最好的散热方案。散热器很不错。当然他的鼠标、键盘也是可以的。</li>
+<li>HuntKey(航嘉)——用心传递正能量。自主设计、研发、制造开关电源、电脑机箱、显示器、适配器等IT周边产品，手机等移动电子产品充电器、旅行充等消费周边产品，智能插座、智能小家电、智能LED照明等智能家居产品，充电桩、新能源汽车车载电源(充电机、DC/DC等)。</li>
+<li>GROUP-TEK(联泰兴)。专注网络变压器、通讯变压器、宽带接入器件、集成式RJ45连接器、<br>电源变压器、功率电感、研发、生产、销售、服务。</li>
+<li>Realtek（瑞昱半导体公司yu去声）图标是一个小螃蟹（RMC）。以螃蟹为企业的标章，是期许自己能效法螃蟹在自然界中以坚韧的生命力，无惧无畏，勇于挑战的象征意义。<br>营业内容是设计、测试以及销售各类应用集成电路。</li>
+<li>YCL ，生产网络变压器。</li>
+<li>NVIDIA是（NVIDIA Corporation，NASDAQ：NVDA，官方中文名称英伟达）的简称，是一家以设计智核芯片组为主的无晶圆（Fabless）IC半导体公司.Nvidia 是全球图形技术和数字媒体处理器行业领导厂商.</li>
+<li>ATI(Array Technology Industry)（冶天）是世界著名的显示芯片生产商，和NVIDIA齐名。2006年被美国AMD公司以54亿美元的巨资收购后成为AMD的一部分。是一家专门设计与销售适用于个人电脑的显示卡、图形处理器、芯片组、机顶盒、数字电视、电子游戏机和手提式设备等的无厂半导体公司。</li>
+<li>Corsair(海盗旗或者是海盗船).主营内存、鼠标、键盘。</li>
+<li>英特尔是美国一家主要以研制CPU处理器的公司，是全球最大的个人计算机零件和CPU制造商.</li>
+<li>北桥芯片又称为主桥芯片。主要负责联系CPU和控制内存以及显卡。提供对CPU类型，主频和其它各硬件设备的支持。因发热较大，所以上面装有散热片。</li>
+<li>南桥芯片主要负责管理主板上的低速设备和外接设备。如PCI设备，USB设备，网络设备，硬盘，键盘，鼠标，音频，电源，BIOS芯片等。</li>
+<li>TFT LCD：是薄膜晶体管液晶显示器英文thin film transistor-liquid crystal display字头的缩写。 tft-lcd技术是微电子技术与液晶显示器技术巧妙结合的一种技术。人们利用在si上进行微电子精细加工的技术，移植到在大面积玻璃上进行tft阵列的加工，再将该阵列基板与另一片带彩色滤色膜的基板，利用与业已成熟的lcd技术，形成一个液晶盒相结合，再经过后工序如偏光片贴覆等过程，最后形成液晶显示器。</li>
+<li><p>ZigBee是一种近距离、低复杂度、低功耗、低速率、低成本的双向无线通讯技术。<br>主要用于距离短、功耗低且传输速率不高的各种电子设备之间进行数据传输以及典型的有周期性数据、间歇性数据和低反应时间数据传输的应用。</p>
+</li>
+<li><p>埃克森美孚公司（Exxon Mobil Corporation），是世界最大的非政府石油天然气生产商，其严谨的投资方针以及致力于开发和运用行业领先技术及追求完善的运营管理，使之在全球位居行业领先地位。</p>
+</li>
+<li><p>Gartner魔力象限是监测和评估专业科技市场中公司的发展及定位的一种研究方法论和形象化工具。与单纯的给出统计数字或者列表为公司排名不同，魔力象限使用二维模型去阐释公司间的实力及差异。魔力象限基于公司发展前景的完备性和执行能力，将构成竞争的公司分成四个不同的部分。<br>利基型企业、有远见者、挑战者、行业领袖。</p>
+</li>
+<li><p>台式机主板扫盲。<a href="http://www.pc841.com/article/20161025-74314_all.html" target="_blank" rel="noopener">http://www.pc841.com/article/20161025-74314_all.html</a></p>
+</li>
+<li>PCI：是Peripheral Component Interconnect（外设部件互联标准）的缩写。<br>PCI扩展插槽：是主板上用于固定扩展卡并将其连接到系统总线上的插槽，也叫扩展槽、扩充插槽。扩展槽是一种添加或增强电脑特性及功能的方法。<br><a href="http://mb.zol.com.cn/390/3901953_all.html" target="_blank" rel="noopener">http://mb.zol.com.cn/390/3901953_all.html</a></li>
+<li>防呆接口：防呆接口是电脑组装上专用的术语。它一般是指由两排或几排电源供电口，在上面某个非对称位置的接口处没有设置接口，或者没有引脚，这样可以帮助DIY的朋友们更容易接电源线，用现在的说法就叫做防呆接口。</li>
+<li>内存插槽中间有一个防呆口，这个防呆口具有保证内存安装方向正确和保证安装正确类型内存两个作用，所以在安装内存时绝对不可以使用蛮力。</li>
+<li>杜邦线：电子行业杜邦线可用于实验板的引脚扩展，增加实验项目等。可以非常牢靠地和插针连接，无需焊接，可以快速进行电路试验。</li>
+<li>SATA：是（Serial Advanced Technology Attachment，串行高级技术附件）是一种基于行业标准的串行硬件驱动器接口，是由Intel、IBM、Dell、APT、Maxtor和Seagate公司共同提出的硬盘接口规范。</li>
+<li>PCI-Express(peripheral component interconnect express)：是一种高速串行计算机扩展总线标准，它原来的名称为“3GIO”，是由英特尔在2001年提出的，旨在替代旧的PCI，PCI-X和AGP总线标准。<br>PCI-E属于高速串行点对点双通道高带宽传输，所连接的设备分配独享通道带宽，不共享总线带宽，主要支持主动电源管理，错误报告，端对端的可靠性传输，热插拔以及服务质量(QOS)等功能。PCIe交由PCI-SIG（PCI特殊兴趣组织）认证发布后才改名为“PCI-Express”，简称“PCI-E”。<br>PCI-E的主要优势就是数据传输速率高，目前最高的16X 2.0版本可达到10GB/s，而且还有相当大的发展潜力。</li>
+<li>芯片组（Chipset）:是构成主板电路的核心。一定意义上讲，它决定了主板的级别和档次。它就是”南桥”和”北桥”的统称，就是把以前复杂的电路和元件最大限度地集成在几颗芯片内的芯片组。芯片组是整个身体的神经，芯片组几乎决定了这块主板的功能，进而影响到整个电脑系统性能的发挥，芯片组是主板的灵魂。</li>
+<li>Mini-ITX是一种结构紧凑的主板，它是设计用来支持用于小空间的、<br>相对低成本的电脑的。</li>
+<li>数字信号处理：Digital Signal Processing,缩写为DSP。将事物的运动变化转变为一串数字，并用计算的方法从中提取有用的信息，以满足我们实际应用的需求。大部分信号的初始形态是事物的运动变化，为了测量它们和处理它们，先要用传感器把它们的特征转换成电信号，等到这些电信号处理完后，再把它们转变为我们能看见、能听见或能利用的形态。数字信号处理前后需要一些辅助电路，它们和数字信号处理器构成一个系统。初始信号代表某种事物的运动变换，它经信号转换单元可变为电信号。例如声波，它经过麦克风后就变为电信号。 又如压力，它经压力传感器后变为电信号。</li>
+<li>调频，全称“频率调制”。使载波的瞬时频率按照所需传递信号的变化规律而变化的调制方法。[1]  它是一种使受调波瞬时频率随调制信号而变的调制方法。</li>
+<li>无线寻呼系统中的被叫用户接收机。它从基站发射的寻呼信号和干扰中选择出所需接收的有用信号，恢复成原来寻呼本机的基带信号，并产生音响（或振动）和显示数字（或字母、汉字）消息。</li>
+<li>GSM 的技术核心是时分多址技术（TDMA），即将每个无线频率均匀地分给八个（或者十六个）手机用户，每个用户交互地占用八分之一的信道时间。（注：人们通话时，语音直接的间歇时间其实很长，只有语音编码做的合理，就可以几个用户共用一个信道。）</li>
+<li>APU(Accelerated Processing Unit)中文名字叫加速处理器，是AMD“融聚未来”理念的产品，它第一次将中央处理器和独显核心做在一个晶片上，它同时具有高性能处理器和最新独立显卡的处理性能，支持DX11游戏和最新应用的“加速运算”，大幅提升了电脑运行效率。</li>
+<li>图形处理器（英语：Graphics Processing Unit，缩写：GPU），又称显示核心、视觉处理器、显示芯片，是一种专门在个人电脑、工作站、游戏机和一些移动设备（如平板电脑、智能手机等）上图像运算工作的微处理器。<br>显卡的处理器称为图形处理器（GPU），它是显卡的“心脏”，与CPU类似，只不过GPU是专为执行复杂的数学和几何计算而设计的，这些计算是图形渲染所必需的。<br>GPU的位置要看是集成显卡还是独立显卡。独立显卡的GPU在显卡上面，集成显卡的GPU就在CPU里面了。</li>
+<li>内零头是指分配给作业的存储空间中未被利用的部分，外零头是指系统中无法利用的小存储块。 </li>
+</ol>
+<ol>
+<li><p>RTL级仿真:在大部分设计中执行的第一个仿真将是RTL行为级仿真。这个阶段的仿真可以用来检查代码中的语法错误以及代码行为的正确性，其中不包括延时信息。RTL，其实就是指你写的程序代码。所以RTL仿真，就是程序仿真的意思，一般指综合前的逻辑仿真，也就是不加入电路时延的仿真。</p>
+</li>
+<li><p>EDA是电子设计自动化（Electronics Design Automation）的缩写.</p>
+</li>
+<li><p>CUDA(Compute Unified Device Architecture)，是显卡厂商NVIDIA推出的运算平台。 CUDA™是一种由NVIDIA推出的通用并行计算架构，该架构使GPU能够解决复杂的计算问题。 它包含了CUDA指令集架构（ISA）以及GPU内部的并行计算引擎。 开发人员现在可以使用C语言来为CUDA™架构编写程序，C语言是应用最广泛的一种高级编程语言。所编写出的程序于是就可以在支持CUDA™的处理器上以超高性能运行。CUDA3.0已经开始支持C++和FORTRAN。</p>
+</li>
+<li><p>COMBRICON（寒武纪）。寒武纪科技是全球智能芯片领域的先行者，宗旨是打造各类智能<br>云服务器、智能终端以及智能机器人的核心处理器芯片。<br>寒武纪，引领人类社会从信息时代卖相智能时代。世界上第一款深度学习处理器<br>芯片的发明者。</p>
+</li>
+<li><p>FPGA可以设计嵌入式的东西，但是嵌入式的做不了FPGA的东西。<br>FPGA相当于嵌入式的更加底下的一层，就是由门电路堆积起来的。FPGA可以自行设计如基于51内核的单片机，以及它的外围电路。<br>FPGA更接近IC设计，而嵌入式是IC应用。<br>难度上FPGA会更难，需求的知识也更多，特别是数电和模电。<br>FPGA:即现场可编程门阵列，它是在PAL、GAL、CPLD等可编程器件的基础上进一步发展的产物。它是作为专用集成电路（ASIC）领域中的一种半定制电路而出现的，既解决了定制电路的不足，又克服了原有可编程器件门电路数有限的缺点。嵌入式系统（Embedded system），是一种“完全嵌入受控器件内部，为特定应用而设计的专用计算机系统”，根据英国电器工程师协会（U.K. Institution of Electrical Engineer）的定义，嵌入式系统为控制、监视或辅助设备、机器或用于工厂运作的设备。  所以这两个概念不是同一层次的。前一概念是指硬件实现，后者则是系统层面的东西了。  也许我可以重新定义下这个问题：FPGA和单片机有什么区别与联系？ 一。 先从体系结构来看。单片机（比如你说的stm32)的硬件架构已经决定了，用户通过编写指令控制单片机顺序执行任务。FPGA可以看做许多逻辑门，用户通过HDL将逻辑门组织成电路。所以从应用层次上来说，FPGA更接近硬件（个人定义，欢迎指正）。举个例子，要算一个4位加法，单片机上最多就一个ADD指令，具体怎么实现你是管不了的；在FPGA上你可以采用不同的电路来实现（并行OR串行），执行效率和资源占用都可以精确到门级。  二。从应用层面来看题主说“FPGA和嵌入式有什么区别与联系”这种问法本身是有问题的（先不说他们并不是并列关系），FPGA也可以作为嵌入式系统的计算核心。既然FPGA比单片机更接近硬件，那么如果我告诉你FPGA可以模拟出一个单片机你应该也不会觉得奇怪吧？这就是所谓的“软核”。COPY一段百度里面的：“前不久，Altera 正式推出了Nios II系列32位RISC嵌入式处理器。Nios II系列软核处理器是Altera的第二代FPGA嵌入式处理器，其性能超过200DMIPS，在Altera FPGA中实现仅需35美分。Altera的Stratix 、Stratix GX、 Stratix II和 Cyclone系列FPGA全面支持Nios II处理器，以后推出的FPGA器件也将支持Nios II。<br>自Altera于2000年推出第一代16位Nios处理器以来，已经交付了13000多套Nios开发套件，Nios成为最流行的软核处理器。刚推出的Nios II系列采用全新的架构，比第一代Nios具有更高水平的效率和性能。和第一代相比，Nios II核平均占用不到50%的FPGA资源，而计算性能增长了1倍所以单片机能做的FPGA也能做，FPGA能做的单片机不一定能做。  最初，FPGA是可编程逻辑阵列，啥意思，就是一堆与或非门，你的工作说白了就是搭电路图完成逻辑功能，比如做通信设备，就要完成E1或SDH的各种编解码，如果是简单的业务逻辑，比如PCM语音业务，用电阻电容三极管搭就行了，可如果逻辑复杂，电阻电容搭的就太大太笨了，而且成本高，于是有牛人把这些东西集成到硅芯片里，就是集成电路，后来更有牛人让这个集成电路芯片可以自由修改，就成FPGA了。。。说的太糙了，凑合看吧，大概意思。FPGA的开发我是经常看到的，总结一下就是逻辑实现+约束+综合+仿真，非常类似嵌入式开发的编码+编译+调试的开发流程，而且都是写代码，只是此代码非彼代码。</p>
+</li>
+<li>XEON：至强Xeon是英特尔生产的微处理器，它用于”中间范围”的企业服务器和工作站。基于奔腾微处理器P6构架，它被设计成与新的快速外围元件互连线以及加速图形端口一起工作。Xeon具有：512千字节或1兆字节，400MHz的高速缓冲存储器、在处理器、RAM和I/O器件之间传递数据的高速总线、能提供36位地址的扩展服务器内存结构。</li>
+<li>OpenCL：OpenCL（全称Open Computing Language，开放运算语言）是第一个面向异构系统通用目的并行编程的开放式、免费标准，也是一个统一的编程环境，便于软件开发人员为高性能计算服务器、桌面计算系统、手持设备编写高效轻便的代码，而且广泛适用于多核心处理器(CPU)、图形处理器(GPU)、Cell类型架构以及数字信号处理器(DSP)等其他并行处理器.OpenCL是一个为异构平台编写程序的框架，此异构平台可由CPU，GPU或其他类型的处理器组成。OpenCL由一门用于编写kernels （在OpenCL设备上运行的函数）的语言（基于C99）和一组用于定义并控制平台的API组成。</li>
+<li>意法半导体（ST）集团于1988年6月成立，是由意大利的SGS微电子公司和法国Thomson半导体公司合并而成。1998年5月，SGS-THOMSON Microelectronics将公司名称改为意法半导体有限公司。意法半导体是世界最大的半导体公司之一。</li>
+<li>电气特性一般来说：是指某个用电设备(或元件)在电气方面如电压、电流、导电性能等等方面所具有的特性。</li>
+<li>NAS（Network Attached Storage：网络附属存储）按字面简单说就是连接在网络上，具备资料存储功能的装置，因此也称为“网络存储器”。它是一种专用数据存储服务器。它以数据为中心，将存储设备与服务器彻底分离，集中管理数据，从而释放带宽、提高性能、降低总拥有成本、保护投资。其成本远远低于使用服务器存储，而效率却远远高于后者。</li>
+</ol>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div></div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>Donate</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechat.png" alt="不会笑 WeChat Pay">
+        <p>WeChat Pay</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay.jpg" alt="不会笑 Alipay">
+        <p>Alipay</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/学习札记/" rel="tag"># 学习札记</a>
+          
+            <a href="/tags/积累学习-FIRST/" rel="tag"># 积累学习_FIRST</a>
+          
+            <a href="/tags/POWER/" rel="tag"># POWER</a>
+          
+        </div>
+      
+
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/12/29/MOOC-茶道/" rel="next" title="MOOC_茶道">
+                <i class="fa fa-chevron-left"></i> MOOC_茶道
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/12/29/POWER-积累学习-TWO/" rel="prev" title="POWER_积累学习_TWO">
+                POWER_积累学习_TWO <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+
+	<div>    
+ 
+ 
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+      <strong>Author: </strong>不会笑
+  </li>
+  <li class="post-copyright-link">
+    <strong>Link: </strong>
+    <a href="/2018/12/29/POWER-积累学习-FIRST/" title="POWER_积累学习_FIRST">2018/12/29/POWER-积累学习-FIRST/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Copyright: </strong>
+    Adopt <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0 CN</a> license agreement, please do not use it for commercial purposes, please indicate the source!
+  </li>
+</ul>
+
+</div>
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+  </div>
+
+
+          </div>
+          	
+
+
+  
+    <script>
+      window.livereOptions = {
+        refer: '2018/12/29/POWER-积累学习-FIRST/'
+      };
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
+  
+
+
+
+
+
+
+  
+    <div class="comments" id="comments">
+      <div id="lv-container" data-id="city" data-uid="MTAyMC80MzA5My8xOTYzOQ=="></div>
+    </div>
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/images/modi.png" alt="不会笑">
+            
+              <p class="site-author-name" itemprop="name">不会笑</p>
+              <p class="site-description motion-element" itemprop="description">IN A MOMENT PASSES SORROW</p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">59</span>
+                    <span class="site-state-item-name">posts</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  <a href="/categories/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">16</span>
+                    <span class="site-state-item-name">categories</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/tags/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">69</span>
+                    <span class="site-state-item-name">tags</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://github.com/Soplia" title="GitHub &rarr; https://github.com/Soplia" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="mailto:jrxhit@qq.com" title="E-Mail &rarr; mailto:jrxhit@qq.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                </span>
+              
+            </div>
+          
+
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </div>
+
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#计算机"><span class="nav-text">计算机</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#P、NP、NPC、NPH"><span class="nav-text">P、NP、NPC、NPH</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">不会笑</span>
+
+  
+
+  
+</div>
+
+
+<div class="powered-by">Powered by <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.8.0</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> v6.6.0
+</div>
+<span class="post-meta-divider">|</span>
+
+
+ <span id="busuanzi_container_site_uv">
+    VisitorNumber <span id="busuanzi_value_site_uv"></span>
+ </span>
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+    
+
+    
+  </div>
+
+  
+
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+
+  
+
+
+  <script src="/js/src/utils.js?v=6.6.0"></script>
+
+  <script src="/js/src/motion.js?v=6.6.0"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/src/affix.js?v=6.6.0"></script>
+
+  <script src="/js/src/schemes/pisces.js?v=6.6.0"></script>
+
+
+
+  
+  <script src="/js/src/scrollspy.js?v=6.6.0"></script>
+<script src="/js/src/post-details.js?v=6.6.0"></script>
+
+
+
+  
+
+
+  <script src="/js/src/bootstrap.js?v=6.6.0"></script>
+
+
+
+  
+
+
+
+  
+    <script>
+      window.livereOptions = {
+        refer: '2018/12/29/POWER-积累学习-FIRST/'
+      };
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script>
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
