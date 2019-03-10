@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-03-10T08:33:03.808Z</updated>
+  <updated>2019-03-10T08:51:03.552Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CHALLENGE-UNSOLVEDQUES</title>
+    <link href="http://yoursite.com/2019/03/10/CHALLENGE-UNSOLVEDQUES/"/>
+    <id>http://yoursite.com/2019/03/10/CHALLENGE-UNSOLVEDQUES/</id>
+    <published>2019-03-10T08:38:29.000Z</published>
+    <updated>2019-03-10T08:51:03.552Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h5 id=&quot;Git-Checkout&quot;&gt;&lt;a href=&quot;#Git-Checkout&quot; class=&quot;headerlink&quot; title=&quot;Git Checkout&quot;&gt;&lt;/a&gt;Git Checkout&lt;/h5&gt;&lt;ol&gt;
+&lt;li&gt;I checkout a branch
+        
+      
+    
+    </summary>
+    
+      <category term="CHALLENGE" scheme="http://yoursite.com/categories/CHALLENGE/"/>
+    
+    
+      <category term="CHALLENGE" scheme="http://yoursite.com/tags/CHALLENGE/"/>
+    
+      <category term="UnsolvedQuestions" scheme="http://yoursite.com/tags/UnsolvedQuestions/"/>
+    
+  </entry>
   
   <entry>
     <title>0CODE-ISIMA</title>
@@ -566,38 +595,6 @@
       <category term="积累学习_FIRST" scheme="http://yoursite.com/tags/%E7%A7%AF%E7%B4%AF%E5%AD%A6%E4%B9%A0-FIRST/"/>
     
       <category term="POWER" scheme="http://yoursite.com/tags/POWER/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>POWER_积累学习_TWO</title>
-    <link href="http://yoursite.com/2018/12/29/POWER-%E7%A7%AF%E7%B4%AF%E5%AD%A6%E4%B9%A0-TWO/"/>
-    <id>http://yoursite.com/2018/12/29/POWER-积累学习-TWO/</id>
-    <published>2018-12-29T12:09:39.000Z</published>
-    <updated>2018-12-29T12:10:04.068Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;hr&gt;
-&lt;h2 id=&quot;数学&quot;&gt;&lt;a href=&quot;#数学&quot; class=&quot;headerlink&quot; title=&quot;数学&quot;&gt;&lt;/a&gt;数学&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;P.D.F(Probability Desity of
-        
-      
-    
-    </summary>
-    
-      <category term="学习札记-POWER" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0-POWER/"/>
-    
-    
-      <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
-    
-      <category term="POWER" scheme="http://yoursite.com/tags/POWER/"/>
-    
-      <category term="积累学习_TWO" scheme="http://yoursite.com/tags/%E7%A7%AF%E7%B4%AF%E5%AD%A6%E4%B9%A0-TWO/"/>
     
   </entry>
   
