@@ -196,7 +196,7 @@
     <url>%2F2019%2F01%2F22%2FIDE-%E6%9D%82%2F</url>
     <content type="text"><![CDATA[Format code inVS 如何删除NetBeans 手动把C:\Users\用户名\AppData\Roaming\Netbeans\。这个目录下的NetBeans文件夹删掉。 使用Xshell连接CentOS(Linux)服务器 在百度上现在并安装xshell5。 新建会话，直接填写IP地址，然后点击连接即可。 点击屏幕上的最大最小化按钮可以全屏就像mstsc一样。]]></content>
       <categories>
-        <category>IDE</category>
+        <category>SolvedProblems</category>
       </categories>
       <tags>
         <tag>IDE</tag>
