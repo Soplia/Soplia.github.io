@@ -95,9 +95,9 @@
       <category term="CODES" scheme="http://yoursite.com/categories/CODES/"/>
     
     
-      <category term="PROJECT" scheme="http://yoursite.com/tags/PROJECT/"/>
-    
       <category term="COURSE-DESIGN" scheme="http://yoursite.com/tags/COURSE-DESIGN/"/>
+    
+      <category term="PROJECT" scheme="http://yoursite.com/tags/PROJECT/"/>
     
   </entry>
   
