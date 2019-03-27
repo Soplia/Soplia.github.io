@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-03-12T09:31:08.950Z</updated>
+  <updated>2019-03-27T17:04:28.040Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>素养-笛子</title>
+    <link href="http://yoursite.com/2019/03/27/%E7%B4%A0%E5%85%BB-%E7%AC%9B%E5%AD%90/"/>
+    <id>http://yoursite.com/2019/03/27/素养-笛子/</id>
+    <published>2019-03-27T15:25:57.000Z</published>
+    <updated>2019-03-27T17:04:28.040Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h4 id=&quot;初识笛子&quot;&gt;&lt;a href=&quot;#初识笛子&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="素养" scheme="http://yoursite.com/categories/%E7%B4%A0%E5%85%BB/"/>
+    
+    
+      <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
+    
+      <category term="笛子" scheme="http://yoursite.com/tags/%E7%AC%9B%E5%AD%90/"/>
+    
+  </entry>
   
   <entry>
     <title>SP-DailyLife</title>
@@ -299,9 +327,9 @@
       <category term="素养" scheme="http://yoursite.com/categories/%E7%B4%A0%E5%85%BB/"/>
     
     
-      <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
-    
       <category term="段子" scheme="http://yoursite.com/tags/%E6%AE%B5%E5%AD%90/"/>
+    
+      <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
     
   </entry>
   
@@ -327,9 +355,9 @@
       <category term="素养" scheme="http://yoursite.com/categories/%E7%B4%A0%E5%85%BB/"/>
     
     
-      <category term="好字" scheme="http://yoursite.com/tags/%E5%A5%BD%E5%AD%97/"/>
-    
       <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
+    
+      <category term="好字" scheme="http://yoursite.com/tags/%E5%A5%BD%E5%AD%97/"/>
     
   </entry>
   
@@ -563,35 +591,6 @@
       <category term="Language" scheme="http://yoursite.com/tags/Language/"/>
     
       <category term="French" scheme="http://yoursite.com/tags/French/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CentOS-YUM-Update</title>
-    <link href="http://yoursite.com/2018/12/30/CentOS-YUM-Update/"/>
-    <id>http://yoursite.com/2018/12/30/CentOS-YUM-Update/</id>
-    <published>2018-12-30T08:48:49.000Z</published>
-    <updated>2019-03-12T08:52:53.096Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot; title=&quot;问题描述&quot;&gt;&lt;/a&gt;问题描述&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;安装的是CentOS-7.15 gnome, 在使用yum update 重启电脑后gnome
-        
-      
-    
-    </summary>
-    
-      <category term="SolvedProblems" scheme="http://yoursite.com/categories/SolvedProblems/"/>
-    
-    
-      <category term="CentOS" scheme="http://yoursite.com/tags/CentOS/"/>
-    
-      <category term="Yum" scheme="http://yoursite.com/tags/Yum/"/>
     
   </entry>
   
