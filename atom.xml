@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-03-27T17:04:28.040Z</updated>
+  <updated>2019-04-04T07:59:39.469Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,66 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>POWER_积累学习_FORTH</title>
+    <link href="http://yoursite.com/2019/04/04/POWER-%E7%A7%AF%E7%B4%AF%E5%AD%A6%E4%B9%A0-FORTH/"/>
+    <id>http://yoursite.com/2019/04/04/POWER-积累学习-FORTH/</id>
+    <published>2019-04-04T07:51:39.000Z</published>
+    <updated>2019-04-04T07:59:39.469Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;ol&gt;
+&lt;li&gt;python 使用 numpy.correlate求解相关系数的时候，输入参数是两列，然后输出参数是2$\times$2的矩阵（因为是两列）。具体请看&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="学习札记-POWER" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0-POWER/"/>
+    
+    
+      <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
+    
+      <category term="积累学习" scheme="http://yoursite.com/tags/%E7%A7%AF%E7%B4%AF%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="POWER" scheme="http://yoursite.com/tags/POWER/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在法国学说话的日子</title>
+    <link href="http://yoursite.com/2019/03/30/%E5%9C%A8%E6%B3%95%E5%9B%BD%E5%AD%A6%E8%AF%B4%E8%AF%9D%E7%9A%84%E6%97%A5%E5%AD%90/"/>
+    <id>http://yoursite.com/2019/03/30/在法国学说话的日子/</id>
+    <published>2019-03-30T15:38:16.000Z</published>
+    <updated>2019-03-30T15:43:21.848Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;2019-03-30，今天我真的很高兴。在去打篮球的路上遇到来了一个刚刚会说话的小孩，他竟然和我打招呼。打篮球的时候碰到来了三个小女生（sara、alisi、…)，她们都十一二岁，真的是漂亮，小萝莉。此刻想要写一手好字的想法变得更加的强烈，，，&lt;/p&gt;
+
+        
+      
+    
+    </summary>
+    
+      <category term="法国" scheme="http://yoursite.com/categories/%E6%B3%95%E5%9B%BD/"/>
+    
+    
+      <category term="法国" scheme="http://yoursite.com/tags/%E6%B3%95%E5%9B%BD/"/>
+    
+      <category term="快乐的日子" scheme="http://yoursite.com/tags/%E5%BF%AB%E4%B9%90%E7%9A%84%E6%97%A5%E5%AD%90/"/>
+    
+  </entry>
   
   <entry>
     <title>素养-笛子</title>
@@ -307,7 +367,7 @@
     <link href="http://yoursite.com/2019/01/22/%E7%B4%A0%E5%85%BB-%E6%AE%B5%E5%AD%90/"/>
     <id>http://yoursite.com/2019/01/22/素养-段子/</id>
     <published>2019-01-22T16:56:14.000Z</published>
-    <updated>2019-01-22T17:04:15.274Z</updated>
+    <updated>2019-04-04T07:50:26.358Z</updated>
     
     <summary type="html">
     
@@ -316,9 +376,9 @@
         
         
           &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;姑娘们啊！哪有那麽多白马啊？找个驴凑合得了，别等到有一天驴都被抢没了，剩一堆骡子…&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;所谓美女，三分长相七分打扮、所谓气质，三分才气七分装蒜、所谓温柔，三分忍让七分压抑。
+&lt;li&gt;姑娘们啊！哪有那麽多白马啊？找个驴凑合得了，别等到有一天驴都被抢没了，剩一堆骡子…&lt;/li&gt;
+&lt;li&gt;所谓美女，三分长相七分打扮、所谓气质，三分才气七分装蒜、所谓温柔，三分忍让七分压抑。 &lt;/li&gt;
+&lt;li&gt;下辇子要做筷子，就不孤单了！
         
       
     
@@ -469,9 +529,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="Arabic" scheme="http://yoursite.com/tags/Arabic/"/>
-    
       <category term="Language" scheme="http://yoursite.com/tags/Language/"/>
+    
+      <category term="Arabic" scheme="http://yoursite.com/tags/Arabic/"/>
     
   </entry>
   
@@ -531,66 +591,6 @@
       <category term="IDE" scheme="http://yoursite.com/tags/IDE/"/>
     
       <category term="杂" scheme="http://yoursite.com/tags/%E6%9D%82/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>GitHub-已有公开仓库变私有</title>
-    <link href="http://yoursite.com/2019/01/08/GitHub-%E5%B7%B2%E6%9C%89%E5%85%AC%E5%BC%80%E4%BB%93%E5%BA%93%E5%8F%98%E7%A7%81%E6%9C%89/"/>
-    <id>http://yoursite.com/2019/01/08/GitHub-已有公开仓库变私有/</id>
-    <published>2019-01-08T09:42:46.000Z</published>
-    <updated>2019-03-12T08:56:30.213Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot; title=&quot;问题描述&quot;&gt;&lt;/a&gt;问题描述&lt;/h3&gt;&lt;p&gt;今天Github个人私有仓库免费使用，如何将已公开的仓库变为私有？&lt;/p&gt;
-&lt;h3 id=&quot;问题解决&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="SolvedProblems" scheme="http://yoursite.com/categories/SolvedProblems/"/>
-    
-    
-      <category term="GitHub" scheme="http://yoursite.com/tags/GitHub/"/>
-    
-      <category term="已有公开仓库变私有" scheme="http://yoursite.com/tags/%E5%B7%B2%E6%9C%89%E5%85%AC%E5%BC%80%E4%BB%93%E5%BA%93%E5%8F%98%E7%A7%81%E6%9C%89/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Language-French1</title>
-    <link href="http://yoursite.com/2018/12/31/Language-French1/"/>
-    <id>http://yoursite.com/2018/12/31/Language-French1/</id>
-    <published>2018-12-31T19:31:00.000Z</published>
-    <updated>2019-01-22T16:49:56.689Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;26个字母发音&quot;&gt;&lt;a href=&quot;#26个字母发音&quot; class=&quot;headerlink&quot; title=&quot;26个字母发音&quot;&gt;&lt;/a&gt;26个字母发音&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="学习札记-Language" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0-Language/"/>
-    
-    
-      <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
-    
-      <category term="Language" scheme="http://yoursite.com/tags/Language/"/>
-    
-      <category term="French" scheme="http://yoursite.com/tags/French/"/>
     
   </entry>
   
