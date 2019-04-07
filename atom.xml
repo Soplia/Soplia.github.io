@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-04T07:59:39.469Z</updated>
+  <updated>2019-04-04T08:03:41.042Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2019/04/04/POWER-%E7%A7%AF%E7%B4%AF%E5%AD%A6%E4%B9%A0-FORTH/"/>
     <id>http://yoursite.com/2019/04/04/POWER-积累学习-FORTH/</id>
     <published>2019-04-04T07:51:39.000Z</published>
-    <updated>2019-04-04T07:59:39.469Z</updated>
+    <updated>2019-04-04T08:03:41.042Z</updated>
     
     <summary type="html">
     
@@ -29,8 +29,7 @@
       
         
         
-          &lt;ol&gt;
-&lt;li&gt;python 使用 numpy.correlate求解相关系数的时候，输入参数是两列，然后输出参数是2$\times$2的矩阵（因为是两列）。具体请看&lt;a
+          &lt;h4 id=&quot;计算机&quot;&gt;&lt;a href=&quot;#计算机&quot; class=&quot;headerlink&quot; title=&quot;计算机&quot;&gt;&lt;/a&gt;计算机&lt;/h4&gt;&lt;h5 id=&quot;python&quot;&gt;&lt;a href=&quot;#python&quot; class=&quot;headerlink&quot;
         
       
     
@@ -81,7 +80,7 @@
     <link href="http://yoursite.com/2019/03/27/%E7%B4%A0%E5%85%BB-%E7%AC%9B%E5%AD%90/"/>
     <id>http://yoursite.com/2019/03/27/素养-笛子/</id>
     <published>2019-03-27T15:25:57.000Z</published>
-    <updated>2019-03-27T17:04:28.040Z</updated>
+    <updated>2019-04-05T19:33:18.043Z</updated>
     
     <summary type="html">
     
@@ -367,7 +366,7 @@
     <link href="http://yoursite.com/2019/01/22/%E7%B4%A0%E5%85%BB-%E6%AE%B5%E5%AD%90/"/>
     <id>http://yoursite.com/2019/01/22/素养-段子/</id>
     <published>2019-01-22T16:56:14.000Z</published>
-    <updated>2019-04-04T07:50:26.358Z</updated>
+    <updated>2019-04-07T07:17:43.473Z</updated>
     
     <summary type="html">
     
@@ -387,9 +386,9 @@
       <category term="素养" scheme="http://yoursite.com/categories/%E7%B4%A0%E5%85%BB/"/>
     
     
-      <category term="段子" scheme="http://yoursite.com/tags/%E6%AE%B5%E5%AD%90/"/>
-    
       <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
+    
+      <category term="段子" scheme="http://yoursite.com/tags/%E6%AE%B5%E5%AD%90/"/>
     
   </entry>
   
@@ -415,9 +414,9 @@
       <category term="素养" scheme="http://yoursite.com/categories/%E7%B4%A0%E5%85%BB/"/>
     
     
-      <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
-    
       <category term="好字" scheme="http://yoursite.com/tags/%E5%A5%BD%E5%AD%97/"/>
+    
+      <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
     
   </entry>
   
@@ -454,7 +453,7 @@
     <link href="http://yoursite.com/2019/01/22/%E7%B4%A0%E5%85%BB-%E5%8F%A4%E8%AF%97%E6%96%87/"/>
     <id>http://yoursite.com/2019/01/22/素养-古诗文/</id>
     <published>2019-01-22T16:55:46.000Z</published>
-    <updated>2019-02-27T08:49:42.409Z</updated>
+    <updated>2019-04-07T07:20:39.750Z</updated>
     
     <summary type="html">
     
@@ -559,9 +558,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="Language" scheme="http://yoursite.com/tags/Language/"/>
-    
       <category term="English" scheme="http://yoursite.com/tags/English/"/>
+    
+      <category term="Language" scheme="http://yoursite.com/tags/Language/"/>
     
   </entry>
   
