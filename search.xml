@@ -40,7 +40,7 @@
   <entry>
     <title><![CDATA[SP-DailyLife]]></title>
     <url>%2F2019%2F03%2F12%2FSP-DailyLife%2F</url>
-    <content type="text"><![CDATA[u163 ink has run out. replace the ink cartridge - Canon MP490 series How to solve it The Link for different Version Canon MP490 黑白打印 PDF 打印首页，打印方向下面，有预览，点开，有质量与介质类型，点开，下面有个打印质量，选择用户自定义，就会发现，灰度打印！ WORD 同样方式]]></content>
+    <content type="text"><![CDATA[u163 ink has run out. replace the ink cartridge - Canon MP490 series How to solve it The Link for different Version Canon MP490 黑白打印 PDF 打印首页，打印方向下面，有预览，点开，有质量与介质类型，点开，下面有个打印质量，选择用户自定义，就会发现，灰度打印！ WORD 同样方式 Git Description when I want to operate push/pull in the branch which I tracked from the remote branch, it occured a error. Reason Because when you add a remote repisotory it include two parts the repisotory and the branch. I you tracked branch does not have the same name as your current branch, you can not push/pull directly.]]></content>
       <categories>
         <category>SolvedProblems</category>
       </categories>
@@ -442,8 +442,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>COURSE</tag>
         <tag>多传感器融合技术</tag>
+        <tag>COURSE</tag>
       </tags>
   </entry>
   <entry>
@@ -494,8 +494,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>AdvanceDB</tag>
         <tag>COURSE</tag>
+        <tag>AdvanceDB</tag>
       </tags>
   </entry>
   <entry>
