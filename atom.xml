@@ -414,9 +414,9 @@
       <category term="素养" scheme="http://yoursite.com/categories/%E7%B4%A0%E5%85%BB/"/>
     
     
-      <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
-    
       <category term="好字" scheme="http://yoursite.com/tags/%E5%A5%BD%E5%AD%97/"/>
+    
+      <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
     
   </entry>
   
@@ -442,9 +442,9 @@
       <category term="素养" scheme="http://yoursite.com/categories/%E7%B4%A0%E5%85%BB/"/>
     
     
-      <category term="情书" scheme="http://yoursite.com/tags/%E6%83%85%E4%B9%A6/"/>
-    
       <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
+    
+      <category term="情书" scheme="http://yoursite.com/tags/%E6%83%85%E4%B9%A6/"/>
     
   </entry>
   
@@ -528,9 +528,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="Arabic" scheme="http://yoursite.com/tags/Arabic/"/>
-    
       <category term="Language" scheme="http://yoursite.com/tags/Language/"/>
+    
+      <category term="Arabic" scheme="http://yoursite.com/tags/Arabic/"/>
     
   </entry>
   
@@ -558,9 +558,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="Language" scheme="http://yoursite.com/tags/Language/"/>
-    
       <category term="English" scheme="http://yoursite.com/tags/English/"/>
+    
+      <category term="Language" scheme="http://yoursite.com/tags/Language/"/>
     
   </entry>
   
