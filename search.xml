@@ -52,7 +52,7 @@
   <entry>
     <title><![CDATA[CHALLENGE-UNSOLVEDQUES]]></title>
     <url>%2F2019%2F03%2F10%2FCHALLENGE-UNSOLVEDQUES%2F</url>
-    <content type="text"><![CDATA[Git Checkout I checkout a branch name “normal” and renamed some files, then checkout to master, when I tried to checkout to normal again, an error occured. Like the following picture: Dear, if you know anything about it, Please let me. Thanks in advance ! Java JNI When I using JNI, a error named can not find native method library occured. The detail like the following pictures: Dear, if you know anything about it, Please let me. Thanks in advance ! AVISPA I have done everything as the user manual presented. But there are still some error, I don’t know why. Dear, if you know anything about it, Please let me. Thanks in advance ! Android What is the meaning of the following code? especially api? Dear, if you know anything about it, Please let me. Thanks in advance !]]></content>
+    <content type="text"><![CDATA[Git Checkout I checkout a branch name “normal” and renamed some files, then checkout to master, when I tried to checkout to normal again, an error occured. Like the following picture: Dear, if you know anything about it, Please let me. Thanks in advance ! Java JNI When I using JNI, a error named can not find native method library occured. The detail like the following pictures: Dear, if you know anything about it, Please let me. Thanks in advance ! AVISPA I have done everything as the user manual presented. But there are still some error, I don’t know why. Dear, if you know anything about it, Please let me. Thanks in advance ! Android What is the meaning of the following code? especially api? Dear, if you know anything about it, Please let me. Thanks in advance ! Git Branch I used git init initialised a android project folder, then I tried to use git branch to manager the branches, but it came out nothing, it is wired ? Dear, if you know anything about it, Please let me. Thanks in advance !]]></content>
       <categories>
         <category>CHALLENGE</category>
       </categories>
@@ -150,8 +150,8 @@
         <category>素养</category>
       </categories>
       <tags>
-        <tag>段子</tag>
         <tag>素养</tag>
+        <tag>段子</tag>
       </tags>
   </entry>
   <entry>
@@ -162,8 +162,8 @@
         <category>素养</category>
       </categories>
       <tags>
-        <tag>素养</tag>
         <tag>好字</tag>
+        <tag>素养</tag>
       </tags>
   </entry>
   <entry>
@@ -494,8 +494,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>COURSE</tag>
         <tag>AdvanceDB</tag>
+        <tag>COURSE</tag>
       </tags>
   </entry>
   <entry>
@@ -520,8 +520,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>嵌入式编程</tag>
         <tag>COURSE</tag>
+        <tag>嵌入式编程</tag>
       </tags>
   </entry>
   <entry>
@@ -701,9 +701,9 @@
         <category>学习札记-CODING</category>
       </categories>
       <tags>
+        <tag>ADNROID</tag>
         <tag>CODING</tag>
         <tag>学习札记</tag>
-        <tag>ADNROID</tag>
       </tags>
   </entry>
   <entry>
@@ -753,9 +753,9 @@
         <category>学习札记-CODING</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>CODING</tag>
         <tag>学习札记</tag>
+        <tag>C</tag>
       </tags>
   </entry>
   <entry>
@@ -766,9 +766,9 @@
         <category>学习札记-CODING</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>CODING</tag>
         <tag>学习札记</tag>
+        <tag>C</tag>
       </tags>
   </entry>
   <entry>
