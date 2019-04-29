@@ -106,7 +106,7 @@
 
 
   <meta name="description" content="2月28号提纲 常用融合方法 加权平均 卡尔曼滤波器 贝叶斯 证据理论 具有置信因子的产生式规则 模糊逻辑 小波分析   发展期望 人工智能——神经网络——模糊理论">
-<meta name="keywords" content="学习札记,多传感器融合技术,COURSE">
+<meta name="keywords" content="学习札记,COURSE,多传感器融合技术">
 <meta property="og:type" content="article">
 <meta property="og:title" content="COURSE_多传感器融合技术">
 <meta property="og:url" content="http://yoursite.com/2018/12/29/COURSE-多传感器融合技术/index.html">
@@ -456,6 +456,16 @@ COURSE_多传感器融合技术
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/12/29/COURSE-多传感器融合技术/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">Comments: </span> <span class="post-comments-count valine-comment-count" data-xid="/2018/12/29/COURSE-多传感器融合技术/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -557,9 +567,9 @@ COURSE_多传感器融合技术
           
             <a href="/tags/学习札记/" rel="tag"># 学习札记</a>
           
-            <a href="/tags/多传感器融合技术/" rel="tag"># 多传感器融合技术</a>
-          
             <a href="/tags/COURSE/" rel="tag"># COURSE</a>
+          
+            <a href="/tags/多传感器融合技术/" rel="tag"># 多传感器融合技术</a>
           
         </div>
       
@@ -627,6 +637,10 @@ COURSE_多传感器融合技术
           	
 
 
+
+  
+    <div class="comments" id="comments">
+    </div>
 
   
 
@@ -1143,6 +1157,31 @@ COURSE_多传感器融合技术
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  
+  
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+  <script>
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(function (item) {
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: true,
+        appId: 'tPdeSH9TP6yldeBDtG49Nm2q-gzGzoHsz',
+        appKey: 'eCdAj7kBbcb0yjLKfJwdaDy2',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        meta:guest,
+        pageSize:'10' || 10,
+        visitor: false
+    });
+  </script>
 
 
 
