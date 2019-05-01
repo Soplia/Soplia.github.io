@@ -162,8 +162,8 @@
         <category>素养</category>
       </categories>
       <tags>
-        <tag>好字</tag>
         <tag>素养</tag>
+        <tag>好字</tag>
       </tags>
   </entry>
   <entry>
@@ -174,8 +174,8 @@
         <category>素养</category>
       </categories>
       <tags>
-        <tag>素养</tag>
         <tag>情书</tag>
+        <tag>素养</tag>
       </tags>
   </entry>
   <entry>
@@ -211,8 +211,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>Arabic</tag>
         <tag>Language</tag>
+        <tag>Arabic</tag>
       </tags>
   </entry>
   <entry>
@@ -261,8 +261,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>Language</tag>
         <tag>French</tag>
+        <tag>Language</tag>
       </tags>
   </entry>
   <entry>
@@ -351,8 +351,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>MOOD</tag>
         <tag>思想品德修养</tag>
+        <tag>MOOD</tag>
       </tags>
   </entry>
   <entry>
@@ -416,8 +416,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>仪表礼仪</tag>
         <tag>MOOD</tag>
+        <tag>仪表礼仪</tag>
       </tags>
   </entry>
   <entry>
@@ -494,8 +494,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>AdvanceDB</tag>
         <tag>COURSE</tag>
+        <tag>AdvanceDB</tag>
       </tags>
   </entry>
   <entry>
@@ -520,8 +520,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>COURSE</tag>
         <tag>嵌入式编程</tag>
+        <tag>COURSE</tag>
       </tags>
   </entry>
   <entry>
@@ -610,9 +610,9 @@
         <category>学习札记-CODING</category>
       </categories>
       <tags>
+        <tag>FPGA</tag>
         <tag>CODING</tag>
         <tag>学习札记</tag>
-        <tag>FPGA</tag>
       </tags>
   </entry>
   <entry>
@@ -701,9 +701,9 @@
         <category>学习札记-CODING</category>
       </categories>
       <tags>
-        <tag>ADNROID</tag>
         <tag>CODING</tag>
         <tag>学习札记</tag>
+        <tag>ADNROID</tag>
       </tags>
   </entry>
   <entry>
