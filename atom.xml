@@ -528,9 +528,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="Language" scheme="http://yoursite.com/tags/Language/"/>
-    
       <category term="Arabic" scheme="http://yoursite.com/tags/Arabic/"/>
+    
+      <category term="Language" scheme="http://yoursite.com/tags/Language/"/>
     
   </entry>
   
@@ -558,9 +558,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="English" scheme="http://yoursite.com/tags/English/"/>
-    
       <category term="Language" scheme="http://yoursite.com/tags/Language/"/>
+    
+      <category term="English" scheme="http://yoursite.com/tags/English/"/>
     
   </entry>
   
