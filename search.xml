@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[PD19-Access-ISIMA's-HPC-Resource]]></title>
+    <url>%2F2019%2F07%2F12%2FPD19-Access-ISIMA-s-HPC-Resource%2F</url>
+    <content type="text"><![CDATA[Inside the limos Opening the terminal. Typing: 1ssh jrxie@totoro Inputing the password, enjoying the HPC resources. Outside the limos Use ssh (perfer) or vpn. Generate the ssh key pair. Send the public key to Mr. or Mrs. who charge for this. You can use (1) to get all the valid options. Using (3) to get the debug log. Using (2) identify the path of the private key. 123ssh -help (1)ssh -i PathOfPrivateKey (2)-vvv (3) Typing 1ssh jrxie@ext.limos.fr -p 2225 -i pathOfPrivateKey Redo the steps prompted in “inside isima” session.]]></content>
+      <categories>
+        <category>PD19</category>
+      </categories>
+      <tags>
+        <tag>EXT_LIMOS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[POWER_积累学习_FORTH]]></title>
     <url>%2F2019%2F04%2F04%2FPOWER-%E7%A7%AF%E7%B4%AF%E5%AD%A6%E4%B9%A0-FORTH%2F</url>
     <content type="text"><![CDATA[计算机python 1. 使用 numpy.correlate求解相关系数的时候，输入参数是两列，然后输出参数是2$\times$2的矩阵（因为是两列）。具体请看[Numpy.cov Example](https://docs.scipy.org/doc/numpy/reference/generated/numpy.cov.html) * 如果函数看不懂，那么首先需要去查找这个函数，然后确定形参与返回值。]]></content>
@@ -69,8 +80,8 @@
         <category>CODES</category>
       </categories>
       <tags>
-        <tag>COURSE-DESIGN</tag>
         <tag>PROJECT</tag>
+        <tag>COURSE-DESIGN</tag>
       </tags>
   </entry>
   <entry>
@@ -109,7 +120,7 @@
   <entry>
     <title><![CDATA[FRUITS-Patents]]></title>
     <url>%2F2019%2F01%2F22%2FFRUITS-Patents%2F</url>
-    <content type="text"><![CDATA[A robot that can be used to substitute person to verify vehicles remotely[P]. 201820833217.4 The utility model relates to a robot capable of remotely verify vehicles, where in the robot comprises a camera, a top base platform, a column and a base; the camera is arranged on the top base platform, the top base platform is arranged on the base through the column, and the base is a movable base; The utility model realized remote control of the robot through the networked mobile phone. The robot can perform forward, backward, steering, camera head-up control and son on. The user can view the video of the camera in real time. By placing the utility model in any place with WIFI signal or 3G/4G signal, it is possible to realize full-scale video browsing of the vehicle through remote control. Realizing the remote viewing of the car in a true sense. A smart phone device that can be used with AR glasses[P]. 201820787699.4 A smartphone device that can be used with AR (Augmented Reality) glasses, comprising a smartphone body, the device further comprising AR glasses and a data connection line. One end of the data connection line is connected to the AR glasses, the other end is connected to the phone body when in use. It solves the problems that existed in the past, realizes the use of smartphones when connecting phones with AR glasses. At the same time, the data during the connection is stored through a receiving card. Easy to use meanwhile it is convenient for storage. Vending machine based on nano-adsorption type picking device[P]. 201821119511.5 The embodiment of the present application discloses a vending machine based on a nano-adsorption pick-up device, which comprises: a cabinet, a commodity barrier, a commodity display rack, a control box, a pick-up device, a cargo lane, a pick-up port, and a pick-up device. The surface of the pickup gripper is provided with a nano-adhesive sticker, which can be inserted into the interior of the cabinet through the commodity barrier through the pick-up device , and the product on the merchandise display rack can be displayed through the nano-adhesive sticker on the surface of the pick-up gripper. After being sucked, the pick-up device is retracted to the commodity barrier, so that the goods sucked by the pick-up hand are dropped to the cargo lane under the barrier of the commodity barrier, so that the consumer can pick up the goods compared with the pick-up device of the conventional vending machine, the pneumatic vacuuming device of the conventional vending machine and the pick-up device in the form of a suction nozzle, the vending machine based on the nano-adsorption picking device of the utility model has a simpler structure and is easier to establish. Made, easy to repair, and low cost. Device for constructing a separate space on a long-distance vehicle[P]. 201820924969.1 Means for constructing a separate space on a long-distance vehicle, the device comprising a device door and a device frame. Using the utility model to isolate and divide the bed of the above-mentioned vehicle and constructing a separate space for each passenger. The new device integrating entertainment, office and rest can satisfy the needs of all kinds of passengers to the greatest extent, add interest to the journey, and reduce the contradiction between strangers to contribute to building a harmonious socialist society. At the same time, the special positioning lock is used, so that others will not be easily disturbed during the break, and the safety of valuables will be guaranteed. A new folding facility for creating independent spaces[P]. 201820920961.8 The embodiment of the present application discloses a folding type new facility for creating an independent space for a bunk of a long-distance vehicle, the facility comprising: a rack, a first door, and a second door, the first side block, the plate set, the second side baffle set, and the top baffle set. The second side baffle set and the top baffle set are respectively connected by a plurality of baffles, between the adjacent two baffles, between the first side baffle set and the first door, And a foldable structure is disposed between the second side baffle set and the second door; the facility can be pre-folded and placed under the bunk of the sleeper and the passenger can take it out and deploy it when in use, in an open type the facility in the sleeper compartment creates a separate space that provides a full range of sound insulation and odors, significantly enhancing the comfort of passengers on long-distance vehicles. After the passengers have used the facility, they can fold and return the facility. The operation is simple, and the space in the compartment is saved. Tent device for creating a separate space[P]. 201820924970.4 An tent-type device for creating a separate space, characterized in that the device comprises a device frame and a device door; the device frame comprises a front frame and a rear frame, and the utility model can construct a separate space for the passenger to meet their own purposes, and achieve sound insulation, eliminate the effect of odors. Thus the quality of travel is improved, so that passengers can work efficiently while enjoying the scenery of the journey.]]></content>
+    <content type="text"><![CDATA[A robot that can be used to substitute person to verify vehicles remotely[P]. 201820833217.4 The utility model relates to a robot capable of remotely verify vehicles, where in the robot comprises a camera, a top base platform, a column and a base; the camera is arranged on the top base platform, the top base platform is arranged on the base through the column, and the base is a movable base; The utility model realized remote control of the robot through the networked mobile phone. The robot can perform forward, backward, steering, camera head-up control and son on. The user can view the video of the camera in real time. By placing the utility model in any place with WIFI signal or 3G/4G signal, it is possible to realize full-scale video browsing of the vehicle through remote control. Realizing the remote viewing of the car in a true sense. A smart phone device that can be used with AR glasses[P]. 201820787699.4 A smartphone device that can be used with AR (Augmented Reality) glasses, comprising a smartphone body, the device further comprising AR glasses and a data connection line. One end of the data connection line is connected to the AR glasses, the other end is connected to the phone body when in use. It solves the problems that existed in the past, realizes the use of smartphones when connecting phones with AR glasses. At the same time, the data during the connection is stored through a receiving card. Easy to use meanwhile it is convenient for storage. Vending machine based on nano-adsorption type picking device[P]. 201821119511.5 The embodiment of the present application discloses a vending machine based on a nano-adsorption pick-up device, which comprises: a cabinet, a commodity barrier, a commodity display rack, a control box, a pick-up device, a cargo lane, a pick-up port, and a pick-up device. The surface of the pickup gripper is provided with a nano-adhesive sticker, which can be inserted into the interior of the cabinet through the commodity barrier through the pick-up device , and the product on the merchandise display rack can be displayed through the nano-adhesive sticker on the surface of the pick-up gripper. After being sucked, the pick-up device is retracted to the commodity barrier, so that the goods sucked by the pick-up hand are dropped to the cargo lane under the barrier of the commodity barrier, so that the consumer can pick up the goods compared with the pick-up device of the conventional vending machine, the pneumatic vacuuming device of the conventional vending machine and the pick-up device in the form of a suction nozzle, the vending machine based on the nano-adsorption picking device of the utility model has a simpler structure and is easier to establish. Made, easy to repair, and low cost. Device for constructing a separate space on a long-distance vehicle[P]. 201820924969.1 Means for constructing a separate space on a long-distance vehicle, the device comprising a device door and a device frame. Using the utility model to isolate and divide the bed of the above-mentioned vehicle and constructing a separate space for each passenger. The new device integrating entertainment, office and rest can satisfy the needs of all kinds of passengers to the greatest extent, add interest to the journey, and reduce the contradiction between strangers to contribute to building a harmonious socialist society. At the same time, the special positioning lock is used, so that others will not be easily disturbed during the break, and the safety of valuables will be guaranteed. A new folding facility for creating independent spaces[P]. 201820920961.8 The embodiment of the present application discloses a folding type new facility for creating an independent space for a bunk of a long-distance vehicle, the facility comprising: a rack, a first door, and a second door, the first side block, the plate set, the second side baffle set, and the top baffle set. The second side baffle set and the top baffle set are respectively connected by a plurality of baffles, between the adjacent two baffles, between the first side baffle set and the first door, And a foldable structure is disposed between the second side baffle set and the second door; the facility can be pre-folded and placed under the bunk of the sleeper and the passenger can take it out and deploy it when in use, in an open type the facility in the sleeper compartment creates a separate space that provides a full range of sound insulation and odors, significantly enhancing the comfort of passengers on long-distance vehicles. After the passengers have used the facility, they can fold and return the facility. The operation is simple, and the space in the compartment is saved. Tent device for creating a separate space[P]. 201820924970.4 An tent-type device for creating a separate space, characterized in that the device comprises a device frame and a device door; the device frame comprises a front frame and a rear frame, and the utility model can construct a separate space for the passenger to meet their own purposes, and achieve sound insulation, eliminate the effect of odors. Thus the quality of travel is improved, so that passengers can work efficiently while enjoying the scenery of the journey. A new type of equipment for making soup[P]. 201821270063.9 A novel device for making soup, including a pot body, the device further comprises an analyzer, the analyzer comprises a casing, a spectrometer, a main controller and a connecting frame; the spectrometer and the main controller are arranged in the casing, and the spectrometer is connected to the main control. The housing is attached to the side wall of the pot body through the connecting frame, and the housing is located inside the pot body; the bottom of the housing is provided with a soup inlet port, and the filter inlet is provided with a filter net. The artificial controllable factors in making soup process are excluded by the new automatic equipment, so that the fluctuation of the taste of the “old soup” made by any chef at any time and anywhere can be saved within the acceptable range.]]></content>
       <categories>
         <category>Fruits</category>
       </categories>
@@ -211,8 +222,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>Language</tag>
         <tag>Arabic</tag>
+        <tag>Language</tag>
       </tags>
   </entry>
   <entry>
@@ -224,8 +235,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>English</tag>
         <tag>Language</tag>
+        <tag>English</tag>
       </tags>
   </entry>
   <entry>
@@ -338,8 +349,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>MOOD</tag>
         <tag>孙子兵法</tag>
+        <tag>MOOD</tag>
       </tags>
   </entry>
   <entry>
@@ -416,8 +427,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>仪表礼仪</tag>
         <tag>MOOD</tag>
+        <tag>仪表礼仪</tag>
       </tags>
   </entry>
   <entry>
@@ -442,8 +453,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>COURSE</tag>
         <tag>多传感器融合技术</tag>
+        <tag>COURSE</tag>
       </tags>
   </entry>
   <entry>
@@ -494,8 +505,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>AdvanceDB</tag>
         <tag>COURSE</tag>
+        <tag>AdvanceDB</tag>
       </tags>
   </entry>
   <entry>
