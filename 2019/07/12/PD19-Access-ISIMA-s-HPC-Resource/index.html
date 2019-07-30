@@ -113,10 +113,12 @@
 <meta property="og:site_name" content="JrXIE BLOG">
 <meta property="og:description" content="Inside the limos Opening the terminal.  Typing:   1ssh jrxie@totoro  Inputing the password, enjoying the HPC resources.   Outside the limos Use ssh (perfer) or vpn.  Generate the  ssh key pair. Send t">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-07-12T14:28:54.967Z">
+<meta property="og:image" content="http://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/2019-07-30-233146.jpg">
+<meta property="og:updated_time" content="2019-07-30T23:32:45.817Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="PD19-Access-ISIMA&#39;s-HPC-Resource">
 <meta name="twitter:description" content="Inside the limos Opening the terminal.  Typing:   1ssh jrxie@totoro  Inputing the password, enjoying the HPC resources.   Outside the limos Use ssh (perfer) or vpn.  Generate the  ssh key pair. Send t">
+<meta name="twitter:image" content="http://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/2019-07-30-233146.jpg">
 
 
 
@@ -412,12 +414,24 @@ PD19-Access-ISIMA's-HPC-Resource
                 
               
 
-              <time title="Created: 2019-07-12 16:19:29 / Modified: 16:28:54" itemprop="dateCreated datePublished" datetime="2019-07-12T16:19:29+02:00">2019-07-12</time>
+              <time title="Created: 2019-07-12 16:19:29" itemprop="dateCreated datePublished" datetime="2019-07-12T16:19:29+02:00">2019-07-12</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2019-07-31 01:32:45" itemprop="dateModified" datetime="2019-07-31T01:32:45+02:00">2019-07-31</time>
               
             
           </span>
@@ -500,12 +514,26 @@ PD19-Access-ISIMA's-HPC-Resource
 <li><p>Generate the  ssh key pair. Send the public key to Mr. or Mrs. who charge for this.</p>
 </li>
 <li><p>You can use (1) to get all the valid options. Using (3) to get the debug log. Using (2) identify the path of the private key.</p>
- <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">ssh -help (1)</span><br><span class="line">ssh -i PathOfPrivateKey (2)</span><br><span class="line">-vvv (3)</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">ssh -help (1)</span><br><span class="line">ssh -i PathOfPrivateKey (2)</span><br><span class="line">-vvv (3)</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>Typing</p>
- <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh jrxie@ext.limos.fr -p 2225 -i pathOfPrivateKey</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh jrxie@ext.limos.fr -p 2225 -i pathOfPrivateKey</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>Redo the steps prompted in “inside isima” session.</p>
+</li>
+</ol>
+<h4 id="Under-windows"><a href="#Under-windows" class="headerlink" title="Under windows"></a>Under windows</h4><ol>
+<li><p>You may encounter such problem “OpenSSH SSH-2 private key (old PEM format))”</p>
+</li>
+<li><p>Solution:</p>
+<ul>
+<li>regenerate the private key respect the Putty’s format.</li>
+<li>Use PuttyGen </li>
+<li><p><img src="http://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/2019-07-30-233146.jpg" alt=""></p>
+</li>
+<li><p>use <a href="mailto:**jrxie@ext.limos.fr" target="_blank" rel="noopener">**jrxie@ext.limos.fr</a>** instead of ext.limos.fr</p>
+</li>
+</ul>
 </li>
 </ol>
 
@@ -981,7 +1009,7 @@ PD19-Access-ISIMA's-HPC-Resource
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#Inside-the-limos"><span class="nav-text">Inside the limos</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Outside-the-limos"><span class="nav-text">Outside the limos</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#Inside-the-limos"><span class="nav-text">Inside the limos</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Outside-the-limos"><span class="nav-text">Outside the limos</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Under-windows"><span class="nav-text">Under windows</span></a></li></ol></div>
             
 
           </div>

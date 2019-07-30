@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[PD19-Access-ISIMA's-HPC-Resource]]></title>
     <url>%2F2019%2F07%2F12%2FPD19-Access-ISIMA-s-HPC-Resource%2F</url>
-    <content type="text"><![CDATA[Inside the limos Opening the terminal. Typing: 1ssh jrxie@totoro Inputing the password, enjoying the HPC resources. Outside the limos Use ssh (perfer) or vpn. Generate the ssh key pair. Send the public key to Mr. or Mrs. who charge for this. You can use (1) to get all the valid options. Using (3) to get the debug log. Using (2) identify the path of the private key. 123ssh -help (1)ssh -i PathOfPrivateKey (2)-vvv (3) Typing 1ssh jrxie@ext.limos.fr -p 2225 -i pathOfPrivateKey Redo the steps prompted in “inside isima” session.]]></content>
+    <content type="text"><![CDATA[Inside the limos Opening the terminal. Typing: 1ssh jrxie@totoro Inputing the password, enjoying the HPC resources. Outside the limos Use ssh (perfer) or vpn. Generate the ssh key pair. Send the public key to Mr. or Mrs. who charge for this. You can use (1) to get all the valid options. Using (3) to get the debug log. Using (2) identify the path of the private key. 123ssh -help (1)ssh -i PathOfPrivateKey (2)-vvv (3) Typing 1ssh jrxie@ext.limos.fr -p 2225 -i pathOfPrivateKey Redo the steps prompted in “inside isima” session. Under windows You may encounter such problem “OpenSSH SSH-2 private key (old PEM format))” Solution: regenerate the private key respect the Putty’s format. Use PuttyGen use **jrxie@ext.limos.fr** instead of ext.limos.fr]]></content>
       <categories>
         <category>PD19</category>
       </categories>
@@ -51,7 +51,7 @@
   <entry>
     <title><![CDATA[SP-DailyLife]]></title>
     <url>%2F2019%2F03%2F12%2FSP-DailyLife%2F</url>
-    <content type="text"><![CDATA[u163 ink has run out. replace the ink cartridge - Canon MP490 series How to solve it The Link for different Version Canon MP490 黑白打印 PDF 打印首页，打印方向下面，有预览，点开，有质量与介质类型，点开，下面有个打印质量，选择用户自定义，就会发现，灰度打印！ WORD 同样方式 Git Description when I want to operate push/pull in the branch which I tracked from the remote branch, it occured a error. Reason Because when you add a remote repisotory it include two parts the repisotory and the branch. I you tracked branch does not have the same name as your current branch, you can not push/pull directly. 非管理员电脑破解密码环境 win10 + 大白菜U盘破解盘 破解密码 在其他电脑上制作uefi pe启动盘之后，在忘记密码的win10电脑上插入U盘，启动电脑之后，不停按F12或F11或Esc或F7等快捷键调出启动菜单，需根据不同品牌电脑选择，然后方向键选择识别到的U盘，选择uefi开头的项，按回车进入； 由于制作方法不同，有些uefi启动盘会进入这个界面，有些启动盘会先进入一个主菜单，如果先进入主菜单，选择win8x64 pe回车即可； 进入到pe系统之后，双击桌面上的【登录密码清除】，打开主界面，SAM文件路径自动提取到，直接点击【打开】； 这时候会列出所有的用户列表，系统城小编的帐户是Manager，选择它，然后点击【更改密码】； 弹出这个小对话框，有提示，如果放空白，直接点击确定，表示重置密码，即删除密码，如果要改密码，输入新密码并验证就行了； 修改之后，要点击【保存更改】，最后退出，重启电脑，重启之后，系统会执行磁盘检查，不同管它，这样密码就成功破解了。 提升自身用户权限等级 windows10上将账户设置为管理员账户 如果需要自己账户的“组”，可以用电脑登录管理员账号，然后打开控制面板，进行查看。]]></content>
+    <content type="text"><![CDATA[u163 ink has run out. replace the ink cartridge - Canon MP490 series How to solve it 长按红圈按钮5秒即可 The Link for different Version Canon MP490 黑白打印 PDF 打印首页，打印方向下面，有预览，点开，有质量与介质类型，点开，下面有个打印质量，选择用户自定义，就会发现，灰度打印！ WORD 同样方式 Git Description when I want to operate push/pull in the branch which I tracked from the remote branch, it occured a error. Reason Because when you add a remote repisotory it include two parts the repisotory and the branch. I you tracked branch does not have the same name as your current branch, you can not push/pull directly. 非管理员电脑破解密码环境 win10 + 大白菜U盘破解盘 破解密码 在其他电脑上制作uefi pe启动盘之后，在忘记密码的win10电脑上插入U盘，启动电脑之后，不停按F12或F11或Esc或F7等快捷键调出启动菜单，需根据不同品牌电脑选择，然后方向键选择识别到的U盘，选择uefi开头的项，按回车进入； 由于制作方法不同，有些uefi启动盘会进入这个界面，有些启动盘会先进入一个主菜单，如果先进入主菜单，选择win8x64 pe回车即可； 进入到pe系统之后，双击桌面上的【登录密码清除】，打开主界面，SAM文件路径自动提取到，直接点击【打开】； 这时候会列出所有的用户列表，系统城小编的帐户是Manager，选择它，然后点击【更改密码】； 弹出这个小对话框，有提示，如果放空白，直接点击确定，表示重置密码，即删除密码，如果要改密码，输入新密码并验证就行了； 修改之后，要点击【保存更改】，最后退出，重启电脑，重启之后，系统会执行磁盘检查，不同管它，这样密码就成功破解了。 提升自身用户权限等级 windows10上将账户设置为管理员账户 如果需要自己账户的“组”，可以用电脑登录管理员账号，然后打开控制面板，进行查看。]]></content>
       <categories>
         <category>SolvedProblems</category>
       </categories>
@@ -80,8 +80,8 @@
         <category>CODES</category>
       </categories>
       <tags>
-        <tag>PROJECT</tag>
         <tag>COURSE-DESIGN</tag>
+        <tag>PROJECT</tag>
       </tags>
   </entry>
   <entry>
@@ -222,8 +222,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>Arabic</tag>
         <tag>Language</tag>
+        <tag>Arabic</tag>
       </tags>
   </entry>
   <entry>
@@ -235,8 +235,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>Language</tag>
         <tag>English</tag>
+        <tag>Language</tag>
       </tags>
   </entry>
   <entry>
@@ -453,8 +453,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>多传感器融合技术</tag>
         <tag>COURSE</tag>
+        <tag>多传感器融合技术</tag>
       </tags>
   </entry>
   <entry>
@@ -492,8 +492,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>COURSE</tag>
         <tag>大数据管理与分析</tag>
+        <tag>COURSE</tag>
       </tags>
   </entry>
   <entry>

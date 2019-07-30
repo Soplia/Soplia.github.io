@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-07-12T14:28:54.967Z</updated>
+  <updated>2019-07-30T23:32:45.817Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2019/07/12/PD19-Access-ISIMA-s-HPC-Resource/"/>
     <id>http://yoursite.com/2019/07/12/PD19-Access-ISIMA-s-HPC-Resource/</id>
     <published>2019-07-12T14:19:29.000Z</published>
-    <updated>2019-07-12T14:28:54.967Z</updated>
+    <updated>2019-07-30T23:32:45.817Z</updated>
     
     <summary type="html">
     
@@ -135,7 +135,7 @@
     <link href="http://yoursite.com/2019/03/12/SP-DailyLife/"/>
     <id>http://yoursite.com/2019/03/12/SP-DailyLife/</id>
     <published>2019-03-12T08:50:55.000Z</published>
-    <updated>2019-04-30T21:39:26.206Z</updated>
+    <updated>2019-07-18T21:45:48.619Z</updated>
     
     <summary type="html">
     
@@ -209,9 +209,9 @@
       <category term="CODES" scheme="http://yoursite.com/categories/CODES/"/>
     
     
-      <category term="PROJECT" scheme="http://yoursite.com/tags/PROJECT/"/>
-    
       <category term="COURSE-DESIGN" scheme="http://yoursite.com/tags/COURSE-DESIGN/"/>
+    
+      <category term="PROJECT" scheme="http://yoursite.com/tags/PROJECT/"/>
     
   </entry>
   
@@ -555,9 +555,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="Arabic" scheme="http://yoursite.com/tags/Arabic/"/>
-    
       <category term="Language" scheme="http://yoursite.com/tags/Language/"/>
+    
+      <category term="Arabic" scheme="http://yoursite.com/tags/Arabic/"/>
     
   </entry>
   
@@ -585,9 +585,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="Language" scheme="http://yoursite.com/tags/Language/"/>
-    
       <category term="English" scheme="http://yoursite.com/tags/English/"/>
+    
+      <category term="Language" scheme="http://yoursite.com/tags/Language/"/>
     
   </entry>
   
