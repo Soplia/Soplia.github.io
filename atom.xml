@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-08-05T14:12:01.906Z</updated>
+  <updated>2019-08-05T14:18:55.409Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,25 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Language-French03</title>
+    <link href="http://yoursite.com/2019/08/05/Language-French03/"/>
+    <id>http://yoursite.com/2019/08/05/Language-French03/</id>
+    <published>2019-08-05T14:18:55.000Z</published>
+    <updated>2019-08-05T14:18:55.409Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Language-French02</title>
     <link href="http://yoursite.com/2019/08/05/Language-French02/"/>
     <id>http://yoursite.com/2019/08/05/Language-French02/</id>
     <published>2019-08-05T09:34:29.000Z</published>
-    <updated>2019-08-05T14:12:01.906Z</updated>
+    <updated>2019-08-05T14:20:44.083Z</updated>
     
     <summary type="html">
     
@@ -137,7 +151,7 @@
     <link href="http://yoursite.com/2019/03/27/%E7%B4%A0%E5%85%BB-%E7%AC%9B%E5%AD%90/"/>
     <id>http://yoursite.com/2019/03/27/素养-笛子/</id>
     <published>2019-03-27T15:25:57.000Z</published>
-    <updated>2019-04-30T21:39:26.193Z</updated>
+    <updated>2019-08-05T14:19:21.720Z</updated>
     
     <summary type="html">
     
@@ -471,9 +485,9 @@
       <category term="素养" scheme="http://yoursite.com/categories/%E7%B4%A0%E5%85%BB/"/>
     
     
-      <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
-    
       <category term="好字" scheme="http://yoursite.com/tags/%E5%A5%BD%E5%AD%97/"/>
+    
+      <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
     
   </entry>
   
@@ -499,9 +513,9 @@
       <category term="素养" scheme="http://yoursite.com/categories/%E7%B4%A0%E5%85%BB/"/>
     
     
-      <category term="情书" scheme="http://yoursite.com/tags/%E6%83%85%E4%B9%A6/"/>
-    
       <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
+    
+      <category term="情书" scheme="http://yoursite.com/tags/%E6%83%85%E4%B9%A6/"/>
     
   </entry>
   
@@ -558,36 +572,6 @@
       <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
     
       <category term="句子" scheme="http://yoursite.com/tags/%E5%8F%A5%E5%AD%90/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Language-Arabic1</title>
-    <link href="http://yoursite.com/2019/01/22/Language-Arabic1/"/>
-    <id>http://yoursite.com/2019/01/22/Language-Arabic1/</id>
-    <published>2019-01-22T16:51:24.000Z</published>
-    <updated>2019-04-30T21:39:26.183Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;阿拉伯拼音前半部分读音&quot;&gt;&lt;a href=&quot;#阿拉伯拼音前半部分读音&quot; class=&quot;headerlink&quot; title=&quot;阿拉伯拼音前半部分读音&quot;&gt;&lt;/a&gt;阿拉伯拼音前半部分读音&lt;/h3&gt;&lt;h4 id=&quot;第一次课&quot;&gt;&lt;a href=&quot;#第一次课&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="学习札记-Language" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0-Language/"/>
-    
-    
-      <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
-    
-      <category term="Arabic" scheme="http://yoursite.com/tags/Arabic/"/>
-    
-      <category term="Language" scheme="http://yoursite.com/tags/Language/"/>
     
   </entry>
   
