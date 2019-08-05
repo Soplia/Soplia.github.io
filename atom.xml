@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-07-30T23:32:45.817Z</updated>
+  <updated>2019-08-05T14:12:01.906Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Language-French02</title>
+    <link href="http://yoursite.com/2019/08/05/Language-French02/"/>
+    <id>http://yoursite.com/2019/08/05/Language-French02/</id>
+    <published>2019-08-05T09:34:29.000Z</published>
+    <updated>2019-08-05T14:12:01.906Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h4 id=&quot;French-Tense&quot;&gt;&lt;a href=&quot;#French-Tense&quot; class=&quot;headerlink&quot; title=&quot;French Tense&quot;&gt;&lt;/a&gt;French Tense&lt;/h4&gt;&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+      <category term="学习札记-Language" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0-Language/"/>
+    
+    
+      <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
+    
+      <category term="Language" scheme="http://yoursite.com/tags/Language/"/>
+    
+      <category term="French" scheme="http://yoursite.com/tags/French/"/>
+    
+  </entry>
   
   <entry>
     <title>PD19-Access-ISIMA&#39;s-HPC-Resource</title>
@@ -441,9 +471,9 @@
       <category term="素养" scheme="http://yoursite.com/categories/%E7%B4%A0%E5%85%BB/"/>
     
     
-      <category term="好字" scheme="http://yoursite.com/tags/%E5%A5%BD%E5%AD%97/"/>
-    
       <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
+    
+      <category term="好字" scheme="http://yoursite.com/tags/%E5%A5%BD%E5%AD%97/"/>
     
   </entry>
   
@@ -469,9 +499,9 @@
       <category term="素养" scheme="http://yoursite.com/categories/%E7%B4%A0%E5%85%BB/"/>
     
     
-      <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
-    
       <category term="情书" scheme="http://yoursite.com/tags/%E6%83%85%E4%B9%A6/"/>
+    
+      <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
     
   </entry>
   
@@ -508,7 +538,7 @@
     <link href="http://yoursite.com/2019/01/22/%E7%B4%A0%E5%85%BB-%E5%8F%A5%E5%AD%90/"/>
     <id>http://yoursite.com/2019/01/22/素养-句子/</id>
     <published>2019-01-22T16:55:25.000Z</published>
-    <updated>2019-06-03T21:30:35.366Z</updated>
+    <updated>2019-08-05T09:33:04.835Z</updated>
     
     <summary type="html">
     
@@ -516,7 +546,7 @@
       
         
         
-          &lt;h3 id=&quot;择天记&quot;&gt;&lt;a href=&quot;#择天记&quot; class=&quot;headerlink&quot; title=&quot;择天记&quot;&gt;&lt;/a&gt;择天记&lt;/h3&gt;&lt;h4 id=&quot;无论是人性还是人心，都是不能考验的，因为当你想办法去考验它的时候，说明你已经开始怀疑了。而怀疑是一切不幸的根源。&quot;&gt;&lt;a
+          &lt;h5 id=&quot;择天记&quot;&gt;&lt;a href=&quot;#择天记&quot; class=&quot;headerlink&quot;
         
       
     
@@ -558,36 +588,6 @@
       <category term="Arabic" scheme="http://yoursite.com/tags/Arabic/"/>
     
       <category term="Language" scheme="http://yoursite.com/tags/Language/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Language-English1</title>
-    <link href="http://yoursite.com/2019/01/22/Language-English1/"/>
-    <id>http://yoursite.com/2019/01/22/Language-English1/</id>
-    <published>2019-01-22T16:50:43.000Z</published>
-    <updated>2019-04-30T21:39:26.208Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;How-to-Make-a-Good-Presentation&quot;&gt;&lt;a href=&quot;#How-to-Make-a-Good-Presentation&quot; class=&quot;headerlink&quot; title=&quot;How to Make a Good
-        
-      
-    
-    </summary>
-    
-      <category term="学习札记-Language" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0-Language/"/>
-    
-    
-      <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
-    
-      <category term="Language" scheme="http://yoursite.com/tags/Language/"/>
-    
-      <category term="English" scheme="http://yoursite.com/tags/English/"/>
     
   </entry>
   
