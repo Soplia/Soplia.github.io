@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-08-07T19:06:05.867Z</updated>
+  <updated>2019-08-11T17:46:17.204Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PD19-Tikz-Screen</title>
+    <link href="http://yoursite.com/2019/08/11/PD19-Tikz-Screen/"/>
+    <id>http://yoursite.com/2019/08/11/PD19-Tikz-Screen/</id>
+    <published>2019-08-11T17:42:32.000Z</published>
+    <updated>2019-08-11T17:46:17.204Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h5 id=&quot;Screen&quot;&gt;&lt;a href=&quot;#Screen&quot; class=&quot;headerlink&quot; title=&quot;Screen&quot;&gt;&lt;/a&gt;Screen&lt;/h5&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Create&lt;/p&gt;
+ &lt;figure class=&quot;highlight
+        
+      
+    
+    </summary>
+    
+      <category term="PD19" scheme="http://yoursite.com/categories/PD19/"/>
+    
+    
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
+      <category term="Latex" scheme="http://yoursite.com/tags/Latex/"/>
+    
+  </entry>
   
   <entry>
     <title>食材营养及烹饪方式</title>
@@ -49,7 +79,7 @@
     <link href="http://yoursite.com/2019/08/05/Language-French03/"/>
     <id>http://yoursite.com/2019/08/05/Language-French03/</id>
     <published>2019-08-05T14:18:55.000Z</published>
-    <updated>2019-08-08T20:44:34.491Z</updated>
+    <updated>2019-08-10T13:48:57.068Z</updated>
     
     <summary type="html">
     
@@ -68,9 +98,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="French" scheme="http://yoursite.com/tags/French/"/>
-    
       <category term="Language" scheme="http://yoursite.com/tags/Language/"/>
+    
+      <category term="French" scheme="http://yoursite.com/tags/French/"/>
     
   </entry>
   
@@ -98,9 +128,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="French" scheme="http://yoursite.com/tags/French/"/>
-    
       <category term="Language" scheme="http://yoursite.com/tags/Language/"/>
+    
+      <category term="French" scheme="http://yoursite.com/tags/French/"/>
     
   </entry>
   
@@ -109,7 +139,7 @@
     <link href="http://yoursite.com/2019/07/12/PD19-Access-ISIMA-s-HPC-Resource/"/>
     <id>http://yoursite.com/2019/07/12/PD19-Access-ISIMA-s-HPC-Resource/</id>
     <published>2019-07-12T14:19:29.000Z</published>
-    <updated>2019-08-07T21:46:21.036Z</updated>
+    <updated>2019-08-11T17:47:00.833Z</updated>
     
     <summary type="html">
     
@@ -126,7 +156,9 @@
       <category term="PD19" scheme="http://yoursite.com/categories/PD19/"/>
     
     
-      <category term="EXT_LIMOS" scheme="http://yoursite.com/tags/EXT-LIMOS/"/>
+      <category term="Limos" scheme="http://yoursite.com/tags/Limos/"/>
+    
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
     
   </entry>
   
@@ -529,9 +561,9 @@
       <category term="素养" scheme="http://yoursite.com/categories/%E7%B4%A0%E5%85%BB/"/>
     
     
-      <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
-    
       <category term="好字" scheme="http://yoursite.com/tags/%E5%A5%BD%E5%AD%97/"/>
+    
+      <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
     
   </entry>
   
@@ -557,37 +589,9 @@
       <category term="素养" scheme="http://yoursite.com/categories/%E7%B4%A0%E5%85%BB/"/>
     
     
+      <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
+    
       <category term="情书" scheme="http://yoursite.com/tags/%E6%83%85%E4%B9%A6/"/>
-    
-      <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>素养-古诗文</title>
-    <link href="http://yoursite.com/2019/01/22/%E7%B4%A0%E5%85%BB-%E5%8F%A4%E8%AF%97%E6%96%87/"/>
-    <id>http://yoursite.com/2019/01/22/素养-古诗文/</id>
-    <published>2019-01-22T16:55:46.000Z</published>
-    <updated>2019-04-30T21:39:26.210Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;说（shui）难（nan）&quot;&gt;&lt;a href=&quot;#说（shui）难（nan）&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="素养" scheme="http://yoursite.com/categories/%E7%B4%A0%E5%85%BB/"/>
-    
-    
-      <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
-    
-      <category term="古诗文" scheme="http://yoursite.com/tags/%E5%8F%A4%E8%AF%97%E6%96%87/"/>
     
   </entry>
   

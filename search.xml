@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[PD19-Tikz-Screen]]></title>
+    <url>%2F2019%2F08%2F11%2FPD19-Tikz-Screen%2F</url>
+    <content type="text"><![CDATA[Screen Create 1screen -S name List all screen 1screen -ls Get into the detached screen 1screen -r name Exit the screen + a + d``` (detach current screen, it will run in background)123* get into the exit screen then use ```exit``` or ```ctrl + a + k``` to exit the current screen completely. * No need to get into the exit screen, just use ```screen -S name -X quit``` to exit the target screen.* ```kill pid Switch between the screens + a + p``` previous screen12345 * ```ctrl + a + n``` next screen##### Tikz1. The sentence must end up with a **;**.2. 使用\small 等来控制字体， 如 \node (start)[startstop]{\footnotesize Start}; 13. 注意==方框和文字==都有自己的宽度设置！！！ \tikzstyle{process} = [rectangle,minimum width=3cm,minimum height=1cm,text centered,minimum width=2cm,text width=2cm,draw=black]` 可以在代码中使用\begin{tikzpicture} 环境命令来直接插入；当然为了美观可以首先将上述代码保存成.tex文件，然后再插入，比如：\input{./figures/3-tikz/simulation-procedure}； TikzEdt 首先用工具画出一个大体的样子，然后再手动改代码 入门手册 水的密度1升(L) = 0.001立方米(m³)${\rho}_水$ = 1g/cm³, 10³kg/m³ (t = 4°)]]></content>
+      <categories>
+        <category>PD19</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>Latex</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[食材营养及烹饪方式]]></title>
     <url>%2F2019%2F08%2F07%2F%E9%A3%9F-%E9%A3%9F%E6%9D%90%E8%90%A5%E5%85%BB%E9%A3%9F%E7%94%A8%E6%96%B9%E5%BC%8F%2F</url>
     <content type="text"><![CDATA[菠菜 营养价值 丰富的维他命A、维他命C及矿物质 大量的β胡萝卜素和铁，也是维生素B6、叶酸、铁和钾的极佳来源 含有铬和一种类胰岛素样物质，其作用与胰岛素非常相似，能使血糖保持稳定 丰富的B族维生素含量使其能够防止口角炎、夜盲症等维生素缺乏症的发生 大量的抗氧化剂如维生素E和硒元素 烹饪方式 菠菜不宜与豆腐、牛奶等富含钙的食物一起食用 菠菜不宜同猪肝一起食用 菠菜是一种草酸含量较高的绿叶蔬菜，含量为0.97%左右。为避免人体摄入过多的草酸，可以在烹调前用水把菠菜焯一下，因为草酸极易溶于热水，经过水焯以后菠菜中80%的草酸便可被去除。但焯的时间不宜太长，否则会降低菠菜中维生素的含量 芝麻 营养价值 每百克芝麻含蛋白质21.90克，脂肪61.70克，钙564.00毫克，磷368.00毫克 铁的含量极高，每百克可高达50.00毫克 烹饪方式]]></content>
@@ -21,8 +33,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>French</tag>
         <tag>Language</tag>
+        <tag>French</tag>
       </tags>
   </entry>
   <entry>
@@ -34,19 +46,20 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>French</tag>
         <tag>Language</tag>
+        <tag>French</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[PD19-Access-ISIMA's-HPC-Resource]]></title>
     <url>%2F2019%2F07%2F12%2FPD19-Access-ISIMA-s-HPC-Resource%2F</url>
-    <content type="text"><![CDATA[Inside the limos Opening the terminal. Typing: 1ssh jrxie@totoro Inputing the password, enjoying the HPC resources. Outside the limos Use ssh (perfer) or vpn. Generate the ssh key pair. Send the public key to Mr. or Mrs. who charge for this. You can use (1) to get all the valid options. Using (3) to get the debug log. Using (2) identify the path of the private key. 123ssh -help (1)ssh -i PathOfPrivateKey (2)-vvv (3) Typing 1ssh jrxie@ext.limos.fr -p 2225 -i pathOfPrivateKey Redo the steps prompted in “inside isima” session. Under windows You may encounter such problem “OpenSSH SSH-2 private key (old PEM format))” Solution: regenerate the private key respect the Putty’s format. Use PuttyGen use **jrxie@ext.limos.fr** instead of ext.limos.fr]]></content>
+    <content type="text"><![CDATA[Inside the limos Opening the terminal. Typing: 1ssh jrxie@totoro Inputing the password, enjoying the HPC resources. Outside the limos Use ssh (perfer) or vpn. Generate the ssh key pair. Send the public key to Mr. or Mrs. who charge for this. You can use (1) to get all the valid options. Using (3) to get the debug log. Using (2) identify the path of the private key. 123ssh -help (1)ssh -i PathOfPrivateKey (2)-vvv (3) Typing 1ssh jrxie@ext.limos.fr -p 2225 -i pathOfPrivateKey Redo the steps prompted in “inside isima” session. Under windows You may encounter such problem “OpenSSH SSH-2 private key (old PEM format))” Solution: regenerate the private key respect the Putty’s format. Use PuttyGen use **jrxie@ext.limos.fr** instead of ext.limos.fr HPC Server I can not access the Linux server brehat and yoshi by direct access (ssh). 连接到Linux系统服务器ssh jrxie@totoro以及SLURM计算节点网关ssh jrxie@frontalhpc Slurm 是一个开源、容错、高可伸缩的集群管理和大型小型 Linux集群作业调度系统。slurm不需要对操作系统内核进行修改，而是相对独立的。 不管登录 frontalhpc 还是 totoro，家目录，是透明的，即从这两个服务器上看到的都是相同的。 Can not use scp on Mac neither pscp on Windows at home.]]></content>
       <categories>
         <category>PD19</category>
       </categories>
       <tags>
-        <tag>EXT_LIMOS</tag>
+        <tag>Limos</tag>
+        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
@@ -211,8 +224,8 @@
         <category>素养</category>
       </categories>
       <tags>
-        <tag>素养</tag>
         <tag>好字</tag>
+        <tag>素养</tag>
       </tags>
   </entry>
   <entry>
@@ -223,8 +236,8 @@
         <category>素养</category>
       </categories>
       <tags>
-        <tag>情书</tag>
         <tag>素养</tag>
+        <tag>情书</tag>
       </tags>
   </entry>
   <entry>
@@ -273,8 +286,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>Language</tag>
         <tag>English</tag>
+        <tag>Language</tag>
       </tags>
   </entry>
   <entry>
@@ -310,8 +323,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>French</tag>
         <tag>Language</tag>
+        <tag>French</tag>
       </tags>
   </entry>
   <entry>
@@ -387,8 +400,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>MOOD</tag>
         <tag>孙子兵法</tag>
+        <tag>MOOD</tag>
       </tags>
   </entry>
   <entry>
@@ -465,8 +478,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>仪表礼仪</tag>
         <tag>MOOD</tag>
+        <tag>仪表礼仪</tag>
       </tags>
   </entry>
   <entry>
@@ -750,9 +763,9 @@
         <category>学习札记-CODING</category>
       </categories>
       <tags>
+        <tag>ADNROID</tag>
         <tag>CODING</tag>
         <tag>学习札记</tag>
-        <tag>ADNROID</tag>
       </tags>
   </entry>
   <entry>
@@ -802,9 +815,9 @@
         <category>学习札记-CODING</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>CODING</tag>
         <tag>学习札记</tag>
+        <tag>C</tag>
       </tags>
   </entry>
   <entry>
@@ -815,9 +828,9 @@
         <category>学习札记-CODING</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>CODING</tag>
         <tag>学习札记</tag>
+        <tag>C</tag>
       </tags>
   </entry>
   <entry>
