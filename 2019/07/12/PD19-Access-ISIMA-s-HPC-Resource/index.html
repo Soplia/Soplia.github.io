@@ -106,7 +106,7 @@
 
 
   <meta name="description" content="Inside the limos Opening the terminal.  Typing:   1ssh jrxie@totoro  Inputing the password, enjoying the HPC resources.   Outside the limos Use ssh (perfer) or vpn.  Generate the  ssh key pair. Send t">
-<meta name="keywords" content="Linux,Limos">
+<meta name="keywords" content="Limos,Linux">
 <meta property="og:type" content="article">
 <meta property="og:title" content="PD19-Access-ISIMA&#39;s-HPC-Resource">
 <meta property="og:url" content="http://yoursite.com/2019/07/12/PD19-Access-ISIMA-s-HPC-Resource/index.html">
@@ -114,7 +114,7 @@
 <meta property="og:description" content="Inside the limos Opening the terminal.  Typing:   1ssh jrxie@totoro  Inputing the password, enjoying the HPC resources.   Outside the limos Use ssh (perfer) or vpn.  Generate the  ssh key pair. Send t">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="http://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/2019-07-30-233146.jpg">
-<meta property="og:updated_time" content="2019-08-11T17:47:00.833Z">
+<meta property="og:updated_time" content="2019-08-12T09:12:03.367Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="PD19-Access-ISIMA&#39;s-HPC-Resource">
 <meta name="twitter:description" content="Inside the limos Opening the terminal.  Typing:   1ssh jrxie@totoro  Inputing the password, enjoying the HPC resources.   Outside the limos Use ssh (perfer) or vpn.  Generate the  ssh key pair. Send t">
@@ -448,7 +448,7 @@ PD19-Access-ISIMA's-HPC-Resource
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2019-08-11 19:47:00" itemprop="dateModified" datetime="2019-08-11T19:47:00+02:00">2019-08-11</time>
+                <time title="Modified: 2019-08-12 11:12:03" itemprop="dateModified" datetime="2019-08-12T11:12:03+02:00">2019-08-12</time>
               
             
           </span>
@@ -558,7 +558,11 @@ PD19-Access-ISIMA's-HPC-Resource
 <li>连接到Linux系统服务器<code>ssh jrxie@totoro</code>以及SLURM计算节点网关<code>ssh jrxie@frontalhpc</code></li>
 <li>Slurm 是一个开源、容错、高可伸缩的集群管理和大型小型 Linux集群作业调度系统。slurm不需要对操作系统内核进行修改，而是相对独立的。</li>
 <li>不管登录 frontalhpc 还是 totoro，家目录，是透明的，即从这两个服务器上看到的都是相同的。</li>
-<li>Can not use <code>scp</code> on Mac neither <code>pscp</code> on Windows at home.</li>
+<li>Can not use <code>scp</code> on Mac neither <code>pscp</code> on Windows at home.<ul>
+<li>不在Limos时，需要首先连接 ext.limos.fr 然后在其中再连接 totoro等，所以如果要上传文件，是否需要先上传到ext.limos,fr 然后再在其中上传到totoro等呢？</li>
+<li>我进行了尝试，结果 <strong>公钥失效了</strong> 😳</li>
+</ul>
+</li>
 </ol>
 
       
@@ -612,9 +616,9 @@ PD19-Access-ISIMA's-HPC-Resource
       
         <div class="post-tags">
           
-            <a href="/tags/Linux/" rel="tag"># Linux</a>
-          
             <a href="/tags/Limos/" rel="tag"># Limos</a>
+          
+            <a href="/tags/Linux/" rel="tag"># Linux</a>
           
         </div>
       

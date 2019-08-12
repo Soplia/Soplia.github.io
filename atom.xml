@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-08-11T20:29:00.433Z</updated>
+  <updated>2019-08-12T09:02:59.986Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2019/08/11/PD19-Tikz-Screen/"/>
     <id>http://yoursite.com/2019/08/11/PD19-Tikz-Screen/</id>
     <published>2019-08-11T17:42:32.000Z</published>
-    <updated>2019-08-11T20:29:00.433Z</updated>
+    <updated>2019-08-12T09:02:59.986Z</updated>
     
     <summary type="html">
     
@@ -139,7 +139,7 @@
     <link href="http://yoursite.com/2019/07/12/PD19-Access-ISIMA-s-HPC-Resource/"/>
     <id>http://yoursite.com/2019/07/12/PD19-Access-ISIMA-s-HPC-Resource/</id>
     <published>2019-07-12T14:19:29.000Z</published>
-    <updated>2019-08-11T17:47:00.833Z</updated>
+    <updated>2019-08-12T09:12:03.367Z</updated>
     
     <summary type="html">
     
@@ -156,9 +156,9 @@
       <category term="PD19" scheme="http://yoursite.com/categories/PD19/"/>
     
     
-      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
-    
       <category term="Limos" scheme="http://yoursite.com/tags/Limos/"/>
+    
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
     
   </entry>
   
