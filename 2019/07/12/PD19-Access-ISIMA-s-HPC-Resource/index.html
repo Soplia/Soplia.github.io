@@ -106,7 +106,7 @@
 
 
   <meta name="description" content="Inside the limos Opening the terminal.  Typing:   1ssh jrxie@totoro  Inputing the password, enjoying the HPC resources.   Outside the limos Use ssh (perfer) or vpn.  Generate the  ssh key pair. Send t">
-<meta name="keywords" content="Limos,Linux">
+<meta name="keywords" content="Linux,Limos">
 <meta property="og:type" content="article">
 <meta property="og:title" content="PD19-Access-ISIMA&#39;s-HPC-Resource">
 <meta property="og:url" content="http://yoursite.com/2019/07/12/PD19-Access-ISIMA-s-HPC-Resource/index.html">
@@ -114,7 +114,7 @@
 <meta property="og:description" content="Inside the limos Opening the terminal.  Typing:   1ssh jrxie@totoro  Inputing the password, enjoying the HPC resources.   Outside the limos Use ssh (perfer) or vpn.  Generate the  ssh key pair. Send t">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="http://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/2019-07-30-233146.jpg">
-<meta property="og:updated_time" content="2019-08-12T14:24:09.501Z">
+<meta property="og:updated_time" content="2019-08-12T16:26:17.005Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="PD19-Access-ISIMA&#39;s-HPC-Resource">
 <meta name="twitter:description" content="Inside the limos Opening the terminal.  Typing:   1ssh jrxie@totoro  Inputing the password, enjoying the HPC resources.   Outside the limos Use ssh (perfer) or vpn.  Generate the  ssh key pair. Send t">
@@ -448,7 +448,7 @@ PD19-Access-ISIMA's-HPC-Resource
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2019-08-12 16:24:09" itemprop="dateModified" datetime="2019-08-12T16:24:09+02:00">2019-08-12</time>
+                <time title="Modified: 2019-08-12 18:26:17" itemprop="dateModified" datetime="2019-08-12T18:26:17+02:00">2019-08-12</time>
               
             
           </span>
@@ -557,9 +557,12 @@ PD19-Access-ISIMA's-HPC-Resource
 <li>I can not access the Linux server <strong>brehat</strong> and <strong>yoshi</strong> by direct access (ssh).</li>
 <li><p>连接到Linux系统服务器<figure class="highlight plain"><figcaption><span>jrxie@totoro```以及SLURM计算节点网关```ssh jrxie@frontalhpc```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">3. Slurm 是一个开源、容错、高可伸缩的集群管理和大型小型 Linux集群作业调度系统。slurm不需要对操作系统内核进行修改，而是相对独立的。</span><br><span class="line">4. 不管登录 frontalhpc 还是 totoro，家目录，是透明的，即从这两个服务器上看到的都是相同的。</span><br><span class="line">5. Can not use ```scp``` on Mac neither ```pscp``` on Windows at home.</span><br><span class="line">  * 不在Limos时，需要首先连接 ext.limos.fr 然后在其中再连接 totoro等，所以如果要上传文件，是否需要先上传到ext.limos,fr 然后再在其中上传到totoro等呢？</span><br><span class="line">  * 我进行了尝试，结果 **公钥失效了** 😳</span><br><span class="line">  * 嗯嗯，我的猜想是正确的，因为使用VPN后就能够上传文件了</span><br><span class="line"></span><br><span class="line">##### VPN 链接</span><br><span class="line"></span><br><span class="line">1. 到Limos指定页下载并安装连接VPN，全程无难点</span><br><span class="line">    * 在连接时端口号为22，其余均不用更改</span><br><span class="line">    * ![](http://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/2019-08-12-142406.png)</span><br><span class="line">2. 上传，一定要注意不要使用 ~ ， 或者 ~/ 要如下一样给出正确的文件夹位置</span><br><span class="line">    ``` pscp -r ./00-jiaruixie/code jrxie@totoro:/home/etud/jrxie/insp</span><br></pre></td></tr></table></figure></p>
 </li>
-<li><p>下载<br> <code>pscp jrxie@totoro:/home/etud/jrxie/insp/code/01-ecm/ecm.m ./00-jiaruixie</code></p>
+<li><p>下载</p>
+ <figure class="highlight plain"><figcaption><span>jrxie@totoro:/home/etud/jrxie/insp/code/01-ecm/ecm.m ./00-jiaruixie ```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">4. 可以看出不管是上传还是下载，都是在本地进行的；当然从server上应该也是可以的，但是没有进行测试；scp 、 pscp的使用没有什么困难的，直接参照网上的教程即可</span><br><span class="line"></span><br><span class="line">##### Linux 下使用 MATLAB</span><br><span class="line">1. [添加搜索路径](https://www.mathworks.com/help/matlab/matlab_env/startup-options.html#brlkmbe-1)</span><br><span class="line">    * 在你启动 MATLAB 的目录下创建一个 *.m文件（偏好 startup.m）；如果你处于/home/bin/test 下，你就在该目录下创建 *.m文件， 该文件包含添加路径命令如下所示；然后就向在图形用户界面下一样使用，在提示符 &gt;&gt; 后面输入 startup 运行该文件；</span><br><span class="line">    ``` </span><br><span class="line">    addpath /home/etud/jrxie/insp/code/01-ecm</span><br><span class="line">    addpath /home/etud/jrxie/insp/code/02-secm</span><br><span class="line">    addpath /home/etud/jrxie/insp/code/03-cecm</span><br><span class="line">    addpath /home/etud/jrxie/insp/code/04-lpecm</span><br><span class="line">    addpath /home/etud/jrxie/insp</span><br></pre></td></tr></table></figure>
 </li>
-<li>可以看出不管是上传还是下载，都是在本地进行的；当然从server上应该也是可以的，但是没有进行测试；scp 、 pscp的使用没有什么困难的，直接参照网上的教程即可</li>
+<li><p>尝试 echo $PATH , 并在其显示的路径中创建 startup.m 文件但是并没有用，所以 startup.m 文件要放在 matlab 能够搜索到的，也就是当前路径下面；</p>
+</li>
+<li>其它的命令比如 ctrl + c 等都与 GUI 下使用方式相同 </li>
 </ol>
 
       
@@ -613,9 +616,9 @@ PD19-Access-ISIMA's-HPC-Resource
       
         <div class="post-tags">
           
-            <a href="/tags/Limos/" rel="tag"># Limos</a>
-          
             <a href="/tags/Linux/" rel="tag"># Linux</a>
+          
+            <a href="/tags/Limos/" rel="tag"># Limos</a>
           
         </div>
       
