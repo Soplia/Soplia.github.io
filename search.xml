@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[PD19-Tikz-Screen]]></title>
     <url>%2F2019%2F08%2F11%2FPD19-Tikz-Screen%2F</url>
-    <content type="text"><![CDATA[Screen Create 1screen -S name List all screen 1screen -ls Get into the detached screen 1screen -r name Exit the screen detach current screen, it will run in background, + a + d``` 123* get into the exit screen then use ```exit``` or ```ctrl + a + k``` to exit the current screen completely. * No need to get into the exit screen, just use ```screen -S name -X quit``` to exit the target screen.* ```kill pid Switch between the screens + a + p``` previous screen123456789 * ```ctrl + a + n``` next screen##### Tikz1. The sentence must end up with a **;**.2. 使用\small 等来控制字体， 如 ```\node (start)[startstop]&#123;\footnotesize Start&#125;; 注意==方框和文字==都有自己的宽度设置！！！ 123456789101112131415161718192021222324252627282930313233344. 可以在代码中使用 ```\begin&#123;tikzpicture&#125;``` 环境命令来直接插入；当然为了美观可以首先将上述代码保存成.tex文件，然后再插入，比如： ```\input&#123;./figures/3-tikz/simulation-procedure&#125;```； ##### [TikzEdt](http://www.tikzedt.org/quicktour.html)1. 首先用工具画出一个大体的样子，然后再手动改代码2. [入门手册](http://cremeronline.com/LaTeX/minimaltikz.pdf)3. [Tikz pictures side by side](https://tex.stackexchange.com/questions/368006/tikzpictures-side-by-side) * 可以进行一行两张图进行排版，但是在TikzEdt做图是需要注意图片尺寸，不能太大，要不然就会出现重叠， ```latex \usepackage&#123;tikz&#125; \usepackage&#123;subcaption&#125; \begin&#123;document&#125; \begin&#123;figure&#125;[h] \centering \begin&#123;subfigure&#125;[b]&#123;0.45\textwidth&#125; \input&#123;test1.tex&#125; \caption&#123;No interaction&#125; \label&#123;fig:M1&#125; \end&#123;subfigure&#125; \begin&#123;subfigure&#125;[b]&#123;0.45\textwidth&#125; \input&#123;test1.tex&#125; \caption&#123;Interaction&#125; \label&#123;fig:M2&#125; \end&#123;subfigure&#125; \caption&#123;Interaction figures&#125; \end&#123;figure&#125; \end&#123;document&#125; 水的密度1升(L) = 0.001立方米(m³)${\rho}_水$ = 1g/cm³, 10³kg/m³ (t = 4°)]]></content>
+    <content type="text"><![CDATA[Screen Create 1screen -S name List all screen 1screen -ls Get into the detached screen 1screen -r name Exit the screen detach current screen, it will run in background, ctrl + a + d get into the exit screen then use exit or ctrl + a + k to exit the current screen completely. No need to get into the exit screen, just use screen -S name -X quit to exit the target screen. kill pid Switch between the screens ctrl + a + p previous screen ctrl + a + n next screen Tikz The sentence must end up with a ;. 使用\small 等来控制字体， 如 \node (start)[startstop]{\footnotesize Start}; 注意==方框和文字==都有自己的宽度设置！！！ \tikzstyle{process} = [rectangle,minimum width=3cm,minimum height=1cm,text centered,minimum width=2cm,text width=2cm,draw=black]; 可以在代码中使用 \begin{tikzpicture} 环境命令来直接插入；当然为了美观可以首先将上述代码保存成.tex文件，然后再插入，比如： \input{./figures/3-tikz/simulation-procedure}； TikzEdt 首先用工具画出一个大体的样子，然后再手动改代码 入门手册 Tikz pictures side by side 可以进行一行两张图进行排版，但是在TikzEdt做图是需要注意图片尺寸，不能太大，要不然就会出现重叠， 12345678910111213141516171819\usepackage&#123;tikz&#125;\usepackage&#123;subcaption&#125;\begin&#123;document&#125;\begin&#123;figure&#125;[h] \centering \begin&#123;subfigure&#125;[b]&#123;0.45\textwidth&#125; \input&#123;test1.tex&#125; \caption&#123;No interaction&#125; \label&#123;fig:M1&#125; \end&#123;subfigure&#125;\begin&#123;subfigure&#125;[b]&#123;0.45\textwidth&#125; \input&#123;test1.tex&#125;\caption&#123;Interaction&#125; \label&#123;fig:M2&#125; \end&#123;subfigure&#125;\caption&#123;Interaction figures&#125;\end&#123;figure&#125;\end&#123;document&#125; 水的密度1升(L) = 0.001立方米(m³)${\rho}_水$ = 1g/cm³, 10³kg/m³ (t = 4°)]]></content>
       <categories>
         <category>PD19</category>
       </categories>
@@ -131,8 +131,8 @@
         <category>CODES</category>
       </categories>
       <tags>
-        <tag>PROJECT</tag>
         <tag>COURSE-DESIGN</tag>
+        <tag>PROJECT</tag>
       </tags>
   </entry>
   <entry>
@@ -224,8 +224,8 @@
         <category>素养</category>
       </categories>
       <tags>
-        <tag>素养</tag>
         <tag>好字</tag>
+        <tag>素养</tag>
       </tags>
   </entry>
   <entry>
@@ -236,8 +236,8 @@
         <category>素养</category>
       </categories>
       <tags>
-        <tag>情书</tag>
         <tag>素养</tag>
+        <tag>情书</tag>
       </tags>
   </entry>
   <entry>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-08-22T16:56:07.654Z</updated>
+  <updated>2019-08-22T17:04:17.781Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2019/08/11/PD19-Tikz-Screen/"/>
     <id>http://yoursite.com/2019/08/11/PD19-Tikz-Screen/</id>
     <published>2019-08-11T17:42:32.000Z</published>
-    <updated>2019-08-22T16:56:07.654Z</updated>
+    <updated>2019-08-22T17:04:17.781Z</updated>
     
     <summary type="html">
     
@@ -329,9 +329,9 @@
       <category term="CODES" scheme="http://yoursite.com/categories/CODES/"/>
     
     
-      <category term="PROJECT" scheme="http://yoursite.com/tags/PROJECT/"/>
-    
       <category term="COURSE-DESIGN" scheme="http://yoursite.com/tags/COURSE-DESIGN/"/>
+    
+      <category term="PROJECT" scheme="http://yoursite.com/tags/PROJECT/"/>
     
   </entry>
   
@@ -561,9 +561,9 @@
       <category term="素养" scheme="http://yoursite.com/categories/%E7%B4%A0%E5%85%BB/"/>
     
     
-      <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
-    
       <category term="好字" scheme="http://yoursite.com/tags/%E5%A5%BD%E5%AD%97/"/>
+    
+      <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
     
   </entry>
   
@@ -589,9 +589,9 @@
       <category term="素养" scheme="http://yoursite.com/categories/%E7%B4%A0%E5%85%BB/"/>
     
     
-      <category term="情书" scheme="http://yoursite.com/tags/%E6%83%85%E4%B9%A6/"/>
-    
       <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
+    
+      <category term="情书" scheme="http://yoursite.com/tags/%E6%83%85%E4%B9%A6/"/>
     
   </entry>
   
