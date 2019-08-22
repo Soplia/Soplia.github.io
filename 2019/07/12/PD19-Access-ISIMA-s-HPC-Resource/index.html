@@ -114,7 +114,8 @@
 <meta property="og:description" content="Inside the limos Opening the terminal.  Typing:   1ssh jrxie@totoro  Inputing the password, enjoying the HPC resources.   Outside the limos Use ssh (perfer) or vpn.  Generate the  ssh key pair. Send t">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="http://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/2019-07-30-233146.jpg">
-<meta property="og:updated_time" content="2019-08-16T07:48:11.761Z">
+<meta property="og:image" content="http://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/2019-08-12-142406.png">
+<meta property="og:updated_time" content="2019-08-22T18:30:01.920Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="PD19-Access-ISIMA&#39;s-HPC-Resource">
 <meta name="twitter:description" content="Inside the limos Opening the terminal.  Typing:   1ssh jrxie@totoro  Inputing the password, enjoying the HPC resources.   Outside the limos Use ssh (perfer) or vpn.  Generate the  ssh key pair. Send t">
@@ -448,7 +449,7 @@ PD19-Access-ISIMA's-HPC-Resource
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2019-08-16 09:48:11" itemprop="dateModified" datetime="2019-08-16T09:48:11+02:00">2019-08-16</time>
+                <time title="Modified: 2019-08-22 20:30:01" itemprop="dateModified" datetime="2019-08-22T20:30:01+02:00">2019-08-22</time>
               
             
           </span>
@@ -545,20 +546,41 @@ PD19-Access-ISIMA's-HPC-Resource
 <li><p>Solution:</p>
 <ul>
 <li>regenerate the private key respect the Putty’s format.</li>
-<li>Use PuttyGen </li>
-<li><p><img src="http://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/2019-07-30-233146.jpg" alt=""></p>
+<li><p>Use PuttyGen </p>
+<p> <img src="http://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/2019-07-30-233146.jpg" alt=""> </p>
 </li>
-<li><p>use <a href="mailto:**jrxie@ext.limos.fr" target="_blank" rel="noopener">**jrxie@ext.limos.fr</a>** instead of ext.limos.fr</p>
-</li>
+<li>use <a href="mailto:**jrxie@ext.limos.fr" target="_blank" rel="noopener">**jrxie@ext.limos.fr</a>** instead of ext.limos.fr</li>
 </ul>
 </li>
 </ol>
 <h5 id="HPC-Server"><a href="#HPC-Server" class="headerlink" title="HPC Server"></a>HPC Server</h5><ol>
 <li>I can not access the Linux server <strong>brehat</strong> and <strong>yoshi</strong> by direct access (ssh).</li>
-<li><p>连接到Linux系统服务器<figure class="highlight plain"><figcaption><span>jrxie@totoro```以及SLURM计算节点网关```ssh jrxie@frontalhpc```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">3. Slurm 是一个开源、容错、高可伸缩的集群管理和大型小型 Linux集群作业调度系统。slurm不需要对操作系统内核进行修改，而是相对独立的。</span><br><span class="line">4. 不管登录 frontalhpc 还是 totoro，家目录，是透明的，即从这两个服务器上看到的都是相同的。</span><br><span class="line">5. Can not use ```scp``` on Mac neither ```pscp``` on Windows at home.</span><br><span class="line">  * 不在Limos时，需要首先连接 ext.limos.fr 然后在其中再连接 totoro等，所以如果要上传文件，是否需要先上传到ext.limos,fr 然后再在其中上传到totoro等呢？</span><br><span class="line">  * 我进行了尝试，结果 **公钥失效了** 😳</span><br><span class="line">  * 嗯嗯，我的猜想是正确的，因为使用VPN后就能够上传文件了</span><br><span class="line"></span><br><span class="line">##### VPN 链接</span><br><span class="line"></span><br><span class="line">1. 到Limos指定页下载并安装连接VPN，全程无难点</span><br><span class="line">    * 在连接时端口号为22，其余均不用更改</span><br><span class="line">    * ![](http://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/2019-08-12-142406.png)</span><br><span class="line">2. 上传，一定要注意不要使用 ~ ， 或者 ~/ 要如下一样给出正确的文件夹位置</span><br><span class="line">    ``` pscp -r ./00-jiaruixie/code jrxie@totoro:/home/etud/jrxie/insp</span><br></pre></td></tr></table></figure></p>
+<li>连接到Linux系统服务器<code>ssh jrxie@totoro</code>以及SLURM计算节点网关<code>ssh jrxie@frontalhpc</code></li>
+<li>Slurm 是一个开源、容错、高可伸缩的集群管理和大型小型 Linux集群作业调度系统。slurm不需要对操作系统内核进行修改，而是相对独立的。</li>
+<li>不管登录 frontalhpc 还是 totoro，家目录，是透明的，即从这两个服务器上看到的都是相同的。</li>
+<li>Can not use <code>scp</code> on Mac neither <code>pscp</code> on Windows at home.<ul>
+<li>不在Limos时，需要首先连接 ext.limos.fr 然后在其中再连接 totoro等，所以如果要上传文件，是否需要先上传到ext.limos,fr 然后再在其中上传到totoro等呢？</li>
+<li>我进行了尝试，结果 <strong>公钥失效了</strong> 😳</li>
+<li>嗯嗯，我的猜想是正确的，因为使用VPN后就能够上传文件了</li>
+</ul>
 </li>
-<li><p>下载</p>
- <figure class="highlight plain"><figcaption><span>jrxie@totoro:/home/etud/jrxie/insp/code/01-ecm/ecm.m ./00-jiaruixie ```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">4. 可以看出不管是上传还是下载，都是在本地进行的；当然从server上应该也是可以的，但是没有进行测试；scp 、 pscp的使用没有什么困难的，直接参照网上的教程即可</span><br><span class="line"></span><br><span class="line">##### Linux 下使用 MATLAB</span><br><span class="line">1. [添加搜索路径](https://www.mathworks.com/help/matlab/matlab_env/startup-options.html#brlkmbe-1)</span><br><span class="line">    * 在你启动 MATLAB 的目录下创建一个 *.m文件（偏好 startup.m）；如果你处于/home/bin/test 下，你就在该目录下创建 *.m文件， 该文件包含添加路径命令如下所示；然后就向在图形用户界面下一样使用，在提示符 &gt;&gt; 后面输入 startup 运行该文件；</span><br><span class="line">    ``` </span><br><span class="line">    addpath /home/etud/jrxie/insp/code/01-ecm</span><br><span class="line">    addpath /home/etud/jrxie/insp/code/02-secm</span><br><span class="line">    addpath /home/etud/jrxie/insp/code/03-cecm</span><br><span class="line">    addpath /home/etud/jrxie/insp/code/04-lpecm</span><br><span class="line">    addpath /home/etud/jrxie/insp</span><br></pre></td></tr></table></figure>
+</ol>
+<h5 id="VPN-链接"><a href="#VPN-链接" class="headerlink" title="VPN 链接"></a>VPN 链接</h5><ol>
+<li>到Limos指定页下载并安装连接VPN，全程无难点<ul>
+<li>在连接时端口号为22，其余均不用更改</li>
+<li><img src="http://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/2019-08-12-142406.png" alt=""></li>
+</ul>
+</li>
+<li>上传，一定要注意不要使用 ~ ， 或者 ~/ 要如下一样给出正确的文件夹位置<br> <code>pscp -r ./00-jiaruixie/code jrxie@totoro:/home/etud/jrxie/insp</code></li>
+<li>下载<br> <code>pscp jrxie@totoro:/home/etud/jrxie/insp/code/01-ecm/ecm.m ./00-jiaruixie</code></li>
+<li>可以看出不管是上传还是下载，都是在本地进行的；当然从server上应该也是可以的，但是没有进行测试；scp 、 pscp的使用没有什么困难的，直接参照网上的教程即可</li>
+</ol>
+<h5 id="Linux-下使用-MATLAB"><a href="#Linux-下使用-MATLAB" class="headerlink" title="Linux 下使用 MATLAB"></a>Linux 下使用 MATLAB</h5><ol>
+<li><p><a href="https://www.mathworks.com/help/matlab/matlab_env/startup-options.html#brlkmbe-1" target="_blank" rel="noopener">添加搜索路径</a></p>
+<ul>
+<li>在你启动 MATLAB 的目录下创建一个 <em>.m文件（偏好 startup.m）；如果你处于/home/bin/test 下，你就在该目录下创建 </em>.m文件， 该文件包含添加路径命令如下所示；然后就向在图形用户界面下一样使用，在提示符 &gt;&gt; 后面输入 startup 运行该文件；<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">addpath /home/etud/jrxie/insp/code/01-ecm</span><br><span class="line">addpath /home/etud/jrxie/insp/code/02-secm</span><br><span class="line">addpath /home/etud/jrxie/insp/code/03-cecm</span><br><span class="line">addpath /home/etud/jrxie/insp/code/04-lpecm</span><br><span class="line">addpath /home/etud/jrxie/insp</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
 </li>
 <li><p>尝试 echo $PATH , 并在其显示的路径中创建 startup.m 文件但是并没有用，所以 startup.m 文件要放在 matlab 能够搜索到的，也就是当前路径下面；</p>
 </li>
@@ -1063,7 +1085,7 @@ PD19-Access-ISIMA's-HPC-Resource
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#Inside-the-limos"><span class="nav-text">Inside the limos</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Outside-the-limos"><span class="nav-text">Outside the limos</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Under-windows"><span class="nav-text">Under windows</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#HPC-Server"><span class="nav-text">HPC Server</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#How-to-use-VPN-in-ISIMA"><span class="nav-text">How to use VPN in ISIMA</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#Inside-the-limos"><span class="nav-text">Inside the limos</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Outside-the-limos"><span class="nav-text">Outside the limos</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Under-windows"><span class="nav-text">Under windows</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#HPC-Server"><span class="nav-text">HPC Server</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#VPN-链接"><span class="nav-text">VPN 链接</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Linux-下使用-MATLAB"><span class="nav-text">Linux 下使用 MATLAB</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#How-to-use-VPN-in-ISIMA"><span class="nav-text">How to use VPN in ISIMA</span></a></li></ol></li></ol></div>
             
 
           </div>

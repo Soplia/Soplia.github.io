@@ -53,7 +53,7 @@
   <entry>
     <title><![CDATA[PD19-Access-ISIMA's-HPC-Resource]]></title>
     <url>%2F2019%2F07%2F12%2FPD19-Access-ISIMA-s-HPC-Resource%2F</url>
-    <content type="text"><![CDATA[Inside the limos Opening the terminal. Typing: 1ssh jrxie@totoro Inputing the password, enjoying the HPC resources. Outside the limos Use ssh (perfer) or vpn. Generate the ssh key pair. Send the public key to Mr. or Mrs. who charge for this. You can use (1) to get all the valid options. Using (3) to get the debug log. Using (2) identify the path of the private key. 123ssh -help (1)ssh -i PathOfPrivateKey (2)-vvv (3) Typing 1ssh jrxie@ext.limos.fr -p 2225 -i pathOfPrivateKey Redo the steps prompted in “inside isima” session. Under windows You may encounter such problem “OpenSSH SSH-2 private key (old PEM format))” Solution: regenerate the private key respect the Putty’s format. Use PuttyGen use **jrxie@ext.limos.fr** instead of ext.limos.fr HPC Server I can not access the Linux server brehat and yoshi by direct access (ssh). 连接到Linux系统服务器jrxie@totoro```以及SLURM计算节点网关```ssh jrxie@frontalhpc```12345678910111213143. Slurm 是一个开源、容错、高可伸缩的集群管理和大型小型 Linux集群作业调度系统。slurm不需要对操作系统内核进行修改，而是相对独立的。4. 不管登录 frontalhpc 还是 totoro，家目录，是透明的，即从这两个服务器上看到的都是相同的。5. Can not use ```scp``` on Mac neither ```pscp``` on Windows at home. * 不在Limos时，需要首先连接 ext.limos.fr 然后在其中再连接 totoro等，所以如果要上传文件，是否需要先上传到ext.limos,fr 然后再在其中上传到totoro等呢？ * 我进行了尝试，结果 **公钥失效了** 😳 * 嗯嗯，我的猜想是正确的，因为使用VPN后就能够上传文件了##### VPN 链接1. 到Limos指定页下载并安装连接VPN，全程无难点 * 在连接时端口号为22，其余均不用更改 * ![](http://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/2019-08-12-142406.png)2. 上传，一定要注意不要使用 ~ ， 或者 ~/ 要如下一样给出正确的文件夹位置 ``` pscp -r ./00-jiaruixie/code jrxie@totoro:/home/etud/jrxie/insp 下载 jrxie@totoro:/home/etud/jrxie/insp/code/01-ecm/ecm.m ./00-jiaruixie ```12345678910114. 可以看出不管是上传还是下载，都是在本地进行的；当然从server上应该也是可以的，但是没有进行测试；scp 、 pscp的使用没有什么困难的，直接参照网上的教程即可##### Linux 下使用 MATLAB1. [添加搜索路径](https://www.mathworks.com/help/matlab/matlab_env/startup-options.html#brlkmbe-1) * 在你启动 MATLAB 的目录下创建一个 *.m文件（偏好 startup.m）；如果你处于/home/bin/test 下，你就在该目录下创建 *.m文件， 该文件包含添加路径命令如下所示；然后就向在图形用户界面下一样使用，在提示符 &gt;&gt; 后面输入 startup 运行该文件； ``` addpath /home/etud/jrxie/insp/code/01-ecm addpath /home/etud/jrxie/insp/code/02-secm addpath /home/etud/jrxie/insp/code/03-cecm addpath /home/etud/jrxie/insp/code/04-lpecm addpath /home/etud/jrxie/insp 尝试 echo $PATH , 并在其显示的路径中创建 startup.m 文件但是并没有用，所以 startup.m 文件要放在 matlab 能够搜索到的，也就是当前路径下面； 其它的命令比如 ctrl + c 等都与 GUI 下使用方式相同 How to use VPN in ISIMA go to https://doc.isima.fr/vpn/installation/ try to install the VPN go to https://doc.isima.fr/vpn/connection/ configure the connection with the username of the university use ssh connect to berzet ssh berzet -l jrxie exit After use the vpn, just disconnect.]]></content>
+    <content type="text"><![CDATA[Inside the limos Opening the terminal. Typing: 1ssh jrxie@totoro Inputing the password, enjoying the HPC resources. Outside the limos Use ssh (perfer) or vpn. Generate the ssh key pair. Send the public key to Mr. or Mrs. who charge for this. You can use (1) to get all the valid options. Using (3) to get the debug log. Using (2) identify the path of the private key. 123ssh -help (1)ssh -i PathOfPrivateKey (2)-vvv (3) Typing 1ssh jrxie@ext.limos.fr -p 2225 -i pathOfPrivateKey Redo the steps prompted in “inside isima” session. Under windows You may encounter such problem “OpenSSH SSH-2 private key (old PEM format))” Solution: regenerate the private key respect the Putty’s format. Use PuttyGen use **jrxie@ext.limos.fr** instead of ext.limos.fr HPC Server I can not access the Linux server brehat and yoshi by direct access (ssh). 连接到Linux系统服务器ssh jrxie@totoro以及SLURM计算节点网关ssh jrxie@frontalhpc Slurm 是一个开源、容错、高可伸缩的集群管理和大型小型 Linux集群作业调度系统。slurm不需要对操作系统内核进行修改，而是相对独立的。 不管登录 frontalhpc 还是 totoro，家目录，是透明的，即从这两个服务器上看到的都是相同的。 Can not use scp on Mac neither pscp on Windows at home. 不在Limos时，需要首先连接 ext.limos.fr 然后在其中再连接 totoro等，所以如果要上传文件，是否需要先上传到ext.limos,fr 然后再在其中上传到totoro等呢？ 我进行了尝试，结果 公钥失效了 😳 嗯嗯，我的猜想是正确的，因为使用VPN后就能够上传文件了 VPN 链接 到Limos指定页下载并安装连接VPN，全程无难点 在连接时端口号为22，其余均不用更改 上传，一定要注意不要使用 ~ ， 或者 ~/ 要如下一样给出正确的文件夹位置 pscp -r ./00-jiaruixie/code jrxie@totoro:/home/etud/jrxie/insp 下载 pscp jrxie@totoro:/home/etud/jrxie/insp/code/01-ecm/ecm.m ./00-jiaruixie 可以看出不管是上传还是下载，都是在本地进行的；当然从server上应该也是可以的，但是没有进行测试；scp 、 pscp的使用没有什么困难的，直接参照网上的教程即可 Linux 下使用 MATLAB 添加搜索路径 在你启动 MATLAB 的目录下创建一个 .m文件（偏好 startup.m）；如果你处于/home/bin/test 下，你就在该目录下创建 .m文件， 该文件包含添加路径命令如下所示；然后就向在图形用户界面下一样使用，在提示符 &gt;&gt; 后面输入 startup 运行该文件；12345addpath /home/etud/jrxie/insp/code/01-ecmaddpath /home/etud/jrxie/insp/code/02-secmaddpath /home/etud/jrxie/insp/code/03-cecmaddpath /home/etud/jrxie/insp/code/04-lpecmaddpath /home/etud/jrxie/insp 尝试 echo $PATH , 并在其显示的路径中创建 startup.m 文件但是并没有用，所以 startup.m 文件要放在 matlab 能够搜索到的，也就是当前路径下面； 其它的命令比如 ctrl + c 等都与 GUI 下使用方式相同 How to use VPN in ISIMA go to https://doc.isima.fr/vpn/installation/ try to install the VPN go to https://doc.isima.fr/vpn/connection/ configure the connection with the username of the university use ssh connect to berzet ssh berzet -l jrxie exit After use the vpn, just disconnect.]]></content>
       <categories>
         <category>PD19</category>
       </categories>
@@ -273,8 +273,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>Arabic</tag>
         <tag>Language</tag>
+        <tag>Arabic</tag>
       </tags>
   </entry>
   <entry>
@@ -286,8 +286,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>Language</tag>
         <tag>English</tag>
+        <tag>Language</tag>
       </tags>
   </entry>
   <entry>
@@ -504,8 +504,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>COURSE</tag>
         <tag>多传感器融合技术</tag>
+        <tag>COURSE</tag>
       </tags>
   </entry>
   <entry>
@@ -556,8 +556,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>AdvanceDB</tag>
         <tag>COURSE</tag>
+        <tag>AdvanceDB</tag>
       </tags>
   </entry>
   <entry>
