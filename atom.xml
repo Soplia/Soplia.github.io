@@ -156,9 +156,9 @@
       <category term="PD19" scheme="http://yoursite.com/categories/PD19/"/>
     
     
-      <category term="Limos" scheme="http://yoursite.com/tags/Limos/"/>
-    
       <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
+      <category term="Limos" scheme="http://yoursite.com/tags/Limos/"/>
     
   </entry>
   
@@ -227,7 +227,7 @@
     <link href="http://yoursite.com/2019/03/27/%E7%B4%A0%E5%85%BB-%E7%AC%9B%E5%AD%90/"/>
     <id>http://yoursite.com/2019/03/27/素养-笛子/</id>
     <published>2019-03-27T15:25:57.000Z</published>
-    <updated>2019-10-12T20:28:41.370Z</updated>
+    <updated>2019-10-12T20:54:51.996Z</updated>
     
     <summary type="html">
     
@@ -481,7 +481,7 @@
     <link href="http://yoursite.com/2019/01/22/3D%E6%89%93%E5%8D%B0-%E6%80%BB%E7%BB%93/"/>
     <id>http://yoursite.com/2019/01/22/3D打印-总结/</id>
     <published>2019-01-22T17:09:15.000Z</published>
-    <updated>2019-10-12T20:36:33.571Z</updated>
+    <updated>2019-10-12T20:53:23.891Z</updated>
     
     <summary type="html">
     
