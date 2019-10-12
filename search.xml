@@ -195,7 +195,7 @@
   <entry>
     <title><![CDATA[3D打印]]></title>
     <url>%2F2019%2F01%2F22%2F3D%E6%89%93%E5%8D%B0-%E6%80%BB%E7%BB%93%2F</url>
-    <content type="text"><![CDATA[一小步注意事项总结 在设计板子的外壳的时候需要注意的事情 板子需要插接导线，所以需要预先留出缺口； 外壳倒角。防止被割伤、使板子不至于太过于脆弱； 需要注意板子外壳的插接结构； 需要注意开发板的散热问题； 要给自己制作的外壳留下一个logo； 3D打印的格式现在最流行的是.stl格式，只要是能够保存成.stl文件的建模工具都可以进行 3D打印。在保存文档的时候需要选用二进制的文档。原因是这样的文件的大小非常小。 单位必须选择mm。这个是标准，不能够改变。 画图时的优秀素材网站 Thingiverse； GrabCad 。需要在搜索框中进行搜查。这个非常的高大上，有很多的资源 可以进行搜索。 格式转换、修复软件 OpenSCAD. STL下载。 MashLab，用于格式的转换非常的方便。 Meshmixer。用它进行纠错，用它打开，然后重新另存为一下就好了。 这个是专门用于修复stl格式文件的。 Accutrans。几乎所有的软件格式都能够进行转换。 在将自己的设计发送给其它公司进行出产品的时候，需要注意。 需将文件另存为stp、sgs格式，这样的话别人无法盗用你的东西。]]></content>
+    <content type="text"><![CDATA[一小步鞋架设计过程 设计图 打印效果图 &lt;img src=&quot;http://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/2019-10-11-%E9%9E%8B%E6%9E%B6%E6%88%90%E5%93%8102.jpg&quot; style=&quot;width:40%&quot;/&gt; &lt;img src=&quot;http://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/2019-10-11-%E9%9E%8B%E6%9E%B6%E6%88%90%E5%93%8101.jpg&quot; style=&quot;width:40%&quot;/&gt; 总结经验 模型不能弄得太小，要不然就会出现上面那种情况 如果是双层或多层一定要注意防止震颤 注意事项总结 在设计板子的外壳的时候需要注意的事情 板子需要插接导线，所以需要预先留出缺口； 外壳倒角。防止被割伤、使板子不至于太过于脆弱； 需要注意板子外壳的插接结构； 需要注意开发板的散热问题； 要给自己制作的外壳留下一个logo； 3D打印的格式现在最流行的是.stl格式，只要是能够保存成.stl文件的建模工具都可以进行 3D打印。在保存文档的时候需要选用二进制的文档。原因是这样的文件的大小非常小。 单位必须选择mm。这个是标准，不能够改变。 画图时的优秀素材网站 Thingiverse； GrabCad 。需要在搜索框中进行搜查。这个非常的高大上，有很多的资源 可以进行搜索。 格式转换、修复软件 OpenSCAD. STL下载。 MashLab，用于格式的转换非常的方便。 Meshmixer。用它进行纠错，用它打开，然后重新另存为一下就好了。 这个是专门用于修复stl格式文件的。 Accutrans。几乎所有的软件格式都能够进行转换。 在将自己的设计发送给其它公司进行出产品的时候，需要注意。 需将文件另存为stp、sgs格式，这样的话别人无法盗用你的东西。]]></content>
       <categories>
         <category>3D打印</category>
       </categories>
@@ -224,8 +224,8 @@
         <category>素养</category>
       </categories>
       <tags>
-        <tag>素养</tag>
         <tag>好字</tag>
+        <tag>素养</tag>
       </tags>
   </entry>
   <entry>
@@ -236,8 +236,8 @@
         <category>素养</category>
       </categories>
       <tags>
-        <tag>情书</tag>
         <tag>素养</tag>
+        <tag>情书</tag>
       </tags>
   </entry>
   <entry>
@@ -504,8 +504,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>多传感器融合技术</tag>
         <tag>COURSE</tag>
+        <tag>多传感器融合技术</tag>
       </tags>
   </entry>
   <entry>
@@ -556,8 +556,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>COURSE</tag>
         <tag>AdvanceDB</tag>
+        <tag>COURSE</tag>
       </tags>
   </entry>
   <entry>
