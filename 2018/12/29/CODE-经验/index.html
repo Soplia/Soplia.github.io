@@ -113,7 +113,7 @@
 <meta property="og:site_name" content="JrXIE BLOG">
 <meta property="og:description" content="无论如何, 一定要想办法能单步跟踪; 无论如何, 一定要有很方便的测试数据; 对于引用同一个名字的UserControl, 它们很可能不是同一个文件！！！ 对于看着很奇怪的问题， 应该把它写下来， 把前提和结果都详细写下来， 再仔细看前提。 大部分奇怪的结果是因为你错误的前提造成的——你的前提之中， 就有了一部分是由于粗心而弄错的， 它们实际上并不是你想象的样子 对于人名, 如果用户保存时包含了">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-04-30T21:39:26.179Z">
+<meta property="og:updated_time" content="2019-10-13T16:45:57.944Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CODE_经验">
 <meta name="twitter:description" content="无论如何, 一定要想办法能单步跟踪; 无论如何, 一定要有很方便的测试数据; 对于引用同一个名字的UserControl, 它们很可能不是同一个文件！！！ 对于看着很奇怪的问题， 应该把它写下来， 把前提和结果都详细写下来， 再仔细看前提。 大部分奇怪的结果是因为你错误的前提造成的——你的前提之中， 就有了一部分是由于粗心而弄错的， 它们实际上并不是你想象的样子 对于人名, 如果用户保存时包含了">
@@ -429,7 +429,7 @@ CODE_经验
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2019-04-30 23:39:26" itemprop="dateModified" datetime="2019-04-30T23:39:26+02:00">2019-04-30</time>
+                <time title="Modified: 2019-10-13 18:45:57" itemprop="dateModified" datetime="2019-10-13T18:45:57+02:00">2019-10-13</time>
               
             
           </span>
@@ -505,6 +505,49 @@ CODE_经验
 <li>对于人名, 如果用户保存时包含了单引号或者双引号, 会引起意想不到的错误, 应该禁止;</li>
 <li>如果一个业务功能，逻辑相当之复杂，以致于要写很多代码来完成，而且易于出错。应试首先试着想：是否能从业务的角度来简化，而不是死盯技术。</li>
 </ol>
+<h3 id="代看家机器人项目总结"><a href="#代看家机器人项目总结" class="headerlink" title="代看家机器人项目总结"></a>代看家机器人项目总结</h3><h4 id="经验总结"><a href="#经验总结" class="headerlink" title="经验总结"></a>经验总结</h4><ol>
+<li>IDE不会使用的时候，直接看帮助文档。</li>
+<li>程序出现问题的解决方法：<ul>
+<li>设置断点进行调试</li>
+<li>确定出错代码，查看底层实现</li>
+<li>根据错误进行百度</li>
+</ul>
+</li>
+<li>注释要写的合理、有据</li>
+<li>容易出错的地方一定要加注释，并且提前进行错误处理。<ul>
+<li>关闭输入输出流、socket链接的时候一定要确定该对象是否为空。</li>
+<li>为了避免黏包，首先对从服务器收到的数据进行判断，如果是合法的，再进行处理。</li>
+<li>类似于将string转化int类型时，首先要确定转换前的数据是否是合法的能否进行转化，并且确定转换后的数据能否用于接下来的程序中。</li>
+<li>线程不要多开。一定要注意多个线程之间的影响</li>
+</ul>
+</li>
+<li>在使用一个未知对象的时候，需要把所有的属性都看一遍，并且需要找到相应的api。</li>
+<li><p>类似于IP地址的这种重要的变量，需要一次性的全部都改过来，才行，切记。</p>
+<h5 id="受教了"><a href="#受教了" class="headerlink" title="受教了"></a>受教了</h5></li>
+<li><p>试了：试过了，但是性能差。没试成：根本连试成都没有,更不要说性能了。</p>
+</li>
+<li>一个框架肯定是有它存在的价值的，而这个价值就需要去发现。</li>
+<li><p>让别人帮助你的时候，首先要告诉别人怎样才能够帮助到你，比如告诉别人做事情的步骤、清晰的方向、想要的结果。</p>
+<h5 id="需要学习的地方"><a href="#需要学习的地方" class="headerlink" title="需要学习的地方"></a>需要学习的地方</h5></li>
+<li><p>supersocket框架需要进行深刻的学习。</p>
+<ul>
+<li>开发文档上的内容需要进行实践</li>
+<li>UDP服务器</li>
+<li>多个用户的控制，也就是多个session的控制</li>
+<li>内网穿透</li>
+</ul>
+</li>
+<li>Android中导入C++源代码</li>
+<li>Android的布局<ul>
+<li>搜集 Android布局代码</li>
+<li>自己进行布局</li>
+</ul>
+</li>
+<li>java与C# 中的线程</li>
+<li>利用抓包工具wireshell重新学习各种协议</li>
+<li>搭建视频流传输</li>
+</ol>
+<hr>
 
       
     </div>
@@ -657,8 +700,17 @@ CODE_经验
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -973,6 +1025,22 @@ CODE_经验
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#代看家机器人项目总结"><span class="nav-text">代看家机器人项目总结</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#经验总结"><span class="nav-text">经验总结</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#受教了"><span class="nav-text">受教了</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#需要学习的地方"><span class="nav-text">需要学习的地方</span></a></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       

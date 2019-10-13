@@ -156,9 +156,9 @@
       <category term="PD19" scheme="http://yoursite.com/categories/PD19/"/>
     
     
-      <category term="Limos" scheme="http://yoursite.com/tags/Limos/"/>
-    
       <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
+      <category term="Limos" scheme="http://yoursite.com/tags/Limos/"/>
     
   </entry>
   
