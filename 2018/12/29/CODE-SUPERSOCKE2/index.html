@@ -105,18 +105,18 @@
 
 
 
-  <meta name="description" content="命令和命令加载器实例   Command类 public class ADD : CommandBase&amp;lt;GameSession, GameRequestInfo&amp;gt; {     string TAG = &amp;quot;ADD:&amp;quot;;     public override void ExecuteCommand(GameSession session, GameRequestI">
+  <meta name="description" content="命令和命令加载器实例   Command类   1234567891011121314151617public class ADD : CommandBase&amp;lt;GameSession, GameRequestInfo&amp;gt;&amp;#123;    string TAG = &quot;ADD:&quot;;    public override void ExecuteCommand(GameSession se">
 <meta name="keywords" content="CODING,学习札记,SUPERCODE">
 <meta property="og:type" content="article">
 <meta property="og:title" content="CODE_SUPERSOCKE2">
 <meta property="og:url" content="http://yoursite.com/2018/12/29/CODE-SUPERSOCKE2/index.html">
 <meta property="og:site_name" content="JrXIE BLOG">
-<meta property="og:description" content="命令和命令加载器实例   Command类 public class ADD : CommandBase&amp;lt;GameSession, GameRequestInfo&amp;gt; {     string TAG = &amp;quot;ADD:&amp;quot;;     public override void ExecuteCommand(GameSession session, GameRequestI">
+<meta property="og:description" content="命令和命令加载器实例   Command类   1234567891011121314151617public class ADD : CommandBase&amp;lt;GameSession, GameRequestInfo&amp;gt;&amp;#123;    string TAG = &quot;ADD:&quot;;    public override void ExecuteCommand(GameSession se">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-04-30T21:39:26.182Z">
+<meta property="og:updated_time" content="2019-10-12T21:23:54.573Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CODE_SUPERSOCKE2">
-<meta name="twitter:description" content="命令和命令加载器实例   Command类 public class ADD : CommandBase&amp;lt;GameSession, GameRequestInfo&amp;gt; {     string TAG = &amp;quot;ADD:&amp;quot;;     public override void ExecuteCommand(GameSession session, GameRequestI">
+<meta name="twitter:description" content="命令和命令加载器实例   Command类   1234567891011121314151617public class ADD : CommandBase&amp;lt;GameSession, GameRequestInfo&amp;gt;&amp;#123;    string TAG = &quot;ADD:&quot;;    public override void ExecuteCommand(GameSession se">
 
 
 
@@ -429,7 +429,7 @@ CODE_SUPERSOCKE2
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2019-04-30 23:39:26" itemprop="dateModified" datetime="2019-04-30T23:39:26+02:00">2019-04-30</time>
+                <time title="Modified: 2019-10-12 23:23:54" itemprop="dateModified" datetime="2019-10-12T23:23:54+02:00">2019-10-12</time>
               
             
           </span>
@@ -502,84 +502,31 @@ CODE_SUPERSOCKE2
 </ol>
 <ul>
 <li>Command类</li>
-<li><pre><code>public class ADD : CommandBase&lt;GameSession, GameRequestInfo&gt;
-{
-    string TAG = &quot;ADD:&quot;;
-    public override void ExecuteCommand(GameSession session, GameRequestInfo requestInfo)
-    {
-        Console.WriteLine(TAG+&quot;Hello World&quot;);
-        session.Send(requestInfo.ToString());
-    }
-    //这个地方开不开启很重要
-    public override string Name
-    {
-        get
-        {
-            return &quot;01&quot;;
-        }
-    }
-}
-</code></pre></li>
-<li>Filter</li>
-<li><pre><code>class TerReceiveFilter : TerminatorReceiveFilter&lt;GameRequestInfo&gt;
-{
-    string TAG = &quot;TerReceiveFilter:&quot;;
-    public TerReceiveFilter()
-        : base(Encoding.Default.GetBytes(&quot;##&quot;)) //传入固定的请求大小
-    {
-    }
-    //只是进行测试并没有进行解析
-    protected override GameRequestInfo ProcessMatchedRequest(byte[] data, int offset, int length)
-    {
-        Console.WriteLine(TAG + &quot;ProcessMatchedRequest&quot;);
-        ///使用一个变量之前必须给它分配相应的内存空间
-        GameRequestInfo info = new GameRequestInfo();
-        //如果自己的过滤器重写了Name，那么Name的优先级大于command类的名字
-        //所以在给Key赋值的时候需要使用Name进行赋值，而不是使用command类的名字
-        //进行赋值。
-        info.Key = &quot;01&quot;;
-        return info;
-    }
-}
-</code></pre></li>
-<li>Server</li>
-<li><pre><code>class GameServer : AppServer&lt;GameSession, GameRequestInfo&gt;
-{
-    string TAG = &quot;GameServer:&quot;;
-    public GameServer()
-        : base(new DefaultReceiveFilterFactory&lt;TerReceiveFilter, GameRequestInfo&gt;())
-    {
-        //使用命令之后不需要注册这两个事件
-        //NewSessionConnected += GameServer_NewSessionConnected;
-        //NewRequestReceived += GameServer_NewRequestReceived;
-    }
-    private void GameServer_NewRequestReceived(GameSession session, GameRequestInfo requestInfo)
-    {
-        Console.WriteLine(requestInfo.ToString());
-    }
-    private void GameServer_NewSessionConnected(GameSession session)
-    {
-        Console.WriteLine(TAG + &quot;GameServer_NewSessionConnected&quot;);
-    }
-}
-</code></pre></li>
+<li>  <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ADD</span> :</span> CommandBase&lt;GameSession, GameRequestInfo&gt;</span><br><span class="line">&#123;</span><br><span class="line">    <span class="built_in">string</span> TAG = <span class="string">"ADD:"</span>;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> override <span class="keyword">void</span> <span class="title">ExecuteCommand</span><span class="params">(GameSession session, GameRequestInfo requestInfo)</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">        Console.WriteLine(TAG+<span class="string">"Hello World"</span>);</span><br><span class="line">        session.Send(requestInfo.ToString());</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//这个地方开不开启很重要</span></span><br><span class="line">    <span class="keyword">public</span> override <span class="built_in">string</span> Name</span><br><span class="line">    &#123;</span><br><span class="line">        get</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="string">"01"</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Filter</p>
+</li>
+<li>  <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">TerReceiveFilter</span> :</span> TerminatorReceiveFilter&lt;GameRequestInfo&gt;</span><br><span class="line">&#123;</span><br><span class="line">    <span class="built_in">string</span> TAG = <span class="string">"TerReceiveFilter:"</span>;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">TerReceiveFilter</span><span class="params">()</span></span></span><br><span class="line">        : base(Encoding.Default.GetBytes("##")) //传入固定的请求大小</span><br><span class="line">    &#123;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//只是进行测试并没有进行解析</span></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> override GameRequestInfo <span class="title">ProcessMatchedRequest</span><span class="params">(byte[] data, <span class="keyword">int</span> offset, <span class="keyword">int</span> length)</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">        Console.WriteLine(TAG + <span class="string">"ProcessMatchedRequest"</span>);</span><br><span class="line">        <span class="comment">///使用一个变量之前必须给它分配相应的内存空间</span></span><br><span class="line">        GameRequestInfo info = <span class="keyword">new</span> GameRequestInfo();</span><br><span class="line">        <span class="comment">//如果自己的过滤器重写了Name，那么Name的优先级大于command类的名字</span></span><br><span class="line">        <span class="comment">//所以在给Key赋值的时候需要使用Name进行赋值，而不是使用command类的名字</span></span><br><span class="line">        <span class="comment">//进行赋值。</span></span><br><span class="line">        info.Key = <span class="string">"01"</span>;</span><br><span class="line">        <span class="keyword">return</span> info;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Server</p>
+</li>
+<li>  <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">GameServer</span> :</span> AppServer&lt;GameSession, GameRequestInfo&gt;</span><br><span class="line">&#123;</span><br><span class="line">    <span class="built_in">string</span> TAG = <span class="string">"GameServer:"</span>;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">GameServer</span><span class="params">()</span></span></span><br><span class="line">        : base(new DefaultReceiveFilterFactory&lt;TerReceiveFilter, GameRequestInfo&gt;())</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="comment">//使用命令之后不需要注册这两个事件</span></span><br><span class="line">        <span class="comment">//NewSessionConnected += GameServer_NewSessionConnected;</span></span><br><span class="line">        <span class="comment">//NewRequestReceived += GameServer_NewRequestReceived;</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">GameServer_NewRequestReceived</span><span class="params">(GameSession session, GameRequestInfo requestInfo)</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">        Console.WriteLine(requestInfo.ToString());</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">GameServer_NewSessionConnected</span><span class="params">(GameSession session)</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">        Console.WriteLine(TAG + <span class="string">"GameServer_NewSessionConnected"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
 </ul>
 <hr>
 <ol start="2">
 <li><p>命令过滤器</p>
 <ul>
 <li><p>CommandFilter</p>
-<pre><code>class GameCommandFilter:CommandFilterAttribute
-</code></pre><p>   {<br>   ​    public override void OnCommandExecuted(CommandExecutingContext commandContext)<br>   ​    {<br>   ​        commandContext.Session.Items[“StartTime”] = DateTime.Now;<br>   ​    }<br>   ​    public override void OnCommandExecuting(CommandExecutingContext commandContext)<br>   ​    {<br>   ​        var session = commandContext.Session;<br>   ​        session.Logger.InfoFormat(“A command ‘{0}’ took {1} seconds!”, commandContext.CurrentCommand.Name, DateTime.Now.ToString());<br>   ​    }<br>   }</p>
-</li>
-<li><p>Command</p>
-<pre><code>//为此命令应用命令过滤器
-</code></pre><p>   [GameCommandFilter]<br>   public class ADD : CommandBase&lt;GameSession, GameRequestInfo&gt;<br>   {<br>   ​    string TAG = “ADD:”;<br>   ​    public override void ExecuteCommand(GameSession session, GameRequestInfo requestInfo)<br>   ​    {<br>   ​        Console.WriteLine(TAG+”Hello World”);<br>   ​        session.Send(requestInfo.ToString());<br>   ​    }<br>   ​    //这个地方开不开启很重要<br>   ​    public override string Name<br>   ​    {<br>   ​        get<br>   ​        {<br>   ​            return “01”;<br>   ​        }<br>   ​    }<br>   }</p>
+   <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">GameCommandFilter</span>:</span>CommandFilterAttribute</span><br><span class="line">&#123;</span><br><span class="line">	 <span class="function"><span class="keyword">public</span> override <span class="keyword">void</span> <span class="title">OnCommandExecuted</span><span class="params">(CommandExecutingContext commandContext)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">commandContext.Session.Items[<span class="string">"StartTime"</span>] = DateTime.Now;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">public</span> override <span class="keyword">void</span> <span class="title">OnCommandExecuting</span><span class="params">(CommandExecutingContext commandContext)</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">        var session = commandContext.Session;</span><br><span class="line">        session.Logger.InfoFormat(<span class="string">"A command '&#123;0&#125;' took &#123;1&#125; seconds!"</span>, commandContext.CurrentCommand.Name, DateTime.Now.ToString());</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
 </li>
 </ol>
-<hr>
+<pre><code>* Command
+
+     <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//为此命令应用命令过滤器</span></span><br><span class="line">[GameCommandFilter]</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ADD</span> :</span> CommandBase&lt;GameSession, GameRequestInfo&gt;</span><br><span class="line">&#123;</span><br><span class="line">​    <span class="built_in">string</span> TAG = <span class="string">"ADD:"</span>;</span><br><span class="line">​    <span class="function"><span class="keyword">public</span> override <span class="keyword">void</span> <span class="title">ExecuteCommand</span><span class="params">(GameSession session, GameRequestInfo requestInfo)</span></span></span><br><span class="line">​    &#123;</span><br><span class="line">​        Console.WriteLine(TAG+<span class="string">"Hello World"</span>);</span><br><span class="line">​        session.Send(requestInfo.ToString());</span><br><span class="line">​    &#125;</span><br><span class="line">​    <span class="comment">//这个地方开不开启很重要</span></span><br><span class="line">​    <span class="keyword">public</span> override <span class="built_in">string</span> Name</span><br><span class="line">​    &#123;</span><br><span class="line">​        get</span><br><span class="line">​        &#123;</span><br><span class="line">​            <span class="keyword">return</span> <span class="string">"01"</span>;</span><br><span class="line">​        &#125;</span><br><span class="line">​    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</code></pre><hr>
 <ol start="3">
 <li>配置文件app.config中标签的属性写错了之后，没有影响。</li>
 <li>健康的蛀牙<ul>
@@ -819,9 +766,7 @@ CODE_SUPERSOCKE2
                     
                       
                     
-                      
-                    
-                    <span class="site-state-item-count">15</span>
+                    <span class="site-state-item-count">14</span>
                     <span class="site-state-item-name">categories</span>
                   </a>
                 </div>
@@ -998,9 +943,7 @@ CODE_SUPERSOCKE2
                     
                       
                     
-                      
-                    
-                    <span class="site-state-item-count">83</span>
+                    <span class="site-state-item-count">82</span>
                     <span class="site-state-item-name">tags</span>
                   </a>
                 </div>

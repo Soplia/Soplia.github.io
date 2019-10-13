@@ -106,14 +106,14 @@
 
 
   <meta name="description" content="要写纯粹的，脱离低级趣味的 函数！GNU(GNU’s Not Unix)GNU操作系统是一种由自由软件构成的类Unix操作系统，该系统基于 Linux 内核，目标在于建立一个完全相容于UNIX的自由软件环境。GNU工程创始于1984年，旨在开发一个完整 GNU系统，GNU这个名字是 “GNU’s Not Unix!”的递归首字母缩写词，”GNU” 的发音为g’noo，只有一个音节，发音很像“gre">
-<meta name="keywords" content="CODING,学习札记,C">
+<meta name="keywords" content="C,CODING,学习札记">
 <meta property="og:type" content="article">
 <meta property="og:title" content="CODE_C1">
 <meta property="og:url" content="http://yoursite.com/2018/12/29/CODE-C1/index.html">
 <meta property="og:site_name" content="JrXIE BLOG">
 <meta property="og:description" content="要写纯粹的，脱离低级趣味的 函数！GNU(GNU’s Not Unix)GNU操作系统是一种由自由软件构成的类Unix操作系统，该系统基于 Linux 内核，目标在于建立一个完全相容于UNIX的自由软件环境。GNU工程创始于1984年，旨在开发一个完整 GNU系统，GNU这个名字是 “GNU’s Not Unix!”的递归首字母缩写词，”GNU” 的发音为g’noo，只有一个音节，发音很像“gre">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-04-30T21:39:26.184Z">
+<meta property="og:updated_time" content="2019-10-12T21:34:49.615Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CODE_C1">
 <meta name="twitter:description" content="要写纯粹的，脱离低级趣味的 函数！GNU(GNU’s Not Unix)GNU操作系统是一种由自由软件构成的类Unix操作系统，该系统基于 Linux 内核，目标在于建立一个完全相容于UNIX的自由软件环境。GNU工程创始于1984年，旨在开发一个完整 GNU系统，GNU这个名字是 “GNU’s Not Unix!”的递归首字母缩写词，”GNU” 的发音为g’noo，只有一个音节，发音很像“gre">
@@ -429,7 +429,7 @@ CODE_C1
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2019-04-30 23:39:26" itemprop="dateModified" datetime="2019-04-30T23:39:26+02:00">2019-04-30</time>
+                <time title="Modified: 2019-10-12 23:34:49" itemprop="dateModified" datetime="2019-10-12T23:34:49+02:00">2019-10-12</time>
               
             
           </span>
@@ -510,8 +510,10 @@ CODE_C1
 <li>gcc认为.c的为C程序，.cpp的为C++程序；</li>
 <li>g++认为.c的为C++程序，.cpp的为C++程序；</li>
 <li>VC++的编译器cl认为.c的为C程序，.cpp的为C++程序；</li>
-<li>C程序与C++程序中同样的函数在编译后的obj文件中的symbol是不同的，所以以C方式编译的obj文件与以C++方式编译的obj文件无法成功链接。<h3 id="const-volatile-int-a-10"><a href="#const-volatile-int-a-10" class="headerlink" title="const volatile int a=10;"></a>const volatile int a=10;</h3></li>
-<li><a href="https://www.cnblogs.com/melons/p/5791839.html" target="_blank" rel="noopener">需要使用codeblock进行调试，查看寄存器的值</a></li>
+<li><p>C程序与C++程序中同样的函数在编译后的obj文件中的symbol是不同的，所以以C方式编译的obj文件与以C++方式编译的obj文件无法成功链接。</p>
+<h3 id="const-volatile-int-a-10"><a href="#const-volatile-int-a-10" class="headerlink" title="const volatile int a=10;"></a>const volatile int a=10;</h3></li>
+<li><p><a href="https://www.cnblogs.com/melons/p/5791839.html" target="_blank" rel="noopener">需要使用codeblock进行调试，查看寄存器的值</a></p>
+</li>
 <li>const 表示在本段程序中不能对a做修改，任何修改都是非法的。</li>
 <li>volatile 表示另一个程序段则完全有可能修改，因此编译器最好不要做太激进的优化。</li>
 <li>const 的含义是“请作为常量使用”，而并非“放心吧，那肯定是常量”</li>
@@ -524,21 +526,10 @@ CODE_C1
 <hr>
 <h3 id="大端与小端"><a href="#大端与小端" class="headerlink" title="大端与小端"></a>大端与小端</h3><h4 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h4><ol>
 <li>大端：数据的高字节存储在内存空间的低地址上，数据的低字节存储在内存空间的高地址上。</li>
-<li>小端：数据的高字节存储在内存空间的高地址上，数据的低字节存储在内存空间的低地址上。<h4 id="如何判断一个系统是大端还是小端"><a href="#如何判断一个系统是大端还是小端" class="headerlink" title="如何判断一个系统是大端还是小端"></a>如何判断一个系统是大端还是小端</h4> #include &lt;stdio.h&gt;<br> bool isSystemLittleDian()<br> {<pre><code>union test
-{
-    int i;
-    char a;
-}u;
-u.i=1;
-return u.a==1;
-</code></pre> }<br> int main()<br> {<pre><code>if(isSystemLittleDian())
-    printf(&quot;该系统是小端&quot;);
-else
-    printf(&quot;该系统是大端&quot;);
-return 0;
-</code></pre> }<h4 id="链接网址"><a href="#链接网址" class="headerlink" title="链接网址"></a>链接网址</h4></li>
+<li>小端：数据的高字节存储在内存空间的高地址上，数据的低字节存储在内存空间的低地址上。<h4 id="如何判断一个系统是大端还是小端"><a href="#如何判断一个系统是大端还是小端" class="headerlink" title="如何判断一个系统是大端还是小端"></a>如何判断一个系统是大端还是小端</h4><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;  </span></span></span><br><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">isSystemLittleDian</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">union</span> test</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">int</span> i;</span><br><span class="line">		<span class="keyword">char</span> a;</span><br><span class="line">	&#125;u;</span><br><span class="line">	u.i=<span class="number">1</span>;</span><br><span class="line">	<span class="keyword">return</span> u.a==<span class="number">1</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(isSystemLittleDian())</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">"该系统是小端"</span>);</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">"该系统是大端"</span>);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
 </ol>
-<ul>
+<h4 id="链接网址"><a href="#链接网址" class="headerlink" title="链接网址"></a>链接网址</h4><ul>
 <li><a href="http://c.biancheng.net/cpp/html/450.html" target="_blank" rel="noopener">大端小端练习题1</a></li>
 <li><a href="http://blog.csdn.net/chenjieb520/article/details/7313669" target="_blank" rel="noopener">大端小端练习题2</a></li>
 </ul>
@@ -558,53 +549,24 @@ return 0;
 <li>想要很好的使用宏那就不要吝啬括号。</li>
 <li>空格在宏定义的时候是有效的，在使用宏函数的时候会被编译器忽略掉。</li>
 <li>整数常量后面接UL表示类型，60<em>60</em>24<em>365UL 等价于 ((unsignedlong)60</em>60<em>24</em>365)</li>
-<li>宏的声明周期从#define 开始,到 #undef结束</li>
-<li>条件编译对于程序的移植和调试是很有用的。</li>
-<li>#include的路径也有点需要进行说明：include支持相对路径，格式如蚁迹寻踪(.代表当前目录..代表上层目录)</li>
-<li>如何通过定义宏来控制源代码的版本？</li>
+<li>宏的声明周期从 <figure class="highlight plain"><figcaption><span>开始,到 ```#undef``` 结束</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">6. 条件编译对于程序的移植和调试是很有用的。</span><br><span class="line">7. #include的路径也有点需要进行说明：include支持相对路径，格式如蚁迹寻踪(.代表当前目录..代表上层目录)</span><br><span class="line">8. 如何通过定义宏来控制源代码的版本？</span><br><span class="line"></span><br><span class="line">### [内存对齐](https://baike.baidu.com/item/%E5%86%85%E5%AD%98%E5%AF%B9%E9%BD%90/9537460?fr=aladdin)</span><br><span class="line">### 指正加减运算</span><br><span class="line">```c++</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	int a[5]=&#123;1,2,3,4,5&#125;;</span><br><span class="line">	int *ptr=(int*)(&amp;a+1);</span><br><span class="line">	printf(&quot;%d,%d\n&quot;,*(a+1),*(ptr-1));</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
 </ol>
-<h3 id="内存对齐"><a href="#内存对齐" class="headerlink" title="内存对齐"></a><a href="https://baike.baidu.com/item/%E5%86%85%E5%AD%98%E5%AF%B9%E9%BD%90/9537460?fr=aladdin" target="_blank" rel="noopener">内存对齐</a></h3><h3 id="指正加减运算"><a href="#指正加减运算" class="headerlink" title="指正加减运算"></a>指正加减运算</h3><pre><code>int main()
-{
-    int a[5]={1,2,3,4,5};
-    int *ptr=(int*)(&amp;a+1);
-    printf(&quot;%d,%d\n&quot;,*(a+1),*(ptr-1));
-    return 0;
-}
-</code></pre><p>&amp;a+1 即 &amp;a+5*size(int);一个类型为T的指针的移动，是以sizeof(T)为单位进行移动的。</p>
-<h3 id="指针与数组"><a href="#指针与数组" class="headerlink" title="指针与数组"></a>指针与数组</h3><ol>
-<li>C语言中，当一维数组作为函数参数的时候，编译器总会把它解析成一个指向首元素首地址的指针。</li>
-<li>函数本身是没有类型的，只有函数的返回值才有类型。</li>
-<li>实际传递第数组大小与函数形参指定的数组大小没有关系。</li>
-<li>main函数内的变量不是全局变量而是局部变量，只不过器声明周期和全局变量一样长而已。全局变量一定是定义在函数外部的。<h3 id="C语言中的内存区域："><a href="#C语言中的内存区域：" class="headerlink" title="C语言中的内存区域："></a>C语言中的内存区域：</h3><ul>
-<li>静态区：保存自动全局变量和static变量。</li>
-<li>栈：保存局部变量。</li>
-<li>堆：由malloc系列函数或new操作符分配的内存。</li>
-</ul>
+<figure class="highlight plain"><figcaption><span>即 ```&a+5*size(int);``` 一个类型为T的指针的移动，是以 ```sizeof(T)``` 为单位进行移动的。</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">### 指针与数组</span><br><span class="line">1. C语言中，当一维数组作为函数参数的时候，编译器总会把它解析成一个指向首元素首地址的指针。</span><br><span class="line">2. 函数本身是没有类型的，只有函数的返回值才有类型。</span><br><span class="line">3. 实际传递第数组大小与函数形参指定的数组大小没有关系。</span><br><span class="line">4. main函数内的变量不是全局变量而是局部变量，只不过器声明周期和全局变量一样长而已。全局变量一定是定义在函数外部的。</span><br><span class="line">### C语言中的内存区域：</span><br><span class="line">    * 静态区：保存自动全局变量和static变量。</span><br><span class="line">    * 栈：保存局部变量。</span><br><span class="line">    * 堆：由malloc系列函数或new操作符分配的内存。</span><br><span class="line">1. 只有字符串常量才有结束标志符。下面这种写法就没有结束标志符:</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">```c++</span><br><span class="line">char a[7]=&#123;&apos;a&apos;,&apos;b&apos;,&apos;c&apos;,&apos;d&apos;,&apos;e&apos;,&apos;f&apos;&#125;;</span><br></pre></td></tr></table></figure>
+<ol start="3">
+<li><p>会产生泄漏的内存就是堆上的内存（这里不讨论资源或者是句柄的泄漏）也就是说由 <figure class="highlight plain"><figcaption><span>系列函数或 ```new``` 操作符分配的内存。如果用完之后没有及时 ```free``` 或 ```delete```，这块内存就无法释放，知道整个程序终止。</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">4. ```free(p)``` 之后必须进行 ```p=NULL;``` 否则 ```p``` 就变成了一条野狗。</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">```c++</span><br><span class="line">void whenEnd()</span><br><span class="line">&#123;</span><br><span class="line">    free(p);</span><br><span class="line">    p=NULL;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
 </li>
-<li>只有字符串常量才有结束标志符。下面这种写法就没有结束标志符:</li>
-</ol>
-<pre><code>char a[7]={&apos;a&apos;,&apos;b&apos;,&apos;c&apos;,&apos;d&apos;,&apos;e&apos;,&apos;f&apos;};
-</code></pre><ol start="3">
-<li>会产生泄漏的内存就是堆上的内存（这里不讨论资源或者是句柄的泄漏）也就是说由malloc系列函数或new操作符分配的内存。如果用完之后没有及时free或delete，这块内存就无法释放，知道整个程序终止。</li>
-<li>free(p)之后必须进行p=NULL;否则p就变成了一条野狗。</li>
-</ol>
-<pre><code>void whenEnd()
-{
-    free(p);
-    p=NULL;
-}
-</code></pre><ol start="5">
-<li>函数就是一些语句的集合。</li>
+<li><p>函数就是一些语句的集合。</p>
+</li>
 <li>C语言中，函数的static局部变量是函数的记忆存储器。建议精良少用static局部变量。</li>
 <li>有的时候函数不需要返回值，但是为了增加灵活性如支持链式表达，可以附加返回值。如：strcpy函数</li>
 </ol>
-<pre><code>int len=strlen(strcpy(strDest,strSource));
-</code></pre><hr>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> len=<span class="built_in">strlen</span>(<span class="built_in">strcpy</span>(strDest,strSource));</span><br></pre></td></tr></table></figure>
+<hr>
 <h3 id="ASSERT"><a href="#ASSERT" class="headerlink" title="ASSERT"></a>ASSERT</h3><ol>
 <li>函数声明</li>
 </ol>
-<pre><code>void assert( int expression );
-</code></pre><ol start="2">
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">assert</span><span class="params">( <span class="keyword">int</span> expression )</span></span>;</span><br></pre></td></tr></table></figure>
+<ol start="2">
 <li>assert的作用是现计算表达式 expression ，如果其值为假（即为0），那么它先向stderr打印一条出错信息，然后通过调用 abort 来终止程序运行。</li>
 <li><strong>在调试结束后，可以通过在包含#include &lt;assert.h&gt;的#ifdef NDEBUG语句之前插入 #define NDEBUG 来禁用assert调用即可。</strong></li>
 <li>比较好的在程序中使用assert的地方：<ul>
@@ -615,12 +577,8 @@ return 0;
 <li><p>使用原则</p>
 <ul>
 <li><p>每个assert只检验一个条件，因为同时检验多个条件时，如果断言失败，无法直观的判断是哪个条件失败。</p>
-<pre><code>//不好
-assert(nOffset&gt;=0 &amp;&amp; nOffset+nSize&lt;=m_nInfomationSize);
-//好
-assert(nOffset &gt;= 0);
-assert(nOffset+nSize &lt;= m_nInfomationSize);
-</code></pre></li>
+  <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//不好</span></span><br><span class="line">assert(nOffset&gt;=<span class="number">0</span> &amp;&amp; nOffset+nSize&lt;=m_nInfomationSize);</span><br><span class="line"><span class="comment">//好</span></span><br><span class="line">assert(nOffset &gt;= <span class="number">0</span>);</span><br><span class="line">assert(nOffset+nSize &lt;= m_nInfomationSize);</span><br></pre></td></tr></table></figure>
+</li>
 </ul>
 </li>
 </ol>
@@ -637,38 +595,35 @@ assert(nOffset+nSize &lt;= m_nInfomationSize);
 <li>我就认为程序终止了运行，一切指针都会消亡动态内存会被操作系统回收。既然如此，在程序临终前，就可以不必释放内存、不必将指针设置成NULL了。终于可以偷懒而不会发生错误了。这种想法是错误的，如果别人把那段程序取出来用到其它的地方怎么办？<h3 id="malloc、free与new、delete"><a href="#malloc、free与new、delete" class="headerlink" title="malloc、free与new、delete"></a>malloc、free与new、delete</h3></li>
 <li>使用new为int等内部类型分配一个空间。</li>
 </ol>
-<pre><code>int *p=new int[length];
-</code></pre><ol start="2">
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> *p=<span class="keyword">new</span> <span class="keyword">int</span>[length];</span><br></pre></td></tr></table></figure>
+<ol start="2">
 <li><p>使用new为对象数组分配空间,此时只能够使用无参数的构造函数进行分配，不能够使用有参数的构造函数进行分配。</p>
-<pre><code>Obj *object=new Obj[100];
-</code></pre></li>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Obj *object=<span class="keyword">new</span> Obj[<span class="number">100</span>];</span><br></pre></td></tr></table></figure>
+</li>
 <li><p>使用delete释放new分配的对象数组时，不要丢掉[].<br>4</p>
-<pre><code>delete [] object;
-</code></pre></li>
-<li>malloc、free 与 new、 delete的区别见课本P52讲的太好了。</li>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">delete</span> [] object;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>malloc、free 与 new、 delete的区别见课本P52讲的太好了。</p>
+</li>
 </ol>
 <hr>
 <h3 id="函数重载"><a href="#函数重载" class="headerlink" title="函数重载"></a>函数重载</h3><ol>
 <li>如果两个函数的函数名相同不同的仅仅是返回值类型，那么这个函数有的时候能够重载有的时候不能够重载，例如下面的两个函数</li>
-<li><pre><code>void Function(void);
-int  Function(void);
-</code></pre><p>如果使用：</p>
+<li><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Function</span><span class="params">(<span class="keyword">void</span>)</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span>  <span class="title">Function</span><span class="params">(<span class="keyword">void</span>)</span></span>;</span><br></pre></td></tr></table></figure>
+<p>如果使用：</p>
 <p> int a=Function();<br>来进行调用则能够实现重载。如果使用：</p>
 </li>
 </ol>
-<pre><code>Function();
-</code></pre><p>来进行调用，则无法实现重载。</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Function();</span><br></pre></td></tr></table></figure>
+<p>来进行调用，则无法实现重载。</p>
 <ol start="2">
 <li>如何在C++中调用已经编译好的C程序。<ul>
 <li>需要使用</li>
 </ul>
 </li>
 </ol>
-<pre><code>extern “C”
-{
-    void foo(int x,int y);
-}
-</code></pre><hr>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">extern</span> “C”</span><br><span class="line">&#123;</span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">foo</span><span class="params">(<span class="keyword">int</span> x,<span class="keyword">int</span> y)</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<hr>
 <h3 id="重载、覆盖于隐藏"><a href="#重载、覆盖于隐藏" class="headerlink" title="重载、覆盖于隐藏"></a>重载、覆盖于隐藏</h3><ol>
 <li>隐藏<ul>
 <li>如果派生类和基类的函数名相同，但是函数的参数不同。那么不管基类函数有没有virtual，那么基类函数将被隐藏。</li>
@@ -691,40 +646,12 @@ int  Function(void);
 </li>
 <li>参数值的缺省只能够出现在函数的声明中，不能够出现在函数的定义中。</li>
 </ol>
-<pre><code>//正确
-void Func(int a,int b=1);
-//错误
-void Func(int a,int b=1)
-{
-
-}
-</code></pre><ol start="2">
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//正确</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Func</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b=<span class="number">1</span>)</span></span>;</span><br><span class="line"><span class="comment">//错误</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Func</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b=<span class="number">1</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ol start="2">
 <li>如果函数有多个参数那么缺省只能够从后向前缺省。</li>
 <li>不合理的使用缺省值将导致重载函数的二义性。</li>
 </ol>
-<pre><code>#include &lt;iostream&gt;
-using namespace std;
-
-void Output(int a);
-//缺省参数值，将导致函数重载 
-void Output(int a,float b=1.1);
-
-int main()
-{
-    Output(1);
-    Output(1,1.4);
-    return 0;
-}
-
-void Output(int a)
-{
-    cout&lt;&lt;&quot;Output_Int &quot;&lt;&lt;a&lt;&lt;endl;
-}
-void Output(int a,float b)
-{
-    cout&lt;&lt;&quot;Output_Float &quot;&lt;&lt;a&lt;&lt;&quot; , &quot;&lt;&lt;b&lt;&lt;endl;
-}
-</code></pre><p>​<br>​    </p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Output</span><span class="params">(<span class="keyword">int</span> a)</span></span>;</span><br><span class="line"><span class="comment">//缺省参数值，将导致函数重载 </span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Output</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">float</span> b=<span class="number">1.1</span>)</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	Output(<span class="number">1</span>);</span><br><span class="line">	Output(<span class="number">1</span>,<span class="number">1.4</span>);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Output</span><span class="params">(<span class="keyword">int</span> a)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">cout</span>&lt;&lt;<span class="string">"Output_Int "</span>&lt;&lt;a&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Output</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">float</span> b)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">cout</span>&lt;&lt;<span class="string">"Output_Float "</span>&lt;&lt;a&lt;&lt;<span class="string">" , "</span>&lt;&lt;b&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h3 id="运算符重载"><a href="#运算符重载" class="headerlink" title="运算符重载"></a>运算符重载</h3><ol>
 <li>如果运算符被重载为全局函数，那么只有一个参数的运算符叫做一元运算符，有两个参数的运算符叫做二元运算符。</li>
 <li>如果运算符被重载为类的成员函数，那么一元运算符没有参数，二元运算符只有一个右侧参数，因为对象自己成了左侧参数。</li>
@@ -788,11 +715,11 @@ void Output(int a,float b)
       
         <div class="post-tags">
           
+            <a href="/tags/C/" rel="tag"># C</a>
+          
             <a href="/tags/CODING/" rel="tag"># CODING</a>
           
             <a href="/tags/学习札记/" rel="tag"># 学习札记</a>
-          
-            <a href="/tags/C/" rel="tag"># C</a>
           
         </div>
       
@@ -956,9 +883,7 @@ void Output(int a,float b)
                     
                       
                     
-                      
-                    
-                    <span class="site-state-item-count">15</span>
+                    <span class="site-state-item-count">14</span>
                     <span class="site-state-item-name">categories</span>
                   </a>
                 </div>
@@ -1135,9 +1060,7 @@ void Output(int a,float b)
                     
                       
                     
-                      
-                    
-                    <span class="site-state-item-count">83</span>
+                    <span class="site-state-item-count">82</span>
                     <span class="site-state-item-name">tags</span>
                   </a>
                 </div>
@@ -1227,7 +1150,7 @@ void Output(int a,float b)
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#要写纯粹的，脱离低级趣味的-函数！"><span class="nav-text">要写纯粹的，脱离低级趣味的 函数！</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#GNU-GNU’s-Not-Unix"><span class="nav-text">GNU(GNU’s Not Unix)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#CONST"><span class="nav-text">CONST</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#c与-cpp文件的区别"><span class="nav-text">.c与.cpp文件的区别</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#const-volatile-int-a-10"><span class="nav-text">const volatile int a=10;</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#注："><span class="nav-text">注：</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#大端与小端"><span class="nav-text">大端与小端</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#定义"><span class="nav-text">定义</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#如何判断一个系统是大端还是小端"><span class="nav-text">如何判断一个系统是大端还是小端</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#链接网址"><span class="nav-text">链接网址</span></a></li></ol></li></ol><li class="nav-item nav-level-2"><a class="nav-link" href="#符号"><span class="nav-text">符号</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#C语言轻松一刻"><span class="nav-text">C语言轻松一刻</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#预处理"><span class="nav-text">预处理</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#define"><span class="nav-text">#define</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#内存对齐"><span class="nav-text">内存对齐</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#指正加减运算"><span class="nav-text">指正加减运算</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#指针与数组"><span class="nav-text">指针与数组</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#C语言中的内存区域："><span class="nav-text">C语言中的内存区域：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ASSERT"><span class="nav-text">ASSERT</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#排序"><span class="nav-text">排序</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#指针有一些“似是而非”的特征："><span class="nav-text">指针有一些“似是而非”的特征：</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#malloc、free与new、delete"><span class="nav-text">malloc、free与new、delete</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#函数重载"><span class="nav-text">函数重载</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#重载、覆盖于隐藏"><span class="nav-text">重载、覆盖于隐藏</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#参数值的缺省"><span class="nav-text">参数值的缺省</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#运算符重载"><span class="nav-text">运算符重载</span></a></li></ol></li></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#要写纯粹的，脱离低级趣味的-函数！"><span class="nav-text">要写纯粹的，脱离低级趣味的 函数！</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#GNU-GNU’s-Not-Unix"><span class="nav-text">GNU(GNU’s Not Unix)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#CONST"><span class="nav-text">CONST</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#c与-cpp文件的区别"><span class="nav-text">.c与.cpp文件的区别</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#const-volatile-int-a-10"><span class="nav-text">const volatile int a=10;</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#注："><span class="nav-text">注：</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#大端与小端"><span class="nav-text">大端与小端</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#定义"><span class="nav-text">定义</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#如何判断一个系统是大端还是小端"><span class="nav-text">如何判断一个系统是大端还是小端</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#链接网址"><span class="nav-text">链接网址</span></a></li></ol></li></ol><li class="nav-item nav-level-2"><a class="nav-link" href="#符号"><span class="nav-text">符号</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#C语言轻松一刻"><span class="nav-text">C语言轻松一刻</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#预处理"><span class="nav-text">预处理</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#define"><span class="nav-text">#define</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ASSERT"><span class="nav-text">ASSERT</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#排序"><span class="nav-text">排序</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#指针有一些“似是而非”的特征："><span class="nav-text">指针有一些“似是而非”的特征：</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#malloc、free与new、delete"><span class="nav-text">malloc、free与new、delete</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#函数重载"><span class="nav-text">函数重载</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#重载、覆盖于隐藏"><span class="nav-text">重载、覆盖于隐藏</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#参数值的缺省"><span class="nav-text">参数值的缺省</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#运算符重载"><span class="nav-text">运算符重载</span></a></li></ol></li></div>
             
 
           </div>

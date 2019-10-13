@@ -105,20 +105,20 @@
 
 
 
-  <meta name="description" content="函数内联 函数内联，其目的是为了提高函数的执行效率。 关键字Inline必须与函数体放在一起才能够使函数成为内联，仅将inline放在函数声明前面不起任何作用。 //错误  inline void Foo(int a,int b); //正确  void Foo(int a,int b); inline void Foo(int a,int b) {  } //内联，不提倡  class A {">
-<meta name="keywords" content="CODING,学习札记,C">
+  <meta name="description" content="函数内联 函数内联，其目的是为了提高函数的执行效率。 关键字Inline必须与函数体放在一起才能够使函数成为内联，仅将inline放在函数声明前面不起任何作用。 12345678910111213141516171819202122232425//错误 inline void Foo(int a,int b);//正确 void Foo(int a,int b);inline void Foo(i">
+<meta name="keywords" content="C,CODING,学习札记">
 <meta property="og:type" content="article">
 <meta property="og:title" content="CODE_C2">
 <meta property="og:url" content="http://yoursite.com/2018/12/29/CODE-C2/index.html">
 <meta property="og:site_name" content="JrXIE BLOG">
-<meta property="og:description" content="函数内联 函数内联，其目的是为了提高函数的执行效率。 关键字Inline必须与函数体放在一起才能够使函数成为内联，仅将inline放在函数声明前面不起任何作用。 //错误  inline void Foo(int a,int b); //正确  void Foo(int a,int b); inline void Foo(int a,int b) {  } //内联，不提倡  class A {">
+<meta property="og:description" content="函数内联 函数内联，其目的是为了提高函数的执行效率。 关键字Inline必须与函数体放在一起才能够使函数成为内联，仅将inline放在函数声明前面不起任何作用。 12345678910111213141516171819202122232425//错误 inline void Foo(int a,int b);//正确 void Foo(int a,int b);inline void Foo(i">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="g:/normal.jpg">
 <meta property="og:image" content="g:/unnormal.png">
-<meta property="og:updated_time" content="2019-04-30T21:39:26.200Z">
+<meta property="og:updated_time" content="2019-10-12T21:35:56.183Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CODE_C2">
-<meta name="twitter:description" content="函数内联 函数内联，其目的是为了提高函数的执行效率。 关键字Inline必须与函数体放在一起才能够使函数成为内联，仅将inline放在函数声明前面不起任何作用。 //错误  inline void Foo(int a,int b); //正确  void Foo(int a,int b); inline void Foo(int a,int b) {  } //内联，不提倡  class A {">
+<meta name="twitter:description" content="函数内联 函数内联，其目的是为了提高函数的执行效率。 关键字Inline必须与函数体放在一起才能够使函数成为内联，仅将inline放在函数声明前面不起任何作用。 12345678910111213141516171819202122232425//错误 inline void Foo(int a,int b);//正确 void Foo(int a,int b);inline void Foo(i">
 <meta name="twitter:image" content="g:/normal.jpg">
 
 
@@ -432,7 +432,7 @@ CODE_C2
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2019-04-30 23:39:26" itemprop="dateModified" datetime="2019-04-30T23:39:26+02:00">2019-04-30</time>
+                <time title="Modified: 2019-10-12 23:35:56" itemprop="dateModified" datetime="2019-10-12T23:35:56+02:00">2019-10-12</time>
               
             
           </span>
@@ -503,110 +503,39 @@ CODE_C2
         <h3 id="函数内联"><a href="#函数内联" class="headerlink" title="函数内联"></a>函数内联</h3><ol>
 <li>函数内联，其目的是为了提高函数的执行效率。</li>
 <li>关键字Inline必须与函数体放在一起才能够使函数成为内联，仅将inline放在函数声明前面不起任何作用。</li>
-<li><pre><code>//错误 
-inline void Foo(int a,int b);
-//正确 
-void Foo(int a,int b);
-inline void Foo(int a,int b)
-{
-
-}
-//内联，不提倡 
-class A
-{
- public :
-     void Foo(int a)
-     {
-     }
-};
-//内联，提倡 
-class A
-{
- public :
-     void Foo(int a);
-}
-inline void A::Foo(int a)
-{
-}
-</code></pre></li>
-<li>慎用内联，内联是以代码膨胀为代价的，仅仅省去了函数调用的开销</li>
+<li><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//错误 </span></span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">void</span> <span class="title">Foo</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b)</span></span>;</span><br><span class="line"><span class="comment">//正确 </span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Foo</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b)</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">void</span> <span class="title">Foo</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//内联，不提倡 </span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">A</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line"> <span class="keyword">public</span> :</span><br><span class="line"> 	<span class="function"><span class="keyword">void</span> <span class="title">Foo</span><span class="params">(<span class="keyword">int</span> a)</span></span></span><br><span class="line"><span class="function"> 	</span>&#123;</span><br><span class="line">	 &#125;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="comment">//内联，提倡 </span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">A</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line"> <span class="keyword">public</span> :</span><br><span class="line"> 	<span class="function"><span class="keyword">void</span> <span class="title">Foo</span><span class="params">(<span class="keyword">int</span> a)</span></span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">inline</span> <span class="keyword">void</span> A::Foo(<span class="keyword">int</span> a)</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>慎用内联，内联是以代码膨胀为代价的，仅仅省去了函数调用的开销</p>
+</li>
 <li>内联的工作方式。对于任何内联函数，编译器在符号表中放入函数的名称、返回值、参数等。如果内联函数没有错误，整个函数体也会被放到符号表中。在进行内联函数的调用时，编译器首先会检查调用是否安全，如果安全的话，内联函数的代码就会直接替换为函数调用，从而省去了函数调用的开销。</li>
-<li><p>不宜使用内联的情况</p>
-<ul>
+<li>不宜使用内联的情况<ul>
 <li>函数体内的代码过长。</li>
-<li><p>函数体内出现循环</p>
-<h3 id="编程是多费了一些心思，少了一些痛快，这才是编程的艺术。"><a href="#编程是多费了一些心思，少了一些痛快，这才是编程的艺术。" class="headerlink" title="编程是多费了一些心思，少了一些痛快，这才是编程的艺术。"></a>编程是多费了一些心思，少了一些痛快，这才是编程的艺术。</h3><h3 id="构造、析构、拷贝、赋值"><a href="#构造、析构、拷贝、赋值" class="headerlink" title="构造、析构、拷贝、赋值"></a>构造、析构、拷贝、赋值</h3><pre><code>#include &lt;iostream&gt;
-</code></pre><p>  #include <cstring><br>  using namespace std;</cstring></p>
-<p>  class String<br>  {<br>   public:</p>
-<pre><code>String(char *str=NULL);
-String(const String &amp;other);
-String&amp; operator =(const String &amp;other);
-~String(void);
-</code></pre><p>   private:</p>
-<pre><code>char *m_Data;
-</code></pre><p>  };</p>
-<p>  String::String(char *str)<br>  {</p>
-<pre><code>if(str==NULL)
-{
-    m_Data=new char[1] ;
-    *m_Data=&apos;\0&apos;;
-} 
-else
-{
-    m_Data=new char[strlen(str)+1];
-    strcpy(m_Data,str);
-}
-</code></pre><p>  }<br>  String::String(const String &amp;other)<br>  {    </p>
-<pre><code>m_Data=new char[strlen(other.m_Data)+1];
-strcpy(m_Data,other.m_Data);
-</code></pre><p>  }</p>
-<p>  String&amp; String::operator =(const String &amp;other)<br>  {</p>
-<pre><code>if(this==&amp;other)
-    return *this;
-delete [] m_Data;
-m_Data=new char[strlen(other.m_Data)+1];
-strcpy(m_Data,other.m_Data);
-return *this;
-</code></pre><p>  }<br>  String::~String()<br>  {</p>
-<pre><code>delete [] m_Data;
-</code></pre><p>  }</p>
-<p>  int main()<br>  {</p>
-<pre><code>return 0;
-</code></pre><p>  }</p>
-<h3 id="对于任意一个类，C-编译器会自动为类产生四个缺省的函数：构造函数、析构函数、拷贝函数、赋值函数。"><a href="#对于任意一个类，C-编译器会自动为类产生四个缺省的函数：构造函数、析构函数、拷贝函数、赋值函数。" class="headerlink" title="对于任意一个类，C++编译器会自动为类产生四个缺省的函数：构造函数、析构函数、拷贝函数、赋值函数。"></a>对于任意一个类，C++编译器会自动为类产生四个缺省的函数：构造函数、析构函数、拷贝函数、赋值函数。</h3><h3 id="一只公鸡使劲地追赶一只刚刚下蛋的母鸡，因为母鸡下了鸭蛋。"><a href="#一只公鸡使劲地追赶一只刚刚下蛋的母鸡，因为母鸡下了鸭蛋。" class="headerlink" title="一只公鸡使劲地追赶一只刚刚下蛋的母鸡，因为母鸡下了鸭蛋。"></a>一只公鸡使劲地追赶一只刚刚下蛋的母鸡，因为母鸡下了鸭蛋。</h3><h3 id="h-gch文件"><a href="#h-gch文件" class="headerlink" title=".h .gch文件"></a>.h .gch文件</h3></li>
+<li>函数体内出现循环<h3 id="编程是多费了一些心思，少了一些痛快，这才是编程的艺术。"><a href="#编程是多费了一些心思，少了一些痛快，这才是编程的艺术。" class="headerlink" title="编程是多费了一些心思，少了一些痛快，这才是编程的艺术。"></a>编程是多费了一些心思，少了一些痛快，这才是编程的艺术。</h3><h3 id="构造、析构、拷贝、赋值"><a href="#构造、析构、拷贝、赋值" class="headerlink" title="构造、析构、拷贝、赋值"></a>构造、析构、拷贝、赋值</h3><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br></pre></td><td class="code"><pre><span class="line">    <span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">String</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line"> <span class="keyword">public</span>:</span><br><span class="line"> 	String(<span class="keyword">char</span> *str=<span class="literal">NULL</span>);</span><br><span class="line"> 	String(<span class="keyword">const</span> String &amp;other);</span><br><span class="line"> 	String&amp; <span class="keyword">operator</span> =(<span class="keyword">const</span> String &amp;other);</span><br><span class="line"> 	~String(<span class="keyword">void</span>);</span><br><span class="line"> <span class="keyword">private</span>:</span><br><span class="line"> 	<span class="keyword">char</span> *m_Data;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">String::String(<span class="keyword">char</span> *str)</span><br><span class="line">&#123;</span><br><span class="line">	<span class="keyword">if</span>(str==<span class="literal">NULL</span>)</span><br><span class="line">	&#123;</span><br><span class="line">		m_Data=<span class="keyword">new</span> <span class="keyword">char</span>[<span class="number">1</span>] ;</span><br><span class="line">		*m_Data=<span class="string">'\0'</span>;</span><br><span class="line">	&#125; </span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">	&#123;</span><br><span class="line">		m_Data=<span class="keyword">new</span> <span class="keyword">char</span>[<span class="built_in">strlen</span>(str)+<span class="number">1</span>];</span><br><span class="line">		<span class="built_in">strcpy</span>(m_Data,str);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line">String::String(<span class="keyword">const</span> String &amp;other)</span><br><span class="line">&#123;	</span><br><span class="line">	m_Data=<span class="keyword">new</span> <span class="keyword">char</span>[<span class="built_in">strlen</span>(other.m_Data)+<span class="number">1</span>];</span><br><span class="line">	<span class="built_in">strcpy</span>(m_Data,other.m_Data);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">String&amp; String::<span class="keyword">operator</span> =(<span class="keyword">const</span> String &amp;other)</span><br><span class="line">&#123;</span><br><span class="line">	<span class="keyword">if</span>(<span class="keyword">this</span>==&amp;other)</span><br><span class="line">		<span class="keyword">return</span> *<span class="keyword">this</span>;</span><br><span class="line">	<span class="keyword">delete</span> [] m_Data;</span><br><span class="line">	m_Data=<span class="keyword">new</span> <span class="keyword">char</span>[<span class="built_in">strlen</span>(other.m_Data)+<span class="number">1</span>];</span><br><span class="line">	<span class="built_in">strcpy</span>(m_Data,other.m_Data);</span><br><span class="line">	<span class="keyword">return</span> *<span class="keyword">this</span>;</span><br><span class="line">&#125;</span><br><span class="line">String::~String()</span><br><span class="line">&#123;</span><br><span class="line">	<span class="keyword">delete</span> [] m_Data;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
 </ul>
 </li>
-<li>概念<br>gch即预编译头，将头文件预编译为二进制代码后后续编译使用。当多个源文件包含一个头文件，正常流程是将其在每个源文件中解析一遍，造成重复浪费。使用gch，将头文件作预编译头形成中间处理的二进制代码，然后再包含进源文件中。</li>
-<li>适用<br>gch适用于被多个源文件包含的头文件，且头文件不会经常做修改。</li>
-<li>注意<br>gch提高了编译速度，但需要注意在默认情况下gch不会因为头文件的更新而更新，从而在编译过程中形成一个不容易发现的坑。需要将头文件和gch设置为依赖关系。<h3 id="C工程"><a href="#C工程" class="headerlink" title="C工程"></a>C工程</h3></li>
+</ol>
+<h3 id="对于任意一个类，C-编译器会自动为类产生四个缺省的函数：构造函数、析构函数、拷贝函数、赋值函数。"><a href="#对于任意一个类，C-编译器会自动为类产生四个缺省的函数：构造函数、析构函数、拷贝函数、赋值函数。" class="headerlink" title="对于任意一个类，C++编译器会自动为类产生四个缺省的函数：构造函数、析构函数、拷贝函数、赋值函数。"></a>对于任意一个类，C++编译器会自动为类产生四个缺省的函数：构造函数、析构函数、拷贝函数、赋值函数。</h3><h3 id="一只公鸡使劲地追赶一只刚刚下蛋的母鸡，因为母鸡下了鸭蛋。"><a href="#一只公鸡使劲地追赶一只刚刚下蛋的母鸡，因为母鸡下了鸭蛋。" class="headerlink" title="一只公鸡使劲地追赶一只刚刚下蛋的母鸡，因为母鸡下了鸭蛋。"></a>一只公鸡使劲地追赶一只刚刚下蛋的母鸡，因为母鸡下了鸭蛋。</h3><h3 id="h-gch文件"><a href="#h-gch文件" class="headerlink" title=".h .gch文件"></a>.h .gch文件</h3><ol>
+<li>概念<ul>
+<li>gch即预编译头，将头文件预编译为二进制代码后后续编译使用。当多个源文件包含一个头文件，正常流程是将其在每个源文件中解析一遍，造成重复浪费。使用gch，将头文件作预编译头形成中间处理的二进制代码，然后再包含进源文件中。</li>
+</ul>
+</li>
+<li>适用  <ul>
+<li>gch适用于被多个源文件包含的头文件，且头文件不会经常做修改。</li>
+</ul>
+</li>
+<li>注意  <ul>
+<li>gch提高了编译速度，但需要注意在默认情况下gch不会因为头文件的更新而更新，从而在编译过程中形成一个不容易发现的坑。需要将头文件和gch设置为依赖关系。<h3 id="C工程"><a href="#C工程" class="headerlink" title="C工程"></a>C工程</h3></li>
+</ul>
+</li>
 <li>.h文件叫做头文件，不能够被编译。”#include”叫做编译预处理指令，可以简单理解成，在1.cpp中的”#include 1.h”指令把1.h中的代码在编译前添加在了1.cpp的头部。</li>
 <li>每个.cpp文件都会被编译，生成一个.obj文件，然后所有的.obj文件链接所有的.obj文件链接起来，可执行文件就生成了。</li>
 <li>c语言和c++都是这样的，声明和定义要分开。要想使用的话需要使用extern<h3 id="pragma-once-与-ifndef"><a href="#pragma-once-与-ifndef" class="headerlink" title="pragma once 与 ifndef"></a>pragma once 与 ifndef</h3></li>
 <li>pragma once 是新兴的防止头文件被重复包含的语句。两者区别见<a href="https://blog.csdn.net/slimfox/article/details/1565950" target="_blank" rel="noopener">pragma once 与 ifndef的区别</a></li>
 <li>if 与 else 匹配问题<br><img src="G:/normal.jpg" alt="" title="normal">与<img src="G:/unnormal.png" alt="" title="normal">是完全不同的两个运行结果。原因是作用域的问题。</li>
 <li><p>为什么使用using namespace std;</p>
-<pre><code>#include &lt;iostream.h&gt;非标准输入输出流
-#include &lt;iostream&gt;标准输入输出流
-
-C++中为了避免名字定义冲突，特别引入了“名字空间的定义”，即namespace。
-当代码中用&lt;iostream.h&gt;时，输出可直接引用cout&lt;&lt;x;//&lt;iostream.h&gt;继承C语言的标准库文件，未引入名字空间定义，所以可直接使用。
-当代码中引入&lt;iostream&gt;时，输出需要引用std::cout&lt;&lt;x;如果还是按原来的方法就会有错。
-使用&lt;iostream&gt;时，引入std::有以下方法：
-
-1.
-using namespace std;
-cout&lt;&lt;x;
-2.
-using std::cout;
-cout&lt;&lt;x;
-3.
-最基本的std::cout&lt;&lt;x;
-
-这回你该知道为什么通常用#include &lt;iostream&gt;时，
-要用using namespace std;了吧。如果你不用这个，就要在使用cout时，用后两种方法了。
-其他头文件也是同样的道理。
-（有“.h”的就是非标准的，C的标准库函数，无“.h”的，就要用到命令空间，是C++的。还有一部分不完全是有“.h”和没“.h”的差别。例如：math.h和cmath）
-</code></pre></li>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream.h&gt;非标准输入输出流</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;标准输入输出流</span></span></span><br><span class="line"></span><br><span class="line">C++中为了避免名字定义冲突，特别引入了“名字空间的定义”，即<span class="keyword">namespace</span>。</span><br><span class="line">当代码中用&lt;iostream.h&gt;时，输出可直接引用<span class="built_in">cout</span>&lt;&lt;x;<span class="comment">//&lt;iostream.h&gt;继承C语言的标准库文件，未引入名字空间定义，所以可直接使用。</span></span><br><span class="line">当代码中引入&lt;iostream&gt;时，输出需要引用<span class="built_in">std</span>::<span class="built_in">cout</span>&lt;&lt;x;如果还是按原来的方法就会有错。</span><br><span class="line">使用&lt;iostream&gt;时，引入<span class="built_in">std</span>::有以下方法：</span><br><span class="line"></span><br><span class="line"><span class="number">1.</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="built_in">cout</span>&lt;&lt;x;</span><br><span class="line"><span class="number">2.</span></span><br><span class="line"><span class="keyword">using</span> <span class="built_in">std</span>::<span class="built_in">cout</span>;</span><br><span class="line"><span class="built_in">cout</span>&lt;&lt;x;</span><br><span class="line"><span class="number">3.</span></span><br><span class="line">最基本的<span class="built_in">std</span>::<span class="built_in">cout</span>&lt;&lt;x;</span><br><span class="line"></span><br><span class="line">这回你该知道为什么通常用<span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;时，</span></span></span><br><span class="line">要用<span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;了吧。如果你不用这个，就要在使用<span class="built_in">cout</span>时，用后两种方法了。</span><br><span class="line">其他头文件也是同样的道理。</span><br><span class="line">（有“.h”的就是非标准的，C的标准库函数，无“.h”的，就要用到命令空间，是C++的。还有一部分不完全是有“.h”和没“.h”的差别。例如：math.h和cmath）</span><br></pre></td></tr></table></figure>
+</li>
 <li><p>为什么在c++程序里可以直接用printf 和scanf</p>
 <ul>
 <li>iostream是没有包含C语言中的输入输出函数的，这个头文件是C++中输入输出流的，你那种情况一般是编译环境默认连接了stdio.h造成的。那是不是要用c的输入输出加上&lt;stdio.h&gt;比较安全？是不是所有编译器都支持这种连接呢？应该是的，头文件的默认添加可以在编译环境中设置。不过原则上是应该加上相应的头文件的，一般还加上头文件比较好。</li>
@@ -665,11 +594,11 @@ cout&lt;&lt;x;
       
         <div class="post-tags">
           
+            <a href="/tags/C/" rel="tag"># C</a>
+          
             <a href="/tags/CODING/" rel="tag"># CODING</a>
           
             <a href="/tags/学习札记/" rel="tag"># 学习札记</a>
-          
-            <a href="/tags/C/" rel="tag"># C</a>
           
         </div>
       
@@ -833,9 +762,7 @@ cout&lt;&lt;x;
                     
                       
                     
-                      
-                    
-                    <span class="site-state-item-count">15</span>
+                    <span class="site-state-item-count">14</span>
                     <span class="site-state-item-name">categories</span>
                   </a>
                 </div>
@@ -1012,9 +939,7 @@ cout&lt;&lt;x;
                     
                       
                     
-                      
-                    
-                    <span class="site-state-item-count">83</span>
+                    <span class="site-state-item-count">82</span>
                     <span class="site-state-item-name">tags</span>
                   </a>
                 </div>
