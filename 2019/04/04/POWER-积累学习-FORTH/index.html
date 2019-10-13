@@ -105,18 +105,18 @@
 
 
 
-  <meta name="description" content="计算机">
+  <meta name="description" content="计算机GIT 删除文件  删除未暂存的（包括为跟踪的）rm NameOfFile```1* 删除已暂存的 ```git rm -f NameOfFile  取消对文件的==跟踪== rm --cache NameOfFile```12. 取消对文件的==暂存== ```git reset HEAD NameOfFile    取消对未暂存文件的修改 git checkout -- NameOfFi">
 <meta name="keywords" content="学习札记,积累学习,POWER">
 <meta property="og:type" content="article">
 <meta property="og:title" content="POWER_积累学习_FORTH">
 <meta property="og:url" content="http://yoursite.com/2019/04/04/POWER-积累学习-FORTH/index.html">
 <meta property="og:site_name" content="JrXIE BLOG">
-<meta property="og:description" content="计算机">
+<meta property="og:description" content="计算机GIT 删除文件  删除未暂存的（包括为跟踪的）rm NameOfFile```1* 删除已暂存的 ```git rm -f NameOfFile  取消对文件的==跟踪== rm --cache NameOfFile```12. 取消对文件的==暂存== ```git reset HEAD NameOfFile    取消对未暂存文件的修改 git checkout -- NameOfFi">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-10-13T16:29:03.567Z">
+<meta property="og:updated_time" content="2019-10-13T16:57:42.730Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="POWER_积累学习_FORTH">
-<meta name="twitter:description" content="计算机">
+<meta name="twitter:description" content="计算机GIT 删除文件  删除未暂存的（包括为跟踪的）rm NameOfFile```1* 删除已暂存的 ```git rm -f NameOfFile  取消对文件的==跟踪== rm --cache NameOfFile```12. 取消对文件的==暂存== ```git reset HEAD NameOfFile    取消对未暂存文件的修改 git checkout -- NameOfFi">
 
 
 
@@ -429,7 +429,7 @@ POWER_积累学习_FORTH
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2019-10-13 18:29:03" itemprop="dateModified" datetime="2019-10-13T18:29:03+02:00">2019-10-13</time>
+                <time title="Modified: 2019-10-13 18:57:42" itemprop="dateModified" datetime="2019-10-13T18:57:42+02:00">2019-10-13</time>
               
             
           </span>
@@ -497,7 +497,22 @@ POWER_积累学习_FORTH
       
 
       
-        <h4 id="计算机"><a href="#计算机" class="headerlink" title="计算机"></a>计算机</h4>
+        <h4 id="计算机"><a href="#计算机" class="headerlink" title="计算机"></a>计算机</h4><h4 id="GIT"><a href="#GIT" class="headerlink" title="GIT"></a><a href="https://git-scm.com/book/en/v2" target="_blank" rel="noopener">GIT</a></h4><ol>
+<li><p>删除文件</p>
+<ul>
+<li><p>删除未暂存的（包括为跟踪的）<figure class="highlight plain"><figcaption><span>rm NameOfFile```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">* 删除已暂存的 ```git rm -f NameOfFile</span><br></pre></td></tr></table></figure></p>
+</li>
+<li><p>取消对文件的==跟踪== <figure class="highlight plain"><figcaption><span>rm --cache NameOfFile```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2. 取消对文件的==暂存== ```git reset HEAD NameOfFile</span><br></pre></td></tr></table></figure></p>
+</li>
+</ul>
+</li>
+<li><p>取消对未暂存文件的修改 <code>git checkout -- NameOfFile</code> 说是取消实则是用已经暂存文件来覆盖当前未暂存的文件，所以需谨慎</p>
+</li>
+</ol>
+<h4 id="HEXO"><a href="#HEXO" class="headerlink" title="HEXO"></a><a href="https://hexo.io/" target="_blank" rel="noopener">HEXO</a></h4><ol>
+<li>HEXO 发布博客，会首先把 <code>./source</code> 中的文件拷贝到 <code>./public</code> 中，然后再拷贝到 <code>./deploy_git</code> 中，所以要删除大文件需要做到不遗漏</li>
+</ol>
+
       
     </div>
 
@@ -984,7 +999,7 @@ POWER_积累学习_FORTH
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#计算机"><span class="nav-text">计算机</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#计算机"><span class="nav-text">计算机</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#GIT"><span class="nav-text">GIT</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#HEXO"><span class="nav-text">HEXO</span></a></li></ol></div>
             
 
           </div>

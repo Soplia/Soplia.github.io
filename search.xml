@@ -58,14 +58,14 @@
         <category>PD19</category>
       </categories>
       <tags>
-        <tag>Linux</tag>
         <tag>Limos</tag>
+        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[POWER_积累学习_FORTH]]></title>
     <url>%2F2019%2F04%2F04%2FPOWER-%E7%A7%AF%E7%B4%AF%E5%AD%A6%E4%B9%A0-FORTH%2F</url>
-    <content type="text"><![CDATA[计算机]]></content>
+    <content type="text"><![CDATA[计算机GIT 删除文件 删除未暂存的（包括为跟踪的）rm NameOfFile```1* 删除已暂存的 ```git rm -f NameOfFile 取消对文件的==跟踪== rm --cache NameOfFile```12. 取消对文件的==暂存== ```git reset HEAD NameOfFile 取消对未暂存文件的修改 git checkout -- NameOfFile 说是取消实则是用已经暂存文件来覆盖当前未暂存的文件，所以需谨慎 HEXO HEXO 发布博客，会首先把 ./source 中的文件拷贝到 ./public 中，然后再拷贝到 ./deploy_git 中，所以要删除大文件需要做到不遗漏]]></content>
       <categories>
         <category>学习札记-POWER</category>
       </categories>
@@ -273,8 +273,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>Language</tag>
         <tag>Arabic</tag>
+        <tag>Language</tag>
       </tags>
   </entry>
   <entry>
@@ -286,8 +286,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>English</tag>
         <tag>Language</tag>
+        <tag>English</tag>
       </tags>
   </entry>
   <entry>
@@ -400,8 +400,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>孙子兵法</tag>
         <tag>MOOD</tag>
+        <tag>孙子兵法</tag>
       </tags>
   </entry>
   <entry>
@@ -478,8 +478,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>MOOD</tag>
         <tag>仪表礼仪</tag>
+        <tag>MOOD</tag>
       </tags>
   </entry>
   <entry>
@@ -504,8 +504,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>COURSE</tag>
         <tag>多传感器融合技术</tag>
+        <tag>COURSE</tag>
       </tags>
   </entry>
   <entry>
@@ -556,8 +556,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>AdvanceDB</tag>
         <tag>COURSE</tag>
+        <tag>AdvanceDB</tag>
       </tags>
   </entry>
   <entry>
@@ -654,7 +654,7 @@
   <entry>
     <title><![CDATA[CODE_PYTHON]]></title>
     <url>%2F2018%2F12%2F29%2FCODE-PYTHON%2F</url>
-    <content type="text"><![CDATA[Python简介 python语法简洁清晰，特色之一是强制用空白符作为语句缩进。 Python具有非常丰富和强大的库。被称为胶水语言，能够把用其它语言制作的各种模块很轻松地连接在一起。 Python是完全面向对象的语言。 Python采用动态类型系统。在编译的时候，Python不会检查对象是否拥有被调用的方法或者属性，而是直至运行时，才做出检查。所以操作对象时可能会抛出异常。不过，虽然Python采用动态类型系统，它同时也是强类型的。 导入模块 import math from math import * form math import pi 在编写Python的时候尽量不要使用Tab键进行空格。 如果使用文本编辑器编辑Python的时候需要及时进行保存。 推荐的图书：《Introduction to the Theory of Computation》 在进行递归程序编程的时候不应该顺着程序进行递归调用，应该假设我已经获得了n-1的阶乘，能否通过现有的算法获得n的阶乘。 Python中对于实例的属性的定义绝对是个很奇葩的方式。 使用 numpy.correlate求解相关系数的时候，输入参数是两列，然后输出参数是2$\times$2的矩阵（因为是两列）。具体请看Numpy.cov Example 如果函数看不懂，那么首先需要去查找这个函数，然后确定形参与返回值。]]></content>
+    <content type="text"><![CDATA[想要最快的做出进步，莫过于站在巨人的肩膀上First of ALL Install miniconda on your computer, then look how to : use conda to create and handle virtual environnements use python and pytorch use MLP and CNN (pytorch tutorial) Use ==MNIST== dataset Miniconda Google Miniconda 的官网进行安装 常用命令 环境 conda –version conda create –name NameOfEnvironment NameOfPackage conda create –name NameOfEnvironment python=3.5 conda activate NameOfEnvironment conda info –envs 包管理 conda search NameOfPackage conda install NameOfPackage conda list 感觉TASKS包含更多的Miniconda的使用方法Python and VisualStudio19 目前无法从==VisualStudio17==中直接创建Conda环境，但是可以首先通过conda创建好环境后，再利用手动添加配置的方式添加相应的环境 具体步骤 打开(1)Python环境 选择(2)自定义 前缀路径(4)选择conda创建虚拟环境的文件夹 (5)选择(4)文件夹中的python.exe (6)选择(4)文件夹中的pythonw.exe (7)选择虚拟环境中的Python版本 (8)根据自身机器情况选择 (9)忽略，不用填写 使用如下两行代码在运行时检测Python版本信息 12import platformprint(platform.python_version()) PyTorch An open source machine learning framework that accelerates the path from research prototyping to production deployment. windows 下通过运行 来查看CUDA 版本12345 * ![CUDA-win-version](http://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/2019-10-13-165204.png)3. 在Conda创建好的目标环境下，利用官网、手动配置Conda下安装PyTorch包的命令 * ![Conda下安装PyTorch命令](https://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/Conda下安装PyTorch命令.png)4. 感觉Windows下使用Python，需要安装一下软件 * ```&gt;= VisualStudio17 | Conda | 其它软件 PyTorch–Features 如下三个没有测试成功 DISTRIBUTED TRAINING C++ FRONT-END CLOUD PARTNERS Python基础 python最具特色的就是使用缩进来表示代码块，不需要使用大括号 ```1234567891011121314151617181920212223242526272829303132333435362. Python 通常是一行写完一条语句，但如果语句很长，我们可以使用反斜杠```\```来实现多行语句，但是在 ```[], &#123;&#125;, ()``` 中的多行语句，不需要使用反斜杠```\```;使用三引号```&apos;&apos;&apos;或&quot;&quot;&quot;```可以指定一个多行字符串3. 字符串可以用 + 运算符连接在一起，用 * 运算符重复4. Python 中的字符串有两种索引方式，从左往右以 0 开始，从右往左以 -1 开始 * Python的字符截取[不包含最后的尾索引](https://guide.freecodecamp.org/python/is-there-a-way-to-substring-a-string-in-python/) * ![Python索引](https://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/Python索引.png) * 字符串、列表的截取都接受第三个参数即步长默认情况下为1，所以如果不写第三个参数，字符串、列表的截取不论从头还是尾开始，索引始终是前面小于后面的，因为如果开头大于结尾加之步长为1，结果是截取不到什么东西；但是如果步长为-1， 那么开头就可以大于结尾；总而言之，开头与结尾在步长的作用下，必须能够相遇。同时，==牢记截取时是前闭后开==，所以```str[-1: -5: -1]```是包含str[-1]的，不要被-1迷惑，只要是头就会被包含的截取结果中5. 列表是写在方括号 [] 之间、用逗号分隔开的元素列表 *![Python列表截取](https://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/Python列表截取.png)6. 元组写在小括号 ```()``` 里，元素之间用逗号隔开7. ```tup1 = ()``` # 空元组 ```tup2 = (20,)``` # 一个元素，需要在元素后添加逗号，如果不加上==逗号==则tup2的类型为整型8. 集合的基本功能是进行成员关系测试和删除重复元素9. 可以使用大括号 ```&#123; &#125;``` 或者 ```set()``` 函数创建集合(输出集合时，重复的元素被自动去掉)，注意：创建一个空集合必须用 ==set() 而不是 &#123; &#125;，因为 &#123; &#125; 是用来创建一个空字典==10. 集合可以直接进行数学中的集合的各种运算11. 字典是一种映射类型12. #!/usr/bin/python3 dict = &#123;&#125; dict[&apos;one&apos;] = &quot;1 - 菜鸟教程&quot; dict[2] = &quot;2 - 菜鸟工具&quot; tinydict = &#123;&apos;name&apos;: &apos;runoob&apos;,&apos;code&apos;:1, &apos;site&apos;: &apos;www.runoob.com&apos;&#125; ​ print (dict[&apos;one&apos;]) # 输出键为 &apos;one&apos; 的值 print (dict[2]) # 输出键为 2 的值 print (tinydict) # 输出完整的字典 print (tinydict.keys()) # 输出所有键 print (tinydict.values()) # 输出所有值13. is 用于判断两个变量引用对象是否为同一个， == 用于判断引用变量的值是否相等14. 在交互模式中，最后被输出的表达式结果被赋值给变量 _ ;15. Python 没有单独的字符类型，一个字符就是长度为 1 的字符串16. print 默认输出是换行的，如果要实现不换行需要在变量末尾加上 ```end=&quot;&quot; 每个变量在使用前都必须赋值，变量赋值以后该变量才会被创建。 两个整型对象 1 和 2 的分配给变量 a 和 b，字符串对象 “runoob” 分配给变量 c b, c 123456789101112131419. 一个变量可以通过赋值指向不同类型的对象20. 数值的除法包含两个运算符：```/``` 返回一个浮点数，```//``` 返回一个整数21. 如果你不想让反斜杠发生转义，可以在字符串前面添加一个 ```r```，表示原始字符串22. 数字、字符串、元组是==不可变==数据类型，向一个索引位置赋值，比如word[0] = &apos;m&apos;会导致错误##### 字符串1. ```join(seq)``` 以指定字符串作为分隔符（如：```&apos; &apos;.join(seq)```)，将 seq 中所有的元素(的字符串表示)合并为一个新的字符串#### 序列1. 序列都可以进行的操作包括索引，切片，加，乘，检查成员2. Python已经内置确定序列的长度以及确定最大和最小的元素的方法。3. 元组中只包含一个元素时，需要在元素后面添加逗号，否则括号会被当作运算符使用.4. 元组中的元素值是不允许修改的，但我们可以对元组进行连接组合5. 元组中的元素值是不允许删除的，但我们可以使用```del```语句来删除整个元组6. 列表、元组可以相互之间进行转化```list(), tuple() 字典中，值可以取任何数据类型，但键必须是不可变的，如字符串，数字或元组。 字典中想要删除某一个键值对，直接删除该键值对的键就行了dict['Name']```12349. 集合（set）是一个无序的不重复元素序列10. 集合中，在交互模式，pop 是删除集合的第一个元素（排序后的集合的第一个元素）11. 关键字end可以用于将结果输出到同一行，或者在输出的末尾添加不同的字符12. 直接将输入转化为相应的数据类型```age = int(input(&quot;请输入你家狗狗的年龄: &quot;)) Python 114. Python 中 由```iter(ClassName)```获得的迭代器对象```A```将作为```next(IterName)```的输入参数，所以两者的媒介就是```self 在 Python 中，使用了 yield 的函数被称为生成器（generator） 调用一个生成器函数，返回的是一个迭代器对象 a, b = b, a + b该语句是首先同一完成右边表达式的计算之后，再进行统一赋值 加了星号 * 的参数会以元组(tuple)的形式导入，加了两个星号 ** 的参数会以字典的形式导入 想使用 Python 源文件（模块），只需在另一个源文件里执行 import 语句 Python解释器就依次从这些目录（搜索路径sys.path）中去寻找所引入的模块 模块除了方法定义，还可以包括可执行的代码。这些代码一般用来初始化这个模块。这些代码只有在第一次被导入时才会被执行。 一个特别的模块 sys ，它内置在每一个 Python 解析器中。变量 sys.ps1 和 sys.ps2 定义了主提示符和副提示符所对应的字符串 导入语句遵循如下规则：如果包定义文件 init.py 存在一个叫做 all 的列表变量，那么在使用 from package import * 的时候就把这个列表中的所有名字作为包内容导入 当处理一个文件对象时, 使用 with 关键字是非常好的方式 当内部作用域想修改外部作用域的变量时，就要用到global和nonlocal关键字了 Python简介 python语法简洁清晰，特色之一是强制用空白符作为语句缩进。 Python具有非常丰富和强大的库。被称为胶水语言，能够把用其它语言制作的各种模块很轻松地连接在一起。 Python是完全面向对象的语言。 Python采用动态类型系统。在编译的时候，Python不会检查对象是否拥有被调用的方法或者属性，而是直至运行时，才做出检查。所以操作对象时可能会抛出异常。不过，虽然Python采用动态类型系统，它同时也是强类型的。 导入模块 import math from math import * form math import pi 在编写Python的时候尽量不要使用Tab键进行空格。 如果使用文本编辑器编辑Python的时候需要及时进行保存。 推荐的图书：《Introduction to the Theory of Computation》 在进行递归程序编程的时候不应该顺着程序进行递归调用，应该假设我已经获得了n-1的阶乘，能否通过现有的算法获得n的阶乘。 Python中对于实例的属性的定义绝对是个很奇葩的方式。 使用 numpy.correlate求解相关系数的时候，输入参数是两列，然后输出参数是2$\times$2的矩阵（因为是两列）。具体请看Numpy.cov Example 如果函数看不懂，那么首先需要去查找这个函数，然后确定形参与返回值。]]></content>
       <categories>
         <category>学习札记-CODING</category>
       </categories>
