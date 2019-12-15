@@ -98,9 +98,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="Language" scheme="http://yoursite.com/tags/Language/"/>
-    
       <category term="French" scheme="http://yoursite.com/tags/French/"/>
+    
+      <category term="Language" scheme="http://yoursite.com/tags/Language/"/>
     
   </entry>
   
@@ -128,9 +128,9 @@
     
       <category term="学习札记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="Language" scheme="http://yoursite.com/tags/Language/"/>
-    
       <category term="French" scheme="http://yoursite.com/tags/French/"/>
+    
+      <category term="Language" scheme="http://yoursite.com/tags/Language/"/>
     
   </entry>
   
@@ -244,9 +244,9 @@
       <category term="素养" scheme="http://yoursite.com/categories/%E7%B4%A0%E5%85%BB/"/>
     
     
-      <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
-    
       <category term="笛子" scheme="http://yoursite.com/tags/%E7%AC%9B%E5%AD%90/"/>
+    
+      <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
     
   </entry>
   
@@ -528,9 +528,9 @@
       <category term="素养" scheme="http://yoursite.com/categories/%E7%B4%A0%E5%85%BB/"/>
     
     
-      <category term="段子" scheme="http://yoursite.com/tags/%E6%AE%B5%E5%AD%90/"/>
-    
       <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
+    
+      <category term="段子" scheme="http://yoursite.com/tags/%E6%AE%B5%E5%AD%90/"/>
     
   </entry>
   
