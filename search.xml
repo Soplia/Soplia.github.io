@@ -155,8 +155,8 @@
         <category>CODES</category>
       </categories>
       <tags>
-        <tag>COURSE-DESIGN</tag>
         <tag>PROJECT</tag>
+        <tag>COURSE-DESIGN</tag>
       </tags>
   </entry>
   <entry>
@@ -236,8 +236,8 @@
         <category>素养</category>
       </categories>
       <tags>
-        <tag>素养</tag>
         <tag>段子</tag>
+        <tag>素养</tag>
       </tags>
   </entry>
   <entry>
@@ -248,8 +248,8 @@
         <category>素养</category>
       </categories>
       <tags>
-        <tag>好字</tag>
         <tag>素养</tag>
+        <tag>好字</tag>
       </tags>
   </entry>
   <entry>
@@ -341,7 +341,7 @@
   <entry>
     <title><![CDATA[Language-French1]]></title>
     <url>%2F2018%2F12%2F31%2FLanguage-French1%2F</url>
-    <content type="text"><![CDATA[26个字母发音 字母发音 26个字母大小写法 字母写法 词典 法语助手 网课 胖达法语 Learn French with Alexa Doulingo 教材 课堂听力、课件 《零起点法语一学就上手》 积累总结 开音节就是以元音结尾的音节；闭音节就是以辅音结尾的音节。 词末开音节就是指这个音节处于词末，词首开音节就是指这个音节处于词首。 如果只有一个音，既可以叫词末开/闭音节，也可以叫词首开/闭音节或者重读开/闭音节。 以 …音节 结尾不是开拼写是看音标。 法语的本质不在于音标，读的差不多就行，主要是各种变位和后期学的各种语法。 单音节：法语单词由音节构成,音节中的主体因素是元音,一般说,一个单词有几个元音,也就有几个音节,所以单音节词自然只有一个元音。]]></content>
+    <content type="text"><![CDATA[法语不容易学习，因为有人称(7种)、性(阴、阳2种)的变化；要持之以恒的学习才可以； 万事开头难 和英语一样，每个字母都有名称音和拼读音。名称音也就是我们所说的 字母发音，需要牢记。众多字母中我认为 ==e== 最为重要、最为难学，需着重掌握 发音掌握后需要掌握 字母写法，法语字母尤其是大写与英语书写习惯有很大的区别，尤其是 ==r==。当然按照英语的书写，法国人也能够认识 工欲善其事必先利其器 ==字典== 推荐使用 法语助手 ，我特别喜欢它的单词复习模块，可以把不同的单词标以不同的重要性，分配到不同的分组中，如果喜欢每天背100个的话可以把分组大小规定为100个，这样非常便于数量统计。它的备份功能也很好，经常备份会给你带来意想不到的好处。唯一的缺点就是多终端同步性差，所以要及时备份。破解方法 ==学习软件== 强推Doulingo，更加推荐在电脑终端上进行使用，因为有故事对话模块 ==教材== 我使用的是《零起点法语一学就上手》 ==课件== ，直接点此链接 下载 即可 喜马拉雅，直接搜索法语就会有很多相关的节目 温馨提示 有输入才能有输出。尽量多查、多背单词，我是把身边所有能够获得的法语单词都查了一遍，虽然还没有都背过 百度文库。可以在这里搜索下载各种法语单词，这里是一部分 翻译软件。我是使用谷歌翻译，每次想说话之前，先说一遍汉语，看看被翻译成的法语是怎么说的，进行记忆 其余资料 积累总结 开音节就是以元音结尾的音节；闭音节就是以辅音结尾的音节。 词末开音节就是指这个音节处于词末，词首开音节就是指这个音节处于词首。 如果只有一个音，既可以叫词末开/闭音节，也可以叫词首开/闭音节或者重读开/闭音节。 以 …音节 结尾不是开拼写是看音标。 法语的本质不在于音标，读的差不多就行，主要是各种变位和后期学的各种语法。 单音节：法语单词由音节构成,音节中的主体因素是元音,一般说,一个单词有几个元音,也就有几个音节,所以单音节词自然只有一个元音。]]></content>
       <categories>
         <category>学习札记-Language</category>
       </categories>
@@ -528,8 +528,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>多传感器融合技术</tag>
         <tag>COURSE</tag>
+        <tag>多传感器融合技术</tag>
       </tags>
   </entry>
   <entry>
@@ -580,8 +580,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>COURSE</tag>
         <tag>AdvanceDB</tag>
+        <tag>COURSE</tag>
       </tags>
   </entry>
   <entry>
@@ -787,9 +787,9 @@
         <category>学习札记-CODING</category>
       </categories>
       <tags>
+        <tag>ADNROID</tag>
         <tag>CODING</tag>
         <tag>学习札记</tag>
-        <tag>ADNROID</tag>
       </tags>
   </entry>
   <entry>
@@ -839,9 +839,9 @@
         <category>学习札记-CODING</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>CODING</tag>
         <tag>学习札记</tag>
+        <tag>C</tag>
       </tags>
   </entry>
   <entry>
@@ -852,9 +852,9 @@
         <category>学习札记-CODING</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>CODING</tag>
         <tag>学习札记</tag>
+        <tag>C</tag>
       </tags>
   </entry>
   <entry>
