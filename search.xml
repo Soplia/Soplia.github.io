@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[经验总结02]]></title>
+    <url>%2F2020%2F01%2F27%2F%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%9302%2F</url>
+    <content type="text"><![CDATA[求子数组或者子矩阵之和的题，应该不难想到要建立累加和数组或者累加和矩阵来做 素数筛选法最快 二分查找就是比普通的查找快 空间换时间 滑动窗口 三目运算符不如if else语句快 能用位操作符就用位操作符 size_t 不能用于---的情况因为它没有负值 枚举所有情况 使用引用能够极大减少内存消耗，特别是递归时 能不用数据成员就不用数据成员，因为不用更快 递减栈 避免除数为零要用减法 玩子数组且跟极值有关的题天然适合用DP来做，想想为什么？DP的本质是什么，不就是状态转移方程，根据前面的状态来更新当前的状态。而子数组不就是整个数组的前一个状态，不停的更新的使得我们最终能得到极值。 对于玩二叉树的题，十有八九都是用递归 无论如何, 一定要想办法能单步跟踪; 无论如何, 一定要有很方便的测试数据; 对于引用同一个名字的UserControl, 它们很可能不是同一个文件！！！ 对于看着很奇怪的问题， 应该把它写下来， 把前提和结果都详细写下来， 再仔细看前提。 大部分奇怪的结果是因为你错误的前提造成的——你的前提之中， 就有了一部分是由于粗心而弄错的， 它们实际上并不是你想象的样子 对于人名, 如果用户保存时包含了单引号或者双引号, 会引起意想不到的错误, 应该禁止; 如果一个业务功能，逻辑相当之复杂，以致于要写很多代码来完成，而且易于出错。应试首先试着想：是否能从业务的角度来简化，而不是死盯技术。]]></content>
+      <categories>
+        <category>总结</category>
+      </categories>
+      <tags>
+        <tag>总结</tag>
+        <tag>刷题</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[经验总结01]]></title>
     <url>%2F2020%2F01%2F27%2F%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%9301%2F</url>
     <content type="text"><![CDATA[LaTeX书写时需要注意希腊符号的写法比如$\Rho$与 $\emptyset$ 文章中的数组、矩阵都需要加粗表示 文章不能够口语化，比如“the first thing that our mind can reach is putting the two penalty items…”，这样的句子就是不能够在文章中出现的 不同文章对文中文献引用顺序的要求不同 论文要有大背景、论文内容无时无刻都需要与大背景相呼应、实际应用背景要在论文、答辩中重点体现，切忌做没有实际应用场景的论文 文章中的所有公式都需要加上序号便于讨论，If all equations were numbered, it would facilitate the discussion… 论文从封皮开始到结论正式结束，所以不相关的如：致谢、术语表等需要附加在结论之后 论文章节开头需要有一个概括即对该章节做的事情进行一个概述、章节结尾需要对该章节所做事情进行总结、第一章需要对论文组织结构进行叙述 论文中各定义、引用应当明确出处 单词拼写、英语语法 论文内容的完整性、来龙去脉要清楚 论文章节的名字是至关重要的，要确定好 对于论文中实验进行的次数要说明为什么 实验中的图表顺序要一致 图表尽最大限度的靠近相应的文字描述 关键词要很好的概括整个文章即能够让别人能够查找到你的论文，同时也不是什么词都可以作为关键词的 PPT中对于被举例的数据集要给出标签，清晰、明确的标明 PPT中对于最优结果要采用加粗等醒目的方式进行标识 论文答辩应该在20min左右 算法中非必须情况下不要使用if…else…分支语句 每个公式中的符号的解释要和前方一致，不要有重复，更不要漏掉某一符号的解释 两种方法进行性能比较，不要仅仅说“很快”、”很少”之类的，最好能够说明是多少倍即最好有个数字比较，会更加的清晰直观 论文行文规范要弄好，要说好英语 Avoid the “we” that gives less credit to yourself for the work. Say something like “the goal of the internship was to combine…” Be more confident. If you want, you can say “I have worked on the optimization”. This is your work, you have done a good job and this is normal to be helped by your supervisor. No need to mention it, it gives you less credits. Here it looks like you are having a conversation with the reader. put the formula closer to the text where is it mentioned. It is weird to have it so far. Why is it so obvious I don’t see why you speak of fuzzy, then pass to plausibility and come back again of fuzzy. Don’t use ‘I’, except if you want in conclusion It is very complicated to see examples that are not close to the text. Try to make them appear in the same page put a line to differenciate mass with T Do not use “we” because this is a previous work not yours. It is code and debug not for your master report. ref. [1] is incomplete. You should give the publisher (Springer), the address (Compiègne, etc.) The English is understandable, but it should be polished. “none evidential clustering” -&gt; “no evidential clustering” “The evidence theory” -&gt; “Evidence theory” “this allows to…” -&gt; “this allows us to…” “experimentations” -&gt; “experiments” “Obtained results” -&gt; “Our results” “The more constrained are added, the better are the performances”. “….defined equation…” -&gt; “defined in equation” “It can be observed from (5), the three penalty…” -&gt; “…from (5), that the three…” In general, number less than 10 must be spelled: “five”, “three”, etc. “5 executions” -&gt; “five runs” ==A preliminary== evaluation seems to indicate that there could be some benefits from the proposed method. that not a more extensive experimentation has been conducted and that the software is missing. As it is now, the results cannot be replicated and the software is missing. My main concern about the paper is related to the lack of information about the computational cost of this algorithm. In my opinion this is important to know what is the cost to pay in order to get the benefits of this algorithm. In the slides, something can not appear before defination 标题应体现论文核心工作和主要贡献。“文不对题”是抽检时重点关注问题。 关键词按相关度排列，最相关的排在前面。这是遴选抽检专家的依据，否则可能导致专家不对口。 摘要中要明确选题背景，意义，以及核心工作。 正文加强规范性、严谨性和逻辑性。这是评审专家的第一印象，是影响评分的决定性因素。此方面出问题可能直接导致不及格。（已有先例） 目录中各章节标题不能过于简短，需反映本章节主要工作。 论文中本人的工作篇幅不宜过短，应30页以上。 绪论应首先介绍课题来源，列出受哪些项目资助（脱密）。充分介绍课题的实际需求、学术意义和实用价值。 表格三线；图为本人绘制，禁止拷贝；页面不能留白。 他人工作需标出文献出处；本人工作应明确写出“本文提出……”。 明确给出实验数据来源；算法描述不能过于空泛，需体现工作量。 实验不能过于简练，需多组实验。尽量与相关工作比较，体现优势。结果分析充分，评价需客观。 结论凝练出本文贡献，指出不足，下一步工作。 参考文献中近三年的不低于30%。网址不能列入。 作者和导师签名必须是亲笔签名。 论文指导教授应避免挂名现象，否则出现论文质量问题责任不清。]]></content>
@@ -285,8 +297,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>Language</tag>
         <tag>Arabic</tag>
+        <tag>Language</tag>
       </tags>
   </entry>
   <entry>
@@ -298,8 +310,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>English</tag>
         <tag>Language</tag>
+        <tag>English</tag>
       </tags>
   </entry>
   <entry>
@@ -412,8 +424,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>孙子兵法</tag>
         <tag>MOOD</tag>
+        <tag>孙子兵法</tag>
       </tags>
   </entry>
   <entry>
@@ -490,8 +502,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>MOOD</tag>
         <tag>仪表礼仪</tag>
+        <tag>MOOD</tag>
       </tags>
   </entry>
   <entry>
