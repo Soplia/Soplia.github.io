@@ -156,9 +156,9 @@
       <category term="PD19" scheme="http://yoursite.com/categories/PD19/"/>
     
     
-      <category term="Limos" scheme="http://yoursite.com/tags/Limos/"/>
-    
       <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
+      <category term="Limos" scheme="http://yoursite.com/tags/Limos/"/>
     
   </entry>
   
@@ -330,9 +330,9 @@
       <category term="CODES" scheme="http://yoursite.com/categories/CODES/"/>
     
     
-      <category term="COURSE-DESIGN" scheme="http://yoursite.com/tags/COURSE-DESIGN/"/>
-    
       <category term="PROJECT" scheme="http://yoursite.com/tags/PROJECT/"/>
+    
+      <category term="COURSE-DESIGN" scheme="http://yoursite.com/tags/COURSE-DESIGN/"/>
     
   </entry>
   
