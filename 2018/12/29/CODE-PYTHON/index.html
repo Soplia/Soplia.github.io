@@ -113,20 +113,20 @@
 
 
 
-  <meta name="description" content="想要最快的做出进步，莫过于站在巨人的肩膀上First of ALL Install miniconda on your computer, then  look how to :  use conda to create and handle virtual environnements use python and pytorch use MLP and CNN (pytorch tutoria">
+  <meta name="description" content="VisualStudio19 and Python 目前无法从==VisualStudio17==中直接创建Conda环境，但是可以首先通过conda创建好环境后，再利用手动添加配置的方式添加相应的环境 具体步骤  打开(1)Python环境 选择(2)自定义 前缀路径(4)选择conda创建虚拟环境的文件夹 (5)选择(4)文件夹中的python.exe (6)选择(4)文件夹中的pytho">
 <meta name="keywords" content="CODING,学习札记,PYTHON">
 <meta property="og:type" content="article">
 <meta property="og:title" content="CODE_PYTHON">
 <meta property="og:url" content="http://yoursite.com/2018/12/29/CODE-PYTHON/index.html">
 <meta property="og:site_name" content="JrXIE BLOG">
-<meta property="og:description" content="想要最快的做出进步，莫过于站在巨人的肩膀上First of ALL Install miniconda on your computer, then  look how to :  use conda to create and handle virtual environnements use python and pytorch use MLP and CNN (pytorch tutoria">
+<meta property="og:description" content="VisualStudio19 and Python 目前无法从==VisualStudio17==中直接创建Conda环境，但是可以首先通过conda创建好环境后，再利用手动添加配置的方式添加相应的环境 具体步骤  打开(1)Python环境 选择(2)自定义 前缀路径(4)选择conda创建虚拟环境的文件夹 (5)选择(4)文件夹中的python.exe (6)选择(4)文件夹中的pytho">
 <meta property="og:locale" content="default">
-<meta property="og:image" content="https://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/VS17手动添加conda环境.png">
-<meta property="og:updated_time" content="2019-10-13T16:52:52.419Z">
+<meta property="og:image" content="https://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/VS17%E6%89%8B%E5%8A%A8%E6%B7%BB%E5%8A%A0conda%E7%8E%AF%E5%A2%83.png">
+<meta property="og:updated_time" content="2020-02-28T20:19:39.583Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CODE_PYTHON">
-<meta name="twitter:description" content="想要最快的做出进步，莫过于站在巨人的肩膀上First of ALL Install miniconda on your computer, then  look how to :  use conda to create and handle virtual environnements use python and pytorch use MLP and CNN (pytorch tutoria">
-<meta name="twitter:image" content="https://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/VS17手动添加conda环境.png">
+<meta name="twitter:description" content="VisualStudio19 and Python 目前无法从==VisualStudio17==中直接创建Conda环境，但是可以首先通过conda创建好环境后，再利用手动添加配置的方式添加相应的环境 具体步骤  打开(1)Python环境 选择(2)自定义 前缀路径(4)选择conda创建虚拟环境的文件夹 (5)选择(4)文件夹中的python.exe (6)选择(4)文件夹中的pytho">
+<meta name="twitter:image" content="https://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/VS17%E6%89%8B%E5%8A%A8%E6%B7%BB%E5%8A%A0conda%E7%8E%AF%E5%A2%83.png">
 
 
 
@@ -439,7 +439,7 @@ CODE_PYTHON
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2019-10-13 18:52:52" itemprop="dateModified" datetime="2019-10-13T18:52:52+02:00">2019-10-13</time>
+                <time title="Modified: 2020-02-28 21:19:39" itemprop="dateModified" datetime="2020-02-28T21:19:39+01:00">2020-02-28</time>
               
             
           </span>
@@ -507,38 +507,12 @@ CODE_PYTHON
       
 
       
-        <h3 id="想要最快的做出进步，莫过于站在巨人的肩膀上"><a href="#想要最快的做出进步，莫过于站在巨人的肩膀上" class="headerlink" title="想要最快的做出进步，莫过于站在巨人的肩膀上"></a>想要最快的做出进步，莫过于站在巨人的肩膀上</h3><h4 id="First-of-ALL"><a href="#First-of-ALL" class="headerlink" title="First of ALL"></a>First of ALL</h4><ol>
-<li>Install miniconda on your computer, then  look how to : <ul>
-<li>use conda to create and handle virtual environnements</li>
-<li>use python and pytorch</li>
-<li>use MLP and CNN (pytorch tutorial)</li>
-</ul>
-</li>
-<li>Use ==MNIST== dataset</li>
-</ol>
-<h4 id="Miniconda"><a href="#Miniconda" class="headerlink" title="Miniconda"></a><a href="https://docs.conda.io/en/latest/index.html" target="_blank" rel="noopener">Miniconda</a></h4><ol>
-<li>Google <a href="https://docs.conda.io/en/latest/index.html" target="_blank" rel="noopener">Miniconda</a> 的官网进行安装</li>
-<li><a href="https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html" target="_blank" rel="noopener">常用命令</a><ol>
-<li>环境<ul>
-<li>conda –version</li>
-<li>conda create –name NameOfEnvironment  NameOfPackage</li>
-<li>conda create –name NameOfEnvironment  python=3.5</li>
-<li>conda activate NameOfEnvironment</li>
-<li>conda info –envs </li>
-</ul>
-</li>
-<li>包管理<ul>
-<li>conda search NameOfPackage</li>
-<li>conda install NameOfPackage</li>
-<li>conda list</li>
-</ul>
-</li>
-<li>感觉<a href="https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/index.html" target="_blank" rel="noopener">TASKS</a>包含更多的Miniconda的使用方法<h4 id="Python-and-VisualStudio19"><a href="#Python-and-VisualStudio19" class="headerlink" title="Python and VisualStudio19"></a><a href="https://docs.microsoft.com/en-us/visualstudio/python/tutorial-working-with-python-in-visual-studio-step-01-create-project?view=vs-2019" target="_blank" rel="noopener">Python and VisualStudio19</a></h4></li>
-</ol>
-</li>
+        <ol>
+<li><ul>
+<li><h4 id="VisualStudio19-and-Python"><a href="#VisualStudio19-and-Python" class="headerlink" title="VisualStudio19 and Python"></a><a href="https://docs.microsoft.com/en-us/visualstudio/python/tutorial-working-with-python-in-visual-studio-step-01-create-project?view=vs-2019" target="_blank" rel="noopener">VisualStudio19 and Python</a></h4><ol>
 <li>目前无法从==VisualStudio17==中直接创建Conda环境，但是可以首先通过conda创建好环境后，再利用手动添加配置的方式添加相应的环境</li>
 <li>具体步骤<ul>
-<li><img src="https://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/VS17手动添加conda环境.png" alt="VS17手动添加conda环境"></li>
+<li><img src="https://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/VS17%E6%89%8B%E5%8A%A8%E6%B7%BB%E5%8A%A0conda%E7%8E%AF%E5%A2%83.png" alt="VS17手动添加conda环境"></li>
 <li>打开(1)Python环境</li>
 <li>选择(2)自定义</li>
 <li>前缀路径(4)选择conda创建虚拟环境的文件夹</li>
@@ -549,12 +523,11 @@ CODE_PYTHON
 <li>(9)忽略，不用填写</li>
 </ul>
 </li>
-<li>使用如下两行代码在运行时检测Python版本信息 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">import platform</span><br><span class="line">print(platform.python_version())</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h4 id="PyTorch"><a href="#PyTorch" class="headerlink" title="PyTorch"></a><a href="https://pytorch.org/get-started/locally/" target="_blank" rel="noopener">PyTorch</a></h4><ol>
+<li><p>使用如下两行代码在运行时检测Python版本信息</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">import platform</span><br><span class="line">print(platform.python_version())</span><br></pre></td></tr></table></figure>
+<h4 id="PyTorch基础"><a href="#PyTorch基础" class="headerlink" title="PyTorch基础"></a><a href="https://pytorch.org/get-started/locally/" target="_blank" rel="noopener">PyTorch基础</a></h4></li>
 <li>An open source machine learning framework that accelerates the path from research prototyping to production deployment.</li>
-<li><p>windows 下通过运行 <figure class="highlight plain"><figcaption><span>来查看CUDA 版本</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">    * ![CUDA-win-version](http://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/2019-10-13-165204.png)</span><br><span class="line">3. 在Conda创建好的目标环境下，利用官网、手动配置Conda下安装PyTorch包的命令</span><br><span class="line">    * ![Conda下安装PyTorch命令](https://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/Conda下安装PyTorch命令.png)</span><br><span class="line">4. 感觉Windows下使用Python，需要安装一下软件</span><br><span class="line">    * ```&gt;= VisualStudio17 | Conda | 其它软件</span><br></pre></td></tr></table></figure></p>
+<li><p>windows 下通过运行 <figure class="highlight plain"><figcaption><span>来查看CUDA 版本</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">    * ![CUDA-win-version](https://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/CUDA-win-version.png)</span><br><span class="line">3. Use ```nvcc --version``` to check the cuda versin under Linux</span><br><span class="line">4. 在Conda创建好的目标环境下，利用官网、手动配置Conda下安装PyTorch包的命令</span><br><span class="line">    * ![Conda下安装PyTorch命令](https://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/Conda%E4%B8%8B%E5%AE%89%E8%A3%85PyTorch%E5%91%BD%E4%BB%A4.png)</span><br><span class="line">5. Windows下使用Python：</span><br><span class="line">    * ```&gt;= VisualStudio17 | Conda | 其它软件</span><br></pre></td></tr></table></figure></p>
 </li>
 <li><p>PyTorch–Features</p>
 <ol>
@@ -566,58 +539,18 @@ CODE_PYTHON
 </li>
 </ol>
 </li>
+<li>PyTorch的torch.nn中包含了各种神经网络层、激活函数、损失函数等等的类。我们通过torch.nn来创建对象，搭建网络。</li>
+<li>PyTorch中还有torch.nn.functional，让我们可以通过调用函数的方式，来直接搭建网络，而不用像torch.nn一样要先创建对象</li>
+<li><figure class="highlight plain"><figcaption><span>dim)``` this is used to return the max value of special dim of tensor, ```1``` represents the row while ```0```represents col</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">10. the ```item()``` in torch used to return the pure value of a tesor whose size if ```1```  </span><br><span class="line">11. We should not use write.close(), so interupte</span><br><span class="line">12. 返回每列最大值:```np.max(a, axis = 0)``` ; 返回每行最小值：```np.min(a, axis = 1)</span><br></pre></td></tr></table></figure>
+<h4 id="代码实例"><a href="#代码实例" class="headerlink" title="代码实例"></a>代码实例</h4></li>
+<li> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">import numpy as np</span><br><span class="line"></span><br><span class="line">a = np.ones(4)</span><br><span class="line"># both two can create tensor fraom numpy array</span><br><span class="line"># but the operations on a only effect c not b</span><br><span class="line"># I think it is the  biggest different</span><br><span class="line">b = th.tensor(a)</span><br><span class="line">c = th.from_numpy(a)</span><br><span class="line">print (a)</span><br><span class="line">print (b)</span><br><span class="line">print (c)</span><br><span class="line"></span><br><span class="line">np.add(a, 1, out = a)</span><br><span class="line"></span><br><span class="line">print (a)</span><br><span class="line">print (b)</span><br><span class="line">print (c)</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>更改数组形状（改变原始数组）：<figure class="highlight plain"><figcaption><span>3)``` ; 更改数组形状（不改变原始数组）：```a.reshape(2, 3)```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">4. ```y.data.norm() ``` is equivalent to ```torch.sqrt(torch.sum(torch.pow(y, 2)))</span><br></pre></td></tr></table></figure></p>
+</li>
+<li><p>Must be careful during coding, because even a ==,== can cost you ==an hour== </p>
+</li>
 </ol>
-<h4 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h4><h5 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h5><ol>
-<li><p>python最具特色的就是使用缩进来表示代码块，不需要使用大括号 <figure class="highlight plain"><figcaption><span>```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line">2. Python 通常是一行写完一条语句，但如果语句很长，我们可以使用反斜杠```\```来实现多行语句，但是在 ```[], &#123;&#125;, ()``` 中的多行语句，不需要使用反斜杠```\```;使用三引号```&apos;&apos;&apos;或&quot;&quot;&quot;```可以指定一个多行字符串</span><br><span class="line">3. 字符串可以用 + 运算符连接在一起，用 * 运算符重复</span><br><span class="line">4. Python 中的字符串有两种索引方式，从左往右以 0 开始，从右往左以 -1 开始</span><br><span class="line">    * Python的字符截取[不包含最后的尾索引](https://guide.freecodecamp.org/python/is-there-a-way-to-substring-a-string-in-python/)</span><br><span class="line">    * ![Python索引](https://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/Python索引.png)</span><br><span class="line">    * 字符串、列表的截取都接受第三个参数即步长默认情况下为1，所以如果不写第三个参数，字符串、列表的截取不论从头还是尾开始，索引始终是前面小于后面的，因为如果开头大于结尾加之步长为1，结果是截取不到什么东西；但是如果步长为-1， 那么开头就可以大于结尾；总而言之，开头与结尾在步长的作用下，必须能够相遇。同时，==牢记截取时是前闭后开==，所以```str[-1: -5: -1]```是包含str[-1]的，不要被-1迷惑，只要是头就会被包含的截取结果中</span><br><span class="line">5. 列表是写在方括号 [] 之间、用逗号分隔开的元素列表</span><br><span class="line">    *![Python列表截取](https://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/Python列表截取.png)</span><br><span class="line">6. 元组写在小括号 ```()``` 里，元素之间用逗号隔开</span><br><span class="line">7. ```tup1 = ()```    # 空元组</span><br><span class="line">  ```tup2 = (20,)``` # 一个元素，需要在元素后添加逗号，如果不加上==逗号==则tup2的类型为整型</span><br><span class="line">8. 集合的基本功能是进行成员关系测试和删除重复元素</span><br><span class="line">9. 可以使用大括号 ```&#123; &#125;``` 或者 ```set()``` 函数创建集合(输出集合时，重复的元素被自动去掉)，注意：创建一个空集合必须用 ==set() 而不是 &#123; &#125;，因为 &#123; &#125; 是用来创建一个空字典==</span><br><span class="line">10. 集合可以直接进行数学中的集合的各种运算</span><br><span class="line">11. 字典是一种映射类型</span><br><span class="line">12. </span><br><span class="line">         #!/usr/bin/python3</span><br><span class="line">         dict = &#123;&#125;</span><br><span class="line">         dict[&apos;one&apos;] = &quot;1 - 菜鸟教程&quot;</span><br><span class="line">         dict[2]     = &quot;2 - 菜鸟工具&quot;</span><br><span class="line">          </span><br><span class="line">         tinydict = &#123;&apos;name&apos;: &apos;runoob&apos;,&apos;code&apos;:1, &apos;site&apos;: &apos;www.runoob.com&apos;&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    ​      </span><br><span class="line">         print (dict[&apos;one&apos;])       # 输出键为 &apos;one&apos; 的值</span><br><span class="line">         print (dict[2])           # 输出键为 2 的值</span><br><span class="line">         print (tinydict)          # 输出完整的字典</span><br><span class="line">         print (tinydict.keys())   # 输出所有键</span><br><span class="line">         print (tinydict.values()) # 输出所有值</span><br><span class="line"></span><br><span class="line">13. is 用于判断两个变量引用对象是否为同一个， == 用于判断引用变量的值是否相等</span><br><span class="line">14. 在交互模式中，最后被输出的表达式结果被赋值给变量 _ ;</span><br><span class="line"></span><br><span class="line">15. Python 没有单独的字符类型，一个字符就是长度为 1 的字符串</span><br><span class="line">16. print 默认输出是换行的，如果要实现不换行需要在变量末尾加上 ```end=&quot;&quot;</span><br></pre></td></tr></table></figure></p>
 </li>
-<li><p>每个变量在使用前都必须赋值，变量赋值以后该变量才会被创建。</p>
-</li>
-<li><p>两个整型对象 1 和 2 的分配给变量 a 和 b，字符串对象 “runoob” 分配给变量 c</p>
-<ul>
-<li><figure class="highlight plain"><figcaption><span>b, c </span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">19. 一个变量可以通过赋值指向不同类型的对象</span><br><span class="line">20. 数值的除法包含两个运算符：```/``` 返回一个浮点数，```//``` 返回一个整数</span><br><span class="line">21. 如果你不想让反斜杠发生转义，可以在字符串前面添加一个 ```r```，表示原始字符串</span><br><span class="line">22. 数字、字符串、元组是==不可变==数据类型，向一个索引位置赋值，比如word[0] = &apos;m&apos;会导致错误</span><br><span class="line"></span><br><span class="line">##### 字符串</span><br><span class="line">1. ```join(seq)``` 以指定字符串作为分隔符（如：```&apos; &apos;.join(seq)```)，将 seq 中所有的元素(的字符串表示)合并为一个新的字符串</span><br><span class="line">#### 序列</span><br><span class="line">1. 序列都可以进行的操作包括索引，切片，加，乘，检查成员</span><br><span class="line">2. Python已经内置确定序列的长度以及确定最大和最小的元素的方法。</span><br><span class="line">3. 元组中只包含一个元素时，需要在元素后面添加逗号，否则括号会被当作运算符使用.</span><br><span class="line">4. 元组中的元素值是不允许修改的，但我们可以对元组进行连接组合</span><br><span class="line">5. 元组中的元素值是不允许删除的，但我们可以使用```del```语句来删除整个元组</span><br><span class="line">6. 列表、元组可以相互之间进行转化```list(), tuple()</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-</li>
-<li><p>字典中，值可以取任何数据类型，但键必须是不可变的，如字符串，数字或元组。</p>
-</li>
-<li><p>字典中想要删除某一个键值对，直接删除该键值对的键就行了<figure class="highlight plain"><figcaption><span>dict['Name']```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">9. 集合（set）是一个无序的不重复元素序列</span><br><span class="line">10. 集合中，在交互模式，pop 是删除集合的第一个元素（排序后的集合的第一个元素）</span><br><span class="line">11. 关键字end可以用于将结果输出到同一行，或者在输出的末尾添加不同的字符</span><br><span class="line">12. 直接将输入转化为相应的数据类型```age = int(input(&quot;请输入你家狗狗的年龄: &quot;))</span><br></pre></td></tr></table></figure></p>
-</li>
-<li><p>Python <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">14. Python 中 由```iter(ClassName)```获得的迭代器对象```A```将作为```next(IterName)```的输入参数，所以两者的媒介就是```self</span><br></pre></td></tr></table></figure></p>
-</li>
-<li><p>在 Python 中，使用了 yield 的函数被称为生成器（generator）</p>
-</li>
-<li>调用一个生成器函数，返回的是一个迭代器对象</li>
-<li><code>a, b = b, a + b</code>该语句是首先同一完成右边表达式的计算之后，再进行统一赋值</li>
-<li>加了星号 * 的参数会以元组(tuple)的形式导入，加了两个星号 ** 的参数会以字典的形式导入</li>
-<li>想使用 Python 源文件（模块），只需在另一个源文件里执行 import 语句</li>
-<li>Python解释器就依次从这些目录（搜索路径sys.path）中去寻找所引入的模块</li>
-<li>模块除了方法定义，还可以包括可执行的代码。这些代码一般用来初始化这个模块。这些代码只有在第一次被导入时才会被执行。</li>
-<li>一个特别的模块 sys ，它内置在每一个 Python 解析器中。变量 sys.ps1 和 sys.ps2 定义了主提示符和副提示符所对应的字符串</li>
-<li>导入语句遵循如下规则：如果包定义文件 <strong>init</strong>.py 存在一个叫做 <strong>all</strong> 的列表变量，那么在使用 from package import * 的时候就把这个列表中的所有名字作为包内容导入</li>
-<li>当处理一个文件对象时, 使用 with 关键字是非常好的方式</li>
-<li>当内部作用域想修改外部作用域的变量时，就要用到global和nonlocal关键字了</li>
-</ol>
-<h3 id="Python简介"><a href="#Python简介" class="headerlink" title="Python简介"></a>Python简介</h3><ul>
-<li>python语法简洁清晰，特色之一是强制用空白符作为语句缩进。  </li>
-<li>Python具有非常丰富和强大的库。被称为胶水语言，能够把用其它语言制作的各种模块很轻松地连接在一起。  </li>
-<li>Python是完全面向对象的语言。  </li>
-<li>Python采用动态类型系统。在编译的时候，Python不会检查对象是否拥有被调用的方法或者属性，而是直至运行时，才做出检查。所以操作对象时可能会抛出异常。不过，虽然Python采用动态类型系统，它同时也是强类型的。</li>
-</ul>
-<hr>
-<ol>
-<li>导入模块 <ul>
-<li>import math</li>
-<li>from math import *</li>
-<li>form math import pi</li>
-</ul>
-</li>
-<li>在编写Python的时候尽量不要使用Tab键进行空格。</li>
-<li>如果使用文本编辑器编辑Python的时候需要及时进行保存。</li>
-<li>推荐的图书：《Introduction to the Theory of Computation》</li>
-<li>在进行递归程序编程的时候不应该顺着程序进行递归调用，应该假设我已经获得了n-1的阶乘，能否通过现有的算法获得n的阶乘。</li>
-<li>Python中对于实例的属性的定义绝对是个很奇葩的方式。</li>
-<li>使用 numpy.correlate求解相关系数的时候，输入参数是两列，然后输出参数是2$\times$2的矩阵（因为是两列）。具体请看<a href="https://docs.scipy.org/doc/numpy/reference/generated/numpy.cov.html" target="_blank" rel="noopener">Numpy.cov Example</a> <ul>
-<li>如果函数看不懂，那么首先需要去查找这个函数，然后确定形参与返回值。</li>
 </ul>
 </li>
 </ol>
@@ -800,7 +733,7 @@ CODE_PYTHON
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">71</span>
+                    <span class="site-state-item-count">72</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
@@ -843,7 +776,9 @@ CODE_PYTHON
                     
                       
                     
-                    <span class="site-state-item-count">15</span>
+                      
+                    
+                    <span class="site-state-item-count">16</span>
                     <span class="site-state-item-name">categories</span>
                   </a>
                 </div>
@@ -1024,7 +959,9 @@ CODE_PYTHON
                     
                       
                     
-                    <span class="site-state-item-count">84</span>
+                      
+                    
+                    <span class="site-state-item-count">85</span>
                     <span class="site-state-item-name">tags</span>
                   </a>
                 </div>
@@ -1125,7 +1062,7 @@ CODE_PYTHON
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#想要最快的做出进步，莫过于站在巨人的肩膀上"><span class="nav-text">想要最快的做出进步，莫过于站在巨人的肩膀上</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#First-of-ALL"><span class="nav-text">First of ALL</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Miniconda"><span class="nav-text">Miniconda</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Python-and-VisualStudio19"><span class="nav-text">Python and VisualStudio19</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#PyTorch"><span class="nav-text">PyTorch</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Python"><span class="nav-text">Python</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#基础"><span class="nav-text">基础</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Python简介"><span class="nav-text">Python简介</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#VisualStudio19-and-Python"><span class="nav-text">VisualStudio19 and Python</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#PyTorch基础"><span class="nav-text">PyTorch基础</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#代码实例"><span class="nav-text">代码实例</span></a></li></ol></div>
             
 
           </div>

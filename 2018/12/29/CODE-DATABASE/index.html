@@ -113,18 +113,18 @@
 
 
 
-  <meta name="description" content="sqlyog中不显示创建的数据库的原因解释 在打开sqlyog的时候，需要配置ip地址，用户名和密码，当然下面还有天数据库名称的，如果你填了一个，当然这sqlyog里面只能看到你填过的这个数据库啦，如果你这一栏空白不填的话，sqlyog里面会显示所有的你创建的数据库名啦。 当然，还有一种情况时，就是有可能你创建的这个数据库在另一个帐号下面创建的，在这个账号上面当然看不到！   无法打开物理文件 X">
+  <meta name="description" content="Database - MYSQL Most of the commands in MYSQL is end up with ‘;’, consequently, if you do not input ‘;’, the dos will show you something like ‘-&amp;gt;’ until you complete the command with ‘;’ 123sudo s">
 <meta name="keywords" content="CODING,学习札记,DATABASE">
 <meta property="og:type" content="article">
 <meta property="og:title" content="CODE_DATABASE">
 <meta property="og:url" content="http://yoursite.com/2018/12/29/CODE-DATABASE/index.html">
 <meta property="og:site_name" content="JrXIE BLOG">
-<meta property="og:description" content="sqlyog中不显示创建的数据库的原因解释 在打开sqlyog的时候，需要配置ip地址，用户名和密码，当然下面还有天数据库名称的，如果你填了一个，当然这sqlyog里面只能看到你填过的这个数据库啦，如果你这一栏空白不填的话，sqlyog里面会显示所有的你创建的数据库名啦。 当然，还有一种情况时，就是有可能你创建的这个数据库在另一个帐号下面创建的，在这个账号上面当然看不到！   无法打开物理文件 X">
+<meta property="og:description" content="Database - MYSQL Most of the commands in MYSQL is end up with ‘;’, consequently, if you do not input ‘;’, the dos will show you something like ‘-&amp;gt;’ until you complete the command with ‘;’ 123sudo s">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-04-30T21:39:26.214Z">
+<meta property="og:updated_time" content="2020-02-28T20:17:20.779Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CODE_DATABASE">
-<meta name="twitter:description" content="sqlyog中不显示创建的数据库的原因解释 在打开sqlyog的时候，需要配置ip地址，用户名和密码，当然下面还有天数据库名称的，如果你填了一个，当然这sqlyog里面只能看到你填过的这个数据库啦，如果你这一栏空白不填的话，sqlyog里面会显示所有的你创建的数据库名啦。 当然，还有一种情况时，就是有可能你创建的这个数据库在另一个帐号下面创建的，在这个账号上面当然看不到！   无法打开物理文件 X">
+<meta name="twitter:description" content="Database - MYSQL Most of the commands in MYSQL is end up with ‘;’, consequently, if you do not input ‘;’, the dos will show you something like ‘-&amp;gt;’ until you complete the command with ‘;’ 123sudo s">
 
 
 
@@ -437,7 +437,7 @@ CODE_DATABASE
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2019-04-30 23:39:26" itemprop="dateModified" datetime="2019-04-30T23:39:26+02:00">2019-04-30</time>
+                <time title="Modified: 2020-02-28 21:17:20" itemprop="dateModified" datetime="2020-02-28T21:17:20+01:00">2020-02-28</time>
               
             
           </span>
@@ -505,12 +505,30 @@ CODE_DATABASE
       
 
       
-        <h3 id="sqlyog中不显示创建的数据库的原因解释"><a href="#sqlyog中不显示创建的数据库的原因解释" class="headerlink" title="sqlyog中不显示创建的数据库的原因解释"></a>sqlyog中不显示创建的数据库的原因解释</h3><ol>
-<li>在打开sqlyog的时候，需要配置ip地址，用户名和密码，当然下面还有天数据库名称的，如果你填了一个，当然这sqlyog里面只能看到你填过的这个数据库啦，如果你这一栏空白不填的话，sqlyog里面会显示所有的你创建的数据库名啦。 当然，还有一种情况时，就是有可能你创建的这个数据库在另一个帐号下面创建的，在这个账号上面当然看不到！ </li>
+        <h4 id="Database-MYSQL"><a href="#Database-MYSQL" class="headerlink" title="Database - MYSQL"></a>Database - MYSQL</h4><ol>
+<li>Most of the commands in MYSQL is end up with ‘;’, consequently, if you do not input ‘;’, the dos will show you something like ‘-&gt;’ until you complete the command with ‘;’</li>
+<li><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo service mysql start</span><br><span class="line">mysql -u root</span><br><span class="line">使用命令 show databases;，查看有哪些数据库（注意不要漏掉分号 ;）</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>选择连接其中一个数据库，语句格式为 use &lt;数据库名&gt;，这里可以不用加分号，这里我们选择 information_schema 数据库</p>
+</li>
+<li>使用命令 show tables; 查看数据库中有哪些表（注意不要漏掉“;”）</li>
+<li>我们创建一个数据库，给它一个名字，比如 mysqlShiyan(mysql_shiyan this format is wrong)，以后的几次实验也是对 mysqlShiyan 这个数据库进行操作。 语句格式为 CREATE DATABASE &lt;数据库名字&gt;;，（注意不要漏掉分号 ;），前面的 CREATE DATABASE 也可以使用小写</li>
+<li><p>Create a database</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">create database library;</span><br><span class="line">use library;</span><br><span class="line"></span><br><span class="line">create table book(</span><br><span class="line">  book_id int primary key,</span><br><span class="line">  book_name varchar(50) not null</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line">create table reader(</span><br><span class="line">  reader_id int primary key,</span><br><span class="line">  reader_name varchar(50) not null</span><br><span class="line">);</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>约束是一种限制，它通过对表的行或列的数据做出限制，来确保表的数据的完整性、唯一性</p>
+</li>
+<li>加载文件中的数据，需要在 MySQL 控制台中输入命令: <figure class="highlight plain"><figcaption><span>/home/shiyanlou/Desktop/SQL3/MySQL-03-01.sql``` without </span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">3. 在数据库中，如果有两行记录数据完全一样，那么如何来区分呢？ 答案是无法区分，如果有两行记录完全相同，那么对于 Mysql 就会认定它们是同一个实体，这于现实生活是存在差别的</span><br><span class="line">4. git clone https://github.com/shiyanlou/SQL3.git</span><br></pre></td></tr></table></figure></li>
 </ol>
-<h3 id="无法打开物理文件-XXX-mdf”。操作系统错误-5-”5-拒绝访问。-”的解决办法"><a href="#无法打开物理文件-XXX-mdf”。操作系统错误-5-”5-拒绝访问。-”的解决办法" class="headerlink" title="无法打开物理文件 XXX.mdf”。操作系统错误 5:”5(拒绝访问。)”的解决办法"></a>无法打开物理文件 XXX.mdf”。操作系统错误 5:”5(拒绝访问。)”的解决办法</h3><ol>
-<li>解决方案 一：数据库使用windows验证，将被附加的数据库移植到根目录下，即MSSQL的DATA目录下。</li>
-<li>解决方案二：将要附加的.mdf文件和.ldf文件更改权限，选中.mdf文件—-&gt;右击—–&gt;属性—–&gt;安全——&gt; Authenticated Users—-&gt;编辑—-&gt;安全控制允许，按照同样的方法，更改日志文件，然后附加数据库既可。</li>
+<p>CREATE DATABASE mysql_shiyan;</p>
+<p>use mysql_shiyan;</p>
+<p>CREATE TABLE department<br>(<br>  dpt_name   CHAR(20) NOT NULL,<br>  people_num INT(10) DEFAULT ‘10’,<br>  CONSTRAINT dpt_pk PRIMARY KEY (dpt_name)<br> );</p>
+<p>CREATE TABLE employee<br>(<br>  id      INT(10) PRIMARY KEY,<br>  name    CHAR(20),<br>  age     INT(10),<br>  salary  INT(10) NOT NULL,<br>  phone   INT(12) NOT NULL,<br>  in_dpt  CHAR(20) NOT NULL,<br>  UNIQUE  (phone),<br>  CONSTRAINT emp_fk FOREIGN KEY (in_dpt) REFERENCES department(dpt_name)<br> );</p>
+<p>CREATE TABLE project<br>(<br>  proj_num   INT(10) NOT NULL,<br>  proj_name  CHAR(20) NOT NULL,<br>  start_date DATE NOT NULL,<br>  end_date   DATE DEFAULT ‘2015-04-01’,<br>  of_dpt     CHAR(20) REFERENCES department(dpt_name),<br>  CONSTRAINT proj_pk PRIMARY KEY (proj_num,proj_name)<br> );<br><code>`</code></p>
+<ol>
+<li>视图是从一个或多个表中导出来的表，是一种虚拟存在的表。它就像一个窗口，通过这个窗口可以看到系统专门提供的数据，这样，用户可以不用看到整个数据库中的数据，而只关心对自己有用的数据。</li>
+<li>由于导入导出大量数据都属于敏感操作，根据 mysql 的安全策略，导入导出的文件都必须在指定的路径下进行</li>
+<li>备份与导出的区别：导出的文件只是保存数据库中的数据；而备份，则是把数据库的结构，包括数据、约束、索引、视图等全部另存为一个文件</li>
 </ol>
 
       
@@ -691,7 +709,7 @@ CODE_DATABASE
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">71</span>
+                    <span class="site-state-item-count">72</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
@@ -734,7 +752,9 @@ CODE_DATABASE
                     
                       
                     
-                    <span class="site-state-item-count">15</span>
+                      
+                    
+                    <span class="site-state-item-count">16</span>
                     <span class="site-state-item-name">categories</span>
                   </a>
                 </div>
@@ -915,7 +935,9 @@ CODE_DATABASE
                     
                       
                     
-                    <span class="site-state-item-count">84</span>
+                      
+                    
+                    <span class="site-state-item-count">85</span>
                     <span class="site-state-item-name">tags</span>
                   </a>
                 </div>
@@ -1016,7 +1038,7 @@ CODE_DATABASE
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#sqlyog中不显示创建的数据库的原因解释"><span class="nav-text">sqlyog中不显示创建的数据库的原因解释</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#无法打开物理文件-XXX-mdf”。操作系统错误-5-”5-拒绝访问。-”的解决办法"><span class="nav-text">无法打开物理文件 XXX.mdf”。操作系统错误 5:”5(拒绝访问。)”的解决办法</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#Database-MYSQL"><span class="nav-text">Database - MYSQL</span></a></li></ol></div>
             
 
           </div>

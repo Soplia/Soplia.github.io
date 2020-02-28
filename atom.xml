@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-01-27T10:04:08.735Z</updated>
+  <updated>2020-02-28T20:38:18.758Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>SLLURM使用.md</title>
+    <link href="http://yoursite.com/2020/02/28/SLLURM%E4%BD%BF%E7%94%A8-md/"/>
+    <id>http://yoursite.com/2020/02/28/SLLURM使用-md/</id>
+    <published>2020-02-28T20:37:20.000Z</published>
+    <updated>2020-02-28T20:38:18.758Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h4 id=&quot;SLURM&quot;&gt;&lt;a href=&quot;#SLURM&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="HPC" scheme="http://yoursite.com/categories/HPC/"/>
+    
+    
+      <category term="SLURM" scheme="http://yoursite.com/tags/SLURM/"/>
+    
+  </entry>
+  
+  <entry>
     <title>经验总结02</title>
     <link href="http://yoursite.com/2020/01/27/%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%9302/"/>
     <id>http://yoursite.com/2020/01/27/经验总结02/</id>
     <published>2020-01-27T10:01:56.000Z</published>
-    <updated>2020-01-27T10:04:08.735Z</updated>
+    <updated>2020-02-28T17:25:06.293Z</updated>
     
     <summary type="html">
     
@@ -86,7 +112,7 @@
     <link href="http://yoursite.com/2019/08/11/PD19-Tikz-Screen/"/>
     <id>http://yoursite.com/2019/08/11/PD19-Tikz-Screen/</id>
     <published>2019-08-11T17:42:32.000Z</published>
-    <updated>2019-08-22T17:04:17.781Z</updated>
+    <updated>2020-02-28T20:22:09.201Z</updated>
     
     <summary type="html">
     
@@ -204,7 +230,7 @@
     <link href="http://yoursite.com/2019/07/12/PD19-Access-ISIMA-s-HPC-Resource/"/>
     <id>http://yoursite.com/2019/07/12/PD19-Access-ISIMA-s-HPC-Resource/</id>
     <published>2019-07-12T14:19:29.000Z</published>
-    <updated>2019-08-22T18:30:01.920Z</updated>
+    <updated>2020-02-28T20:39:03.287Z</updated>
     
     <summary type="html">
     
@@ -212,13 +238,16 @@
       
         
         
-          &lt;h4 id=&quot;Inside-the-limos&quot;&gt;&lt;a href=&quot;#Inside-the-limos&quot; class=&quot;headerlink&quot; title=&quot;Inside the limos&quot;&gt;&lt;/a&gt;Inside the
+          &lt;h4 id=&quot;HPC&quot;&gt;&lt;a href=&quot;#HPC&quot; class=&quot;headerlink&quot; title=&quot;HPC&quot;&gt;&lt;/a&gt;HPC&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Network inside the University&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Machines
         
       
     
     </summary>
     
-      <category term="PD19" scheme="http://yoursite.com/categories/PD19/"/>
+      <category term="HPC" scheme="http://yoursite.com/categories/HPC/"/>
     
     
       <category term="Limos" scheme="http://yoursite.com/tags/Limos/"/>
@@ -561,38 +590,6 @@
       <category term="3D打印" scheme="http://yoursite.com/tags/3D%E6%89%93%E5%8D%B0/"/>
     
       <category term="总结" scheme="http://yoursite.com/tags/%E6%80%BB%E7%BB%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>素养-段子</title>
-    <link href="http://yoursite.com/2019/01/22/%E7%B4%A0%E5%85%BB-%E6%AE%B5%E5%AD%90/"/>
-    <id>http://yoursite.com/2019/01/22/素养-段子/</id>
-    <published>2019-01-22T16:56:14.000Z</published>
-    <updated>2020-01-27T09:43:37.691Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;ol&gt;
-&lt;li&gt;低调！才是最牛B的炫耀！&lt;/li&gt;
-&lt;li&gt;铁饭碗的真实含义不是在一个地方吃一辈子饭，而是一辈子到哪儿都有饭吃。&lt;/li&gt;
-&lt;li&gt;诸葛亮出山前，也没带过兵！凭啥我就要工作经验？&lt;/li&gt;
-&lt;li&gt;一分钟有多长？这要看你是蹲在厕所里面，还是等在厕所外面……&lt;/l
-        
-      
-    
-    </summary>
-    
-      <category term="素养" scheme="http://yoursite.com/categories/%E7%B4%A0%E5%85%BB/"/>
-    
-    
-      <category term="素养" scheme="http://yoursite.com/tags/%E7%B4%A0%E5%85%BB/"/>
-    
-      <category term="段子" scheme="http://yoursite.com/tags/%E6%AE%B5%E5%AD%90/"/>
     
   </entry>
   

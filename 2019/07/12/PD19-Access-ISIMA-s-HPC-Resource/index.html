@@ -113,20 +113,19 @@
 
 
 
-  <meta name="description" content="Inside the limos Opening the terminal.  Typing:   1ssh jrxie@totoro  Inputing the password, enjoying the HPC resources.   Outside the limos Use ssh (perfer) or vpn.  Generate the  ssh key pair. Send t">
+  <meta name="description" content="HPC Network inside the University  Machines (linux)  ==totoro is dead==, so I can not find it If I need some mechaine, I can get one, but I need to return to the office   Machines (compute node)  Must">
 <meta name="keywords" content="Limos,Linux">
 <meta property="og:type" content="article">
 <meta property="og:title" content="PD19-Access-ISIMA&#39;s-HPC-Resource">
 <meta property="og:url" content="http://yoursite.com/2019/07/12/PD19-Access-ISIMA-s-HPC-Resource/index.html">
 <meta property="og:site_name" content="JrXIE BLOG">
-<meta property="og:description" content="Inside the limos Opening the terminal.  Typing:   1ssh jrxie@totoro  Inputing the password, enjoying the HPC resources.   Outside the limos Use ssh (perfer) or vpn.  Generate the  ssh key pair. Send t">
+<meta property="og:description" content="HPC Network inside the University  Machines (linux)  ==totoro is dead==, so I can not find it If I need some mechaine, I can get one, but I need to return to the office   Machines (compute node)  Must">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="http://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/2019-07-30-233146.jpg">
-<meta property="og:image" content="http://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/2019-08-12-142406.png">
-<meta property="og:updated_time" content="2019-08-22T18:30:01.920Z">
+<meta property="og:updated_time" content="2020-02-28T20:39:03.287Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="PD19-Access-ISIMA&#39;s-HPC-Resource">
-<meta name="twitter:description" content="Inside the limos Opening the terminal.  Typing:   1ssh jrxie@totoro  Inputing the password, enjoying the HPC resources.   Outside the limos Use ssh (perfer) or vpn.  Generate the  ssh key pair. Send t">
+<meta name="twitter:description" content="HPC Network inside the University  Machines (linux)  ==totoro is dead==, so I can not find it If I need some mechaine, I can get one, but I need to return to the office   Machines (compute node)  Must">
 <meta name="twitter:image" content="http://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/2019-07-30-233146.jpg">
 
 
@@ -440,7 +439,7 @@ PD19-Access-ISIMA's-HPC-Resource
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2019-08-22 20:30:01" itemprop="dateModified" datetime="2019-08-22T20:30:01+02:00">2019-08-22</time>
+                <time title="Modified: 2020-02-28 21:39:03" itemprop="dateModified" datetime="2020-02-28T21:39:03+01:00">2020-02-28</time>
               
             
           </span>
@@ -457,7 +456,7 @@ PD19-Access-ISIMA's-HPC-Resource
                 <span class="post-meta-item-text">In</span>
               
               
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/PD19/" itemprop="url" rel="index"><span itemprop="name">PD19</span></a></span>
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/HPC/" itemprop="url" rel="index"><span itemprop="name">HPC</span></a></span>
 
                 
                 
@@ -508,11 +507,50 @@ PD19-Access-ISIMA's-HPC-Resource
       
 
       
-        <h4 id="Inside-the-limos"><a href="#Inside-the-limos" class="headerlink" title="Inside the limos"></a>Inside the limos</h4><ol>
-<li><p>Opening the terminal.</p>
+        <h4 id="HPC"><a href="#HPC" class="headerlink" title="HPC"></a>HPC</h4><ol>
+<li><p>Network inside the University</p>
+<ol>
+<li>Machines (linux) <ul>
+<li>==totoro is dead==, so I can not find it</li>
+<li>If I need some mechaine, I can get one, but I need to return to the office</li>
+</ul>
 </li>
-<li><p>Typing: </p>
- <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh jrxie@totoro</span><br></pre></td></tr></table></figure>
+<li>Machines (compute node) <ul>
+<li>Must be attention about the password, the password was gave by HPC OFFICE<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ssh jrxie@ext.limos.fr -i C:\Users\jrxhi\Documents\00KEYS\isima-hpc.ppk -p 2225</span><br><span class="line">ssh jrxie@frontalhpc.rcisima.isima.fr</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+<li><p>Outside the University</p>
+<ol>
+<li><p>登录网关 ext.limos.fr，需要ent的密码</p>
+<figure class="highlight plain"><figcaption><span>jrxie@ext.limos.fr -i C:\Users\jrxhi\Documents\00KEYS\isima-hpc.ppk -p 2225```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">2. 登录实际的任务分发节点需要 limos给的密码</span><br><span class="line">  ```ssh frontalhpc.rcisima.isima.fr</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>添加如下配置文件</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Host hpc</span><br><span class="line">  User jrxie</span><br><span class="line">  Hostname frontalhpc.rcisima.isima.fr</span><br><span class="line">  IdentityFile \Users\jrxhi\Documents\00KEYS\isima-hpc.ppk</span><br><span class="line">  ProxyCommand C:\Windows\System32\OpenSSH\ssh.exe -p 2225 jrxie@ext.limos.fr</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+</li>
+</ol>
+<h4 id="HPC2"><a href="#HPC2" class="headerlink" title="HPC2"></a>HPC2</h4><ol>
+<li><p>Network inside the University</p>
+<ul>
+<li>From inside ISIMA, or connected to Eduroam WiFi network, or from any network inside the University, I should be able to connect to hpc2.mesocentre.uca.fr directly, using your login (jiaxie) and the password you chose on hub.mesocentre.uca.fr, be careful the password is at least 10 chars</li>
+<li><figure class="highlight plain"><figcaption><span>jiaxie@hpc2.mesocentre.uca.fr```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">2. Outside the University</span><br><span class="line">    *  In the cmder console :</span><br></pre></td></tr></table></figure>
+<p>λ cd %HOME%<br>λ mkdir .ssh</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">* In that newly created directory (```c:\users\&lt;your windows login&gt;\.ssh```), put your private and public keys ```(id_rsa and id_rsa.pub)```, and create a new file named config with the following contents :</span><br></pre></td></tr></table></figure>
+<p>Host hpc2-everywhere<br>User jiaxie<br>Hostname hpc2.mesocentre.uca.fr<br>ProxyCommand ssh -W %h:%p <a href="mailto:jiaxie@ext.mesocentre.uca.fr" target="_blank" rel="noopener">jiaxie@ext.mesocentre.uca.fr</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">* 特别注意config 中的==ssh==应该改为具体的地址：```C:\Windows\System32\OpenSSH\ssh.exe```, 因为如果不改为具体地址的话会报错误```CreateProcessW failed error:2 posix_spawn: No such file or directory```, 具体[链接](https://serverfault.com/questions/956613/windows-10-ssh-proxycommand-posix-spawn-no-such-file-or-directory)</span><br><span class="line">* Check that your .ssh directory now contains 3 files :</span><br></pre></td></tr></table></figure>
+<p>λ ls %HOME%.ssh<br>config  id_rsa  id_rsa.pub</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">* Then, from cmder, you should be able to connect to hpc2 from any network just by typing &quot;ssh hpc2-everywhere&quot; :</span><br></pre></td></tr></table></figure>
+<p>λ ssh hpc2-everywhere<br>Last login: Wed Jan 29 09:28:24 2020 from 193.55.252.162<br>[dagrimbi@hpc2 ~]$ </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">    * 如果在使用ssh链接的过程中出现了错误，那么就果断使用```ssh ... -vvv``` 进行调试，查看错误信息</span><br><span class="line">3. 我要骂人啊，它还不能自定义秘钥的位置，如果自定义了，就会产生one time password，搞事情嘛</span><br><span class="line">#### Scp / Pscp</span><br><span class="line">1. [Windows -&gt; Linux](https://blog.51cto.com/hnyuanzijian/2344187)</span><br><span class="line">    * pscp -r -P 2225 ./00-jiaruixie/code jrxie@totoro:~</span><br><span class="line">    * pscp -r ./00-jiaruixie/code jrxie@ext.limos.fr:~</span><br><span class="line">    * pscp -r -P 2225 ./00-jiaruixie/code jrxie@192.168.100.42:~  </span><br><span class="line">    * pscp -r -P 2225 -i ./isimahpc.ppk ./00-jiaruixie/code jrxie@192.168.100.42:~</span><br><span class="line">    * pscp -r -P 2225 -i ./isimahpc.ppk -pw h3BNetsw -v -l jrxie ./00-jiaruixie/code jrxie@192.168.100.42:/home/etud/jrxie/ensume</span><br><span class="line">    * pscp -r -P 2225 ./00-jiaruixie/code /home/jrxie@local.isima.fr:~/</span><br><span class="line">    * pscp -r -P 2225 ./00-jiaruixie/code jrxie@ext.limos.fr:~/</span><br><span class="line">    * pscp -r -P 2225 -i ./isimahpc.ppk -pw UCA123ent -v -l jrxie ./00-jiaruixie/code jrxie@ext.limos.fr:~</span><br><span class="line">    * pscp -r -P 2225 -i ./isimahpc.ppk -v ./00-jiaruixie/code jrxie@ext.limos.fr:~</span><br><span class="line"></span><br><span class="line">#### WinSCP</span><br><span class="line">1. HPC 与 HPC2均能够正常运行</span><br><span class="line"></span><br><span class="line">#### VPN</span><br><span class="line">1. 到Limos指定页下载并安装连接VPN，全程无难点</span><br><span class="line">    * 在连接时端口号为22，其余均不用更改</span><br><span class="line">    * ![](http://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/2020-02-28-203231.png)</span><br><span class="line">2. 上传，一定要注意不要使用 ~ ， 或者 ~/ 要如下一样给出正确的文件夹位置</span><br><span class="line">    ``` pscp -r ./00-jiaruixie/code jrxie@totoro:/home/etud/jrxie/insp</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+<li><p>下载</p>
+ <figure class="highlight plain"><figcaption><span>jrxie@totoro:/home/etud/jrxie/insp/code/01-ecm/ecm.m ./00-jiaruixie ```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">4. 可以看出不管是上传还是下载，都是在本地进行的；当然从server上应该也是可以的，但是没有进行测试；scp 、 pscp的使用没有什么困难的，直接参照网上的教程即可</span><br><span class="line"></span><br><span class="line">#### 弊端</span><br><span class="line">1. 使用VPN，不管是HPC1还是HPC2都不好用，可能是配置有问题，但是强烈建议首先使用SSH</span><br><span class="line">2. Windows下的putty也不好用</span><br><span class="line"></span><br><span class="line">#### 注意</span><br><span class="line">1. ssh 不能用应该就是因为自己使用了 ``` rm  -r ~ ```, 把本地密钥给删除了。</span><br><span class="line"></span><br><span class="line">#### Inside the limos</span><br><span class="line"></span><br><span class="line">1. Opening the terminal.</span><br><span class="line"></span><br><span class="line">2. Typing: </span><br><span class="line"></span><br><span class="line">	``` </span><br><span class="line">	ssh jrxie@totoro</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>Inputing the password, enjoying the HPC resources.</p>
 </li>
@@ -555,27 +593,6 @@ PD19-Access-ISIMA's-HPC-Resource
 <li>嗯嗯，我的猜想是正确的，因为使用VPN后就能够上传文件了</li>
 </ul>
 </li>
-</ol>
-<h5 id="VPN-链接"><a href="#VPN-链接" class="headerlink" title="VPN 链接"></a>VPN 链接</h5><ol>
-<li>到Limos指定页下载并安装连接VPN，全程无难点<ul>
-<li>在连接时端口号为22，其余均不用更改</li>
-<li><img src="http://hexo-eu-1259148800.cos.eu-frankfurt.myqcloud.com/2019-08-12-142406.png" alt=""></li>
-</ul>
-</li>
-<li>上传，一定要注意不要使用 ~ ， 或者 ~/ 要如下一样给出正确的文件夹位置<br> <code>pscp -r ./00-jiaruixie/code jrxie@totoro:/home/etud/jrxie/insp</code></li>
-<li>下载<br> <code>pscp jrxie@totoro:/home/etud/jrxie/insp/code/01-ecm/ecm.m ./00-jiaruixie</code></li>
-<li>可以看出不管是上传还是下载，都是在本地进行的；当然从server上应该也是可以的，但是没有进行测试；scp 、 pscp的使用没有什么困难的，直接参照网上的教程即可</li>
-</ol>
-<h5 id="Linux-下使用-MATLAB"><a href="#Linux-下使用-MATLAB" class="headerlink" title="Linux 下使用 MATLAB"></a>Linux 下使用 MATLAB</h5><ol>
-<li><p><a href="https://www.mathworks.com/help/matlab/matlab_env/startup-options.html#brlkmbe-1" target="_blank" rel="noopener">添加搜索路径</a></p>
-<ul>
-<li>在你启动 MATLAB 的目录下创建一个 <em>.m文件（偏好 startup.m）；如果你处于/home/bin/test 下，你就在该目录下创建 </em>.m文件， 该文件包含添加路径命令如下所示；然后就向在图形用户界面下一样使用，在提示符 &gt;&gt; 后面输入 startup 运行该文件；<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">addpath /home/etud/jrxie/insp/code/01-ecm</span><br><span class="line">addpath /home/etud/jrxie/insp/code/02-secm</span><br><span class="line">addpath /home/etud/jrxie/insp/code/03-cecm</span><br><span class="line">addpath /home/etud/jrxie/insp/code/04-lpecm</span><br><span class="line">addpath /home/etud/jrxie/insp</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-</li>
-<li><p>尝试 echo $PATH , 并在其显示的路径中创建 startup.m 文件但是并没有用，所以 startup.m 文件要放在 matlab 能够搜索到的，也就是当前路径下面；</p>
-</li>
-<li>其它的命令比如 ctrl + c 等都与 GUI 下使用方式相同 </li>
 </ol>
 <h5 id="How-to-use-VPN-in-ISIMA"><a href="#How-to-use-VPN-in-ISIMA" class="headerlink" title="How to use VPN in ISIMA"></a>How to use VPN in ISIMA</h5><ol>
 <li>go to <a href="https://doc.isima.fr/vpn/installation/" target="_blank" rel="noopener">https://doc.isima.fr/vpn/installation/</a> try to install the VPN</li>
@@ -764,7 +781,7 @@ PD19-Access-ISIMA's-HPC-Resource
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">71</span>
+                    <span class="site-state-item-count">72</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
@@ -807,7 +824,9 @@ PD19-Access-ISIMA's-HPC-Resource
                     
                       
                     
-                    <span class="site-state-item-count">15</span>
+                      
+                    
+                    <span class="site-state-item-count">16</span>
                     <span class="site-state-item-name">categories</span>
                   </a>
                 </div>
@@ -988,7 +1007,9 @@ PD19-Access-ISIMA's-HPC-Resource
                     
                       
                     
-                    <span class="site-state-item-count">84</span>
+                      
+                    
+                    <span class="site-state-item-count">85</span>
                     <span class="site-state-item-name">tags</span>
                   </a>
                 </div>
@@ -1089,7 +1110,7 @@ PD19-Access-ISIMA's-HPC-Resource
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#Inside-the-limos"><span class="nav-text">Inside the limos</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Outside-the-limos"><span class="nav-text">Outside the limos</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Under-windows"><span class="nav-text">Under windows</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#HPC-Server"><span class="nav-text">HPC Server</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#VPN-链接"><span class="nav-text">VPN 链接</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Linux-下使用-MATLAB"><span class="nav-text">Linux 下使用 MATLAB</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#How-to-use-VPN-in-ISIMA"><span class="nav-text">How to use VPN in ISIMA</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#HPC"><span class="nav-text">HPC</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#HPC2"><span class="nav-text">HPC2</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Outside-the-limos"><span class="nav-text">Outside the limos</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Under-windows"><span class="nav-text">Under windows</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#HPC-Server"><span class="nav-text">HPC Server</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#How-to-use-VPN-in-ISIMA"><span class="nav-text">How to use VPN in ISIMA</span></a></li></ol></li></ol></div>
             
 
           </div>

@@ -113,18 +113,18 @@
 
 
 
-  <meta name="description" content="GitHub简介。 Git是由Linux之父 Linus Tovalds为了更好地管理Linux内核开发而创立的分布式版本控制/软件配置管理软件。 Git是一个管理你的“代码的历史记录”的工具。正是GitHub，让社会化编程称为现实。github是一个基于git的代码托管平台，付费用户可以建私人仓库，我们一般的免费用户只能使用公共仓库，也就是代码要公开。 教程网址： GIT基本教程 GIT下载使用">
+  <meta name="description" content="GIT 删除文件  删除未暂存的（包括为跟踪的）rm NameOfFile```1* 删除已暂存的 ```git rm -f NameOfFile  取消对文件的==跟踪== rm --cache NameOfFile```12. 取消对文件的==暂存== ```git reset HEAD NameOfFile    取消对未暂存文件的修改 checkout -- NameOfFile``` 说">
 <meta name="keywords" content="CODING,学习札记,GITHUB">
 <meta property="og:type" content="article">
 <meta property="og:title" content="CODE_GITHUB">
 <meta property="og:url" content="http://yoursite.com/2018/12/29/CODE-GITHUB/index.html">
 <meta property="og:site_name" content="JrXIE BLOG">
-<meta property="og:description" content="GitHub简介。 Git是由Linux之父 Linus Tovalds为了更好地管理Linux内核开发而创立的分布式版本控制/软件配置管理软件。 Git是一个管理你的“代码的历史记录”的工具。正是GitHub，让社会化编程称为现实。github是一个基于git的代码托管平台，付费用户可以建私人仓库，我们一般的免费用户只能使用公共仓库，也就是代码要公开。 教程网址： GIT基本教程 GIT下载使用">
+<meta property="og:description" content="GIT 删除文件  删除未暂存的（包括为跟踪的）rm NameOfFile```1* 删除已暂存的 ```git rm -f NameOfFile  取消对文件的==跟踪== rm --cache NameOfFile```12. 取消对文件的==暂存== ```git reset HEAD NameOfFile    取消对未暂存文件的修改 checkout -- NameOfFile``` 说">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-04-30T21:39:26.167Z">
+<meta property="og:updated_time" content="2020-02-28T20:15:54.233Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CODE_GITHUB">
-<meta name="twitter:description" content="GitHub简介。 Git是由Linux之父 Linus Tovalds为了更好地管理Linux内核开发而创立的分布式版本控制/软件配置管理软件。 Git是一个管理你的“代码的历史记录”的工具。正是GitHub，让社会化编程称为现实。github是一个基于git的代码托管平台，付费用户可以建私人仓库，我们一般的免费用户只能使用公共仓库，也就是代码要公开。 教程网址： GIT基本教程 GIT下载使用">
+<meta name="twitter:description" content="GIT 删除文件  删除未暂存的（包括为跟踪的）rm NameOfFile```1* 删除已暂存的 ```git rm -f NameOfFile  取消对文件的==跟踪== rm --cache NameOfFile```12. 取消对文件的==暂存== ```git reset HEAD NameOfFile    取消对未暂存文件的修改 checkout -- NameOfFile``` 说">
 
 
 
@@ -437,7 +437,7 @@ CODE_GITHUB
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2019-04-30 23:39:26" itemprop="dateModified" datetime="2019-04-30T23:39:26+02:00">2019-04-30</time>
+                <time title="Modified: 2020-02-28 21:15:54" itemprop="dateModified" datetime="2020-02-28T21:15:54+01:00">2020-02-28</time>
               
             
           </span>
@@ -505,16 +505,55 @@ CODE_GITHUB
       
 
       
-        <h3 id="GitHub简介。"><a href="#GitHub简介。" class="headerlink" title="GitHub简介。"></a>GitHub简介。</h3><ul>
+        <h4 id="GIT"><a href="#GIT" class="headerlink" title="GIT"></a><a href="https://git-scm.com/book/en/v2" target="_blank" rel="noopener">GIT</a></h4><ol>
+<li><p>删除文件</p>
+<ul>
+<li><p>删除未暂存的（包括为跟踪的）<figure class="highlight plain"><figcaption><span>rm NameOfFile```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">* 删除已暂存的 ```git rm -f NameOfFile</span><br></pre></td></tr></table></figure></p>
+</li>
+<li><p>取消对文件的==跟踪== <figure class="highlight plain"><figcaption><span>rm --cache NameOfFile```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2. 取消对文件的==暂存== ```git reset HEAD NameOfFile</span><br></pre></td></tr></table></figure></p>
+</li>
+</ul>
+</li>
+<li><p>取消对未暂存文件的修改 <figure class="highlight plain"><figcaption><span>checkout -- NameOfFile``` 说是取消实则是用已经暂存文件来覆盖当前未暂存的文件，所以需谨慎</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">4. 如果你觉得你合并后的状态是一团乱麻，想把当前的修改都放弃，你可以用下面的命令回到合并之前的状态</span><br><span class="line">    ```$ git reset --hard HEAD^</span><br><span class="line">    # 查看file3的内容，已经恢复到合并前的master上的文件内容</span><br><span class="line">    $ cat file3</span><br></pre></td></tr></table></figure></p>
+</li>
+<li><p>–graph 选项可以可视化你的提交图（commit graph），会用ASCII字符来画出一个很漂亮的提交历史（commit history）线 <figure class="highlight plain"><figcaption><span>log --graph --pretty</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">6. git tag 不带任何参数创建一个标签制定某个提交</span><br><span class="line">7. .gitignore中如果仅仅写.txt不会忽略所有以.txt结尾的文件，因为其不包含通配符并不代表所有以.txt结尾的文件，仅仅表示名字为.txt的这一个文件</span><br><span class="line">8. 仅仅使用```git remote add```并不会获得一个远程分支，因为换没有进行fetch 或者 pull</span><br><span class="line">9. git log -p remoteRepo/branch 仅仅是查看本地的已经暂存的</span><br><span class="line">10. git stash 应用场景：</span><br><span class="line">    * 当正在dev分支上开发某个项目，这时项目中出现一个bug，需要紧急修复，但是正在开发的内容只是完成一半，还不想提交，这时可以用git stash命令将修改的内容保存至堆栈区，然后顺利切换到hotfix分支进行bug修复，修复完成后，再次切回到dev分支，从堆栈中恢复刚刚保存的内容。</span><br><span class="line">    * 由于疏忽，本应该在dev分支开发的内容，却在master上进行了开发，需要重新切回到dev分支上进行开发，可以用git stash将内容保存至堆栈中，切回到dev分支后，再次恢复内容即可。</span><br><span class="line">    * 总的来说，gitstash命令的作用就是将目前还不想提交的但是已经修改的内容进行保存至堆栈中，后续可以在某个分支上恢复出堆栈中的内容。这也就是说，stash中的内容不仅仅可以恢复到原先开发的分支，也可以恢复到其他任意指定的分支上。git stash作用的范围包括工作区和暂存区中的内容，也就是说没有提交的内容都会保存至堆栈中</span><br><span class="line">11. git stash branch从最新的stash创建分支。</span><br><span class="line"></span><br><span class="line">     * 应用场景：当储藏了部分工作，暂时不去理会，继续在当前分支进行开发，后续想将stash中的内容恢复到当前工作目录时，如果是针对同一个文件的修改（即便不是同行数据），那么可能会发生冲突，恢复失败，这里通过创建新的分支来解决。可以用于解决stash中的内容和当前目录的内容发生冲突的情景</span><br><span class="line">12. 跟踪分支能够直接push/fetch/merge/pull分支，如果不使用跟踪分支的话，操作的整体会是仓库</span><br><span class="line">13. In ~/.ssh/config, add:</span><br></pre></td></tr></table></figure></p>
+<p>  host github.com<br>   HostName github.com<br>   IdentityFile ~/.ssh/id_rsa_github<br>   User git<br>  <code>`</code></p>
+<ul>
+<li>如果.ssh中没有config， 那么直接自己创建就行， 另外Windows下使用putty创建ssh键值对时，私钥需要转化为open-ssh，公钥直接复制即可</li>
+</ul>
+</li>
+</ol>
+<ol>
+<li>不用跟踪分支也能够fetch/merge/push/pull 远程分支</li>
+<li>首先需要添加一个远程仓库</li>
+<li><code>git fetch 远程仓库名</code> 能够将远程仓库==所有分支==的最新更改获取到本地，但是此时不会进行merge合并</li>
+<li>然后在把远程仓库的最新分支合并到本地分支上，但是因为两分支并无关联，所以merge时需要添加<code>--allow-unrelated-histories</code>，合并之后，然后<code>push 远程仓库名 分支名</code>，push到远程仓库上去，就算是远程仓库没有这个分支也能够成功的push上去</li>
+<li>可以为每个提交打上一个标签，我理解这个标签儿就是给这个提交的别名，然后可以用ccheckout -b 获取出来一个新的分析，然后对这个分支进行修改，提交等等之类的操作. 所以只要提交的注释写的详细清楚，那么版本控制就会非常的方便了</li>
+<li>如果使用<code>git reset --soft/--hard HEAD~1</code>把本地提交历史更改了之后再向远程仓库push，那么会出现远程仓库与本地仓库时间不一致的问题，现在有这种方法，一种是重新合并，但是合并了之后那不就和没有修改提交历史之前无区别了吗，第二种方法就是强制向远程仓库推送，但是强制推送之后会出现一个问题，远程仓库会从远程仓库和本地仓库相同的父节点开始把与本地分支不同的内容去掉，换成本地分支的内容，这样就会丢失了信息，如果多用户同时操作，那么肯定不好，所以不要用尽量避免使用这种方法，直接重新修改，提交</li>
+<li>git reflog 查看提交历史，然后使用<code>git reset --hard ID</code>进行任意版本的回退、重现</li>
+<li>设置别名的命令是 git config –global alias.[别名][原命令]，如果原命令中有选项，需要加引号</li>
+<li>fetch 命令的作用是刷新保存在本地仓库的远程分支信息</li>
+<li>执行 git push [主机名] [本地分支名]:[远程分支名] 即可将本地分支推送到远程仓库的分支中，通常冒号前后的分支名是相同的，如果是相同的，可以省略 :[远程分支名]，如果远程分支不存在，会自动创建</li>
+<li>现在有个问题，当我们再次在 dev1 分支上修改并提交，推送到远程仓库时还是要输入上面的那个长长的命令，好不方便。如果能和 master 分支一样跟踪远程同名分支，就可以直接使用 git push 命令推送了（跟踪分支就是为了将低命令书写的复杂度）</li>
+<li>删除远程分支，使用 git push [主机名] :[远程分支名]</li>
+<li>pull request意为 “允许被拉取的请求”，创建一个 PR 就是从甲==分支==向乙分支提一个请求，该请求中有一个或多个提交，对方觉得可以、没问题，就合并（merge) 这个请求，也就是把请求中所有提交的修改增加到乙分支上，整个过程简称 “提 PR”、“检查合并 PR”。提 PR 既可以在仓库内，也可以跨用户跨仓库</li>
+<li>在一些项目相关的书籍中，我们会看到 “执行 xxx 命令签出这个版本以查看对应的代码” ，这也是使用 Git 的标签功能做到的</li>
+<li>我们创建标签是给具体的某次提交创建的，跟分支无关。创建标签使用 git tag [标签名] -m [备注信息] [提交版本号,前6位] 这个命令。其中 -m [备注信息] 可以省略不写，但建议不要省略。[提交版本号] 可以省略. 标签是在提交的基础上创建的，如果仓库的多个分支中都有这个提交版本，那么这些分支上就有关于这个提交的相同的标签。 执行 git tag -d [标签名] 删除本地标签，标签文件也会被删除</li>
+<li>执行 git push origin [标签名] 推送标签到远程仓库；如果你一口气创建了 6 个标签，当然啦，这种情况很少发生，可以使用 git push origin –tags 命令将全部本地标签推送至远程仓库；如果标签废弃不用或者写错了，可以使用 git push origin :refs/tags/[标签名] 删除远程仓库的标签<h4 id="版本回退"><a href="#版本回退" class="headerlink" title="版本回退"></a>版本回退</h4></li>
+<li>假定当前的 work 仓库就是一个程序，我们要签出 001 版本，执行以下步骤即可。首先执行 git checkout [标签名] 切换到之前的某个提交版本，然后执行 git checkout -b [新的分支名] 将此提交版本固定到一个新分支上并切换到此分支</li>
+<li>有壳就有核这里的核是指linux内核，Shell是指供给使用者使用界面的软件(命令解析器)类似于DOS下的command(命令行)。普通意义上的shell是指可以接收用户输入命令的程序，它之所以被称shell是因为它隐藏的操作系统底层的细节。</li>
+</ol>
+<h4 id="GitHub简介"><a href="#GitHub简介" class="headerlink" title="GitHub简介"></a>GitHub简介</h4><ul>
 <li>Git是由Linux之父 Linus Tovalds为了更好地管理Linux内核开发而创立的分布式版本控制/软件配置管理软件。</li>
 <li>Git是一个管理你的“代码的历史记录”的工具。<br>正是GitHub，让社会化编程称为现实。<br>github是一个基于git的代码托管平台，付费用户可以建私人仓库，我们一般的免费用户只能使用公共仓库，也就是代码要公开。</li>
 <li>教程网址：<ul>
 <li><a href="https://www.zhihu.com/question/20070065" target="_blank" rel="noopener">GIT基本教程</a></li>
-<li><a href="http://rogerdudler.github.io/git-guide/index.zh.html" target="_blank" rel="noopener">GIT下载</a><h3 id="使用GitHub的网址"><a href="#使用GitHub的网址" class="headerlink" title="使用GitHub的网址"></a>使用GitHub的网址</h3><a href="http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners" target="_blank" rel="noopener">GitHub的使用</a></li>
+<li><a href="http://rogerdudler.github.io/git-guide/index.zh.html" target="_blank" rel="noopener">GIT下载</a><h4 id="使用GitHub的网址"><a href="#使用GitHub的网址" class="headerlink" title="使用GitHub的网址"></a>使用GitHub的网址</h4></li>
 </ul>
 </li>
 </ul>
-<h3 id="GitHub学习地址"><a href="#GitHub学习地址" class="headerlink" title="GitHub学习地址"></a>GitHub学习地址</h3><ol>
+<p><a href="http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners" target="_blank" rel="noopener">GitHub的使用</a></p>
+<h4 id="Git学习地址"><a href="#Git学习地址" class="headerlink" title="Git学习地址"></a>Git学习地址</h4><ol>
 <li><a href="http://www.git-scm.com/download/win" target="_blank" rel="noopener">Git下载链接</a></li>
 <li><a href="https://github.com/TortoiseGit/TortoiseGit" target="_blank" rel="noopener">tortoisegit的下载链接</a></li>
 <li><a href="http://www.open-open.com/lib/view/open1328069609436.html" target="_blank" rel="noopener">Git详解之一 Git起步</a></li>
@@ -528,30 +567,34 @@ CODE_GITHUB
 <li><a href="http://www.open-open.com/lib/view/open1328070620202.html" target="_blank" rel="noopener">Git详解之九 Git内部原理</a></li>
 <li><a href="http://blog.csdn.net/son_of_god/article/details/7341928" target="_blank" rel="noopener">git支持中文</a></li>
 </ol>
-<h2 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h2><h3 id="版本控制"><a href="#版本控制" class="headerlink" title="版本控制"></a>版本控制</h3><p>版本控制(VersionControlSystem)是一种记录若干文件内容变化，以便将来查阅特定版本修订情况的系统。</p>
-<h3 id="Git基础"><a href="#Git基础" class="headerlink" title="Git基础"></a>Git基础</h3><ul>
+<h4 id="版本控制"><a href="#版本控制" class="headerlink" title="版本控制"></a>版本控制</h4><p>版本控制(VersionControlSystem)是一种记录若干文件内容变化，以便将来查阅特定版本修订情况的系统。</p>
+<h4 id="Git基础"><a href="#Git基础" class="headerlink" title="Git基础"></a>Git基础</h4><ul>
 <li>在保存到Git之前，所有数据都要进行内容的检验和计算，并将该结果作为数据的唯一标识和索引。Git的工作完全依赖于这类指纹字符串。所有保存到Git数据库中的东西都是用此哈希值来做索引的，而不是靠文件名。</li>
-<li>Git提供了一个叫做git  config的工具，专门用来配置或读取相应的工作环境变量。正是由于环境变量，决定了各个环节的具体工作方式和行为。<h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><h3 id="获取项目的Git仓库"><a href="#获取项目的Git仓库" class="headerlink" title="获取项目的Git仓库"></a>获取项目的Git仓库</h3></li>
+<li>Git提供了一个叫做git  config的工具，专门用来配置或读取相应的工作环境变量。正是由于环境变量，决定了各个环节的具体工作方式和行为。<h4 id="获取项目的Git仓库"><a href="#获取项目的Git仓库" class="headerlink" title="获取项目的Git仓库"></a>获取项目的Git仓库</h4></li>
 </ul>
 <ol>
 <li>在现存的目录下，通过导入所有文件来创建新的Git仓库。</li>
-<li>从已有的Git仓库克隆出一个新的镜像仓库。<h2 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h2>git config :专门用了配置或读取相应的工作环境变量</li>
+<li>从已有的Git仓库克隆出一个新的镜像仓库。<h4 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h4></li>
 </ol>
+<p>git config :专门用了配置或读取相应的工作环境变量</p>
 <p>git init 已经完成了初始化</p>
 <p>Git的分支模型称为“必杀技特性”。<br>Git保存的不是文件差异或者变化量，而只是一些列文件快照。<br>分支其实就是从某个提交对象往回看历史。<br>在不同的分支之间进行文件的修改，是互不影响的。<br>在某个分支中没有提交的修改会阻止你切换分支。</p>
-<h3 id="分支"><a href="#分支" class="headerlink" title="分支"></a>分支</h3><ol>
+<h4 id="分支"><a href="#分支" class="headerlink" title="分支"></a>分支</h4><ol>
 <li>进行合并时，如果顺着一个分支走下去能够到达另一个分支的话，那么Git在合并两者时，智慧简单地把指针右移，因为这种单线的历史分支不存在任何需要解决的分歧，所以这种合并方式称为快进。<br>正是由于分支管理的快捷，才衍生出了这类典型的工作模式，可以根据项目的实际情况选择一种用用看。</li>
 <li><p>一旦分支中的提交对象发布到公共仓库，就千万不要对该分支进行衍合操作。</p>
 </li>
 <li><p>如果你遵循这条金科玉律，就不会出差错。否则，人民群众会仇恨你，你的朋友和家人也会嘲笑你，唾弃你。</p>
-<h2 id="Git服务器"><a href="#Git服务器" class="headerlink" title="Git服务器"></a>Git服务器</h2></li>
-<li>一个大家都可以访问的共享仓库，从那里推送和拉去数据。我们把这个仓库称为Git服务器。</li>
-<li>Git可以使用四中主要的协议来传输数据：本地传输、ssh协议、Git协议和HTTP协议。除了HTTP协议之外其他的协议都需要在服务器端安装并运行Git。<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2></li>
-<li>初始化之后看不到.git目录。但是能够从GitHub上进行拷贝</li>
+<h4 id="Git服务器"><a href="#Git服务器" class="headerlink" title="Git服务器"></a>Git服务器</h4></li>
+<li><p>一个大家都可以访问的共享仓库，从那里推送和拉去数据。我们把这个仓库称为Git服务器。</p>
+</li>
+<li><p>Git可以使用四中主要的协议来传输数据：本地传输、ssh协议、Git协议和HTTP协议。除了HTTP协议之外其他的协议都需要在服务器端安装并运行Git。</p>
+<h4 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h4></li>
+<li><p>初始化之后看不到.git目录。但是能够从GitHub上进行拷贝</p>
+</li>
 </ol>
-<h2 id="知识点"><a href="#知识点" class="headerlink" title="知识点"></a>知识点</h2><p>译注：其实git add 的潜台词就是把目标文件快照放入暂存区域，也就是 add file into staged area，同时未曾跟踪过的文件标记为需要跟踪。这样就好理解后续 add 操作的实际意义了。</p>
+<h4 id="知识点"><a href="#知识点" class="headerlink" title="知识点"></a>知识点</h4><p>译注：其实git add 的潜台词就是把目标文件快照放入暂存区域，也就是 add file into staged area，同时未曾跟踪过的文件标记为需要跟踪。这样就好理解后续 add 操作的实际意义了。</p>
 <hr>
-<h3 id="Git-基本命令"><a href="#Git-基本命令" class="headerlink" title="Git 基本命令"></a>Git 基本命令</h3><ol>
+<h4 id="Git-基本命令"><a href="#Git-基本命令" class="headerlink" title="Git 基本命令"></a>Git 基本命令</h4><ol>
 <li>git config (1.5)</li>
 <li>git help   (1.6)</li>
 <li>git init   (2.1)</li>
@@ -573,7 +616,9 @@ CODE_GITHUB
 <li>git fetch</li>
 <li>git pull</li>
 <li>git tag</li>
-<li>git别名<h4 id="第三章"><a href="#第三章" class="headerlink" title="第三章"></a>第三章</h4></li>
+<li>git别名</li>
+</ol>
+<h4 id="第三章"><a href="#第三章" class="headerlink" title="第三章"></a>第三章</h4><ol>
 <li>在Linux中能够使用的那一套命令，在GitBash中一样使用。</li>
 <li>git branch</li>
 <li>git checkout</li>
@@ -760,7 +805,7 @@ CODE_GITHUB
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">71</span>
+                    <span class="site-state-item-count">72</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
@@ -803,7 +848,9 @@ CODE_GITHUB
                     
                       
                     
-                    <span class="site-state-item-count">15</span>
+                      
+                    
+                    <span class="site-state-item-count">16</span>
                     <span class="site-state-item-name">categories</span>
                   </a>
                 </div>
@@ -984,7 +1031,9 @@ CODE_GITHUB
                     
                       
                     
-                    <span class="site-state-item-count">84</span>
+                      
+                    
+                    <span class="site-state-item-count">85</span>
                     <span class="site-state-item-name">tags</span>
                   </a>
                 </div>
@@ -1085,7 +1134,7 @@ CODE_GITHUB
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#GitHub简介。"><span class="nav-text">GitHub简介。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#使用GitHub的网址"><span class="nav-text">使用GitHub的网址</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#GitHub学习地址"><span class="nav-text">GitHub学习地址</span></a></li></ol><li class="nav-item nav-level-2"><a class="nav-link" href="#起步"><span class="nav-text">起步</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#版本控制"><span class="nav-text">版本控制</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Git基础"><span class="nav-text">Git基础</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#基础"><span class="nav-text">基础</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#获取项目的Git仓库"><span class="nav-text">获取项目的Git仓库</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#命令"><span class="nav-text">命令</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#分支"><span class="nav-text">分支</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Git服务器"><span class="nav-text">Git服务器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#问题"><span class="nav-text">问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#知识点"><span class="nav-text">知识点</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Git-基本命令"><span class="nav-text">Git 基本命令</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#第三章"><span class="nav-text">第三章</span></a></li></ol></li></ol></li></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#GIT"><span class="nav-text">GIT</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#版本回退"><span class="nav-text">版本回退</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#GitHub简介"><span class="nav-text">GitHub简介</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#使用GitHub的网址"><span class="nav-text">使用GitHub的网址</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Git学习地址"><span class="nav-text">Git学习地址</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#版本控制"><span class="nav-text">版本控制</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Git基础"><span class="nav-text">Git基础</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#获取项目的Git仓库"><span class="nav-text">获取项目的Git仓库</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#命令"><span class="nav-text">命令</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#分支"><span class="nav-text">分支</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Git服务器"><span class="nav-text">Git服务器</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#问题"><span class="nav-text">问题</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#知识点"><span class="nav-text">知识点</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Git-基本命令"><span class="nav-text">Git 基本命令</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#第三章"><span class="nav-text">第三章</span></a></li></ol></div>
             
 
           </div>
