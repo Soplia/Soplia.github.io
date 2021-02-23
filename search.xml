@@ -230,7 +230,7 @@
   <entry>
     <title><![CDATA[3D打印]]></title>
     <url>%2F2019%2F01%2F22%2F3D%E6%89%93%E5%8D%B0-%E6%80%BB%E7%BB%93%2F</url>
-    <content type="text"><![CDATA[一小步鞋架设计过程 设计图 打印效果图 总结经验 模型不能弄得太小，要不然就会出现上面那种情况 如果是双层或多层一定要注意防止震颤 2019-10-25 建模 打印 总结 将源文件转化为.gcode文件之后，物体大小会被缩小==一倍==，需特别注意设计时物体的尺寸 2019-10-26 建模 打印 总结 将源文件转化为.gcode文件之后，物体大小==maybe== is not be changed, they just remain the original size, if you pause the print progress, then recover it, there will be some bias about 4mm And due to the pause, there will exist obvious different layers, and you can toil easily with hand Ender3-Pro安装 安装之前如果有视频应该首先看视频，其次需要详细阅读使用说明书；厂商肯定是按照最简易的安装方式进行分块的，关于这一点不要有任何的怀疑。 CrealitySlicer 仅仅能够打开.stl 格式的文件，所以使用Rhino进行建模的时候需要将文件另存为.stl格式的文件。并且该软件能够对打印是的参数进行设置，==这一点需要进行学习==。 Ender能够打印的文件是.gcode格式的文件，该文件就是将.stl文件转换为Ender能够识别的机器代码，该文件能够通过CrealitySlicer的另存为而获得。 使用Ender的时候，首先会进行预热然后再进行打印，打印完毕机器自动停止。在预热的时候可以对喷嘴、热床的温度等进行设置，在打印的过程中可以暂停打印、也可以终止打印，打印结束后自动降温（废话） 注意事项总结 在设计板子外壳时需要注意： 板子需要插接导线，所以需要预先留出缺口； 外壳倒角，以防止被割伤、使板子不至于太过于脆弱； 需要注意板子外壳的插接结构； 需要注意开发板的散热问题； 要给自己制作的外壳留下一个logo； 3D打印的格式现在最流行的是.stl格式，只要是能够保存成.stl文件的建模工具都可以进行3D打印。在保存文档的时候需要选用==二进制==的文档，因为这样的文件大小会非常小。单位必须选择==mm==，因为这是标准，不能够改变。 优秀素材网站 Thingiverse GrabCad 格式转换、修复软件 OpenSCAD MashLab，用于格式的转换非常方便 Meshmixer，用它进行纠错，打开后重新另存为一下就好了，这是专门用于修复.stl格式文件的 Accutrans，几乎所有的软件格式都能够进行转换。 在将自己的设计发送给其它公司进行出产品的时候，需将文件另存为stp、sgs格式，这样的话别人无法盗用你的东西。]]></content>
+    <content type="text"><![CDATA[郭大侠 ![] 一小步鞋架设计过程 设计图 总结经验 模型不能弄得太小，要不然就会出现上面那种情况 如果是双层或多层一定要注意防止震颤 2019-10-25 建模 总结 将源文件转化为.gcode文件之后，物体大小会被缩小==一倍==，需特别注意设计时物体的尺寸 2019-10-26 建模 总结 将源文件转化为.gcode文件之后，物体大小==maybe== is not be changed, they just remain the original size, if you pause the print progress, then recover it, there will be some bias about 4mm And due to the pause, there will exist obvious different layers, and you can toil easily with hand Ender3-Pro安装 安装之前如果有视频应该首先看视频，其次需要详细阅读使用说明书；厂商肯定是按照最简易的安装方式进行分块的，关于这一点不要有任何的怀疑。 CrealitySlicer 仅仅能够打开.stl 格式的文件，所以使用Rhino进行建模的时候需要将文件另存为.stl格式的文件。并且该软件能够对打印是的参数进行设置，==这一点需要进行学习==。 Ender能够打印的文件是.gcode格式的文件，该文件就是将.stl文件转换为Ender能够识别的机器代码，该文件能够通过CrealitySlicer的另存为而获得。 使用Ender的时候，首先会进行预热然后再进行打印，打印完毕机器自动停止。在预热的时候可以对喷嘴、热床的温度等进行设置，在打印的过程中可以暂停打印、也可以终止打印，打印结束后自动降温（废话） 注意事项总结 在设计板子外壳时需要注意： 板子需要插接导线，所以需要预先留出缺口； 外壳倒角，以防止被割伤、使板子不至于太过于脆弱； 需要注意板子外壳的插接结构； 需要注意开发板的散热问题； 要给自己制作的外壳留下一个logo； 3D打印的格式现在最流行的是.stl格式，只要是能够保存成.stl文件的建模工具都可以进行3D打印。在保存文档的时候需要选用==二进制==的文档，因为这样的文件大小会非常小。单位必须选择==mm==，因为这是标准，不能够改变。 优秀素材网站 Thingiverse GrabCad 格式转换、修复软件 OpenSCAD MashLab，用于格式的转换非常方便 Meshmixer，用它进行纠错，打开后重新另存为一下就好了，这是专门用于修复.stl格式文件的 Accutrans，几乎所有的软件格式都能够进行转换。 在将自己的设计发送给其它公司进行出产品的时候，需将文件另存为stp、sgs格式，这样的话别人无法盗用你的东西。]]></content>
       <categories>
         <category>3D打印</category>
       </categories>
@@ -308,8 +308,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>Language</tag>
         <tag>Arabic</tag>
+        <tag>Language</tag>
       </tags>
   </entry>
   <entry>
@@ -321,8 +321,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>English</tag>
         <tag>Language</tag>
+        <tag>English</tag>
       </tags>
   </entry>
   <entry>
@@ -435,8 +435,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>MOOD</tag>
         <tag>孙子兵法</tag>
+        <tag>MOOD</tag>
       </tags>
   </entry>
   <entry>
@@ -513,8 +513,8 @@
       </categories>
       <tags>
         <tag>学习札记</tag>
-        <tag>仪表礼仪</tag>
         <tag>MOOD</tag>
+        <tag>仪表礼仪</tag>
       </tags>
   </entry>
   <entry>
@@ -798,9 +798,9 @@
         <category>学习札记-CODING</category>
       </categories>
       <tags>
+        <tag>ADNROID</tag>
         <tag>CODING</tag>
         <tag>学习札记</tag>
-        <tag>ADNROID</tag>
       </tags>
   </entry>
   <entry>
@@ -850,9 +850,9 @@
         <category>学习札记-CODING</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>CODING</tag>
         <tag>学习札记</tag>
+        <tag>C</tag>
       </tags>
   </entry>
   <entry>
@@ -863,9 +863,9 @@
         <category>学习札记-CODING</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>CODING</tag>
         <tag>学习札记</tag>
+        <tag>C</tag>
       </tags>
   </entry>
   <entry>
